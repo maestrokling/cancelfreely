@@ -1,0 +1,35 @@
+name: Kindle Unlimited
+slug: kindle-unlimited
+url: https://www.amazon.com/kindle-dbs/hz/subscribe/ku
+category: streaming
+cancel_method: online
+friction_score: 2
+last_verified: 2025-12-29
+steps:
+  - step: 1
+    instruction: "Go to amazon.com/ku/manage and sign in."
+    note: "Direct URL: amazon.com/kindle-dbs/hz/subscribe/ku?ref=ku_mng_stng"
+  - step: 2
+    instruction: "Click 'Cancel Kindle Unlimited Membership'."
+    note: ""
+  - step: 3
+    instruction: "A confirmation screen will show your membership end date — click 'Cancel membership' to confirm."
+    note: "You can continue reading borrowed books until the end of the billing period. After that, borrowed titles are removed from your device."
+dark_patterns:
+  - type: "double confirmation"
+    description: "Amazon requires two separate confirmation clicks before completing cancellation."
+    source: "TechRadar, April 2025"
+retention_tactics:
+  - "Shows how many books you've read to create sunk-cost attachment."
+direct_cancel_url: "https://www.amazon.com/kindle-dbs/hz/subscribe/ku"
+free_alternatives:
+  - name: "Libby"
+    url: "https://libbyapp.com"
+    note: "Free ebooks and audiobooks through your public library"
+  - name: "Project Gutenberg"
+    url: "https://www.gutenberg.org"
+    note: "Free public domain ebooks"
+  - name: "Amazon Prime Reading"
+    url: "https://www.amazon.com/kindle-dbs/fd/nonprime"
+    note: "Limited free ebook selection included with Amazon Prime"
+notes: "Kindle Unlimited is one of the simpler Amazon cancellations — unlike Prime, it has its own dedicated management page. The double-confirmation is mildly annoying but not adversarial. Borrowed books are removed after the billing period ends; purchased Kindle books are unaffected."

@@ -1,0 +1,36 @@
+name: Hulu
+slug: hulu
+url: https://www.hulu.com
+category: streaming
+cancel_method: online
+friction_score: 2
+last_verified: 2026-01-23
+steps:
+  - step: 1
+    instruction: "Go to hulu.com and sign in."
+    note: ""
+  - step: 2
+    instruction: "Click your profile name in the top right, then select 'Account'."
+    note: ""
+  - step: 3
+    instruction: "Under 'Your Subscription', click 'Cancel'."
+    note: ""
+  - step: 4
+    instruction: "Follow the prompts to confirm cancellation."
+    note: "If you subscribed through a third party (Spotify, Disney Bundle, etc.), you must cancel through that platform instead."
+dark_patterns:
+  - type: "third-party redirect confusion"
+    description: "Users who subscribed through bundle deals or third parties cannot cancel on Hulu's website and must navigate to a different platform, creating friction."
+    source: "Hulu help documentation and user reports, 2025"
+retention_tactics:
+  - "Offers a pause option before confirming cancellation."
+  - "May present a discounted plan offer before confirming."
+direct_cancel_url: "https://secure.hulu.com/account/cancel"
+free_alternatives:
+  - name: "Tubi"
+    url: "https://tubitv.com"
+    note: "Free ad-supported streaming"
+  - name: "Pluto TV"
+    url: "https://pluto.tv"
+    note: "Free ad-supported streaming"
+notes: "Cancellation method depends heavily on how you subscribed. Direct subscribers can cancel at hulu.com. Those on the Disney Bundle, or who subscribed through Apple, Amazon, or Roku must cancel through those platforms. Deleting the app does NOT cancel the subscription."

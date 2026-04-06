@@ -1,0 +1,46 @@
+name: Spotify
+slug: spotify
+url: https://www.spotify.com
+category: streaming
+cancel_method: online
+friction_score: 3
+last_verified: 2026-01-26
+steps:
+  - step: 1
+    instruction: "Go to spotify.com/account and sign in."
+    note: ""
+  - step: 2
+    instruction: "Click 'Manage your plan' or go directly to spotify.com/account/subscription."
+    note: ""
+  - step: 3
+    instruction: "Click 'Change or cancel' then select 'Cancel Premium'."
+    note: ""
+  - step: 4
+    instruction: "Navigate through the retention screens — Spotify presents emotional appeals and FOMO content before the final confirmation."
+    note: ""
+  - step: 5
+    instruction: "Click 'Yes, cancel' to confirm."
+    note: "You revert to the free tier (with ads) rather than losing access entirely."
+dark_patterns:
+  - type: "emotional manipulation"
+    description: "Despite only requiring 5 clicks, Spotify uses guilt-trip messaging, 'what you'll miss' screens, and FOMO-based content previews during the cancellation flow. Under the FTC's Click-to-Cancel Rule (effective July 2025), some of these tactics may be non-compliant."
+    source: "knownhost.com, January 2026"
+  - type: "confusing button design"
+    description: "Some screens use emotionally loaded button labels (e.g., 'Keep my Premium' prominently styled vs. the cancel option)."
+    source: "Multiple user reports, 2025"
+retention_tactics:
+  - "Offers a discounted rate (often 1-3 months at reduced price) before confirming cancellation."
+  - "Shows personalized stats about your listening history to create emotional attachment."
+  - "Presents 'what you'll lose' including playlists, offline songs, and podcast downloads."
+direct_cancel_url: "https://www.spotify.com/account/subscription/"
+free_alternatives:
+  - name: "Spotify (free tier)"
+    url: "https://www.spotify.com"
+    note: "Full catalog access with ads and shuffle-only on mobile"
+  - name: "YouTube Music (free tier)"
+    url: "https://music.youtube.com"
+    note: "Free with ads"
+  - name: "Amazon Music (free tier)"
+    url: "https://music.amazon.com"
+    note: "Limited free tier included with Prime"
+notes: "Spotify doesn't remove access when you cancel Premium — you drop to the free ad-supported tier. This reduces the urgency of the cancellation decision. The emotional manipulation during the flow is well-documented but the actual process is not procedurally difficult."

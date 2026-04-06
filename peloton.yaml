@@ -1,0 +1,33 @@
+name: Peloton
+slug: peloton
+url: https://www.onepeloton.com
+category: fitness
+cancel_method: online
+friction_score: 2
+last_verified: 2025-10-30
+steps:
+  - step: 1
+    instruction: "Go to onepeloton.com and sign in."
+    note: "Cancellation cannot be done from the Peloton equipment itself — use the website."
+  - step: 2
+    instruction: "Click your profile icon, then select 'Membership'."
+    note: ""
+  - step: 3
+    instruction: "Select 'Cancel Membership' and follow the prompts."
+    note: "You can cancel All-Access (equipment-linked) or the App subscription separately."
+  - step: 4
+    instruction: "Confirm cancellation."
+    note: "If you own Peloton equipment, you can still use it after canceling the subscription but will lose access to live classes and most on-demand content. Some limited free content remains accessible."
+dark_patterns: []
+retention_tactics:
+  - "Offers a membership pause option before canceling."
+  - "Highlights upcoming live content to trigger FOMO."
+direct_cancel_url: "https://members.onepeloton.com/membership"
+free_alternatives:
+  - name: "YouTube cycling/fitness channels"
+    url: "https://www.youtube.com"
+    note: "Free cycling and workout content"
+  - name: "Nike Training Club"
+    url: "https://www.nike.com/ntc-app"
+    note: "Free guided workouts"
+notes: "Peloton has two subscription tiers: All-Access (for equipment owners, ~$44/mo) and App (for non-equipment users, ~$12.99/mo). Canceling is straightforward online. Equipment owners who cancel lose most class content but the bike/tread still functions for manual workouts. Peloton restructured its debt in 2025 to avoid bankruptcy — company is still operating as of early 2026."

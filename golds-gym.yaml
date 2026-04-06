@@ -1,0 +1,38 @@
+name: Gold's Gym
+slug: golds-gym
+url: https://www.goldsgym.com
+category: fitness
+cancel_method: in-person or mail
+friction_score: 4
+last_verified: 2026-01-21
+steps:
+  - step: 1
+    instruction: "Determine whether your location is a corporate or franchise-owned club — this affects the cancellation process."
+    note: "Check goldsgym.com/cancellation-request/ — each location manages cancellations individually via a specific link."
+  - step: 2
+    instruction: "For corporate clubs: use the cancellation request page at goldsgym.com/cancellation-request/ and follow the link provided for your location."
+    note: ""
+  - step: 3
+    instruction: "For franchise clubs: visit in person or send a written cancellation notice via certified mail to your club's address."
+    note: "Include your full name, membership ID, address, phone number, and cancellation request. Use certified mail with return receipt."
+  - step: 4
+    instruction: "Provide required notice — typically 30 days. Early termination fees may apply if under contract."
+    note: "Fees up to $75 reported. Month-to-month members generally cancel without fees."
+dark_patterns:
+  - type: "franchise variability"
+    description: "Gold's Gym is primarily a franchise operation. Cancellation policies, fees, and processes vary significantly by location."
+    source: "byegym.com, 2026; orbitmoney.io, January 2026"
+  - type: "location-specific cancellation links"
+    description: "The corporate website routes to location-specific cancellation pages, making it impossible to provide a single universal process."
+    source: "goldsgym.com/cancellation-request/, August 2025"
+retention_tactics:
+  - "May offer membership freeze or rate reduction."
+direct_cancel_url: "https://www.goldsgym.com/cancellation-request/"
+free_alternatives:
+  - name: "YouTube fitness channels"
+    url: "https://www.youtube.com"
+    note: "Free workout content"
+  - name: "Nike Training Club"
+    url: "https://www.nike.com/ntc-app"
+    note: "Free guided workouts"
+notes: "Gold's Gym went through bankruptcy in 2020 and has largely transitioned to a franchise model. Many locations closed or rebranded. Verify your specific location is still Gold's Gym before attempting cancellation via the corporate site."

@@ -1,0 +1,13 @@
+name: Mint (Intuit)
+slug: mint
+url: https://mint.intuit.com
+category: finance
+cancel_method: online
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: "Mint has been transitioning users to Credit Karma. Cancel instructions may vary depending on migration status."

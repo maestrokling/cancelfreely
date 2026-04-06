@@ -1,0 +1,13 @@
+name: ExpressVPN
+slug: expressvpn
+url: https://www.expressvpn.com
+category: security
+cancel_method: online or chat
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

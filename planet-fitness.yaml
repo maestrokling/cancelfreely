@@ -1,0 +1,45 @@
+name: Planet Fitness
+slug: planet-fitness
+url: https://www.planetfitness.com
+category: fitness
+cancel_method: in-person or certified mail
+friction_score: 4
+last_verified: 2026-02-05
+steps:
+  - step: 1
+    instruction: "Visit your home club in person — the specific location where you originally signed up."
+    note: "You CANNOT cancel at a different Planet Fitness location. If you've moved, you must use the certified mail method instead."
+  - step: 2
+    instruction: "Request a cancellation form at the front desk and fill it out completely."
+    note: "Some locations require a manager to process the cancellation. If no manager is available, you may be asked to return."
+  - step: 3
+    instruction: "Alternatively: send a written cancellation letter via certified mail with return receipt requested to your home club's address."
+    note: "Include your full name, address, phone number, membership ID, and a clear request to cancel. Use certified mail — regular mail may be claimed as 'never received.'"
+  - step: 4
+    instruction: "Confirm cancellation by checking your bank statement in the next billing cycle."
+    note: "Planet Fitness bills on the 17th of each month. Canceling after the 17th may result in one additional charge. There is also an annual fee billed around August — cancel before the 25th of the prior month to avoid it. Early termination fee of ~$58 may apply if under contract."
+dark_patterns:
+  - type: "in-person requirement"
+    description: "Online cancellation is not available despite the FTC's Click-to-Cancel Rule (in legal limbo as of 2026 due to gym industry lobbying). Members must visit their home club or send certified mail."
+    source: "gympricelist.com, February 2026"
+  - type: "home club restriction"
+    description: "Cancellation must occur at the specific location where the membership was originally registered — not any Planet Fitness. Members who have moved face a significant barrier."
+    source: "Multiple Reddit threads, r/personalfinance 2025-2026"
+  - type: "lost mail claim"
+    description: "Multiple users report their clubs claiming certified cancellation letters were 'never received.' Use return receipt requested as proof."
+    source: "Reddit r/personalfinance, multiple threads 2024-2026"
+retention_tactics:
+  - "Front desk staff often offer to freeze the membership (typically $0-5/month) instead of canceling."
+  - "May offer a reduced rate to stay."
+direct_cancel_url: null
+free_alternatives:
+  - name: "YouTube fitness channels"
+    url: "https://www.youtube.com"
+    note: "Hundreds of free workout channels; no equipment required"
+  - name: "Nike Training Club"
+    url: "https://www.nike.com/ntc-app"
+    note: "Free fitness app with guided workouts"
+  - name: "FitOn"
+    url: "https://fitonapp.com"
+    note: "Free workout app with live and on-demand classes"
+notes: "Planet Fitness is one of the most-cited examples of cancellation friction in the fitness industry. The in-person/certified mail requirement, combined with home-club restrictions, has been the subject of multiple state attorney general inquiries. The FTC's Click-to-Cancel Rule was meant to force online cancellation but has been stalled in court by gym industry lobbying as of early 2026. Always keep your certified mail receipt."

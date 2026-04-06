@@ -1,0 +1,13 @@
+name: Walmart+
+slug: walmart-plus
+url: https://www.walmart.com/plus
+category: shopping
+cancel_method: online
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

@@ -1,0 +1,35 @@
+name: Medium
+slug: medium
+url: https://medium.com
+category: streaming
+cancel_method: online
+friction_score: 1
+last_verified: 2025-12-19
+steps:
+  - step: 1
+    instruction: "Go to medium.com and sign in."
+    note: ""
+  - step: 2
+    instruction: "Click your profile picture, then select 'Settings'."
+    note: ""
+  - step: 3
+    instruction: "Click 'Manage Subscription'."
+    note: ""
+  - step: 4
+    instruction: "Click 'Cancel membership' and confirm."
+    note: "If you subscribed via the iOS app, you must cancel through Apple's subscription management. If via Google Play, cancel through Google Play."
+dark_patterns: []
+retention_tactics:
+  - "May ask for feedback on why you're canceling before confirming."
+direct_cancel_url: "https://medium.com/me/settings"
+free_alternatives:
+  - name: "Medium (free tier)"
+    url: "https://medium.com"
+    note: "Limited free articles per month without a subscription"
+  - name: "Substack"
+    url: "https://substack.com"
+    note: "Free newsletter/blog reading; individual writers may charge"
+  - name: "Dev.to"
+    url: "https://dev.to"
+    note: "Free tech/dev focused writing platform"
+notes: "Medium is one of the lowest-friction subscription cancels. No dark patterns, no retention maze. Third-party billing (App Store, Google Play) requires canceling through those platforms. The free tier still allows limited article reading."

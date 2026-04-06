@@ -1,0 +1,39 @@
+name: Disney+
+slug: disney-plus
+url: https://www.disneyplus.com
+category: streaming
+cancel_method: online
+friction_score: 2
+last_verified: 2026-01-21
+steps:
+  - step: 1
+    instruction: "Go to disneyplus.com and sign in."
+    note: ""
+  - step: 2
+    instruction: "Click your profile icon, then select 'Account'."
+    note: ""
+  - step: 3
+    instruction: "Under your subscription, click 'Cancel Subscription'."
+    note: ""
+  - step: 4
+    instruction: "Confirm the cancellation when prompted."
+    note: "Access continues through the end of the billing period."
+dark_patterns:
+  - type: "bundle upsell before cancel"
+    description: "Users may be shown the Disney Bundle (Disney+/Hulu/ESPN+) as a retention offer before cancellation is confirmed."
+    source: "Tom's Guide, September 2025; IGN, January 2026"
+  - type: "third-party billing maze"
+    description: "Users who subscribed via Apple App Store, Google Play, Amazon, or Roku cannot cancel on the Disney+ website — must cancel through the original billing platform."
+    source: "Spliiit.com, March 2026"
+retention_tactics:
+  - "Offers bundle downgrade instead of full cancellation."
+  - "Shows upcoming Marvel/Star Wars content to trigger FOMO."
+direct_cancel_url: "https://www.disneyplus.com/account/subscription"
+free_alternatives:
+  - name: "Tubi"
+    url: "https://tubitv.com"
+    note: "Free ad-supported streaming"
+  - name: "YouTube (free)"
+    url: "https://www.youtube.com"
+    note: "Free content including many Disney classics uploaded officially"
+notes: "If subscribed through a third-party (Apple, Google, Amazon, Roku, or via a cable provider), cancellation must happen on that platform — Disney+ website will not show a cancel option. Price increases in 2024-2025 drove significant subscriber churn."

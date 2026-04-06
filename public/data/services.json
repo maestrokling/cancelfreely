@@ -214,28 +214,60 @@
     "slug": "anytime-fitness",
     "url": "https://www.anytimefitness.com",
     "category": "fitness",
-    "cancel_method": "in-person",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "in-person or mail",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Contact your home club directly \u2014 Anytime Fitness is a franchise, so each location has its own cancellation process. Call or visit your specific club to get their exact cancellation requirements before proceeding.",
+      "Visit your home club in person and request cancellation in writing.",
+      "Alternatively: send a written cancellation notice via certified mail to your home club's address. Include your full name, membership ID, address, and a clear cancellation request. Use certified mail with return receipt.",
+      "Provide required notice period \u2014 typically 30 days. You may be billed for one final month after notice. Early termination fee of up to $75 may apply if canceling before contract end."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "Each Anytime Fitness franchise sets its own cancellation policies, fees, and notice requirements. Corporate provides guidelines but individual clubs have discretion. This inconsistency makes it difficult to know what to expect.; Most locations require 30 days advance notice, meaning members get charged one more month after requesting cancellation. | Retention tactics: May offer a membership freeze or rate reduction.; Some locations offer a reduced rate for members who have moved.",
+    "free_alternatives": [
+      {
+        "name": "YouTube fitness channels",
+        "url": "https://www.youtube.com",
+        "note": "Free workout content for all levels"
+      },
+      {
+        "name": "FitOn",
+        "url": "https://fitonapp.com",
+        "note": "Free fitness app"
+      }
+    ],
+    "last_verified": "2026-01-27",
+    "notes": "Franchise variability is the defining characteristic of Anytime Fitness cancellations. Always call your specific club first. Get any cancellation confirmation in writing. The 24/7 access key fob should be returned upon cancellation."
   },
   {
     "name": "Beachbody / BODi",
     "slug": "beachbody",
     "url": "https://www.beachbodyondemand.com",
     "category": "fitness",
-    "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or phone",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to bodi.com (formerly beachbodyondemand.com) and sign in. The service rebranded from Beachbody On Demand to BODi.",
+      "Go to your account settings and navigate to 'Subscription' or 'Manage Membership'.",
+      "Select 'Cancel Subscription' and follow the prompts. Canceling stops future renewals but does NOT remove current access \u2014 you retain access through the end of your paid period.",
+      "If you cannot find the cancel option online, call customer service: 1-800-470-7870. Phone cancellation is available but be prepared for retention offers."
+    ],
+    "cancel_url": "https://www.bodi.com/account",
+    "known_friction": "Multiple users report not receiving adequate advance notice of renewal charges, especially on annual plans. Users advise checking renewal dates manually in account settings.; Users report same-day cancellation requests not being honored, with Beachbody refusing refunds even when the service was unused for 9+ months. | Retention tactics: May offer a discounted renewal rate.; Highlights workout programs you haven't tried.",
+    "free_alternatives": [
+      {
+        "name": "YouTube fitness channels",
+        "url": "https://www.youtube.com",
+        "note": "Free versions of P90X-style workouts available from many creators"
+      },
+      {
+        "name": "Nike Training Club",
+        "url": "https://www.nike.com/ntc-app",
+        "note": "Free guided workout app"
+      }
+    ],
+    "last_verified": "2026-05-28",
+    "notes": "BODi (Beachbody) operates on annual plans that auto-renew. The main complaint pattern is surprise renewals and refusal to honor same-day cancellation requests. Cancel at least 30 days before your renewal date to be safe. The service was originally phone-only to cancel; online cancellation was added but may still route to phone for some accounts."
   },
   {
     "name": "ClassPass",
@@ -243,13 +275,30 @@
     "url": "https://classpass.com",
     "category": "fitness",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to classpass.com and sign in.",
+      "Click your profile icon, then select 'Account Settings'.",
+      "Select 'Plan' then 'Cancel plan'.",
+      "Navigate through ClassPass's multi-step retention flow \u2014 reported as 8-10 steps by users. You'll be presented with pause options, credit rollover offers, and alternative plan downgrades before reaching the final cancel button.",
+      "Select a cancellation reason and confirm. Any unused credits expire at the end of your billing period. Credits do not roll over after cancellation."
+    ],
+    "cancel_url": "https://classpass.com/account/plan",
+    "known_friction": "Users report 8-10 required steps to complete cancellation, including multiple retention screens. One user documented being 'auto-enrolled into ClassPass's $89/month membership' and needing 8-10 steps to cancel.; Some users report being auto-enrolled into paid memberships from free trials without sufficient advance warning. | Retention tactics: Offers to pause membership for 1-3 months.; Offers a reduced credit plan instead of canceling.; Reminds you of unused credits that will expire.; Shows nea",
+    "free_alternatives": [
+      {
+        "name": "Individual studio drop-ins",
+        "url": "",
+        "note": "Pay-per-class directly with studios \u2014 often cheaper than ClassPass for infrequent users"
+      },
+      {
+        "name": "YouTube fitness channels",
+        "url": "https://www.youtube.com",
+        "note": "Free workout content"
+      }
+    ],
+    "last_verified": "2026-02-15",
+    "notes": "ClassPass credits expire if unused within a billing period \u2014 they do not roll over after cancellation. The 8-10 step cancellation flow has been publicly documented as a dark pattern. The auto-enrollment from trial issue was flagged by deceptive.design in September 2025."
   },
   {
     "name": "Gold's Gym",
@@ -257,13 +306,29 @@
     "url": "https://www.goldsgym.com",
     "category": "fitness",
     "cancel_method": "in-person or mail",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Determine whether your location is a corporate or franchise-owned club \u2014 this affects the cancellation process. Check goldsgym.com/cancellation-request/ \u2014 each location manages cancellations individually via a specific link.",
+      "For corporate clubs: use the cancellation request page at goldsgym.com/cancellation-request/ and follow the link provided for your location.",
+      "For franchise clubs: visit in person or send a written cancellation notice via certified mail to your club's address. Include your full name, membership ID, address, phone number, and cancellation request. Use certified mail with return receipt.",
+      "Provide required notice \u2014 typically 30 days. Early termination fees may apply if under contract. Fees up to $75 reported. Month-to-month members generally cancel without fees."
+    ],
+    "cancel_url": "https://www.goldsgym.com/cancellation-request/",
+    "known_friction": "Gold's Gym is primarily a franchise operation. Cancellation policies, fees, and processes vary significantly by location.; The corporate website routes to location-specific cancellation pages, making it impossible to provide a single universal process. | Retention tactics: May offer membership freeze or rate reduction.",
+    "free_alternatives": [
+      {
+        "name": "YouTube fitness channels",
+        "url": "https://www.youtube.com",
+        "note": "Free workout content"
+      },
+      {
+        "name": "Nike Training Club",
+        "url": "https://www.nike.com/ntc-app",
+        "note": "Free guided workouts"
+      }
+    ],
+    "last_verified": "2026-01-21",
+    "notes": "Gold's Gym went through bankruptcy in 2020 and has largely transitioned to a franchise model. Many locations closed or rebranded. Verify your specific location is still Gold's Gym before attempting cancellation via the corporate site."
   },
   {
     "name": "LA Fitness",
@@ -271,13 +336,30 @@
     "url": "https://www.lafitness.com",
     "category": "fitness",
     "cancel_method": "in-person or mail",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Visit any LA Fitness location and request a cancellation form at the front desk. Unlike Planet Fitness, LA Fitness allows cancellation at any location \u2014 not just your home club.",
+      "Complete and submit the cancellation form. Request a copy or confirmation for your records.",
+      "Alternatively: download the LA Fitness cancellation form, complete it, and mail to: LA Fitness, Member Services, PO Box 54170, Irvine, CA 92619-4170. Use certified mail with return receipt. Include your full name, address, phone, date of birth, and membership ID.",
+      "Some locations allow cancellation by fax: (949) 255-7200. Include all membership details.",
+      "Confirm cancellation by checking your bank statement. LA Fitness typically requires 5 business days to process. Early termination fees may apply if under a contract term. Month-to-month members can cancel with no fee."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "Online cancellation is not available for most members. The process requires in-person, mail, or fax \u2014 all of which create physical barriers.; Members on annual contracts face early termination fees, often not clearly disclosed at sign-up. | Retention tactics: Front desk may offer a membership freeze or rate reduction instead of canceling.",
+    "free_alternatives": [
+      {
+        "name": "YouTube fitness channels",
+        "url": "https://www.youtube.com",
+        "note": "Free workout videos for all fitness levels"
+      },
+      {
+        "name": "Nike Training Club",
+        "url": "https://www.nike.com/ntc-app",
+        "note": "Free guided workout app"
+      }
+    ],
+    "last_verified": "2026-01-23",
+    "notes": "LA Fitness allows cancellation at any location (unlike Planet Fitness). The cancellation form PDF is available on their website. Keep a copy of everything you submit."
   },
   {
     "name": "Peloton",
@@ -285,27 +367,64 @@
     "url": "https://www.onepeloton.com",
     "category": "fitness",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to onepeloton.com and sign in. Cancellation cannot be done from the Peloton equipment itself \u2014 use the website.",
+      "Click your profile icon, then select 'Membership'.",
+      "Select 'Cancel Membership' and follow the prompts. You can cancel All-Access (equipment-linked) or the App subscription separately.",
+      "Confirm cancellation. If you own Peloton equipment, you can still use it after canceling the subscription but will lose access to live classes and most on-demand content. Some limited free content remains accessible."
+    ],
+    "cancel_url": "https://members.onepeloton.com/membership",
+    "known_friction": "Retention tactics: Offers a membership pause option before canceling.; Highlights upcoming live content to trigger FOMO.",
+    "free_alternatives": [
+      {
+        "name": "YouTube cycling/fitness channels",
+        "url": "https://www.youtube.com",
+        "note": "Free cycling and workout content"
+      },
+      {
+        "name": "Nike Training Club",
+        "url": "https://www.nike.com/ntc-app",
+        "note": "Free guided workouts"
+      }
+    ],
+    "last_verified": "2025-10-30",
+    "notes": "Peloton has two subscription tiers: All-Access (for equipment owners, ~$44/mo) and App (for non-equipment users, ~$12.99/mo). Canceling is straightforward online. Equipment owners who cancel lose most class content but the bike/tread still functions for manual workouts. Peloton restructured its debt in 2025 to avoid bankruptcy \u2014 company is still operating as of early 2026."
   },
   {
     "name": "Planet Fitness",
     "slug": "planet-fitness",
     "url": "https://www.planetfitness.com",
     "category": "fitness",
-    "cancel_method": "in-person or mail",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "in-person or certified mail",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Visit your home club in person \u2014 the specific location where you originally signed up. You CANNOT cancel at a different Planet Fitness location. If you've moved, you must use the certified mail method instead.",
+      "Request a cancellation form at the front desk and fill it out completely. Some locations require a manager to process the cancellation. If no manager is available, you may be asked to return.",
+      "Alternatively: send a written cancellation letter via certified mail with return receipt requested to your home club's address. Include your full name, address, phone number, membership ID, and a clear request to cancel. Use certified mail \u2014 regular mail may be claimed as 'never received.'",
+      "Confirm cancellation by checking your bank statement in the next billing cycle. Planet Fitness bills on the 17th of each month. Canceling after the 17th may result in one additional charge. There is also an annual fee billed around August \u2014 cancel before the 25th of the prior month to avoid it. Early termination fee of ~$58 may apply if under contract."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "Online cancellation is not available despite the FTC's Click-to-Cancel Rule (in legal limbo as of 2026 due to gym industry lobbying). Members must visit their home club or send certified mail.; Cancellation must occur at the specific location where the membership was originally registered \u2014 not any Planet Fitness. Members who have moved face a significant barrier.; Multiple users report their clubs claiming certified cancellation letters were 'never received.' Use return receipt requested as pro",
+    "free_alternatives": [
+      {
+        "name": "YouTube fitness channels",
+        "url": "https://www.youtube.com",
+        "note": "Hundreds of free workout channels; no equipment required"
+      },
+      {
+        "name": "Nike Training Club",
+        "url": "https://www.nike.com/ntc-app",
+        "note": "Free fitness app with guided workouts"
+      },
+      {
+        "name": "FitOn",
+        "url": "https://fitonapp.com",
+        "note": "Free workout app with live and on-demand classes"
+      }
+    ],
+    "last_verified": "2026-02-05",
+    "notes": "Planet Fitness is one of the most-cited examples of cancellation friction in the fitness industry. The in-person/certified mail requirement, combined with home-club restrictions, has been the subject of multiple state attorney general inquiries. The FTC's Click-to-Cancel Rule was meant to force online cancellation but has been stalled in court by gym industry lobbying as of early 2026. Always keep your certified mail receipt."
   },
   {
     "name": "EA Play",

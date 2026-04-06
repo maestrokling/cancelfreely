@@ -1,0 +1,13 @@
+name: YNAB (You Need A Budget)
+slug: ynab
+url: https://www.ynab.com
+category: finance
+cancel_method: online
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

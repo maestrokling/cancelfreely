@@ -1,0 +1,13 @@
+name: Xbox Game Pass
+slug: xbox-game-pass
+url: https://www.xbox.com/en-US/xbox-game-pass
+category: gaming
+cancel_method: online
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

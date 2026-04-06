@@ -1,0 +1,32 @@
+name: YouTube Premium
+slug: youtube-premium
+url: https://www.youtube.com/premium
+category: streaming
+cancel_method: online
+friction_score: 2
+last_verified: 2025-11-24
+steps:
+  - step: 1
+    instruction: "Go to youtube.com/paid_memberships and sign in."
+    note: "On mobile: tap your profile picture > Paid memberships."
+  - step: 2
+    instruction: "Select YouTube Premium."
+    note: ""
+  - step: 3
+    instruction: "Click 'Manage' then 'Cancel membership'."
+    note: "If you subscribed via Google Play, Apple, or another platform, you must cancel through that platform instead."
+  - step: 4
+    instruction: "Confirm cancellation."
+    note: "Access continues through the end of the billing period. Ads return immediately after cancellation date."
+dark_patterns: []
+retention_tactics:
+  - "May offer a pause option before confirming cancellation."
+direct_cancel_url: "https://www.youtube.com/paid_memberships"
+free_alternatives:
+  - name: "YouTube (free)"
+    url: "https://www.youtube.com"
+    note: "Full YouTube access with ads — same content, no offline or background play"
+  - name: "uBlock Origin (browser extension)"
+    url: "https://ublockorigin.com"
+    note: "Free ad blocker for desktop browsers"
+notes: "YouTube Premium is one of the more straightforward cancels. The free tier of YouTube retains all content access — you lose ad-free viewing, background play, and offline downloads."

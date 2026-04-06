@@ -1,0 +1,35 @@
+name: Peacock
+slug: peacock
+url: https://www.peacocktv.com
+category: streaming
+cancel_method: online
+friction_score: 2
+last_verified: 2026-02-26
+steps:
+  - step: 1
+    instruction: "Go to peacocktv.com and sign in."
+    note: ""
+  - step: 2
+    instruction: "Click your profile icon, then select 'Account'."
+    note: ""
+  - step: 3
+    instruction: "Under 'Plan & Payment', click 'Change Plan'."
+    note: ""
+  - step: 4
+    instruction: "Select 'Cancel Plan' and confirm."
+    note: "Some users report needing to contact customer support if online cancellation fails. Access continues until end of billing period."
+dark_patterns:
+  - type: "unclear cancellation path"
+    description: "The cancel option is nested under 'Change Plan' rather than having its own obvious cancel button, making it less discoverable."
+    source: "cloudwards.net, March 2026; joinchargeback.com, February 2026"
+retention_tactics:
+  - "May offer a discounted plan before confirming cancellation."
+direct_cancel_url: "https://www.peacocktv.com/help/article/cancellation"
+free_alternatives:
+  - name: "Peacock (free tier)"
+    url: "https://www.peacocktv.com"
+    note: "Peacock has a limited free ad-supported tier"
+  - name: "Tubi"
+    url: "https://tubitv.com"
+    note: "Free ad-supported streaming"
+notes: "Peacock has a free tier, so users may be able to downgrade rather than fully cancel. Some NBC content is available free. If subscribed via Apple, Amazon, or Roku, cancel through that platform."

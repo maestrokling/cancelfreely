@@ -1,0 +1,44 @@
+name: ClassPass
+slug: classpass
+url: https://classpass.com
+category: fitness
+cancel_method: online
+friction_score: 3
+last_verified: 2026-02-15
+steps:
+  - step: 1
+    instruction: "Go to classpass.com and sign in."
+    note: ""
+  - step: 2
+    instruction: "Click your profile icon, then select 'Account Settings'."
+    note: ""
+  - step: 3
+    instruction: "Select 'Plan' then 'Cancel plan'."
+    note: ""
+  - step: 4
+    instruction: "Navigate through ClassPass's multi-step retention flow — reported as 8-10 steps by users."
+    note: "You'll be presented with pause options, credit rollover offers, and alternative plan downgrades before reaching the final cancel button."
+  - step: 5
+    instruction: "Select a cancellation reason and confirm."
+    note: "Any unused credits expire at the end of your billing period. Credits do not roll over after cancellation."
+dark_patterns:
+  - type: "excessive steps"
+    description: "Users report 8-10 required steps to complete cancellation, including multiple retention screens. One user documented being 'auto-enrolled into ClassPass's $89/month membership' and needing 8-10 steps to cancel."
+    source: "deceptive.design, September 2025"
+  - type: "auto-enrollment"
+    description: "Some users report being auto-enrolled into paid memberships from free trials without sufficient advance warning."
+    source: "deceptive.design, September 2025; user reports 2025"
+retention_tactics:
+  - "Offers to pause membership for 1-3 months."
+  - "Offers a reduced credit plan instead of canceling."
+  - "Reminds you of unused credits that will expire."
+  - "Shows nearby studios and upcoming classes."
+direct_cancel_url: "https://classpass.com/account/plan"
+free_alternatives:
+  - name: "Individual studio drop-ins"
+    url: null
+    note: "Pay-per-class directly with studios — often cheaper than ClassPass for infrequent users"
+  - name: "YouTube fitness channels"
+    url: "https://www.youtube.com"
+    note: "Free workout content"
+notes: "ClassPass credits expire if unused within a billing period — they do not roll over after cancellation. The 8-10 step cancellation flow has been publicly documented as a dark pattern. The auto-enrollment from trial issue was flagged by deceptive.design in September 2025."

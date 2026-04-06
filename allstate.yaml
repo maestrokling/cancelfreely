@@ -1,0 +1,13 @@
+name: Allstate
+slug: allstate
+url: https://www.allstate.com
+category: insurance
+cancel_method: phone or agent
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

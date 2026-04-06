@@ -1,0 +1,50 @@
+name: Amazon Prime Video
+slug: amazon-prime-video
+url: https://www.amazon.com/prime
+category: streaming
+cancel_method: online
+friction_score: 4
+last_verified: 2026-02-07
+steps:
+  - step: 1
+    instruction: "Go to amazon.com and sign in."
+    note: "Note: Canceling Prime Video alone is not straightforward — Amazon bundles video with the full Prime membership. To cancel video-only, you need to cancel Prime entirely or navigate to a specific page."
+  - step: 2
+    instruction: "Go to amazon.com/mc/pipelines/prime to access your Prime membership settings."
+    note: ""
+  - step: 3
+    instruction: "Click 'Manage membership', then 'End membership'."
+    note: ""
+  - step: 4
+    instruction: "Navigate through multiple confirmation screens — Amazon presents several offers and warnings before completing cancellation."
+    note: "You may see 3-4 screens with alternative offers (pause, discounts, reminders of benefits) before the final confirmation button."
+  - step: 5
+    instruction: "Click 'Cancel membership' to confirm."
+    note: ""
+dark_patterns:
+  - type: "confirm-shaming button design"
+    description: "Cancellation screens rotate between having the 'yes cancel' and 'no keep my subscription' buttons swap their visual prominence (green vs gray), making it hard to know which button cancels vs keeps."
+    source: "Reddit r/amazonprime, November 2023; r/technology, June 2023"
+  - type: "multi-screen maze"
+    description: "Amazon's cancel flow is notoriously long and arduous, with multiple screens presenting benefits, discounts, and pause options before confirming. The FTC sued Amazon over this practice in 2023."
+    source: "FTC complaint 2023; Reddit r/technology, June 2023"
+  - type: "bundling obscurity"
+    description: "Amazon Prime Video is bundled with Prime shipping, making it unclear how to cancel video-only access vs. the full Prime membership."
+    source: "Reddit r/amazonprime, multiple threads 2023-2026"
+retention_tactics:
+  - "Offers to pause membership for 1-3 months."
+  - "Shows all Prime benefits (shipping, music, photos, etc.) you'll lose."
+  - "Offers a discounted membership rate."
+  - "Reminds you of upcoming delivery savings."
+direct_cancel_url: "https://www.amazon.com/mc/pipelines/prime"
+free_alternatives:
+  - name: "Tubi"
+    url: "https://tubitv.com"
+    note: "Free ad-supported streaming"
+  - name: "Pluto TV"
+    url: "https://pluto.tv"
+    note: "Free ad-supported streaming"
+  - name: "Freevee (Amazon)"
+    url: "https://www.amazon.com/gp/video/splash/freevee_upsell"
+    note: "Amazon's free ad-supported tier, accessible without Prime"
+notes: "The FTC filed a complaint against Amazon in 2023 alleging that their cancellation process used 'dark patterns' including 'Iliad flow' — a maze of screens designed to wear users down. A class action settlement covers US users who subscribed between June 23, 2019 and June 23, 2025 via a 'challenged enrollment flow.' Amazon updated some flows post-FTC action, but user reports still cite significant friction as of early 2026."

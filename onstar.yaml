@@ -1,0 +1,13 @@
+name: OnStar
+slug: onstar
+url: https://www.onstar.com
+category: membership
+cancel_method: phone
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

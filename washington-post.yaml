@@ -1,0 +1,13 @@
+name: Washington Post
+slug: washington-post
+url: https://www.washingtonpost.com
+category: news
+cancel_method: online or chat
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

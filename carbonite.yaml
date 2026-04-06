@@ -1,0 +1,13 @@
+name: Carbonite
+slug: carbonite
+url: https://www.carbonite.com
+category: cloud
+cancel_method: phone
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

@@ -1,0 +1,13 @@
+name: New York Times
+slug: new-york-times
+url: https://www.nytimes.com
+category: news
+cancel_method: online or phone
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

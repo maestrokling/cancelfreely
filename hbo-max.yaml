@@ -1,0 +1,40 @@
+name: HBO Max
+slug: hbo-max
+url: https://www.max.com
+category: streaming
+cancel_method: online
+friction_score: 3
+last_verified: 2026-02-15
+steps:
+  - step: 1
+    instruction: "Go to max.com and sign in."
+    note: "The service rebranded from HBO Max to 'Max' in 2023. Cancellation steps are the same."
+  - step: 2
+    instruction: "Click your profile icon, then select 'Settings'."
+    note: ""
+  - step: 3
+    instruction: "Select 'Subscription' or 'Billing'."
+    note: ""
+  - step: 4
+    instruction: "Click 'Cancel Plan' and follow the prompts."
+    note: "If you subscribed through a TV provider, cable company, or third-party app store, you must cancel through that provider."
+dark_patterns:
+  - type: "billing platform maze"
+    description: "Max has one of the most complex billing ecosystems of any streaming service — subscribers may come from Amazon, Apple, Roku, YouTube TV, AT&T, Hulu add-on, or direct billing. Cancellation path varies significantly by source, and the website doesn't always clearly identify which path applies to you."
+    source: "justcancel.io, February 2026"
+  - type: "price hike + complexity"
+    description: "Late 2025 price increases to $10.99/$18.49/$22.99 across tiers, combined with complex cancellation paths, led to significant user confusion."
+    source: "moneypilot.com, 2026"
+retention_tactics:
+  - "Offers to pause subscription before canceling."
+  - "May present discounted plan offers."
+  - "Binge strategy: some guides recommend subscribing for one month, binging, then canceling — this is how many users approach Max."
+direct_cancel_url: "https://www.max.com/settings/subscription"
+free_alternatives:
+  - name: "Tubi"
+    url: "https://tubitv.com"
+    note: "Free ad-supported streaming"
+  - name: "Pluto TV"
+    url: "https://pluto.tv"
+    note: "Free ad-supported streaming"
+notes: "The rebrand from HBO Max to Max in 2023 added confusion. Cancellation difficulty depends heavily on billing source — direct billing is straightforward; third-party billing requires going to that platform. If you subscribed via a cable bundle (AT&T, Spectrum, etc.), you may need to call your provider."

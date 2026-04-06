@@ -1,0 +1,13 @@
+name: Wall Street Journal
+slug: wall-street-journal
+url: https://www.wsj.com
+category: news
+cancel_method: phone or chat
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

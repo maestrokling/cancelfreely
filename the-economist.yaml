@@ -1,0 +1,13 @@
+name: The Economist
+slug: the-economist
+url: https://www.economist.com
+category: news
+cancel_method: phone or email
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

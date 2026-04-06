@@ -1,0 +1,41 @@
+name: LA Fitness
+slug: la-fitness
+url: https://www.lafitness.com
+category: fitness
+cancel_method: in-person or mail
+friction_score: 4
+last_verified: 2026-01-23
+steps:
+  - step: 1
+    instruction: "Visit any LA Fitness location and request a cancellation form at the front desk."
+    note: "Unlike Planet Fitness, LA Fitness allows cancellation at any location — not just your home club."
+  - step: 2
+    instruction: "Complete and submit the cancellation form. Request a copy or confirmation for your records."
+    note: ""
+  - step: 3
+    instruction: "Alternatively: download the LA Fitness cancellation form, complete it, and mail to: LA Fitness, Member Services, PO Box 54170, Irvine, CA 92619-4170."
+    note: "Use certified mail with return receipt. Include your full name, address, phone, date of birth, and membership ID."
+  - step: 4
+    instruction: "Some locations allow cancellation by fax: (949) 255-7200. Include all membership details."
+    note: ""
+  - step: 5
+    instruction: "Confirm cancellation by checking your bank statement. LA Fitness typically requires 5 business days to process."
+    note: "Early termination fees may apply if under a contract term. Month-to-month members can cancel with no fee."
+dark_patterns:
+  - type: "paper-only requirement"
+    description: "Online cancellation is not available for most members. The process requires in-person, mail, or fax — all of which create physical barriers."
+    source: "lafitnessmembership.com, January 2026; WikiHow, April 2025"
+  - type: "contract early termination fees"
+    description: "Members on annual contracts face early termination fees, often not clearly disclosed at sign-up."
+    source: "donotpay.com; user reports 2025"
+retention_tactics:
+  - "Front desk may offer a membership freeze or rate reduction instead of canceling."
+direct_cancel_url: null
+free_alternatives:
+  - name: "YouTube fitness channels"
+    url: "https://www.youtube.com"
+    note: "Free workout videos for all fitness levels"
+  - name: "Nike Training Club"
+    url: "https://www.nike.com/ntc-app"
+    note: "Free guided workout app"
+notes: "LA Fitness allows cancellation at any location (unlike Planet Fitness). The cancellation form PDF is available on their website. Keep a copy of everything you submit."

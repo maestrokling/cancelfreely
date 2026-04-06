@@ -1,0 +1,39 @@
+name: Beachbody / BODi
+slug: beachbody
+url: https://www.beachbodyondemand.com
+category: fitness
+cancel_method: online or phone
+friction_score: 3
+last_verified: 2026-05-28
+steps:
+  - step: 1
+    instruction: "Go to bodi.com (formerly beachbodyondemand.com) and sign in."
+    note: "The service rebranded from Beachbody On Demand to BODi."
+  - step: 2
+    instruction: "Go to your account settings and navigate to 'Subscription' or 'Manage Membership'."
+    note: ""
+  - step: 3
+    instruction: "Select 'Cancel Subscription' and follow the prompts."
+    note: "Canceling stops future renewals but does NOT remove current access — you retain access through the end of your paid period."
+  - step: 4
+    instruction: "If you cannot find the cancel option online, call customer service: 1-800-470-7870."
+    note: "Phone cancellation is available but be prepared for retention offers."
+dark_patterns:
+  - type: "opaque renewal dates"
+    description: "Multiple users report not receiving adequate advance notice of renewal charges, especially on annual plans. Users advise checking renewal dates manually in account settings."
+    source: "Reddit r/BeachBodyWorkouts, June 2024 and August 2025"
+  - type: "zero-star customer service"
+    description: "Users report same-day cancellation requests not being honored, with Beachbody refusing refunds even when the service was unused for 9+ months."
+    source: "Reddit r/beachbody, May 2025"
+retention_tactics:
+  - "May offer a discounted renewal rate."
+  - "Highlights workout programs you haven't tried."
+direct_cancel_url: "https://www.bodi.com/account"
+free_alternatives:
+  - name: "YouTube fitness channels"
+    url: "https://www.youtube.com"
+    note: "Free versions of P90X-style workouts available from many creators"
+  - name: "Nike Training Club"
+    url: "https://www.nike.com/ntc-app"
+    note: "Free guided workout app"
+notes: "BODi (Beachbody) operates on annual plans that auto-renew. The main complaint pattern is surprise renewals and refusal to honor same-day cancellation requests. Cancel at least 30 days before your renewal date to be safe. The service was originally phone-only to cancel; online cancellation was added but may still route to phone for some accounts."

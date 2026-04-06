@@ -1,0 +1,13 @@
+name: Sam's Club
+slug: sams-club
+url: https://www.samsclub.com
+category: membership
+cancel_method: online or in-person
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

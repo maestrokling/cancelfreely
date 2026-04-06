@@ -1,0 +1,42 @@
+name: Netflix
+slug: netflix
+url: https://www.netflix.com
+category: streaming
+cancel_method: online
+friction_score: 2
+last_verified: 2026-01-23
+steps:
+  - step: 1
+    instruction: "Go to netflix.com and sign in."
+    note: ""
+  - step: 2
+    instruction: "Click your profile icon in the top right, then select 'Account'."
+    note: ""
+  - step: 3
+    instruction: "Under 'Membership & Billing', click 'Cancel Membership'."
+    note: ""
+  - step: 4
+    instruction: "Click 'Finish Cancellation' to confirm."
+    note: "You can keep using Netflix until the end of your current billing period."
+dark_patterns:
+  - type: "profile data ransom"
+    description: "Netflix warns that your profile watch history and recommendations will be lost, creating emotional friction before confirming cancellation."
+    source: "Reddit r/darkpatterns, September 2024"
+  - type: "loss aversion messaging"
+    description: "Shows upcoming content and what you'll lose access to before confirming, designed to trigger regret."
+    source: "Multiple Reddit threads and cancel guides, 2025"
+retention_tactics:
+  - "Offers to pause membership instead of canceling."
+  - "Shows 'What you'll lose' screen highlighting upcoming releases."
+direct_cancel_url: "https://www.netflix.com/cancelplan"
+free_alternatives:
+  - name: "Tubi"
+    url: "https://tubitv.com"
+    note: "Free ad-supported streaming with large catalog"
+  - name: "Pluto TV"
+    url: "https://pluto.tv"
+    note: "Free ad-supported live and on-demand streaming"
+  - name: "Peacock (free tier)"
+    url: "https://www.peacocktv.com"
+    note: "Limited free tier available"
+notes: "Netflix is considered one of the easier streaming services to cancel — the process is fully online and straightforward. The main friction is emotional (loss aversion screens), not procedural. Direct cancel URL works without navigating through account settings."

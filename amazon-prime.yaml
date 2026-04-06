@@ -1,0 +1,13 @@
+name: Amazon Prime
+slug: amazon-prime
+url: https://www.amazon.com/prime
+category: shopping
+cancel_method: online
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

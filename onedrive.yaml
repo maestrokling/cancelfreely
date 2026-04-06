@@ -1,0 +1,13 @@
+name: OneDrive (standalone)
+slug: onedrive
+url: https://www.microsoft.com/en-us/microsoft-365/onedrive
+category: cloud
+cancel_method: online
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

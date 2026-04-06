@@ -1,0 +1,32 @@
+name: Apple TV+
+slug: apple-tv-plus
+url: https://tv.apple.com
+category: streaming
+cancel_method: online
+friction_score: 2
+last_verified: 2026-02-16
+steps:
+  - step: 1
+    instruction: "Go to tv.apple.com and sign in with your Apple ID."
+    note: "You can also cancel through iPhone/iPad: Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription."
+  - step: 2
+    instruction: "Click your account icon, then select 'Settings'."
+    note: ""
+  - step: 3
+    instruction: "Scroll to 'Subscriptions' and click 'Manage'."
+    note: ""
+  - step: 4
+    instruction: "Select Apple TV+ and click 'Cancel Subscription'."
+    note: "Confirm when prompted. Access continues through end of billing period."
+dark_patterns: []
+retention_tactics:
+  - "None widely reported. Apple's subscription management is considered clean and low-friction."
+direct_cancel_url: "https://tv.apple.com/settings"
+free_alternatives:
+  - name: "Tubi"
+    url: "https://tubitv.com"
+    note: "Free ad-supported streaming"
+  - name: "Pluto TV"
+    url: "https://pluto.tv"
+    note: "Free ad-supported streaming"
+notes: "Apple TV+ cancellation is handled through Apple's standard subscription management system, which is consistent across all Apple services. No significant dark patterns reported. Often bundled with new Apple device purchases (3-month free trial)."

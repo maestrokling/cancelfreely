@@ -1,0 +1,39 @@
+name: Anytime Fitness
+slug: anytime-fitness
+url: https://www.anytimefitness.com
+category: fitness
+cancel_method: in-person or mail
+friction_score: 4
+last_verified: 2026-01-27
+steps:
+  - step: 1
+    instruction: "Contact your home club directly — Anytime Fitness is a franchise, so each location has its own cancellation process."
+    note: "Call or visit your specific club to get their exact cancellation requirements before proceeding."
+  - step: 2
+    instruction: "Visit your home club in person and request cancellation in writing."
+    note: ""
+  - step: 3
+    instruction: "Alternatively: send a written cancellation notice via certified mail to your home club's address."
+    note: "Include your full name, membership ID, address, and a clear cancellation request. Use certified mail with return receipt."
+  - step: 4
+    instruction: "Provide required notice period — typically 30 days. You may be billed for one final month after notice."
+    note: "Early termination fee of up to $75 may apply if canceling before contract end."
+dark_patterns:
+  - type: "franchise variability"
+    description: "Each Anytime Fitness franchise sets its own cancellation policies, fees, and notice requirements. Corporate provides guidelines but individual clubs have discretion. This inconsistency makes it difficult to know what to expect."
+    source: "byegym.com; anytimefitness-membership.com, January 2026"
+  - type: "30-day notice requirement"
+    description: "Most locations require 30 days advance notice, meaning members get charged one more month after requesting cancellation."
+    source: "byegym.com, 2026"
+retention_tactics:
+  - "May offer a membership freeze or rate reduction."
+  - "Some locations offer a reduced rate for members who have moved."
+direct_cancel_url: null
+free_alternatives:
+  - name: "YouTube fitness channels"
+    url: "https://www.youtube.com"
+    note: "Free workout content for all levels"
+  - name: "FitOn"
+    url: "https://fitonapp.com"
+    note: "Free fitness app"
+notes: "Franchise variability is the defining characteristic of Anytime Fitness cancellations. Always call your specific club first. Get any cancellation confirmation in writing. The 24/7 access key fob should be returned upon cancellation."

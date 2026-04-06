@@ -1,0 +1,35 @@
+name: Paramount+
+slug: paramount-plus
+url: https://www.paramountplus.com
+category: streaming
+cancel_method: online
+friction_score: 2
+last_verified: 2026-03-04
+steps:
+  - step: 1
+    instruction: "Go to paramountplus.com and sign in."
+    note: ""
+  - step: 2
+    instruction: "Click your profile icon, then select 'Account'."
+    note: ""
+  - step: 3
+    instruction: "Under 'Subscription', choose 'Paramount+', then select 'Cancel Subscription'."
+    note: ""
+  - step: 4
+    instruction: "Follow the prompts to confirm."
+    note: "Access continues through the end of the billing period. If subscribed through Amazon, Apple, Roku, or another platform, cancel there instead."
+dark_patterns:
+  - type: "third-party billing redirect"
+    description: "Subscribers through Amazon Channels, Apple, Roku, or cable providers must cancel through the originating platform. Paramount+ website won't show a cancel option for these subscribers."
+    source: "goal.com, January 2026; technology.org, February 2026"
+retention_tactics:
+  - "May offer a pause or discounted rate before confirming cancellation."
+direct_cancel_url: "https://www.paramountplus.com/account/subscription/"
+free_alternatives:
+  - name: "Pluto TV"
+    url: "https://pluto.tv"
+    note: "Owned by Paramount; free ad-supported tier with some Paramount content"
+  - name: "Tubi"
+    url: "https://tubitv.com"
+    note: "Free ad-supported streaming"
+notes: "Generally considered a low-friction cancel. Third-party billing is the main gotcha. Pluto TV (free, also owned by Paramount) is the natural free alternative for users who want to keep some access to Paramount content."
