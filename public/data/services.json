@@ -1615,20 +1615,6 @@
     "notes": "Amazon paid $2.5B to settle FTC dark patterns charges in 2025. The cancellation flow was improved post-settlement but still has more steps than necessary. The settlement required Amazon to make cancellation 'as easy as sign-up.' Amazon Prime Video subscriptions cancel separately from Prime membership if subscribed independently."
   },
   {
-    "name": "BarkBox",
-    "slug": "barkbox",
-    "url": "https://www.barkbox.com",
-    "category": "shopping",
-    "cancel_method": "online or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
-  },
-  {
     "name": "Blue Apron",
     "slug": "blue-apron",
     "url": "https://www.blueapron.com",
@@ -1666,20 +1652,6 @@
     ],
     "last_verified": "2026-02-20",
     "notes": "DashPass is a low-friction cancel. Watch for the mobile billing redirect if you subscribed through an app store. DashPass is also bundled with some Chase credit cards \u2014 if you have a Chase Sapphire or similar, you may have DashPass included."
-  },
-  {
-    "name": "HelloFresh",
-    "slug": "hellofresh",
-    "url": "https://www.hellofresh.com",
-    "category": "shopping",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
   },
   {
     "name": "Instacart+",
@@ -2230,60 +2202,116 @@
     "notes": ""
   },
   {
+    "name": "BarkBox",
+    "slug": "barkbox",
+    "url": "https://www.barkbox.com",
+    "category": "subscription-boxes",
+    "cancel_method": "online or email",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to barkbox.com and sign in.",
+      "Go to your account settings, find your subscription, and click 'Edit' then 'Cancel Renewal'.",
+      "Alternatively, email BarkBox's 'Happy Team' at help@barkbox.com to request cancellation.",
+      "\u26a0\ufe0f Cancel by the first day of the month following your current subscription period to avoid the next charge. Check your billing cycle date before canceling."
+    ],
+    "cancel_url": "https://faq.barkbox.com/hc/en-us/articles/360033801474",
+    "known_friction": "Retention tactics: May offer a discount or pause.",
+    "free_alternatives": [],
+    "last_verified": "2025-05-04",
+    "notes": "BarkBox cancellation is generally straightforward. The main thing to note is the billing cycle deadline \u2014 cancel before the 1st of the following month to avoid the next charge. BarkBox also offers Super Chewer (heavy chewer variant) which cancels separately."
+  },
+  {
     "name": "Dollar Shave Club",
     "slug": "dollar-shave-club",
     "url": "https://www.dollarshaveclub.com",
-    "category": "subscription-box",
+    "category": "subscription-boxes",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to dollarshaveclub.com and sign in.",
+      "Go to 'Account' > 'Next Box' tab.",
+      "Find the subscription you want to cancel and select 'Cancel'. Individual products can be canceled separately. You can also cancel the whole membership.",
+      "Confirm cancellation. If you can't find the cancel option, use live chat at dollarshaveclub.com or call support."
+    ],
+    "cancel_url": "https://www.dollarshaveclub.com/account",
+    "known_friction": "Retention tactics: May offer a pause or skip option instead of canceling.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2025-12-19",
+    "notes": "Dollar Shave Club cancellation is relatively clean \u2014 online self-service works. You can cancel individual product subscriptions or the whole membership. DSC is now owned by Nexus Capital (sold by Unilever in 2023)."
   },
   {
     "name": "FabFitFun",
     "slug": "fabfitfun",
-    "url": "https://fabfitfun.com",
-    "category": "subscription-box",
+    "url": "https://www.fabfitfun.com",
+    "category": "subscription-boxes",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to fabfitfun.com and sign in.",
+      "Go to your VIP Dashboard > Account Settings > Membership.",
+      "Click 'Cancel Membership' and confirm. Access continues through end of current season/billing period.",
+      "You can also go directly to fabfitfun.com/cancel-subscription."
+    ],
+    "cancel_url": "https://fabfitfun.com/cancel-subscription",
+    "known_friction": "Retention tactics: May offer a discount or pause.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-28",
+    "notes": "FabFitFun is a seasonal lifestyle subscription box (4x/year). Cancellation is online and reasonably clean. Cancel before the seasonal charge date to avoid being billed for the next box."
+  },
+  {
+    "name": "HelloFresh",
+    "slug": "hellofresh",
+    "url": "https://www.hellofresh.com",
+    "category": "subscription-boxes",
+    "cancel_method": "online",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to hellofresh.com and sign in.",
+      "Click your profile icon > 'Account Settings' > scroll down to 'Plan Settings'.",
+      "Click 'Cancel Plan' and work through the cancellation flow. HelloFresh presents reason-based retention screens \u2014 the content varies based on your stated reason for leaving. Stay firm and keep clicking through.",
+      "Confirm cancellation. You'll receive an email confirming cancellation. \u26a0\ufe0f Cancel by 11:59 PM (local time) 5 days before your next delivery to avoid being charged for it."
+    ],
+    "cancel_url": "https://www.hellofresh.com/my-account/plan",
+    "known_friction": "HelloFresh's cancellation flow customizes retention offers based on your stated reason for canceling \u2014 e.g., if you cite 'too much packaging,' they show a screen about their sustainability efforts. Each reason triggers a tailored counter-argument before you reach the final cancel button.; HelloFresh requires cancellation 5 days before the next delivery to avoid charges. This deadline is not prominently surfaced during cancellation.; HelloFresh paid a $7.5M California settlement in 2025 for inade",
+    "free_alternatives": [],
+    "last_verified": "2026-03-15",
+    "notes": "Cancel at least 5 days before your next scheduled delivery to avoid being charged. HelloFresh paid $7.5M to California in 2025 over dark pattern practices. The flow has improved post-settlement but still has more friction than necessary."
   },
   {
     "name": "Ipsy",
     "slug": "ipsy",
     "url": "https://www.ipsy.com",
-    "category": "subscription-box",
+    "category": "subscription-boxes",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to ipsy.com and sign in.",
+      "Click your profile > 'Account Settings' > 'Membership'.",
+      "Click 'Cancel Membership' and follow the prompts. \u26a0\ufe0f Annual subscribers: You must cancel by 11:59 PM Pacific on the 25th of the last month of your subscription term to avoid auto-renewal. Example: if you subscribed in May 2025, cancel by April 25, 2026."
+    ],
+    "cancel_url": "https://www.ipsy.com/account/membership",
+    "known_friction": "Annual Ipsy subscribers must cancel by a specific date (25th of the final month) or be auto-renewed for another full year. This deadline is buried in terms of service and not prominently surfaced during the subscription flow. | Retention tactics: May offer a pause or discounted rate.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "Ipsy's main gotcha is the annual renewal deadline \u2014 missing the 25th-of-the-month cutoff means another full year's charge. Monthly subscribers have more flexibility. Ipsy merged with BoxyCharm in 2022; if you have a BoxyCharm subscription, it now cancels through Ipsy."
   },
   {
     "name": "Stitch Fix",
     "slug": "stitch-fix",
     "url": "https://www.stitchfix.com",
-    "category": "subscription-box",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "category": "subscription-boxes",
+    "cancel_method": "online or chat",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to stitchfix.com and sign in.",
+      "Go to 'Account' > 'Styling Preferences' and change delivery frequency to 'I'll request my own Fixes' (on-demand). This stops automatic shipments without closing your account.",
+      "To fully close/delete your account: Use the 'Chat' function in the app to reach customer service and request account deletion. Reddit users recommend being explicit: 'Cancel my account, do not just suspend deliveries.'"
+    ],
+    "cancel_url": "https://www.stitchfix.com/account/profile",
+    "known_friction": "Stitch Fix doesn't have a straightforward 'cancel account' button. Stopping charges requires switching to on-demand mode or contacting support for full account closure. | Retention tactics: Support agents may offer to pause deliveries instead of closing the account.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-21",
+    "notes": "Stitch Fix is on-demand fashion \u2014 you only pay for what you keep plus a $20 styling fee (credited if you buy). Switching to 'on-demand' mode stops automatic charges without closing your account. For full closure, use chat support and be explicit about wanting the account deleted, not paused."
   },
   {
     "name": "AT&T",
