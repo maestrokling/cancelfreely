@@ -1,0 +1,56 @@
+name: Check Cancel URLs
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Every Monday at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  check-urls:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check URLs
+        run: |
+          echo "# URL Check Report - $(date -u +%Y-%m-%d)" > url-report.md
+          echo "" >> url-report.md
+
+          find services/ -name "*.yaml" | while read file; do
+            slug=$(basename "$file" .yaml)
+
+            url=$(grep "direct_cancel_url:" "$file" | sed 's/direct_cancel_url: *//' | sed 's/"//g' | sed "s/'//g" | tr -d ' ')
+            if [ "$url" != "null" ] && [ -n "$url" ]; then
+              status=$(curl -o /dev/null -s -w "%{http_code}" -L --max-time 10 "$url" 2>/dev/null || echo "TIMEOUT")
+              if [ "$status" != "200" ] && [ "$status" != "301" ] && [ "$status" != "302" ]; then
+                echo "- **$slug**: $url — HTTP $status" >> url-report.md
+              fi
+            fi
+
+            svc_url=$(grep "^url:" "$file" | sed 's/url: *//' | sed 's/"//g' | sed "s/'//g" | tr -d ' ')
+            if [ -n "$svc_url" ]; then
+              status=$(curl -o /dev/null -s -w "%{http_code}" -L --max-time 10 "$svc_url" 2>/dev/null || echo "TIMEOUT")
+              if [ "$status" != "200" ] && [ "$status" != "301" ] && [ "$status" != "302" ]; then
+                echo "- **$slug** (main site): $svc_url — HTTP $status" >> url-report.md
+              fi
+            fi
+          done
+
+          if grep -q "HTTP\|TIMEOUT" url-report.md; then
+            cat url-report.md
+          else
+            echo "All URLs passed." >> url-report.md
+            echo "All URLs passed."
+          fi
+
+      - name: Open issue if failures found
+        run: |
+          failures=$(grep -c "HTTP\|TIMEOUT" url-report.md || true)
+          if [ "$failures" -gt "0" ]; then
+            gh issue create \
+              --title "URL Check: $failures broken links found ($(date -u +%Y-%m-%d))" \
+              --body "$(cat url-report.md)" \
+              --label "maintenance"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

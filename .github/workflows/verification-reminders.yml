@@ -1,0 +1,39 @@
+name: Verification Reminders
+
+on:
+  schedule:
+    - cron: '0 8 1 * *' # First of every month at 8 AM UTC
+  workflow_dispatch:
+
+jobs:
+  check-due:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find overdue verifications
+        run: |
+          today=$(date -u +%Y-%m-%d)
+          echo "# Verifications Due as of $today" > due-report.md
+          echo "" >> due-report.md
+
+          find services/ -name "*.yaml" | sort | while read file; do
+            slug=$(basename "$file" .yaml)
+            due=$(grep "verification_due:" "$file" | sed 's/verification_due: *//' | sed 's/"//g' | tr -d ' ')
+            if [ -n "$due" ] && [ "$due" \< "$today" ]; then
+              name=$(grep "^name:" "$file" | sed 's/name: *//' | sed 's/"//g' | head -1)
+              echo "- **$slug** ($name): due $due" >> due-report.md
+            fi
+          done
+
+          overdue=$(grep -c " due " due-report.md || true)
+          if [ "$overdue" -gt "0" ]; then
+            gh issue create \
+              --title "Verification: $overdue services due for review ($today)" \
+              --body "$(cat due-report.md)" \
+              --label "verification"
+          else
+            echo "No verifications overdue."
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
