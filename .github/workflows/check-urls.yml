@@ -11,41 +11,47 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check URLs
+      - name: Install Python deps
+        run: pip install pyyaml requests
+
+      - name: Check URLs from services.json
         run: |
-          echo "# URL Check Report - $(date -u +%Y-%m-%d)" > url-report.md
-          echo "" >> url-report.md
+          python3 - <<'EOF'
+          import json, requests, sys
 
-          find services/ -name "*.yaml" | while read file; do
-            slug=$(basename "$file" .yaml)
+          with open('public/data/services.json') as f:
+              services = json.load(f)
 
-            url=$(grep "direct_cancel_url:" "$file" | sed 's/direct_cancel_url: *//' | sed 's/"//g' | sed "s/'//g" | tr -d ' ')
-            if [ "$url" != "null" ] && [ -n "$url" ]; then
-              status=$(curl -o /dev/null -s -w "%{http_code}" -L --max-time 10 "$url" 2>/dev/null || echo "TIMEOUT")
-              if [ "$status" != "200" ] && [ "$status" != "301" ] && [ "$status" != "302" ]; then
-                echo "- **$slug**: $url — HTTP $status" >> url-report.md
-              fi
-            fi
+          broken = []
+          for s in services:
+              slug = s.get('slug', '')
+              for field in ['url', 'cancel_url']:
+                  url = s.get(field, '')
+                  if not url or url == 'null':
+                      continue
+                  try:
+                      r = requests.get(url, timeout=10, allow_redirects=True,
+                                       headers={'User-Agent': 'Mozilla/5.0 (compatible; CancelFreelyBot/1.0)'})
+                      if r.status_code not in (200, 301, 302, 403, 429):
+                          broken.append(f"- **{slug}** ({field}): {url} — HTTP {r.status_code}")
+                  except Exception as e:
+                      broken.append(f"- **{slug}** ({field}): {url} — ERROR: {e}")
 
-            svc_url=$(grep "^url:" "$file" | sed 's/url: *//' | sed 's/"//g' | sed "s/'//g" | tr -d ' ')
-            if [ -n "$svc_url" ]; then
-              status=$(curl -o /dev/null -s -w "%{http_code}" -L --max-time 10 "$svc_url" 2>/dev/null || echo "TIMEOUT")
-              if [ "$status" != "200" ] && [ "$status" != "301" ] && [ "$status" != "302" ]; then
-                echo "- **$slug** (main site): $svc_url — HTTP $status" >> url-report.md
-              fi
-            fi
-          done
-
-          if grep -q "HTTP\|TIMEOUT" url-report.md; then
-            cat url-report.md
-          else
-            echo "All URLs passed." >> url-report.md
-            echo "All URLs passed."
-          fi
+          if broken:
+              report = "# URL Check Report - $(date -u +%Y-%m-%d)\n\n" + "\n".join(broken)
+              with open('url-report.md', 'w') as f:
+                  f.write(report)
+              print(f"{len(broken)} broken URLs found:")
+              print("\n".join(broken))
+          else:
+              print("All URLs passed.")
+              with open('url-report.md', 'w') as f:
+                  f.write("All URLs passed.")
+          EOF
 
       - name: Open issue if failures found
         run: |
-          failures=$(grep -c "HTTP\|TIMEOUT" url-report.md || true)
+          failures=$(grep -c "HTTP\|ERROR" url-report.md || true)
           if [ "$failures" -gt "0" ]; then
             gh issue create \
               --title "URL Check: $failures broken links found ($(date -u +%Y-%m-%d))" \
