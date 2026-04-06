@@ -796,13 +796,39 @@
     "url": "https://www.adobe.com/creativecloud.html",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 5,
+    "cancel_steps": [
+      "Go to account.adobe.com and sign in.",
+      "Click 'Plans' then select 'Manage plan' next to your Creative Cloud subscription.",
+      "Click 'Cancel plan' and follow the prompts. CRITICAL: If you are within 14 days of purchase, cancellation is free. After 14 days, Adobe charges an Early Termination Fee of 50% of the remaining contract balance. On a $59.99/month annual plan, this can be hundreds of dollars.",
+      "Navigate through multiple retention screens before reaching the final confirmation. Adobe will offer discounts, pauses, and downgrades before allowing cancellation."
+    ],
+    "cancel_url": "https://account.adobe.com/plans",
+    "known_friction": "Adobe's annual plan (billed monthly) includes a 50% ETF on remaining balance if canceled after 14 days. This fee was hidden behind 'fine print and inconspicuous hyperlinks' at signup \u2014 the subject of a $150 million class action settlement in 2026.; Adobe advertises introductory monthly rates (e.g., $34.99/month) that revert to full price ($69.99/month) after 3 months, with the full terms buried behind a 'view terms' link most users miss.; Adobe uses multiple screens with discount offers, plan pa",
+    "free_alternatives": [
+      {
+        "name": "GIMP",
+        "url": "https://www.gimp.org",
+        "note": "Free open-source image editor (Photoshop alternative)"
+      },
+      {
+        "name": "Inkscape",
+        "url": "https://inkscape.org",
+        "note": "Free open-source vector editor (Illustrator alternative)"
+      },
+      {
+        "name": "DaVinci Resolve",
+        "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+        "note": "Free professional video editor (Premiere alternative)"
+      },
+      {
+        "name": "Canva (free tier)",
+        "url": "https://www.canva.com",
+        "note": "Free design tool for non-professionals"
+      }
+    ],
+    "last_verified": "2026-03-15",
+    "notes": "Adobe settled a $150 million class action lawsuit in early 2026 over its hidden early termination fee practices. The ETF (50% of remaining balance) is still in effect \u2014 it's just now required to be disclosed more clearly at signup. Always cancel within 14 days of starting an annual plan to avoid fees. The FTC sued Adobe in 2024 over these practices."
   },
   {
     "name": "Canva Pro",
@@ -810,13 +836,30 @@
     "url": "https://www.canva.com",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to canva.com and sign in.",
+      "Click your profile icon, then select 'Account settings'.",
+      "Go to 'Billing & Teams' then click 'Change plan'. For Canva Teams/Business accounts, only the owner or admin can cancel.",
+      "Select the free plan or 'Cancel plan' option. Canva may offer a pause option at this screen.",
+      "Confirm cancellation. Access continues through the end of the billing period. Pro assets (photos, elements, fonts) used in designs become restricted after downgrade \u2014 designs won't be deleted but Pro-only elements will show as locked."
+    ],
+    "cancel_url": "https://www.canva.com/settings/billing",
+    "known_friction": "After downgrading from Pro, any designs using Pro-licensed assets (photos, elements, fonts) have those elements locked. Designs remain but become visually incomplete, creating pressure to resubscribe. | Retention tactics: Offers a 1-month pause instead of canceling.; Shows Pro features you'll lose access to.",
+    "free_alternatives": [
+      {
+        "name": "Canva (free tier)",
+        "url": "https://www.canva.com",
+        "note": "Generous free tier with thousands of templates"
+      },
+      {
+        "name": "Adobe Express (free tier)",
+        "url": "https://www.adobe.com/express",
+        "note": "Free design tool with templates"
+      }
+    ],
+    "last_verified": "2025-10-09",
+    "notes": "Canva Pro cancellation is straightforward. The main thing to know: Pro-licensed assets in existing designs become locked after downgrade. If you're downgrading, export finished designs as PDFs/PNGs before your billing period ends."
   },
   {
     "name": "ChatGPT Plus",
@@ -824,13 +867,34 @@
     "url": "https://chat.openai.com",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to chat.openai.com and sign in.",
+      "Click your profile icon in the bottom left, then select 'Settings'.",
+      "Go to 'Account' (not the 'Manage' button under payments \u2014 use the first 'Manage' button in the subscription section). Users report confusion between two 'Manage' buttons \u2014 use the one directly under your subscription details, not the payments section.",
+      "Click 'Cancel plan' and confirm. Access continues through the end of the billing period. Reverts to the free tier (GPT-4o with usage limits)."
+    ],
+    "cancel_url": "https://chat.openai.com/settings",
+    "known_friction": "Multiple 'Manage' buttons in the settings create confusion about which one leads to cancellation. Reddit users report spending significant time finding the correct path. | Retention tactics: None significant reported beyond standard confirmation screen.",
+    "free_alternatives": [
+      {
+        "name": "ChatGPT (free tier)",
+        "url": "https://chat.openai.com",
+        "note": "Free access to GPT-4o with usage limits"
+      },
+      {
+        "name": "Claude (free tier)",
+        "url": "https://claude.ai",
+        "note": "Free access to Claude with usage limits"
+      },
+      {
+        "name": "Gemini (free)",
+        "url": "https://gemini.google.com",
+        "note": "Free Google AI assistant"
+      }
+    ],
+    "last_verified": "2026-01-13",
+    "notes": "ChatGPT Plus cancellation is relatively simple once you find the right button. The free tier of ChatGPT still includes GPT-4o access with usage caps. Deleting your account also cancels the subscription automatically."
   },
   {
     "name": "Claude Pro",
@@ -838,13 +902,29 @@
     "url": "https://claude.ai",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to claude.ai and sign in.",
+      "Click your initials/avatar in the top right corner, then select 'Settings'.",
+      "Go to 'Billing' and click 'Cancel plan'. On iOS: tap your initials > Billing > Cancel subscription.",
+      "Confirm cancellation. Access continues through the end of the billing period. Reverts to the free tier."
+    ],
+    "cancel_url": "https://claude.ai/settings/billing",
+    "known_friction": "Retention tactics: None reported.",
+    "free_alternatives": [
+      {
+        "name": "Claude (free tier)",
+        "url": "https://claude.ai",
+        "note": "Free access to Claude with usage limits"
+      },
+      {
+        "name": "ChatGPT (free tier)",
+        "url": "https://chat.openai.com",
+        "note": "Free GPT-4o with usage limits"
+      }
+    ],
+    "last_verified": "2026-01-20",
+    "notes": "Claude Pro is one of the cleanest AI subscription cancels. No dark patterns, no retention maze. Direct URL to billing settings works."
   },
   {
     "name": "Dropbox",
@@ -852,13 +932,34 @@
     "url": "https://www.dropbox.com",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to dropbox.com and sign in. If you purchased via mobile app store, you must cancel through Apple App Store or Google Play instead.",
+      "Click your avatar in the top right, then select 'Settings'.",
+      "Click the 'Plan' tab, then select 'Cancel plan'.",
+      "Dropbox shows a final retention screen \u2014 click 'Cancel subscription' to confirm. Storage reverts to the free 2GB tier after cancellation. Files above that limit remain in your account but become inaccessible until storage is within the free limit."
+    ],
+    "cancel_url": "https://www.dropbox.com/account/plan",
+    "known_friction": "Users who subscribed via iOS or Android cannot cancel on the Dropbox website \u2014 must cancel through the originating app store. | Retention tactics: Shows a final 'are you sure' screen with storage and feature loss highlights.",
+    "free_alternatives": [
+      {
+        "name": "Google Drive (free 15GB)",
+        "url": "https://drive.google.com",
+        "note": "15GB free storage with Google account"
+      },
+      {
+        "name": "OneDrive (free 5GB)",
+        "url": "https://onedrive.live.com",
+        "note": "5GB free with Microsoft account"
+      },
+      {
+        "name": "iCloud (free 5GB)",
+        "url": "https://www.icloud.com",
+        "note": "5GB free with Apple ID"
+      }
+    ],
+    "last_verified": "2025-11-19",
+    "notes": "Dropbox is one of the more straightforward SaaS cancels. The main gotcha is mobile billing \u2014 if you subscribed through an app store, you must cancel there. After cancellation, Dropbox reverts to 2GB free storage."
   },
   {
     "name": "Evernote",
@@ -866,13 +967,39 @@
     "url": "https://evernote.com",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to evernote.com and sign in.",
+      "Click your profile icon, then go to 'Settings' > 'Billing'.",
+      "Click 'Cancel subscription' and follow the prompts. If subscribed via Apple App Store or Google Play, cancel through those platforms instead.",
+      "Your subscription remains active through the end of the billing period, then reverts to the free tier. The free tier limits you to 1 notebook and 50 notes. Export your notes before downgrading if you have more than that."
+    ],
+    "cancel_url": "https://www.evernote.com/Settings.action#billing",
+    "known_friction": "Retention tactics: May offer a discount to stay.",
+    "free_alternatives": [
+      {
+        "name": "Notion (free tier)",
+        "url": "https://www.notion.so",
+        "note": "Free for personal use with generous limits"
+      },
+      {
+        "name": "Obsidian (free)",
+        "url": "https://obsidian.md",
+        "note": "Free local-first note-taking app"
+      },
+      {
+        "name": "Apple Notes",
+        "url": "",
+        "note": "Free, built into Apple devices"
+      },
+      {
+        "name": "Google Keep",
+        "url": "https://keep.google.com",
+        "note": "Free note-taking with Google account"
+      }
+    ],
+    "last_verified": "2026-02-17",
+    "notes": "Evernote rebranded its plans in early 2026 (Personal/Professional \u2192 Starter/Advanced). The free tier is now very limited (1 notebook, 50 notes). Export your notes in ENEX format before canceling if you have significant content. Evernote has struggled financially in recent years \u2014 worth exporting data regardless."
   },
   {
     "name": "Grammarly",
@@ -880,13 +1007,34 @@
     "url": "https://www.grammarly.com",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to grammarly.com and sign in.",
+      "Click your profile icon, then go to 'Settings' > 'Subscription'.",
+      "Click 'Cancel subscription' at the bottom of the page.",
+      "Click 'Continue' in the confirmation window, then select a cancellation reason and click 'Cancel Subscription' to finalize. Access continues through the end of the billing period. You revert to the free tier after cancellation."
+    ],
+    "cancel_url": "https://account.grammarly.com/subscription",
+    "known_friction": "Retention tactics: May offer a discounted plan before confirming.",
+    "free_alternatives": [
+      {
+        "name": "Grammarly (free tier)",
+        "url": "https://www.grammarly.com",
+        "note": "Free tier includes basic grammar/spelling checks"
+      },
+      {
+        "name": "LanguageTool (free)",
+        "url": "https://languagetool.org",
+        "note": "Free grammar checker with browser extension"
+      },
+      {
+        "name": "Hemingway Editor (free web)",
+        "url": "https://hemingwayapp.com",
+        "note": "Free readability and style checker"
+      }
+    ],
+    "last_verified": "2025-09-15",
+    "notes": "Grammarly is one of the cleaner SaaS cancels \u2014 no dark patterns reported. The free tier is functional for basic use. Grammarly rebranded its premium tier and added AI writing features in 2024-2025."
   },
   {
     "name": "LinkedIn Premium",
@@ -894,13 +1042,24 @@
     "url": "https://www.linkedin.com/premium",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to linkedin.com and sign in. If you subscribed via Apple App Store or iTunes, you must cancel through Apple \u2014 LinkedIn's website will not show a cancel option.",
+      "Click your profile icon, then select 'Premium features' or go directly to linkedin.com/premium/manage.",
+      "Click 'Manage subscription' then select 'Cancel subscription'. The cancel option is intentionally less prominent than the 'Keep my Premium' option.",
+      "Select a reason and navigate through the retention screens to confirm cancellation. Access continues through the end of the billing period. InMail credits and premium insights are lost."
+    ],
+    "cancel_url": "https://www.linkedin.com/premium/manage",
+    "known_friction": "LinkedIn's free trials auto-enroll into paid subscriptions without prominent advance warning before the charge. Users report being charged without realizing their trial ended.; The cancellation flow follows classic dark patterns \u2014 cancel option is less visually prominent than retention options.; Users who subscribed via iTunes cannot cancel on LinkedIn \u2014 must navigate to Apple subscriptions. LinkedIn's website gives no clear indication of this. | Retention tactics: Offers a discounted renewal ra",
+    "free_alternatives": [
+      {
+        "name": "LinkedIn (free)",
+        "url": "https://www.linkedin.com",
+        "note": "Full LinkedIn access without InMail or premium insights"
+      }
+    ],
+    "last_verified": "2026-03-01",
+    "notes": "LinkedIn Premium is notable for its free trial trap \u2014 many users are charged after forgetting to cancel. Cancel before the trial end date to avoid charges. If you subscribed through iTunes/Apple, you must cancel there, not on LinkedIn's website."
   },
   {
     "name": "Microsoft 365",
@@ -908,13 +1067,34 @@
     "url": "https://www.microsoft.com/microsoft-365",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to account.microsoft.com and sign in.",
+      "Click 'Services & subscriptions'.",
+      "Find Microsoft 365 and click 'Manage'.",
+      "Select 'Cancel subscription' and follow the prompts to confirm. Access continues through the end of the current billing period. Files saved in OneDrive remain accessible in read-only mode for a limited period after cancellation."
+    ],
+    "cancel_url": "https://account.microsoft.com/services",
+    "known_friction": "Retention tactics: May offer a discounted renewal rate.; Reminds you of OneDrive storage you'll lose.",
+    "free_alternatives": [
+      {
+        "name": "LibreOffice",
+        "url": "https://www.libreoffice.org",
+        "note": "Free open-source Office suite"
+      },
+      {
+        "name": "Google Workspace (free tier)",
+        "url": "https://workspace.google.com",
+        "note": "Free Docs, Sheets, Slides with Google account"
+      },
+      {
+        "name": "OnlyOffice (free)",
+        "url": "https://www.onlyoffice.com",
+        "note": "Free Office-compatible suite"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Microsoft 365 personal/family cancellation is straightforward. Business subscriptions through the Microsoft 365 admin center follow a different process. After cancellation, OneDrive storage drops to the free 5GB tier \u2014 files above that limit become inaccessible after a grace period."
   },
   {
     "name": "Notion",
@@ -922,13 +1102,29 @@
     "url": "https://www.notion.so",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Open Notion on desktop (web or app) and sign in. Cannot cancel from the mobile app.",
+      "Click 'Settings' in the left sidebar.",
+      "Go to 'Billing' then click 'Change plan'.",
+      "Select the free plan to downgrade/cancel. Notion reverts to the free tier \u2014 all your content is preserved. No data is deleted."
+    ],
+    "cancel_url": "https://www.notion.so/profile/billing",
+    "known_friction": "Retention tactics: None reported. Notion's cancellation flow is considered clean.",
+    "free_alternatives": [
+      {
+        "name": "Notion (free tier)",
+        "url": "https://www.notion.so",
+        "note": "Generous free tier \u2014 unlimited pages and blocks for personal use"
+      },
+      {
+        "name": "Obsidian (free)",
+        "url": "https://obsidian.md",
+        "note": "Free local-first note-taking"
+      }
+    ],
+    "last_verified": "2026-03-15",
+    "notes": "Notion is one of the cleanest cancellation experiences in SaaS. The free tier is genuinely useful for individuals. All content is preserved after downgrade. Cannot cancel from mobile \u2014 desktop only."
   },
   {
     "name": "Slack",
@@ -936,13 +1132,29 @@
     "url": "https://slack.com",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Sign into your Slack workspace on desktop. You must be a Workspace Owner or the person who originally upgraded the workspace.",
+      "Click your workspace name in the top left, then select 'Tools & settings' > 'Workspace settings'.",
+      "Go to the 'Billing' section.",
+      "Select 'Cancel plan' or downgrade to the free tier. On annual plans, unused months may be refunded pro-rata. On monthly plans, access continues through the end of the billing period."
+    ],
+    "cancel_url": "https://slack.com/intl/en-us/help/articles/48764458651795",
+    "known_friction": "Retention tactics: May offer a discounted plan.",
+    "free_alternatives": [
+      {
+        "name": "Slack (free tier)",
+        "url": "https://slack.com",
+        "note": "Free tier with 90-day message history and limited integrations"
+      },
+      {
+        "name": "Discord (free)",
+        "url": "https://discord.com",
+        "note": "Free team communication platform"
+      }
+    ],
+    "last_verified": "2026-03-15",
+    "notes": "Slack's free tier is functional for small teams. The main limitation is 90-day message history \u2014 messages older than 90 days become inaccessible on the free plan. Cancellation requires Workspace Owner access."
   },
   {
     "name": "Zoom",
@@ -950,13 +1162,34 @@
     "url": "https://zoom.us",
     "category": "saas",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to zoom.us and sign in.",
+      "Click your profile icon, then go to 'Account Management' > 'Billing'.",
+      "Under 'Current Plans', click 'Cancel Plan'.",
+      "Select a cancellation reason and confirm. Access continues through the end of the billing period. Reverts to the free tier (40-minute meeting limit)."
+    ],
+    "cancel_url": "https://zoom.us/account/billing",
+    "known_friction": "Retention tactics: May offer a discounted renewal.",
+    "free_alternatives": [
+      {
+        "name": "Zoom (free tier)",
+        "url": "https://zoom.us",
+        "note": "Free tier: unlimited 1:1 calls, 40-minute group meetings"
+      },
+      {
+        "name": "Google Meet (free)",
+        "url": "https://meet.google.com",
+        "note": "Free video calls with Google account"
+      },
+      {
+        "name": "Jitsi Meet (free)",
+        "url": "https://meet.jit.si",
+        "note": "Free open-source video conferencing, no account required"
+      }
+    ],
+    "last_verified": "2026-01-28",
+    "notes": "Zoom's cancellation is straightforward. The free tier is usable for most personal use cases \u2014 the 40-minute group meeting limit is the main constraint."
   },
   {
     "name": "1Password",
