@@ -4412,70 +4412,100 @@
     "slug": "bluegreen-vacations",
     "url": "https://www.bluegreenvacations.com",
     "category": "timeshare",
-    "cancel_method": "phone or mail",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "certified mail or official exit program",
+    "cancel_difficulty": 5,
+    "cancel_steps": [
+      "CRITICAL: Check your contract for the rescission period \u2014 typically 3 to 10 days depending on your state. This is the only penalty-free exit.",
+      "Within the rescission period: Write a cancellation letter with your name, contract number, purchase date, and a clear statement that you are rescinding. All signers must sign.",
+      "Send via USPS Certified Mail with Return Receipt to the address in your contract. Keep the tracking receipt.",
+      "After the rescission period: Contact Bluegreen Customer Care to request written information on their exit options: 1-800-456-2582. Bluegreen offers deed-back and voluntary surrender programs for qualifying owners (account must be current).",
+      "\u26a0\ufe0f Bluegreen has been the target of many predatory third-party exit scams. Never pay upfront fees to any exit company."
+    ],
     "cancel_url": "",
-    "known_friction": "",
+    "known_friction": "Multi-hour high-pressure sales presentations with urgency and misleading investment claims.; Bluegreen uses a points-based system that obscures the actual value of what was purchased. Points have complex expiration and booking rules that make the product harder to understand and exit.; Annual maintenance fees ($800-$2,000+) increase each year with no cap. | Retention tactics: May offer hardship deferment, point conversions, or alternative plans before processing deed-back.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-28",
+    "notes": "Bluegreen Vacations is owned by Hilton Grand Vacations (acquired 2024). The Bluegreen brand continues to operate separately for now. After the rescission window, official exit options include deed-back (if eligible) or a licensed timeshare exit attorney. The resale market for Bluegreen points is extremely limited \u2014 many owners find they cannot sell even for $1."
   },
   {
     "name": "Hilton Grand Vacations",
     "slug": "hilton-grand-vacations",
     "url": "https://www.hiltongrandvacations.com",
     "category": "timeshare",
-    "cancel_method": "phone or mail",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "certified mail or official exit program",
+    "cancel_difficulty": 5,
+    "cancel_steps": [
+      "CRITICAL: Check your purchase contract for the rescission period \u2014 typically 3 to 10 days depending on your state. Act immediately if within this window.",
+      "Within the rescission period: Write a formal rescission letter stating: your full name, contract number, purchase date, and the exact sentence 'I am writing to inform you of my decision to rescind my timeshare contract with Hilton Grand Vacations.' All signers on the contract must sign the letter.",
+      "Send via USPS Certified Mail with Return Receipt to the cancellation address in your contract. Keep all tracking documentation permanently. Postmark must be before the rescission deadline \u2014 not delivery date.",
+      "After the rescission period: Contact Hilton Grand Vacations owner services to ask about their official exit/deed-back program: 1-800-230-7068. Hilton has an official exit program for qualifying owners. Eligibility typically requires the account to be current on all payments.",
+      "\u26a0\ufe0f Do not pay any upfront fees to a third-party exit company. The FTC and state AGs have taken action against many of these."
+    ],
     "cancel_url": "",
-    "known_friction": "",
+    "known_friction": "Multi-hour presentations with urgency tactics and misleading claims about rental income, investment value, or flexibility.; Annual maintenance fees ($1,000-$3,500+) escalate indefinitely. The only way to stop them is to exit the contract through the official program. | Retention tactics: Owner services may offer hardship deferment, club currency conversions, or alternative programs before processing an exit.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-02-13",
+    "notes": "Hilton Grand Vacations (HGV) acquired Diamond Resorts in 2021, significantly expanding their portfolio. If you own through Diamond, the exit process is now managed by HGV. The rescission window is the critical action item \u2014 everything else requires going through HGV's official program or a licensed attorney."
   },
   {
     "name": "Holiday Inn Club Vacations",
     "slug": "holiday-inn-club-vacations",
     "url": "https://www.holidayinnclub.com",
     "category": "timeshare",
-    "cancel_method": "phone or mail",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "certified mail or official exit program",
+    "cancel_difficulty": 5,
+    "cancel_steps": [
+      "CRITICAL: Check your contract for the rescission period \u2014 typically 3 to 10 days depending on your state. Act immediately if within this window.",
+      "Within the rescission period: Write a rescission letter with your contract number, purchase date, and a clear statement that you are exercising your right of rescission. All signers must sign.",
+      "Send via USPS Certified Mail with Return Receipt to the address specified in your contract. Postmark controls the deadline. Keep the tracking receipt and signed return receipt card as permanent proof.",
+      "After the rescission period: Contact Holiday Inn Club Vacations owner services: 1-888-465-4329. Request information on their official voluntary surrender or deed-back program. Eligibility for deed-back typically requires the account to be current on all fees and loan payments.",
+      "\u26a0\ufe0f Avoid upfront-fee exit companies. Holiday Inn Club Vacations (owned by Orange Lake Resorts / IHG Hotels & Resorts) operates legitimate exit programs \u2014 use those first."
+    ],
     "cancel_url": "",
-    "known_friction": "",
+    "known_friction": "Multi-hour sales sessions with urgency tactics, misleading claims about booking flexibility and investment value.; Annual maintenance fees ($700-$2,500+) increase annually and cannot be stopped without formally exiting the contract. | Retention tactics: Owner services may offer hardship programs or fee deferrals before processing a formal exit.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-02-03",
+    "notes": "Holiday Inn Club Vacations is owned by Orange Lake Resorts, which is affiliated with IHG Hotels & Resorts. If you purchased at an Orange Lake resort under the Holiday Inn brand, the exit process goes through Holiday Inn Club Vacations owner services. The rescission window \u2014 written in your contract, state-mandated \u2014 is the critical first step."
   },
   {
     "name": "Marriott Vacations Worldwide",
     "slug": "marriott-vacations",
     "url": "https://www.marriottvacationsworldwide.com",
     "category": "timeshare",
-    "cancel_method": "phone or mail",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "certified mail or official exit program",
+    "cancel_difficulty": 5,
+    "cancel_steps": [
+      "CRITICAL: Check your contract for the rescission period \u2014 typically 3 to 10 days depending on the state where you purchased. This is your only penalty-free exit window.",
+      "Within the rescission period: Write a rescission letter with your name, contract number, purchase date, and a clear statement that you are rescinding the contract. All signers must sign.",
+      "Send via USPS Certified Mail with Return Receipt to the address in your contract. Postmark date controls the deadline. Keep the certified mail receipt and return receipt card. These are your proof of timely cancellation.",
+      "After the rescission period: Contact Marriott Vacations' official exit program. Call Marriott Vacation Club owner services: 1-800-860-9384. Marriott offers a voluntary surrender/deed-back program for qualifying owners. Eligibility requirements apply.",
+      "\u26a0\ufe0f Avoid any third-party company charging upfront fees to exit your Marriott timeshare. Many are scams targeting timeshare owners."
+    ],
     "cancel_url": "",
-    "known_friction": "",
+    "known_friction": "Multi-hour sales sessions with urgency tactics, 'today only' pricing, and misleading claims about investment value or rental income potential.; Annual maintenance fees ($1,500-$4,000+/year) increase annually and cannot be stopped without exiting the contract. Missing payments triggers collections. | Retention tactics: Owner services may offer hardship programs, fee waivers, or point conversions as alternatives to exit.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-03-05",
+    "notes": "Marriott Vacation Club (formerly MVCI) is a real estate contract, not a subscription. The Marriott Exit Program (voluntary surrender) requires the account to be in good standing with no outstanding loans. After the rescission window, your options are: official surrender program, resale (limited market, often near zero value), or licensed timeshare attorney. Marriott Vacations Worldwide also owns Sheraton Vacation Club, Westin Vacation Club, and Vistana Signature Experiences \u2014 exit processes are similar."
   },
   {
     "name": "Wyndham Vacation Ownership",
     "slug": "wyndham-vacation-ownership",
     "url": "https://www.wyndhamdestinations.com",
     "category": "timeshare",
-    "cancel_method": "phone or mail",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_method": "certified mail or phone",
+    "cancel_difficulty": 5,
+    "cancel_steps": [
+      "CRITICAL: Check your contract immediately for the rescission (cancellation) period \u2014 typically 3 to 10 days depending on your state. This is the only penalty-free exit window. The rescission period begins the day you sign, not when you return home. Act immediately if you are within it.",
+      "Within the rescission period: Write a cancellation letter stating your name, contract number, purchase date, and a clear statement that you are exercising your legal right to rescind. All signers must sign the letter.",
+      "Send the letter via USPS Certified Mail with Return Receipt to the address specified in your contract. Keep the tracking receipt and the return receipt card permanently. The postmark date determines whether you beat the rescission deadline \u2014 not the delivery date.",
+      "After the rescission period: Contact Wyndham's official exit program \u2014 Wyndham Cares \u2014 at wyndhamdestinations.com/us/en/wyndham-cares or call 1-855-965-0398. Wyndham Cares is the official deed-back and exit program. This is not an immediate cancellation \u2014 it involves a process and eligibility requirements.",
+      "\u26a0\ufe0f AVOID timeshare exit companies that charge upfront fees. The FTC and state AGs have pursued many of these as scams. Only use Wyndham's official program or a licensed attorney."
+    ],
+    "cancel_url": "https://www.wyndhamdestinations.com/us/en/wyndham-cares",
+    "known_friction": "Timeshare sales presentations use multi-hour pressure sessions, fabricated urgency ('today only' pricing), and misleading investment claims. The rescission period exists specifically because of these practices.; Annual maintenance fees (typically $1,000-$3,000+/year for Wyndham) increase indefinitely and cannot be canceled separately from the ownership \u2014 you must exit the entire contract to stop them.; Wyndham timeshares have minimal resale value. Third-party 'buyers' offering to purchase your t",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-03-01",
+    "notes": "Timeshare contracts are real estate contracts, not subscriptions. Canceling outside the rescission window requires using Wyndham's official exit program (Wyndham Cares), attempting resale (limited market), deed-back (if eligible), or consulting a licensed timeshare exit attorney. Stop paying maintenance fees without a formal exit and Wyndham may pursue collections or foreclosure affecting your credit. Do not pay upfront fees to any third-party exit company."
   },
   {
     "name": "Clear",
