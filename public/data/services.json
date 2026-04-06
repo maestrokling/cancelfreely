@@ -712,13 +712,35 @@
     "url": "https://www.nytimes.com",
     "category": "news",
     "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to nytimes.com and sign in.",
+      "Click your account name, then go to 'Account' > 'Manage Account'.",
+      "Under your subscription, look for 'Cancel Subscription'. The cancel option may not be visible for all subscription types. Some users are routed to a chat or phone flow instead.",
+      "If online cancellation is not available, call 1-800-698-4637 or use the live chat at help.nytimes.com. Phone/chat agents will make retention offers before completing cancellation.",
+      "If subscribed via Apple, Amazon, or Google Play, cancel through those platforms instead."
+    ],
+    "cancel_url": "https://www.nytimes.com/subscription/multiproduct/lp8HYKU.html",
+    "known_friction": "NYT does not offer online cancellation for all subscription types. Many users are routed to phone or chat, where they face retention pressure. This has been widely documented as a deliberate dark pattern.; NYT heavily promotes introductory rates ($1-4/week for first year) that auto-renew at full price ($17-25+/week). Many users cancel after the intro period expires. | Retention tactics: Phone/chat agents offer significant discounts (often 50-75% off) to stay.; Offers a pause on delivery or digit",
+    "free_alternatives": [
+      {
+        "name": "AP News",
+        "url": "https://apnews.com",
+        "note": "Free wire service news"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com",
+        "note": "Free news wire"
+      },
+      {
+        "name": "Public libraries",
+        "url": "",
+        "note": "Many libraries offer free NYT digital access with a library card"
+      }
+    ],
+    "last_verified": "2026-01-16",
+    "notes": "NYT is one of the most documented dark pattern cases in news subscriptions. The phone/chat-only cancellation for many subscribers is intentional. If you reach a retention agent, be firm \u2014 they are authorized to offer steep discounts. The Athletic is now bundled under NYT and cancels through nytimes.com/athletic/settings."
   },
   {
     "name": "The Athletic",
@@ -726,13 +748,28 @@
     "url": "https://theathletic.com",
     "category": "news",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to theathletic.com and sign in. The Athletic is now owned by the New York Times. If you have a combined NYT + Athletic subscription, manage it at nytimes.com/athletic/settings.",
+      "Click your profile icon, then go to 'Settings' > 'Manage Subscription'.",
+      "Select 'Cancel Subscription' and follow the prompts. Access continues through end of billing period."
+    ],
+    "cancel_url": "https://theathletic.com/account/subscription/",
+    "known_friction": "The Athletic frequently offers discounted annual plans (e.g., $35-40/year) that auto-renew at the full price ($72+/year) without prominent advance notice. Users report being surprised by the full-price renewal charge. | Retention tactics: May offer a reduced renewal rate.",
+    "free_alternatives": [
+      {
+        "name": "ESPN (free tier)",
+        "url": "https://www.espn.com",
+        "note": "Free sports news and scores"
+      },
+      {
+        "name": "Bleacher Report (free)",
+        "url": "https://bleacherreport.com",
+        "note": "Free sports coverage"
+      }
+    ],
+    "last_verified": "2026-02-18",
+    "notes": "The Athletic is generally straightforward to cancel. The main gotcha is the introductory-to-full-price renewal \u2014 check your renewal date and amount before it hits. NYT subscribers may have The Athletic bundled into their plan."
   },
   {
     "name": "The Economist",
@@ -740,13 +777,29 @@
     "url": "https://www.economist.com",
     "category": "news",
     "cancel_method": "phone or email",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Go to economist.com and sign in, then go to your account/subscription settings. Online self-service cancellation is not available for most subscribers.",
+      "Use live chat (when available) at economist.com/help, or email customerservices@economist.com.",
+      "Alternatively, call The Economist customer service (number varies by region \u2014 find it on their help page). US: 1-800-456-6086",
+      "State you want to cancel. Agents will attempt retention offers including extended free trials."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "The Economist does not offer a straightforward online self-service cancel button for most subscribers. Users must contact support via chat, email, or phone. Trustpilot reviewers describe taking up to 30 minutes to cancel a free trial via chat.; During cancellation, multiple screens communicate the 'value' of the subscription. The continue-to-cancel button becomes progressively less prominent as you advance. | Retention tactics: Offers an extended free trial (1-2 months) to delay cancellation.; O",
+    "free_alternatives": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com",
+        "note": "Free global news"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news",
+        "note": "Free global news coverage"
+      }
+    ],
+    "last_verified": "2026-02-15",
+    "notes": "The Economist's cancellation friction is well-documented. Chat is generally faster than phone or email. Be persistent \u2014 agents are trained to offer trials and discounts before processing cancellation. Email cancellation may take several business days to confirm."
   },
   {
     "name": "The New Yorker",
@@ -754,13 +807,29 @@
     "url": "https://www.newyorker.com",
     "category": "news",
     "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Try online first: go to condenaststore.com/new-yorker or the Cond\u00e9 Nast customer service portal and sign in. The New Yorker is published by Cond\u00e9 Nast. Cancellation often routes through Cond\u00e9 Nast's subscriber services, not The New Yorker's own website.",
+      "If online cancellation is unavailable or you get stuck in a loop, call: 1-800-825-2510. Multiple users report that the New Yorker website loops back without offering a cancel option as of October 2025.",
+      "If you subscribed through a reseller or third party, you may get a 'token has expired' error on the website \u2014 call instead.",
+      "Confirm cancellation and keep any email confirmation. If on an annual plan, you may receive a pro-rata refund for unused months."
+    ],
+    "cancel_url": "https://www.newyorker.com/account/manage-subscription",
+    "known_friction": "As of October 2025, users report that attempting to cancel on the New Yorker website results in a loop \u2014 the online documentation says you can cancel online, but the actual flow never presents a cancel option.; Subscribers who purchased through resellers or bundled offers receive 'token has expired' errors when attempting online cancellation, forcing them to call. | Retention tactics: Phone agents may offer discounted renewal rates.; May offer a pause on delivery.",
+    "free_alternatives": [
+      {
+        "name": "New Yorker (limited free)",
+        "url": "https://www.newyorker.com",
+        "note": "Limited free articles per month without subscription"
+      },
+      {
+        "name": "The Atlantic (limited free)",
+        "url": "https://www.theatlantic.com",
+        "note": "Limited free articles"
+      }
+    ],
+    "last_verified": "2025-10-01",
+    "notes": "The New Yorker's cancellation is handled through Cond\u00e9 Nast's subscriber services infrastructure, which is notoriously difficult. The website may claim online cancellation is available, but many users end up in a loop. Phone is the most reliable path. Keep your confirmation email."
   },
   {
     "name": "Wall Street Journal",
@@ -768,13 +837,34 @@
     "url": "https://www.wsj.com",
     "category": "news",
     "cancel_method": "phone or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call WSJ customer service: 1-800-JOURNAL (1-800-568-7625). Online self-service cancellation is not available for most subscribers. WSJ requires phone or chat for cancellation \u2014 this has been widely reported as an intentional dark pattern.",
+      "Alternatively, use the live chat at wsj.com \u2014 go to Help > Contact Us > Chat. Chat availability varies; phone is more reliable.",
+      "State clearly that you want to cancel. Agents will make multiple retention offers. Be direct: 'I want to cancel my subscription completely, effective immediately.'",
+      "In a small number of US states (CA, VT, and others with strong consumer protection laws), online cancellation may be available. Check your account settings first \u2014 if a cancel option is visible, use it."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "WSJ requires phone or chat to cancel for most subscribers despite having a fully online signup process. This is one of the most documented dark patterns in news subscriptions, flagged repeatedly on Reddit r/assholedesign.; Online cancellation is only available in certain states with consumer protection laws that mandate it (e.g., California). Users in other states are forced to call. | Retention tactics: Phone agents offer significant discounts (often 50%+ off) to retain subscribers.; Offers a t",
+    "free_alternatives": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com",
+        "note": "Free financial and business news"
+      },
+      {
+        "name": "Bloomberg (limited free)",
+        "url": "https://www.bloomberg.com",
+        "note": "Limited free articles per month"
+      },
+      {
+        "name": "Public libraries",
+        "url": "",
+        "note": "Some libraries offer WSJ digital access"
+      }
+    ],
+    "last_verified": "2025-09-13",
+    "notes": "WSJ's phone-only cancellation policy is one of the most infamous in the news industry. If you call, be prepared for persistent retention offers. Agents are authorized to offer steep discounts \u2014 if you genuinely want to cancel, state it clearly multiple times. California subscribers and a few other states can cancel online."
   },
   {
     "name": "Washington Post",
@@ -782,13 +872,29 @@
     "url": "https://www.washingtonpost.com",
     "category": "news",
     "cancel_method": "online or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to washingtonpost.com and sign in.",
+      "Click your profile icon, then go to 'Account' > 'Manage subscription'.",
+      "Look for 'Cancel subscription' \u2014 if not visible, use the live chat at help.washingtonpost.com. Some subscription types require chat to cancel.",
+      "Chat agents will make retention offers. State clearly you want to cancel and do not want a discounted rate."
+    ],
+    "cancel_url": "https://account.washingtonpost.com/subscription-management/",
+    "known_friction": "Online self-service cancellation is not available for all subscribers. Many are routed to live chat, where retention agents make offers before processing cancellation.; WaPo heavily promotes introductory rates ($1-4/month for 4-12 weeks) that auto-renew at $12-17/month. Subscriber churn has been significant following Bezos editorial changes. | Retention tactics: Chat agents offer discounted rates (often $1-4/month) to stay.; Offers a temporary pause instead of canceling.",
+    "free_alternatives": [
+      {
+        "name": "AP News",
+        "url": "https://apnews.com",
+        "note": "Free wire service"
+      },
+      {
+        "name": "Public libraries",
+        "url": "",
+        "note": "Many libraries offer free WaPo digital access"
+      }
+    ],
+    "last_verified": "2026-04-02",
+    "notes": "WaPo experienced multiple waves of mass subscriber cancellations in 2025 following editorial changes by owner Jeff Bezos. Cancellation friction is typical for major newspaper subscriptions. Library access is widely available."
   },
   {
     "name": "Adobe Creative Cloud",
