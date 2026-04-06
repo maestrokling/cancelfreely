@@ -74,42 +74,81 @@
     "slug": "bumble",
     "url": "https://bumble.com",
     "category": "dating",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "app store or web",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "\u26a0\ufe0f Deleting the Bumble app does NOT cancel your subscription.",
+      "iOS: Open Settings > [your name] > Subscriptions > Bumble > Cancel Subscription.",
+      "Android: Open Google Play > Profile > Payments & Subscriptions > Subscriptions > Bumble > Cancel.",
+      "Web: Go to bumble.com > Profile photo > Manage your Boost or Manage your Premium > Cancel. Web cancellation is available for direct/web subscriptions."
+    ],
+    "cancel_url": "https://support.bumble.com/hc/en-us/articles/28534541366045",
+    "known_friction": "Like most dating apps, deleting Bumble does not cancel the subscription. Must cancel through the originating platform. | Retention tactics: None significant beyond standard confirmation.",
+    "free_alternatives": [
+      {
+        "name": "Bumble (free tier)",
+        "url": "https://bumble.com",
+        "note": "Free tier with limited swipes and features"
+      }
+    ],
+    "last_verified": "2026-01-23",
+    "notes": "Bumble's cancellation is cleaner than most dating apps \u2014 web cancellation works for web subscribers. Covers Bumble Boost, Premium, and Premium+ tiers. Cancel method depends entirely on where you originally subscribed."
   },
   {
     "name": "eHarmony",
     "slug": "eharmony",
     "url": "https://www.eharmony.com",
     "category": "dating",
-    "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Go to eharmony.com and sign in.",
+      "Click your profile icon > Account Settings > Billing.",
+      "Find 'Cancel Subscription' or 'Turn Off Automatic Renewal'. eHarmony frames cancellation as 'turning off auto-renewal' rather than canceling. Your subscription continues until the current term ends.",
+      "You will be required to enter your password and navigate multiple confirmation screens before cancellation is processed. Multiple screens with retention messaging before the final confirmation.",
+      "If subscribed via Apple or Google, cancel through those platforms."
+    ],
+    "cancel_url": "https://support.eharmony.com/app/answers/detail/a_id/222",
+    "known_friction": "eHarmony presents cancellation as 'turning off automatic renewal' rather than 'canceling your subscription' \u2014 obscuring the action and creating uncertainty about whether the account has been truly canceled.; eHarmony's cancellation flow includes password re-entry and multiple confirmation screens with retention messaging before reaching final cancel.; eHarmony charges $35.90-$65.90/month and auto-renews at full price after introductory offers expire. Many users report surprise charges. | Retenti",
+    "free_alternatives": [
+      {
+        "name": "OkCupid (free tier)",
+        "url": "https://www.okcupid.com",
+        "note": "Generous free tier with messaging"
+      },
+      {
+        "name": "Hinge (free tier)",
+        "url": "https://hinge.co",
+        "note": "Free tier with daily likes"
+      }
+    ],
+    "last_verified": "2026-01-12",
+    "notes": "eHarmony is one of the more friction-heavy dating app cancels. The 'turn off auto-renewal' framing is intentionally ambiguous \u2014 confirm you've received a cancellation confirmation email. Prices are high ($35.90-$65.90/mo) making the auto-renewal trap particularly costly."
   },
   {
     "name": "Hinge",
     "slug": "hinge",
     "url": "https://hinge.co",
     "category": "dating",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "\u26a0\ufe0f Deleting your Hinge account or the app does NOT cancel your subscription. You must cancel through the platform where you subscribed.",
+      "iOS: Open Settings > [your name] > Subscriptions > Hinge > Cancel Subscription.",
+      "Android: Open Google Play > Profile > Payments & Subscriptions > Subscriptions > Hinge > Cancel.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://help.hinge.co/hc/en-us/articles/36311108859411",
+    "known_friction": "Deleting the Hinge account or app does not cancel the paid subscription. Users must cancel through Apple or Google separately \u2014 a common trap. | Retention tactics: None \u2014 Apple/Google handle the flow.",
+    "free_alternatives": [
+      {
+        "name": "Hinge (free tier)",
+        "url": "https://hinge.co",
+        "note": "Free tier with 8 daily likes \u2014 functional for most users"
+      }
+    ],
+    "last_verified": "2026-02-04",
+    "notes": "Hinge (owned by Match Group) is generally considered one of the better-designed dating apps. The free tier is genuinely usable. The subscription (Hinge+ or HingeX) cancels through Apple/Google. No refund for unused time."
   },
   {
     "name": "Match.com",
@@ -117,27 +156,64 @@
     "url": "https://www.match.com",
     "category": "dating",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to match.com and sign in. If subscribed via Apple or Google, cancel through those platforms instead.",
+      "Click your profile photo > Settings > Subscription.",
+      "Find 'Cancel Subscription' or 'Manage Subscription' and follow the prompts. Match requires navigating through several menus \u2014 the cancel option is not prominently displayed.",
+      "\u26a0\ufe0f Canceling stops auto-renewal but your subscription remains active until the end of the paid term. Match does not issue refunds for unused time."
+    ],
+    "cancel_url": "https://www.match.com/cp/RegistrationSettings.aspx",
+    "known_friction": "Match.com does not refund unused subscription time after cancellation. Canceling stops future charges but does not recover the current period.; Match's cancel flow turns off auto-renewal but doesn't make clear that the subscription itself continues until the paid period ends. Users sometimes believe they've gotten a refund when they haven't. | Retention tactics: May offer a discounted renewal.",
+    "free_alternatives": [
+      {
+        "name": "Hinge (free tier)",
+        "url": "https://hinge.co",
+        "note": "Free tier with daily likes"
+      },
+      {
+        "name": "OkCupid (free tier)",
+        "url": "https://www.okcupid.com",
+        "note": "Generous free tier"
+      }
+    ],
+    "last_verified": "2026-02-17",
+    "notes": "Match is owned by Match Group (same company as Tinder, Hinge, OkCupid). No refund for unused time is the main gotcha \u2014 time cancellation carefully to near the end of your billing period."
   },
   {
     "name": "Tinder",
     "slug": "tinder",
     "url": "https://tinder.com",
     "category": "dating",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "app store",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "\u26a0\ufe0f CRITICAL: Deleting the Tinder app does NOT cancel your subscription. You will keep being charged.",
+      "iOS: Open Settings > [your name] > Subscriptions > Tinder > Cancel Subscription.",
+      "Android: Open Google Play > Profile > Payments & Subscriptions > Subscriptions > Tinder > Cancel.",
+      "Web (if subscribed via tinder.com): Go to tinder.com > Profile > Settings > Manage Payment Account > Cancel Subscription."
+    ],
+    "cancel_url": "https://www.help.tinder.com/hc/en-us/articles/115003554466",
+    "known_friction": "Deleting the Tinder app does not cancel the subscription \u2014 charges continue. This trips up a large number of users who assume deletion = cancellation.; You must cancel through the same platform where you subscribed (Apple, Google, or web). If you subscribed via iOS and try to cancel in the app, there is no cancel button \u2014 you must go to Apple Settings. | Retention tactics: None at the app store level \u2014 Apple/Google handle the flow.",
+    "free_alternatives": [
+      {
+        "name": "Tinder (free tier)",
+        "url": "https://tinder.com",
+        "note": "Free with limited likes and features"
+      },
+      {
+        "name": "Hinge (free tier)",
+        "url": "https://hinge.co",
+        "note": "Free tier with daily likes"
+      },
+      {
+        "name": "Bumble (free tier)",
+        "url": "https://bumble.com",
+        "note": "Free tier available"
+      }
+    ],
+    "last_verified": "2026-02-01",
+    "notes": "The app deletion trap is Tinder's most common gotcha. Always cancel through Apple/Google settings, not by deleting the app. Tinder offers Plus, Gold, and Platinum tiers \u2014 all cancel through the same platform-specific flow."
   },
   {
     "name": "Credit Karma (premium)",
@@ -572,41 +648,74 @@
     "url": "https://www.allstate.com",
     "category": "insurance",
     "cancel_method": "phone or agent",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "IMPORTANT: Have your new policy active before canceling. Never have a coverage gap.",
+      "Call Allstate: 1-800-255-7828, or contact your local Allstate agent. Allstate does not allow online or app cancellation. Phone or agent only.",
+      "Provide your policy number and cancellation date. Cancellation is typically immediate upon request \u2014 no delay.",
+      "Unused premium is refunded. Some states allow a short-rate cancellation fee for mid-term cancellation."
+    ],
+    "cancel_url": "https://www.allstate.com/support/how-to-cancel-policy.aspx",
+    "known_friction": "Allstate requires phone or agent contact to cancel despite offering online policy management for other tasks. | Retention tactics: Agent will offer a rate review or loyalty discount.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-03-06",
+    "notes": "Allstate is straightforward once you reach an agent or call center. Cancellation is processed immediately on request. Phone-only policy is the main friction point \u2014 no online self-service despite full online account management for other tasks."
   },
   {
-    "name": "Geico",
+    "name": "GEICO",
     "slug": "geico",
     "url": "https://www.geico.com",
     "category": "insurance",
     "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "IMPORTANT: Get your new insurance policy in place BEFORE canceling GEICO. Never cancel without active replacement coverage \u2014 driving uninsured is illegal and creates a coverage gap that raises future premiums.",
+      "Call GEICO: 1-800-841-1587. GEICO does not allow online or app cancellation. Phone is the only method.",
+      "Tell the representative you want to cancel your policy. Provide your policy number, the cancellation date (typically your new policy's start date), and the reason.",
+      "GEICO will prorate your refund for any unused premium \u2014 typically mailed as a check or credited to your payment method within 10-14 business days. Keep your cancellation confirmation number."
+    ],
+    "cancel_url": "https://www.geico.com/information/faq/cancel-insurance/",
+    "known_friction": "GEICO requires phone cancellation despite offering online quotes and billing. No self-service cancel option exists in the app or website. | Retention tactics: May offer a lower rate or discount to stay.; Agent will ask for your reason for switching.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-03-01",
+    "notes": "GEICO is among the most affordable large auto insurers. Always compare rates before canceling \u2014 switching to a competitor at the same coverage level could cost more. Prorated refund is standard. Some states require GEICO to notify the DMV of policy cancellation; your new insurer will handle this automatically."
+  },
+  {
+    "name": "Lemonade",
+    "slug": "lemonade",
+    "url": "https://www.lemonade.com",
+    "category": "insurance",
+    "cancel_method": "online or app",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Open the Lemonade app or go to lemonade.com and sign in.",
+      "Go to your policy, then tap/click 'Cancel Policy'. Available directly in the app with no friction. One of the cleanest insurance cancellation experiences available.",
+      "Select your cancellation date and confirm. Lemonade prorates and refunds unused premium automatically."
+    ],
+    "cancel_url": "https://app.lemonade.com",
+    "known_friction": "Retention tactics: None reported.",
+    "free_alternatives": [],
+    "last_verified": "2026-02-16",
+    "notes": "Lemonade is a standout for frictionless cancellation \u2014 app-based, no phone required, prorated refund processed automatically. Covers renters, homeowners, pet, car, and term life insurance. Built on AI-first claims processing. As an instech startup, Lemonade positions transparency as a brand differentiator."
   },
   {
     "name": "Progressive",
     "slug": "progressive",
     "url": "https://www.progressive.com",
     "category": "insurance",
-    "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_method": "phone or online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "IMPORTANT: Have your new policy active before canceling. Never have a gap in coverage.",
+      "Online: Log in at progressive.com, go to 'My Policy', then look for 'Cancel Policy'. Online cancellation availability varies by state and policy type. If not available online, call.",
+      "By phone: Call 1-888-671-4405.",
+      "Specify your cancellation effective date (usually your new policy's start date). Progressive will refund unused premium. Short-rate cancellation fees may apply in some states if you cancel mid-term \u2014 check your policy."
+    ],
+    "cancel_url": "https://www.progressive.com/contact/cancellation-faq/",
+    "known_friction": "Retention tactics: May offer a rate review or discount to stay.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-02-10",
+    "notes": "Progressive offers online cancellation in most states \u2014 one of the more consumer-friendly insurers for this. Unused premium is refunded. Some states allow Progressive to charge a short-rate cancellation fee (a small penalty for mid-term cancellation). Florida note: Progressive owed significant premium refunds to Florida drivers in 2025-2026 under state profit-sharing regulations."
   },
   {
     "name": "State Farm",
@@ -614,13 +723,18 @@
     "url": "https://www.statefarm.com",
     "category": "insurance",
     "cancel_method": "phone or agent",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "IMPORTANT: Have your new policy active before canceling. Never have a coverage gap.",
+      "Contact your local State Farm agent directly \u2014 find them at statefarm.com or call 1-800-STATEFARM (1-800-782-8332). State Farm uses an agent-based model. Your agent is the primary contact for policy changes including cancellation.",
+      "Provide your policy number and requested cancellation date. State Farm may ask for a written cancellation request in some cases.",
+      "Unused premium is refunded pro-rata."
+    ],
+    "cancel_url": "https://www.statefarm.com/customer-care/manage-your-accounts/cancel-my-policy",
+    "known_friction": "Retention tactics: Your agent will note this as a retention opportunity \u2014 expect a rate review offer.; State Farm's website explicitly says agents 'will work with you to ensure you have the right coverage.'",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2025-10-06",
+    "notes": "State Farm is agent-based, which makes cancellation less friction-free than online-only insurers but generally straightforward. The agent relationship can work in your favor \u2014 they're often authorized to offer better rates to retain customers. Prorated refund is standard. State Farm is the largest US auto insurer by market share."
   },
   {
     "name": "USAA",
@@ -1387,13 +1501,29 @@
     "url": "https://www.amazon.com/prime",
     "category": "shopping",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Go to amazon.com and sign in.",
+      "Go to Account & Lists > Prime > Manage Membership, or go directly to amazon.com/mc.",
+      "Click 'Update, cancel and more' then select 'End Membership'. Amazon will present multiple intermediate screens before reaching the final confirmation.",
+      "Navigate through the retention screens \u2014 Amazon will offer a discounted rate, a pause, and remind you of benefits before showing the final cancel button. The final confirmation button is 'End My Benefits' \u2014 not labeled 'Cancel' which is a documented dark pattern."
+    ],
+    "cancel_url": "https://www.amazon.com/mc",
+    "known_friction": "Amazon's Prime cancellation was the subject of an FTC lawsuit and $2.5B settlement in 2025. The cancellation flow was designed to maximize clicks and confusion, with the final cancel button labeled 'End My Benefits' rather than 'Cancel'. The FTC called this the 'Iliad Flow' internally at Amazon.; Amazon's Prime free trial auto-enrolled users into paid memberships. The $2.5B settlement required Amazon to change enrollment and cancellation flows.; Cancel button is labeled 'End My Benefits' not 'Ca",
+    "free_alternatives": [
+      {
+        "name": "Walmart+ (for delivery)",
+        "url": "https://www.walmart.com/plus",
+        "note": "Competing delivery membership"
+      },
+      {
+        "name": "Amazon without Prime",
+        "url": "https://www.amazon.com",
+        "note": "Free shipping available on orders $35+ without Prime"
+      }
+    ],
+    "last_verified": "2026-02-20",
+    "notes": "Amazon paid $2.5B to settle FTC dark patterns charges in 2025. The cancellation flow was improved post-settlement but still has more steps than necessary. The settlement required Amazon to make cancellation 'as easy as sign-up.' Amazon Prime Video subscriptions cancel separately from Prime membership if subscribed independently."
   },
   {
     "name": "BarkBox",
@@ -1428,14 +1558,25 @@
     "slug": "doordash-dashpass",
     "url": "https://www.doordash.com/dashpass",
     "category": "shopping",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Open the DoorDash app or go to doordash.com and sign in.",
+      "Tap your profile icon > DashPass > Manage DashPass.",
+      "Select 'Cancel DashPass' and confirm. If subscribed via Apple App Store or Google Play, cancel through those platforms instead.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.doordash.com/consumer/manage_dashpass/",
+    "known_friction": "Users who subscribed via iOS or Android must cancel through Apple/Google, not the DoorDash app or website. | Retention tactics: May offer a discounted rate or free month.",
+    "free_alternatives": [
+      {
+        "name": "DoorDash (no subscription)",
+        "url": "https://www.doordash.com",
+        "note": "Order without DashPass \u2014 delivery fees apply per order"
+      }
+    ],
+    "last_verified": "2026-02-20",
+    "notes": "DashPass is a low-friction cancel. Watch for the mobile billing redirect if you subscribed through an app store. DashPass is also bundled with some Chase credit cards \u2014 if you have a Chase Sapphire or similar, you may have DashPass included."
   },
   {
     "name": "HelloFresh",
@@ -1454,16 +1595,26 @@
   {
     "name": "Instacart+",
     "slug": "instacart-plus",
-    "url": "https://www.instacart.com",
+    "url": "https://www.instacart.com/plus",
     "category": "shopping",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to instacart.com or open the Instacart app and sign in.",
+      "Go to Account > Instacart+ Membership > Manage your membership.",
+      "Select 'Cancel Membership' and follow the prompts to confirm. Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.instacart.com/store/account/instacart_plus",
+    "known_friction": "Retention tactics: May offer a discounted renewal.",
+    "free_alternatives": [
+      {
+        "name": "Instacart (no subscription)",
+        "url": "https://www.instacart.com",
+        "note": "Order without Instacart+ \u2014 delivery fees and service fees apply"
+      }
+    ],
+    "last_verified": "2026-01-29",
+    "notes": "Instacart+ cancellation is straightforward \u2014 website and app both work. No phone required. Instacart+ also bundles a Peacock subscription; that cancels separately through Peacock."
   },
   {
     "name": "Uber One",
@@ -1485,13 +1636,24 @@
     "url": "https://www.walmart.com/plus",
     "category": "shopping",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to walmart.com and sign in.",
+      "Go to Account > Walmart+ > Manage Membership.",
+      "Select 'Cancel Membership' and follow the prompts. Access continues through end of billing period.",
+      "Alternatively, call 1-800-924-9206."
+    ],
+    "cancel_url": "https://www.walmart.com/account/plus",
+    "known_friction": "Retention tactics: May offer a discounted rate to stay.",
+    "free_alternatives": [
+      {
+        "name": "Walmart (free shipping on $35+)",
+        "url": "https://www.walmart.com",
+        "note": "Free shipping on orders $35+ without membership"
+      }
+    ],
+    "last_verified": "2026-01-28",
+    "notes": "Walmart+ is a straightforward cancel. The main value prop is free same-day delivery and Paramount+ streaming bundle. Online cancellation works cleanly."
   },
   {
     "name": "Amazon Prime Video",
