@@ -11,22 +11,45 @@
   <meta property="og:url" content="https://cancelfreely.com/cancel/cox/">
   <meta property="og:type" content="article">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="How to Cancel Cox Communications — CancelFreely">
-  <meta name="twitter:description" content="How to cancel Cox Communications — step-by-step instructions, dark patterns to watch for, and free alternatives. Friction score: Difficult.">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "How to Cancel Cox Communications", "description": "Step-by-step instructions to cancel your Cox Communications subscription. Difficulty: Difficult.", "step": [{"@type": "HowToStep", "text": "Call Cox: 1-800-234-3993. Cox does not offer online self-service cancellation. Phone or in-person required."}, {"@type": "HowToStep", "text": "Alternatively, visit a Cox store in person."}, {"@type": "HowToStep", "text": "State clearly you want to cancel. Retention agents will make discount offers. Cox has a 30-day satisfaction guarantee — cancel within 30 days for a full refund with no fees."}, {"@type": "HowToStep", "text": "Return all rented equipment (modem, router, cable boxes) to a Cox store or UPS. Get a receipt. Unreturned equipment results in charges of $150-300+ per device."}]}</script>
   <link rel="stylesheet" href="../../style.css">
   <style>
-    .service-header { max-width: 700px; margin: 2rem auto 0; padding: 0 1rem; }
-    .service-body   { max-width: 700px; margin: 1.5rem auto 3rem; padding: 0 1rem; }
-    .service-body h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 0 0.5rem; color: #111; }
-    .service-body ol,
-    .service-body ul { padding-left: 1.4rem; color: #333; font-size: 0.9rem; line-height: 1.6; }
-    .service-body li { margin-bottom: 0.4rem; }
-    .dark-list li   { color: #991b1b; }
-    .meta-row       { font-size: 0.8rem; color: #888; margin-top: 0.5rem; }
-    .back-link      { display:inline-block; margin: 1.5rem 1rem 0; font-size:0.85rem; color:#16a34a; text-decoration:none; }
+    .svc-header  { max-width:740px; margin:2rem auto 0; padding:0 1rem; }
+    .svc-body    { max-width:740px; margin:1.5rem auto 4rem; padding:0 1rem; }
+    .svc-meta    { font-size:0.8rem; color:#888; margin:0.4rem 0 1.25rem; }
+    .svc-meta a  { color:#16a34a; }
+    .cancel-btn-lg { display:block; background:#16a34a; color:#fff; text-align:center; padding:0.85rem 1rem; border-radius:8px; font-size:1rem; font-weight:600; text-decoration:none; margin:1.25rem 0; }
+    .cancel-btn-lg:hover { background:#15803d; }
+    .svc-body h2 { font-size:0.95rem; font-weight:700; margin:2rem 0 0.6rem; color:#111; text-transform:uppercase; letter-spacing:0.04em; }
+    .steps       { padding-left:1.4rem; color:#333; font-size:0.9rem; line-height:1.7; }
+    .steps li    { margin-bottom:0.6rem; }
+    .watch-out   { background:#fef2f2; border:1px solid #fecaca; border-radius:10px; padding:1rem 1.25rem; margin:1.5rem 0; }
+    .watch-out h2 { color:#991b1b; margin-top:0; }
+    .dark-item   { margin-bottom:1rem; }
+    .dark-item strong { color:#991b1b; display:block; margin-bottom:0.2rem; }
+    .dark-item p { font-size:0.875rem; color:#7f1d1d; margin:0 0 0.25rem; }
+    .pattern-link { font-size:0.78rem; color:#b91c1c; }
+    .retention   { background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:1rem 1.25rem; margin:1.5rem 0; }
+    .retention h2 { color:#92400e; margin-top:0; }
+    .retention ul { padding-left:1.2rem; font-size:0.875rem; color:#78350f; }
+    .retention li { margin-bottom:0.3rem; }
+    .retention-tip { font-size:0.85rem; color:#78350f; margin-top:0.75rem; margin-bottom:0; background:rgba(0,0,0,0.04); padding:0.6rem 0.75rem; border-radius:6px; }
+    .alts        { margin-top:1.5rem; }
+    .alts ul     { padding-left:1.2rem; font-size:0.875rem; color:#333; }
+    .alts li     { margin-bottom:0.3rem; }
+    .notes-box   { background:#f9f9f9; border:1px solid #e5e5e5; border-radius:8px; padding:1rem; font-size:0.85rem; color:#555; margin-top:1.5rem; }
+    .related     { border-top:1px solid #e5e5e5; margin-top:2.5rem; padding-top:1.25rem; }
+    .related h2  { font-size:0.85rem; color:#888; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:0.5rem; }
+    .related ul  { padding-left:1.2rem; font-size:0.875rem; }
+    .related li  { margin-bottom:0.3rem; }
+    .related a   { color:#16a34a; }
+    .report-row  { margin-top:1.5rem; font-size:0.8rem; color:#aaa; }
+    .report-row a { color:#aaa; }
+    .back-link   { display:inline-block; margin:1.5rem 1rem 0; font-size:0.85rem; color:#16a34a; text-decoration:none; }
     .back-link:hover { text-decoration:underline; }
-    .notes-box      { background:#f9f9f9; border:1px solid #e5e5e5; border-radius:8px; padding:1rem; font-size:0.85rem; color:#555; margin-top:1rem; }
+    @media(max-width:600px) {
+      .cancel-btn-lg { position:sticky; bottom:1rem; z-index:10; box-shadow:0 2px 8px rgba(0,0,0,0.15); }
+    }
   </style>
 </head>
 <body>
@@ -34,24 +57,38 @@
     <h1><a href="/" style="color:inherit;text-decoration:none;">CancelFreely</a></h1>
     <p class="tagline">Cancel any subscription. Free instructions. No tracking. No upsells.</p>
   </header>
-  <a class="back-link" href="/">← All services</a>
-  <div class="service-header">
-    <h1 style="font-size:1.6rem;margin-bottom:0.25rem;">How to Cancel Cox Communications</h1>
-    <span class="difficulty d4">Difficult (CFS 4/5)</span>
-    <div class="meta-row">Method: phone or in-store · Last verified: 2025-11-29 · <a href="https://www.cox.com" target="_blank" rel="noopener">Official site</a></div>
+  <a class="back-link" href="/cancel/">← All services</a>
+  <div class="svc-header">
+    <h1 style="font-size:1.5rem;margin-bottom:0.3rem;">How to Cancel Cox Communications</h1>
+    <span class="difficulty d4" style="font-size:0.85rem;">Difficult — CFS 4/5</span>
+    <div class="svc-meta">Method: phone or in-store · Last verified: 2025-11-29 · <a href="https://www.cox.com" target="_blank" rel="noopener">Official site</a></div>
   </div>
-  <div class="service-body">
+  <div class="svc-body">
+    <a class="cancel-btn-lg" href="https://www.cox.com/residential/support/billing-and-account/cancel-cox-service.html" target="_blank" rel="noopener">Go to cancel page →</a>
     <h2>Cancellation Steps</h2>
     <ol class="steps"><li>Call Cox: 1-800-234-3993. Cox does not offer online self-service cancellation. Phone or in-person required.</li><li>Alternatively, visit a Cox store in person.</li><li>State clearly you want to cancel. Retention agents will make discount offers. Cox has a 30-day satisfaction guarantee — cancel within 30 days for a full refund with no fees.</li><li>Return all rented equipment (modem, router, cable boxes) to a Cox store or UPS. Get a receipt. Unreturned equipment results in charges of $150-300+ per device.</li></ol>
-    <a class="cancel-btn" href="https://www.cox.com/residential/support/billing-and-account/cancel-cox-service.html" target="_blank" rel="noopener">Go to cancel page →</a>
-    <h2>Dark Patterns</h2><ul class="dark-list"><li><strong>no online cancellation:</strong> Cox does not offer online self-service cancellation despite online signup availability. Phone or in-person required for all cancellations.</li><li><strong>equipment fee exposure:</strong> Customers who fail to return rented equipment within the required window are charged full replacement cost ($150-300+ per device). Return deadlines are not always clearly communicated.</li></ul>
-    <h2>Retention Tactics</h2><ul><li>Offers loyalty discounts and promotional pricing.</li><li>Offers a service pause.</li><li>Offers to downgrade to a lower plan.</li></ul>
-    <h2>Free Alternatives</h2><ul><li><a href="https://www.t-mobile.com/isp" target="_blank" rel="noopener">T-Mobile Home Internet</a> — 5G home internet alternative</li><li><a href="https://www.att.com/internet/fiber/" target="_blank" rel="noopener">AT&amp;T Fiber</a> — Where available</li></ul>
+    <section class="watch-out"><h2>⚠ Watch Out — Dark Patterns</h2><div class="dark-item"><strong>⚠ no online cancellation</strong><p>Cox does not offer online self-service cancellation despite online signup availability. Phone or in-person required for all cancellations.</p><a href="/dark-patterns/#no-online-cancellation" class="pattern-link">What is no online cancellation? →</a></div><div class="dark-item"><strong>⚠ equipment fee exposure</strong><p>Customers who fail to return rented equipment within the required window are charged full replacement cost ($150-300+ per device). Return deadlines are not always clearly communicated.</p><a href="/dark-patterns/#equipment-fee-exposure" class="pattern-link">What is equipment fee exposure? →</a></div></section>
+    <section class="retention">
+  <h2>What to Expect (Retention Tactics)</h2>
+  <p>If you contact support, they will likely offer:</p>
+  <ul><li>Offers loyalty discounts and promotional pricing.</li><li>Offers a service pause.</li><li>Offers to downgrade to a lower plan.</li></ul>
+  <p class="retention-tip">You do not need to accept any of these. Say: <em>"I would like to cancel my account completely."</em> Repeat as needed. You do not need to provide a reason.</p>
+</section>
+    <section class="alts"><h2>Free Alternatives</h2><ul><li><a href="https://www.t-mobile.com/isp" target="_blank" rel="noopener">T-Mobile Home Internet</a> — 5G home internet alternative</li><li><a href="https://www.att.com/internet/fiber/" target="_blank" rel="noopener">AT&amp;T Fiber</a> — Where available</li></ul></section>
     <div class="notes-box"><strong>Notes:</strong> Cox is one of the US&#x27;s largest cable ISPs, primarily operating in markets without direct fiber competition. Reddit r/CoxCommunications is full of price-gouging complaints from customers in monopoly markets. The 30-day satisfaction guarantee is a genuine policy — use it if you&#x27;re in the first month. Cox and Charter announced a merger in 2025 that is pending regulatory review.</div>
-    <p style="margin-top:2rem;font-size:0.8rem;color:#aaa;">Something wrong with these instructions? <a href="https://github.com/maestrokling/cancelfreely/issues/new?title=Issue+with+cox&labels=user-report" target="_blank" rel="noopener">Let us know.</a></p>
+    <div class="related">
+      <h2>Need more help?</h2>
+      <ul>
+        <li><a href="/cancellation-rights-by-state/">Your cancellation rights by state</a></li>
+        <li><a href="/file-a-complaint/">How to file a complaint when they won't cancel</a></li>
+        <li><a href="/chargeback-guide/">How to dispute a charge (chargeback guide)</a></li>
+        <li><a href="/dark-patterns/">Dark pattern glossary</a></li>
+      </ul>
+    </div>
+    <div class="report-row">Something wrong? <a href="https://github.com/maestrokling/cancelfreely/issues/new?title=Issue+with+cox&labels=user-report" target="_blank" rel="noopener">Let us know →</a></div>
   </div>
   <footer>
-    <p>CancelFreely is free and never tracks you. No account required. No bank credentials. No tricks. · <a href="/">All services</a> · <a href="/about/">About</a></p>
+    <p>CancelFreely is free · No account required · No bank credentials · <a href="/about/">About</a> · <a href="/cancel/">All services</a> · <a href="https://ko-fi.com/cancelfreely" target="_blank" rel="noopener">☕ Ko-fi</a></p>
   </footer>
 </body>
 </html>
