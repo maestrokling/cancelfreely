@@ -3027,7 +3027,7 @@
       "Option C (some states): Online cancellation at xfinity.com/cancel \u2014 availability varies by state and account type. Comcast has blocked online cancellation for most customers despite having a fully online signup flow. Reddit posts document the lack of an online cancel option as of September 2024.",
       "Return all rented equipment (modem, router, cable boxes) within 10 days to avoid equipment fees. Return at an Xfinity store or via UPS. Get a receipt."
     ],
-    "cancel_url": "https://www.xfinity.com/support/articles/cancel-xfinity-service",
+    "cancel_url": "https://www.xfinity.com/cancel",
     "known_friction": "Comcast does not allow most customers to cancel online despite having a fully online signup process. Cancellation requires speaking with a 'Loyalty Specialist' by phone or going in person. Documented repeatedly as an intentional dark pattern.; All phone cancellations are routed through a 'Loyalty Specialist' team specifically trained to prevent cancellation. Customers must explicitly decline multiple offers and state their intent to cancel repeatedly.; Failure to return rented equipment within 1",
     "free_alternatives": [
       {
@@ -3042,7 +3042,7 @@
       }
     ],
     "last_verified": "2026-01-26",
-    "notes": "Comcast Xfinity is one of the most consistently complained-about cancellation experiences in the US. The in-person store route is strongly recommended over calling \u2014 faster, less pressure, and you can return equipment at the same time. Get a cancellation confirmation number. Cable internet is in significant decline in 2026 as fiber and 5G home internet expand."
+    "notes": "Note: xfinity.com/cancel lands on a page that says 'Looking to cancel? Schedule a call' with a photo of a smiling person on the phone \u2014 it is itself a retention page, not a cancellation confirmation. It does not cancel your service. Use it only to schedule the call, then hold firm on the call itself. Comcast Xfinity is one of the most consistently complained-about cancellation experiences in the US. The in-person store route is strongly recommended over calling \u2014 faster, less pressure, and you can return equipment at the same time. Get a cancellation confirmation number. Cable internet is in significant decline in 2026 as fiber and 5G home internet expand."
   },
   {
     "name": "Cox Communications",
