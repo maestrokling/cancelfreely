@@ -2039,83 +2039,179 @@
     "slug": "att",
     "url": "https://www.att.com",
     "category": "telecom",
-    "cancel_method": "phone or in-person",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "phone",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call AT&T: 1-800-288-2020. Say 'cancel service' when prompted. AT&T does not offer online self-service cancellation for most accounts. Phone is the primary path.",
+      "Verify your account and state clearly you want to cancel. Retention agents will make offers. Be direct and repeat your intent to cancel.",
+      "IMPORTANT \u2014 check for Early Termination Fees (ETF): AT&T Fiber has no ETF. Wireless lines on installment plans require you to pay off the device balance. Older 2-year contract plans carry an ETF. If you have a device installment plan, you still owe the remaining device balance regardless of service cancellation.",
+      "Return all AT&T equipment (gateways, set-top boxes) to a UPS Store within 21 days at no charge. Keep the UPS tracking receipt."
+    ],
+    "cancel_url": "https://www.att.com/support/article/wireless/KM1008472/",
+    "known_friction": "AT&T separates device installment plans from service plans. Canceling service does not cancel the device payment obligation. Many customers are surprised to find they still owe hundreds of dollars on a phone after canceling service.; Online self-service cancellation is not available. All cancellations require calling, where retention agents are deployed. | Retention tactics: Offers bill credits or plan discounts.; Offers to match competitor pricing.; Reminds you of device payment obligations rem",
+    "free_alternatives": [
+      {
+        "name": "T-Mobile",
+        "url": "https://www.t-mobile.com",
+        "note": "Frequently runs switching promos covering device payoffs"
+      },
+      {
+        "name": "Mint Mobile",
+        "url": "https://www.mintmobile.com",
+        "note": "Budget wireless on T-Mobile network"
+      }
+    ],
+    "last_verified": "2026-03-03",
+    "notes": "AT&T Fiber (internet) has no early termination fee \u2014 a genuine advantage over older cable contracts. Wireless cancellation is complicated if you have a device installment plan \u2014 you must pay off the remaining device balance. AT&T runs switching promotions for competitors, so check T-Mobile/Verizon for trade-in and payoff offers before canceling."
   },
   {
-    "name": "Comcast / Xfinity",
+    "name": "Comcast Xfinity",
     "slug": "comcast-xfinity",
     "url": "https://www.xfinity.com",
     "category": "telecom",
-    "cancel_method": "phone or in-person",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "phone or in-store",
+    "cancel_difficulty": 5,
+    "cancel_steps": [
+      "Option A (fastest): Take all equipment to your nearest Xfinity store and cancel in person. No hold times, no loyalty specialist. Reddit r/Comcast consensus: in-store is the fastest and least painful path. Bring all rented equipment.",
+      "Option B: Call 1-800-XFINITY (1-800-934-6489) and say 'cancel service' to navigate to retention. Be prepared to hold and to decline multiple offers. Phone calls often route through a 'Loyalty Specialist' trained to retain you.",
+      "Option C (some states): Online cancellation at xfinity.com/cancel \u2014 availability varies by state and account type. Comcast has blocked online cancellation for most customers despite having a fully online signup flow. Reddit posts document the lack of an online cancel option as of September 2024.",
+      "Return all rented equipment (modem, router, cable boxes) within 10 days to avoid equipment fees. Return at an Xfinity store or via UPS. Get a receipt."
+    ],
+    "cancel_url": "https://www.xfinity.com/support/articles/cancel-xfinity-service",
+    "known_friction": "Comcast does not allow most customers to cancel online despite having a fully online signup process. Cancellation requires speaking with a 'Loyalty Specialist' by phone or going in person. Documented repeatedly as an intentional dark pattern.; All phone cancellations are routed through a 'Loyalty Specialist' team specifically trained to prevent cancellation. Customers must explicitly decline multiple offers and state their intent to cancel repeatedly.; Failure to return rented equipment within 1",
+    "free_alternatives": [
+      {
+        "name": "Local fiber ISPs",
+        "url": "",
+        "note": "AT&T Fiber, Frontier, or local fiber providers often have lower prices"
+      },
+      {
+        "name": "T-Mobile Home Internet",
+        "url": "https://www.t-mobile.com/isp",
+        "note": "5G home internet, often cheaper with no contract"
+      }
+    ],
+    "last_verified": "2026-01-26",
+    "notes": "Comcast Xfinity is one of the most consistently complained-about cancellation experiences in the US. The in-person store route is strongly recommended over calling \u2014 faster, less pressure, and you can return equipment at the same time. Get a cancellation confirmation number. Cable internet is in significant decline in 2026 as fiber and 5G home internet expand."
   },
   {
     "name": "Cox Communications",
     "slug": "cox",
     "url": "https://www.cox.com",
     "category": "telecom",
-    "cancel_method": "phone or in-person",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "phone or in-store",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call Cox: 1-800-234-3993. Cox does not offer online self-service cancellation. Phone or in-person required.",
+      "Alternatively, visit a Cox store in person.",
+      "State clearly you want to cancel. Retention agents will make discount offers. Cox has a 30-day satisfaction guarantee \u2014 cancel within 30 days for a full refund with no fees.",
+      "Return all rented equipment (modem, router, cable boxes) to a Cox store or UPS. Get a receipt. Unreturned equipment results in charges of $150-300+ per device."
+    ],
+    "cancel_url": "https://www.cox.com/residential/support/billing-and-account/cancel-cox-service.html",
+    "known_friction": "Cox does not offer online self-service cancellation despite online signup availability. Phone or in-person required for all cancellations.; Customers who fail to return rented equipment within the required window are charged full replacement cost ($150-300+ per device). Return deadlines are not always clearly communicated. | Retention tactics: Offers loyalty discounts and promotional pricing.; Offers a service pause.; Offers to downgrade to a lower plan.",
+    "free_alternatives": [
+      {
+        "name": "T-Mobile Home Internet",
+        "url": "https://www.t-mobile.com/isp",
+        "note": "5G home internet alternative"
+      },
+      {
+        "name": "AT&T Fiber",
+        "url": "https://www.att.com/internet/fiber/",
+        "note": "Where available"
+      }
+    ],
+    "last_verified": "2025-11-29",
+    "notes": "Cox is one of the US's largest cable ISPs, primarily operating in markets without direct fiber competition. Reddit r/CoxCommunications is full of price-gouging complaints from customers in monopoly markets. The 30-day satisfaction guarantee is a genuine policy \u2014 use it if you're in the first month. Cox and Charter announced a merger in 2025 that is pending regulatory review."
   },
   {
-    "name": "Spectrum",
+    "name": "Spectrum (Charter)",
     "slug": "spectrum",
     "url": "https://www.spectrum.com",
     "category": "telecom",
-    "cancel_method": "phone or in-person",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "phone or in-store",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call Spectrum: 1-833-267-6094 (retention/disconnect line). Spectrum does not allow online cancellation. Phone or in-person only.",
+      "Alternatively, visit a Spectrum store in person \u2014 faster than calling.",
+      "State clearly you want to cancel. Retention agents will make multiple offers \u2014 discounts, speed upgrades, bundle renegotiations. Spectrum has no early termination fee on standard residential plans \u2014 a genuine advantage over some competitors.",
+      "Return all rented equipment (modem, router, cable box) to a Spectrum store or UPS drop-off. Keep the receipt. IMPORTANT: Spectrum does NOT prorate bills. Canceling mid-billing-cycle means you pay the full month \u2014 time your cancellation to the end of your billing period if possible."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "Spectrum does not offer online self-service cancellation despite fully online signup. Phone or in-person required.; Spectrum does not prorate the final bill. If you cancel mid-cycle, you pay the full billing period with no credit. Customers must time cancellation carefully. | Retention tactics: Offers significant discounts (often 50%+ off) on current plan.; Offers speed upgrades at same price.; Offers service bundling to lower per-service cost.",
+    "free_alternatives": [
+      {
+        "name": "T-Mobile Home Internet",
+        "url": "https://www.t-mobile.com/isp",
+        "note": "5G home internet, often $50/month with no contract"
+      },
+      {
+        "name": "AT&T Fiber",
+        "url": "https://www.att.com/internet/fiber/",
+        "note": "Where available, often competitive pricing with no ETF"
+      }
+    ],
+    "last_verified": "2026-02-15",
+    "notes": "Spectrum/Charter lost significant internet subscribers in 2025 (over 500,000) as fiber and 5G alternatives expanded. No ETF is genuinely helpful. The no-proration policy is the main financial gotcha \u2014 calculate your billing cycle end date before calling. Comcast and Spectrum together lost over 1 million internet customers in 2025."
   },
   {
     "name": "T-Mobile",
     "slug": "t-mobile",
     "url": "https://www.t-mobile.com",
     "category": "telecom",
-    "cancel_method": "phone or in-person",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "phone or in-store",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Fastest method: Port your number to the new carrier. Number porting automatically cancels T-Mobile service. If you're switching carriers, initiate the port at the new carrier \u2014 you do not need to call T-Mobile first.",
+      "To cancel without porting: Call T-Mobile at 1-877-453-1304 or visit a T-Mobile store.",
+      "Say clearly you want to cancel. T-Mobile's support page explicitly says 'we'd like to prevent your cancellation' \u2014 retention offers will follow.",
+      "Check for remaining device installment balance \u2014 it must be paid even after service cancellation."
+    ],
+    "cancel_url": "https://www.t-mobile.com/support/account/cancel-service",
+    "known_friction": "T-Mobile's own support page for cancellation leads with 'We'd like to prevent your cancellation' and offers retention alternatives before providing cancellation instructions.; Outstanding device installment balances survive service cancellation and remain due in full. | Retention tactics: Offers discounted plan alternatives.; Offers account pause (up to 3 months).; Offers switching credits if reason is competitor pricing.",
+    "free_alternatives": [
+      {
+        "name": "Mint Mobile",
+        "url": "https://www.mintmobile.com",
+        "note": "Budget wireless on T-Mobile network from $15/month"
+      },
+      {
+        "name": "Metro by T-Mobile",
+        "url": "https://www.metrobyt-mobile.com",
+        "note": "Budget prepaid on T-Mobile network"
+      }
+    ],
+    "last_verified": "2026-02-14",
+    "notes": "T-Mobile has generally better cancellation friction than AT&T or Comcast \u2014 phone cancellation works and the process is faster. The number port trick is the cleanest path if switching carriers. T-Mobile's churn ticked up in Q3 2025 \u2014 they are aggressively competing on retention offers."
   },
   {
     "name": "Verizon",
     "slug": "verizon",
     "url": "https://www.verizon.com",
     "category": "telecom",
-    "cancel_method": "phone or online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "phone or in-store",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call Verizon: 1-800-922-0204. Say 'cancel service'. For Fios (internet/TV), call 1-800-837-4966.",
+      "Alternatively, visit a Verizon store in person \u2014 generally faster than phone.",
+      "Check your device payment plan status before calling. Any remaining device installment balance is due regardless of service cancellation. Number porting to a new carrier automatically cancels service. Port your number first if switching \u2014 this is the fastest cancellation path.",
+      "Return Fios equipment (routers, set-top boxes) to avoid equipment fees."
+    ],
+    "cancel_url": "https://www.verizon.com/support/residential/account/manage-service/cancel",
+    "known_friction": "Like AT&T, Verizon separates device installments from service billing. Customers who cancel before paying off a device still owe the full remaining balance, often hundreds of dollars.; Phone cancellations are routed through retention teams who make multiple offers before processing. | Retention tactics: Offers loyalty discounts and bill credits.; Matches competitor pricing.; Offers an account pause instead of canceling.",
+    "free_alternatives": [
+      {
+        "name": "Visible (Verizon network)",
+        "url": "https://www.visible.com",
+        "note": "Budget wireless on Verizon's network, often $25/month"
+      },
+      {
+        "name": "T-Mobile Home Internet",
+        "url": "https://www.t-mobile.com/isp",
+        "note": "5G home internet alternative to Fios"
+      }
+    ],
+    "last_verified": "2026-02-07",
+    "notes": "Port your number to the new carrier first if switching \u2014 this automatically cancels Verizon service without needing to call retention. For Fios, no ETF on most residential plans. Device installment balances survive service cancellation and must be paid off separately."
   }
 ]
