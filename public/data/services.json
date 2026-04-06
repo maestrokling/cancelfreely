@@ -1647,13 +1647,29 @@
     "url": "https://www.adt.com",
     "category": "home-services",
     "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call ADT: 1-800-238-2727. Have your account number, the last 4 digits of your Social Security number (for account verification), and your passcode ready.",
+      "State clearly you want to cancel. ADT will make retention offers \u2014 decline them.",
+      "CRITICAL \u2014 check your contract for the Early Termination Fee (ETF): ADT charges 75% of the remaining contract balance if you cancel early. On a 36-month contract at $50/month with 24 months remaining, that's $900. ADT contracts are typically 36 months. ETF can range from $833 to $1,418+ depending on your plan.",
+      "Get a cancellation confirmation number. ADT should stop billing at the end of the notice period specified in your contract (typically 30 days). Check your next statement to confirm no further charges."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "ADT charges 75% of the remaining contract balance for early cancellation \u2014 one of the highest ETF structures in the home security industry. This can run hundreds to over a thousand dollars.; ADT contracts typically auto-renew at the end of the initial term. If you don't cancel within the specified window before renewal (check your contract), you're locked into another term. | Retention tactics: Offers a discounted rate to stay.; Offers to move service to a new address.; Offers equipment upgrades",
+    "free_alternatives": [
+      {
+        "name": "SimpliSafe (no contract)",
+        "url": "https://simplisafe.com",
+        "note": "No contract, cancel anytime"
+      },
+      {
+        "name": "Ring Protect (no contract)",
+        "url": "https://ring.com",
+        "note": "No contract, cancel online"
+      }
+    ],
+    "last_verified": "2026-03-15",
+    "notes": "ADT is the largest home security company in the US. The 75% ETF is the critical gotcha. Before canceling: calculate your remaining balance and multiply by 0.75 to know your exit cost. Moving to a new home does not void the contract \u2014 ADT will offer to transfer service. Death of account holder and military deployment are typically ETF-exempt situations."
   },
   {
     "name": "Brinks Home Security",
@@ -1661,13 +1677,24 @@
     "url": "https://brinkshome.com",
     "category": "home-services",
     "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call Brinks Home: 1-800-447-9239.",
+      "State you want to cancel. Brinks contracts are typically 36-60 months with ETF provisions.",
+      "Check your contract for Early Termination Fee. Brinks typically charges 80% of the remaining monitoring balance. Written notice may be required per your contract terms. If so, send via certified mail and keep the receipt.",
+      "Get cancellation confirmation. Continue to monitor your bank statement \u2014 Brinks billing issues are frequently reported."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "Brinks charges approximately 80% of the remaining contract balance as an early termination fee \u2014 similar to ADT's structure.; Some Brinks contracts require written cancellation notice (30 days) in addition to the phone call. Check your specific contract. | Retention tactics: Offers a discounted rate to stay.; Offers equipment upgrades.",
+    "free_alternatives": [
+      {
+        "name": "SimpliSafe (no contract)",
+        "url": "https://simplisafe.com",
+        "note": "No contract, cancel anytime"
+      }
+    ],
+    "last_verified": "2025-09-26",
+    "notes": "Brinks Home Security (formerly Monitronics) has had significant billing complaint history \u2014 customers report being charged after cancellation. Always get a cancellation confirmation number and watch your next 1-2 statements carefully. If you have equipment financing through a separate lender (GreenSky), that obligation continues regardless of monitoring cancellation."
   },
   {
     "name": "Culligan Water",
@@ -1675,13 +1702,24 @@
     "url": "https://www.culligan.com",
     "category": "home-services",
     "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Call your local Culligan dealer \u2014 Culligan is a franchise network; find your dealer's number at culligan.com or on your invoice. Culligan is not a single company but a franchise network. Cancellation goes through your local dealer, not a national center.",
+      "State you want to cancel. Give 30 days written notice if your contract requires it \u2014 check your service agreement.",
+      "Arrange for Culligan to pick up any rented equipment (water softeners, filtration units, coolers). You are responsible for equipment in your possession until it is returned. Do not simply stop paying and keep the equipment \u2014 Culligan will charge for unreturned rental units.",
+      "Get written confirmation of cancellation and equipment return."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "Culligan rental equipment (water softeners, coolers) remains Culligan's property. Stopping service without returning equipment results in continued rental charges or purchase obligations. This creates friction for customers who want to cancel quickly. | Retention tactics: May offer a service adjustment or rate reduction.; May offer a free service visit.",
+    "free_alternatives": [
+      {
+        "name": "Whole-home water filter (purchase)",
+        "url": "",
+        "note": "Purchasing your own filtration eliminates the ongoing rental relationship"
+      }
+    ],
+    "last_verified": "2025-10-22",
+    "notes": "Culligan is a franchise \u2014 your experience depends heavily on your local dealer. The rental equipment return is the key logistical step. Get a receipt when equipment is picked up. If your Culligan service includes a long-term service contract (common for commercial water treatment), review it carefully for early termination terms before canceling."
   },
   {
     "name": "Orkin",
@@ -1689,13 +1727,24 @@
     "url": "https://www.orkin.com",
     "category": "home-services",
     "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Call Orkin: 1-877-424-9943 (or your local branch number from your invoice). Orkin's official cancellation page at orkin.com/about/how-to-cancel-orkin-service confirms phone as the required method.",
+      "Say: 'I want to cancel my pest control service plan.' Have your account number ready.",
+      "Ask about your cancellation terms. Orkin's Pest Control Plan has a money-back guarantee \u2014 if you cancel within the guarantee period, you may receive a refund. Annual prepaid plans: check your contract for refund terms on unused services.",
+      "Get a cancellation confirmation number."
+    ],
+    "cancel_url": "https://www.orkin.com/about/how-to-cancel-orkin-service",
+    "known_friction": "Orkin annual plans auto-renew. Customers report being enrolled in auto-renewal without being clearly notified. | Retention tactics: May offer a re-service visit for free instead of canceling.; May offer a reduced rate.",
+    "free_alternatives": [
+      {
+        "name": "Local pest control companies",
+        "url": "",
+        "note": "Local providers often have more flexible pricing and terms"
+      }
+    ],
+    "last_verified": "2026-03-08",
+    "notes": "Orkin is owned by Rollins Inc. (same parent as HomeTeam Pest Defense, Western Pest Services). Their cancellation phone number is publicly listed. Orkin has a money-back guarantee on most plans if you're not satisfied \u2014 request it before the guarantee period expires."
   },
   {
     "name": "Ring Protect",
@@ -1703,27 +1752,47 @@
     "url": "https://ring.com",
     "category": "home-services",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to ring.com and sign in.",
+      "Go to Account \u2192 Protect Plan \u2192 select the plan to cancel \u2192 Cancel Plan. You can also manage this in the Ring app: tap the menu (\u2630) \u2192 Account \u2192 Subscriptions.",
+      "No contract, no ETF. Cancel anytime. After canceling, your Ring cameras still work locally but won't save video to the cloud. Motion and doorbell alerts still work."
+    ],
+    "cancel_url": "https://ring.com/account/subscriptions",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Ring (no subscription)",
+        "url": "https://ring.com",
+        "note": "Cameras still detect motion and send alerts without a plan \u2014 just no cloud video storage"
+      }
+    ],
+    "last_verified": "2026-01-26",
+    "notes": "Ring Protect (Basic $4.99/month per device, Plus $10/month for whole home, Pro $20/month) adds cloud video storage and extended warranties. No contract. After canceling, Ring devices continue to function for real-time viewing and alerts \u2014 you just lose cloud recording history."
   },
   {
     "name": "SimpliSafe",
     "slug": "simplisafe",
     "url": "https://simplisafe.com",
     "category": "home-services",
-    "cancel_method": "phone or online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or phone",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Online: Go to webapp.simplisafe.com \u2192 Settings \u2192 Subscription \u2192 Cancel.",
+      "Or call SimpliSafe: 1-888-957-4675.",
+      "No early termination fee. No contract. Cancel anytime. After canceling monitoring, your SimpliSafe hardware still functions as a local alarm (loud siren) \u2014 it just won't send alerts to the monitoring center or your phone."
+    ],
+    "cancel_url": "https://webapp.simplisafe.com",
+    "known_friction": "Retention tactics: May offer a discounted monitoring rate.",
+    "free_alternatives": [
+      {
+        "name": "SimpliSafe (self-monitoring)",
+        "url": "https://simplisafe.com",
+        "note": "Cancel monitoring and keep using the hardware as a local alarm at no cost"
+      }
+    ],
+    "last_verified": "2026-02-28",
+    "notes": "SimpliSafe is a standout in home security for having no contracts and no ETF \u2014 a direct contrast to ADT and Vivint. Hardware is purchased upfront and continues to function as a local alarm after canceling the monitoring subscription. The Fast Protect plan ($28/month) includes video verification; the Standard plan ($18/month) is traditional monitoring."
   },
   {
     "name": "Terminix",
@@ -1731,13 +1800,24 @@
     "url": "https://www.terminix.com",
     "category": "home-services",
     "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Call Terminix: 1-800-837-6464 (or 1-800-TERMINIX).",
+      "State you want to cancel your pest control plan. Have your account number ready. You can also contact your local branch directly \u2014 find the number on your invoice or at terminix.com.",
+      "Check your contract for cancellation terms. Annual plans typically allow cancellation with a written notice period; ongoing monthly plans cancel with 30 days notice. If required, send written cancellation via certified mail to your local branch address.",
+      "Get a cancellation confirmation number and check that services stop as agreed."
+    ],
+    "cancel_url": "https://www.orkin.com/about/how-to-cancel-orkin-service",
+    "known_friction": "Terminix annual plans auto-renew without prominent advance notice. Many customers are charged for a new year of service before realizing their plan renewed. | Retention tactics: May offer a discount or additional service visit to retain you.; May offer to pause service rather than cancel.",
+    "free_alternatives": [
+      {
+        "name": "Local pest control companies",
+        "url": "",
+        "note": "Local providers often have more flexible terms"
+      }
+    ],
+    "last_verified": "2026-04-01",
+    "notes": "Terminix is owned by Rentokil (merged 2022). Their Termite Guarantee (extended warranty) is a separate agreement from regular pest control plans and has different cancellation terms. If you have a termite bond/guarantee, review that contract separately. Terminix has a money-back guarantee on some services \u2014 check your plan terms."
   },
   {
     "name": "TruGreen",
@@ -1745,13 +1825,24 @@
     "url": "https://www.trugreen.com",
     "category": "home-services",
     "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Call TruGreen: 1-800-464-0171.",
+      "State clearly you want to cancel your lawn care plan. Have your account number ready. Agents will make retention offers. Be direct: 'I want to cancel, please do not schedule any more services.'",
+      "Confirm your cancellation date and that no further services will be performed. Get a confirmation number.",
+      "Watch your property for the next 2-4 weeks. TruGreen has documented cases of continuing service after cancellation \u2014 verify no technicians visit."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "TruGreen has a well-documented pattern of continuing to send technicians and bill customers after cancellation. Reddit and BBB have multiple accounts of customers canceling and then finding TruGreen treated their lawn anyway \u2014 and sent a bill.; TruGreen auto-enrolls customers into the next year's plan at the end of the season. Many customers don't realize they've been re-enrolled until they receive a spring service they didn't request. | Retention tactics: Offers a re-application visit for free.",
+    "free_alternatives": [
+      {
+        "name": "Local lawn care companies",
+        "url": "",
+        "note": "Local providers typically have month-to-month agreements"
+      }
+    ],
+    "last_verified": "2026-03-09",
+    "notes": "TruGreen's post-cancellation service problem is unusually well-documented. After canceling: watch for unexpected technician visits, check your bank statements, and dispute any charges for services performed after your cancellation date. If they show up after you've canceled, you are not obligated to pay."
   },
   {
     "name": "Vivint Smart Home",
@@ -1759,27 +1850,49 @@
     "url": "https://www.vivint.com",
     "category": "home-services",
     "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call Vivint: 1-800-216-5232. Have your account number and PIN ready.",
+      "State you want to cancel. Be prepared for retention offers.",
+      "CRITICAL \u2014 check if you have an equipment financing agreement (Vivint Flex Pay). You must pay off the remaining equipment balance separately from the monitoring cancellation. This can be $1,000+ for equipment. Vivint separates monitoring contracts from equipment financing. Canceling monitoring does not cancel equipment payments.",
+      "Get cancellation confirmation in writing."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "Vivint uses a 'Flex Pay' model that separates equipment financing (often $1,500-$2,500 financed over 60 months) from monitoring contracts. Canceling monitoring doesn't eliminate the equipment loan obligation. Many customers are surprised by the total exit cost.; Vivint primarily sells via door-to-door sales, which is associated with high-pressure tactics and complex contract structures that customers don't fully understand at signing. | Retention tactics: Offers a monitoring rate reduction.; Off",
+    "free_alternatives": [
+      {
+        "name": "SimpliSafe (no contract)",
+        "url": "https://simplisafe.com",
+        "note": "No contract, no equipment financing"
+      }
+    ],
+    "last_verified": "2026-01-29",
+    "notes": "Vivint's total exit cost = remaining equipment financing balance + any monitoring early termination fees. Calculate both before calling. Military deployment and disability are typically grounds for waiving ETFs. If you financed through a third party (not Vivint directly), that loan continues regardless of service cancellation."
   },
   {
     "name": "Waste Management",
     "slug": "waste-management",
     "url": "https://www.wm.com",
     "category": "home-services",
-    "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "phone or email",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "For residential service: Call WM Customer Service at 1-800-592-9995 (Mon-Fri 7am-7pm, Sat 9am-1pm) or email via wm.com. For commercial service: the process differs significantly \u2014 see notes below.",
+      "State you want to cancel and provide your account number and service address.",
+      "Arrange return or pickup of WM-owned bins/containers if applicable. Keeping their equipment may result in additional charges.",
+      "Get a cancellation confirmation and final bill amount. Check for any early termination fees in your service agreement."
+    ],
+    "cancel_url": "https://www.wm.com/us/en/contact-us.html",
+    "known_friction": "WM commercial contracts contain 'evergreen' auto-renewal clauses \u2014 if you don't cancel within a specific window before the end of the contract term (often 60-90 days), the contract auto-renews for another full term (1-3 years). Missing this window locks you in. This is one of the most documented contract traps in commercial waste services.; WM contracts allow for annual price increases (fuel surcharges, environmental fees, rate adjustments) that can significantly increase your effective rate ove",
+    "free_alternatives": [
+      {
+        "name": "Local municipal waste service",
+        "url": "",
+        "note": "Check if your municipality provides residential collection \u2014 often cheaper"
+      }
+    ],
+    "last_verified": "2026-02-13",
+    "notes": "Residential WM cancellation is relatively straightforward \u2014 call or email, arrange container return. Commercial WM contracts are a different matter entirely: read your contract for the auto-renewal notice window (often 60-90 days before contract end) and mark your calendar. Missing that window means another full term. If you're a commercial customer who missed the window, consult a contract attorney."
   },
   {
     "name": "Allstate",
