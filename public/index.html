@@ -14,19 +14,52 @@
     <input type="search" id="search" placeholder="Search a service (Netflix, Spotify, Adobe...)">
   </header>
   <main id="services"></main>
-  <section id="request-section">
-    <h2>Missing a service?</h2>
-    <p>Request it and we'll add cancel instructions.</p>
-    <form id="request-form">
-      <input type="text" id="req-name" placeholder="Service name (e.g. Hulu)" required>
-      <input type="url" id="req-url" placeholder="Service URL (e.g. https://hulu.com)">
-      <button type="submit">Request this service →</button>
-    </form>
+
+  <section id="request">
+    <h2>Request a Service</h2>
+    <p>Don't see the service you need to cancel? Tell us and we'll add it.</p>
+    <div class="request-fields">
+      <div class="field-group">
+        <label for="service-name">Service name</label>
+        <input type="text" id="service-name" placeholder="e.g. Crunchyroll">
+      </div>
+      <div class="field-group">
+        <label for="service-url">Website URL (optional)</label>
+        <input type="text" id="service-url" placeholder="e.g. https://www.crunchyroll.com">
+      </div>
+      <div class="field-group">
+        <label for="service-notes">Anything else? (optional)</label>
+        <textarea id="service-notes" rows="3" placeholder="e.g. They make you call a phone number"></textarea>
+      </div>
+      <button onclick="submitRequest()">Submit Request</button>
+    </div>
     <p class="request-note">Opens a GitHub issue — free GitHub account required.</p>
   </section>
+
   <footer>
     <p>CancelFreely is free and never tracks you. No account required. No bank credentials. No tricks.</p>
   </footer>
   <script src="app.js"></script>
+  <script>
+    function submitRequest() {
+      var name = document.getElementById('service-name').value.trim();
+      if (!name) {
+        alert('Please enter a service name.');
+        return;
+      }
+      var url = document.getElementById('service-url').value.trim();
+      var notes = document.getElementById('service-notes').value.trim();
+      var title = 'Service Request: ' + name;
+      var body = 'Service name: ' + name;
+      if (url) body = body + '\nURL: ' + url;
+      if (notes) body = body + '\nNotes: ' + notes;
+      body = body + '\n\n---\nSubmitted via cancelfreely.com';
+      var ghUrl = 'https://github.com/maestrokling/cancelfreely/issues/new'
+        + '?title=' + encodeURIComponent(title)
+        + '&body=' + encodeURIComponent(body)
+        + '&labels=' + encodeURIComponent('service-request');
+      window.open(ghUrl, '_blank');
+    }
+  </script>
 </body>
 </html>
