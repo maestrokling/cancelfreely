@@ -1417,27 +1417,48 @@
     "url": "https://1password.com",
     "category": "security",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to 1password.com and sign in.",
+      "Click your name > 'Manage Account' > 'Billing'.",
+      "Click 'Cancel Subscription' and confirm. Your vault data is retained in read-only mode for 365 days after cancellation. You can still export your data."
+    ],
+    "cancel_url": "https://support.1password.com/manage-subscription/",
+    "known_friction": "Retention tactics: None reported.",
+    "free_alternatives": [
+      {
+        "name": "Bitwarden (free)",
+        "url": "https://bitwarden.com",
+        "note": "Free, open-source password manager"
+      }
+    ],
+    "last_verified": "2026-01-21",
+    "notes": "1Password is one of the cleanest subscription cancels. Vault data stays accessible in read-only mode for a year after cancellation. Export your data before canceling: go to your vault and use File > Export. 1Password has no free tier \u2014 Bitwarden is the recommended free alternative."
   },
   {
     "name": "ExpressVPN",
     "slug": "expressvpn",
     "url": "https://www.expressvpn.com",
     "category": "security",
-    "cancel_method": "online or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to expressvpn.com and sign in to your account.",
+      "Go to 'Subscription' > 'Cancel Subscription'. If subscribed via Apple App Store or Google Play, cancel through those platforms.",
+      "Confirm cancellation. Access continues through end of billing period.",
+      "If within 30 days of first purchase: contact support via live chat to request a full refund. 30-day money-back guarantee applies to first-time subscribers only."
+    ],
+    "cancel_url": "https://www.expressvpn.com/support/manage-account/cancel-expressvpn-subscription/",
+    "known_friction": "Retention tactics: May offer a discounted plan.",
+    "free_alternatives": [
+      {
+        "name": "Proton VPN (free tier)",
+        "url": "https://protonvpn.com",
+        "note": "Free with no data cap, limited server selection"
+      }
+    ],
+    "last_verified": "2026-03-24",
+    "notes": "ExpressVPN cancellation is clean. 30-day money-back applies to new subscribers only. Note: Like NordVPN, ExpressVPN sells discounted multi-year plans that auto-renew at much higher full prices \u2014 check your renewal terms."
   },
   {
     "name": "LastPass",
@@ -1445,13 +1466,33 @@
     "url": "https://www.lastpass.com",
     "category": "security",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to lastpass.com and sign in to your vault.",
+      "Click your email/profile in the top right, then go to 'Account Settings' > 'Subscription'.",
+      "Click 'Cancel Subscription' and follow the prompts. Account reverts to the free tier at end of billing period. Your vault data is preserved."
+    ],
+    "cancel_url": "https://lastpass.com/my.php#account-information",
+    "known_friction": "Retention tactics: May offer a discounted renewal.",
+    "free_alternatives": [
+      {
+        "name": "LastPass (free tier)",
+        "url": "https://www.lastpass.com",
+        "note": "Free tier \u2014 limited to one device type (mobile or desktop)"
+      },
+      {
+        "name": "Bitwarden (free)",
+        "url": "https://bitwarden.com",
+        "note": "Free, open-source, highly recommended alternative"
+      },
+      {
+        "name": "1Password",
+        "url": "https://1password.com",
+        "note": "Paid but well-regarded"
+      }
+    ],
+    "last_verified": "2026-02-07",
+    "notes": "LastPass suffered a significant security breach in 2022 that exposed encrypted vault data. Many security professionals recommend migrating to Bitwarden or 1Password. Export your vault before canceling: Account Settings > Advanced > Export. LastPass free tier is limited to one device type since 2021."
   },
   {
     "name": "McAfee",
@@ -1459,41 +1500,89 @@
     "url": "https://www.mcafee.com",
     "category": "security",
     "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Go to account.mcafee.com and sign in.",
+      "Go to 'My Account' > 'Subscriptions' and look for auto-renewal settings. If the account page doesn't show a clear cancel option, contact support directly.",
+      "Call McAfee support: 1-866-622-3911, or use live chat at mcafee.com/support. Phone/chat is often more reliable than the account portal for processing cancellation.",
+      "If charged unexpectedly, request a full refund \u2014 agents are authorized to issue refunds for surprise renewals. Users report success getting full refunds by calling and citing an unexpected charge."
+    ],
+    "cancel_url": "https://account.mcafee.com",
+    "known_friction": "McAfee charges auto-renewal fees on accounts users believe are canceled or unused. Multiple Reddit reports of charges on accounts not used in years, often bundled with new PC purchases. Users report being charged on McAfee subscriptions pre-installed on new Windows PCs that they never intentionally activated.; McAfee's 'Renew subscription' link leads to upgrade options rather than renewal, and the auto-renewal opt-out is buried. Reddit documented 33 upvotes on a post titled 'McAfee shady renewal",
+    "free_alternatives": [
+      {
+        "name": "Windows Defender (built-in)",
+        "url": "",
+        "note": "Free, built into Windows 10/11"
+      },
+      {
+        "name": "Malwarebytes (free)",
+        "url": "https://www.malwarebytes.com",
+        "note": "Free on-demand scanner"
+      }
+    ],
+    "last_verified": "2025-12-07",
+    "notes": "McAfee is one of the most complained-about security subscriptions for unexpected charges. If you find a charge you didn't authorize, call immediately \u2014 refunds are routinely granted. Check your email inbox for a McAfee account you may have forgotten; look for 'mcafee.com' in your email history."
   },
   {
     "name": "NordVPN",
     "slug": "nordvpn",
     "url": "https://nordvpn.com",
     "category": "security",
-    "cancel_method": "online or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to nordvpn.com and sign in.",
+      "Click your profile icon, then go to 'My Account' > 'Billing' > 'Manage Subscription'.",
+      "Select 'Cancel Subscription' and confirm. Access continues through the end of the billing period.",
+      "If within 30 days of purchase: request a full refund via live chat at nordvpn.com/contact-us. NordVPN's 30-day money-back guarantee applies to new subscriptions. Refund is processed to original payment method."
+    ],
+    "cancel_url": "https://my.nordaccount.com/dashboard/nordvpn/",
+    "known_friction": "Retention tactics: May offer a discounted renewal.",
+    "free_alternatives": [
+      {
+        "name": "Proton VPN (free tier)",
+        "url": "https://protonvpn.com",
+        "note": "Free tier with no data limits, slower speeds"
+      },
+      {
+        "name": "Windscribe (free tier)",
+        "url": "https://windscribe.com",
+        "note": "Free 10GB/month"
+      }
+    ],
+    "last_verified": "2026-01-16",
+    "notes": "NordVPN is one of the cleaner VPN cancels. 30-day money-back guarantee is honored. Online cancellation works. Note: NordVPN sells annual plans at steep discounts that auto-renew at full price \u2014 check your renewal amount before the billing date."
   },
   {
-    "name": "Norton / LifeLock",
+    "name": "Norton 360",
     "slug": "norton",
     "url": "https://us.norton.com",
     "category": "security",
-    "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to my.norton.com and sign in.",
+      "Click your name or profile, then go to 'Subscription' or 'My Subscriptions'.",
+      "Find your plan and click 'Turn off Auto-Renewal' or 'Cancel Subscription'. Norton frames cancellation as 'turning off auto-renewal' \u2014 your access continues through the paid period, then stops.",
+      "If within 60 days of purchase: request a refund via chat at support.norton.com. Norton offers a 60-day money-back guarantee on annual plans."
+    ],
+    "cancel_url": "https://support.norton.com/sp/en/us/home/current/solutions/kb20090818144126EN",
+    "known_friction": "Norton presents cancellation as 'turning off auto-renewal' rather than canceling, obscuring whether the subscription has been ended. Community posts show widespread user confusion about this.; Norton charges auto-renewal fees, sometimes weeks before the renewal date. Users report charges they didn't expect, especially on accounts they believed were canceled. | Retention tactics: May offer a discounted renewal rate.; Highlights identity protection and dark web monitoring features.",
+    "free_alternatives": [
+      {
+        "name": "Windows Defender (built-in)",
+        "url": "",
+        "note": "Free, built into Windows 10/11 \u2014 adequate for most users"
+      },
+      {
+        "name": "Malwarebytes (free tier)",
+        "url": "https://www.malwarebytes.com",
+        "note": "Free on-demand malware scanner"
+      }
+    ],
+    "last_verified": "2026-03-06",
+    "notes": "Norton's 60-day money-back guarantee is genuine \u2014 use it if you were recently charged. Windows Defender is now considered adequate protection for most home users, making paid antivirus optional. Export any stored passwords from Norton Password Manager before canceling."
   },
   {
     "name": "Amazon Prime",

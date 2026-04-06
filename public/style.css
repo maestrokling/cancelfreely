@@ -16,5 +16,13 @@ main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; display: grid; gap:
 .friction { font-size: 0.8rem; color: #92400e; background: #fffbeb; padding: 0.4rem 0.6rem; border-radius: 6px; margin-top: 0.6rem; }
 .cancel-btn { display: block; margin-top: 0.75rem; text-align: center; background: #16a34a; color: #fff; text-decoration: none; padding: 0.5rem; border-radius: 6px; font-size: 0.875rem; }
 .cancel-btn:hover { background: #15803d; }
+#request-section { max-width: 540px; margin: 3rem auto 1rem; padding: 1.5rem 2rem; background: #fff; border: 1px solid #e5e5e5; border-radius: 12px; text-align: center; }
+#request-section h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.35rem; }
+#request-section p { color: #666; font-size: 0.875rem; margin-bottom: 1rem; }
+#request-form { display: flex; flex-direction: column; gap: 0.6rem; }
+#request-form input { padding: 0.65rem 1rem; border: 1px solid #ddd; border-radius: 8px; font-size: 0.9rem; }
+#request-form button { background: #16a34a; color: #fff; border: none; padding: 0.7rem; border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+#request-form button:hover { background: #15803d; }
+.request-note { font-size: 0.75rem; color: #aaa; margin-top: 0.5rem; margin-bottom: 0; }
 footer { text-align: center; padding: 2rem; color: #888; font-size: 0.85rem; }
 footer a { color: #16a34a; }

@@ -14,6 +14,16 @@
     <input type="search" id="search" placeholder="Search a service (Netflix, Spotify, Adobe...)">
   </header>
   <main id="services"></main>
+  <section id="request-section">
+    <h2>Missing a service?</h2>
+    <p>Request it and we'll add cancel instructions.</p>
+    <form id="request-form">
+      <input type="text" id="req-name" placeholder="Service name (e.g. Hulu)" required>
+      <input type="url" id="req-url" placeholder="Service URL (e.g. https://hulu.com)">
+      <button type="submit">Request this service →</button>
+    </form>
+    <p class="request-note">Opens a GitHub issue — free GitHub account required.</p>
+  </section>
   <footer>
     <p>CancelFreely is free and never tracks you. No account required. No bank credentials. No tricks.</p>
   </footer>
