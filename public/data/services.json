@@ -1,19 +1,5 @@
 [
   {
-    "name": "Carbonite",
-    "slug": "carbonite",
-    "url": "https://www.carbonite.com",
-    "category": "cloud",
-    "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
-  },
-  {
     "name": "Backblaze",
     "slug": "backblaze",
     "url": "https://www.backblaze.com",
@@ -41,6 +27,35 @@
     ],
     "last_verified": "2026-03-02",
     "notes": "Backblaze is straightforward to cancel. No refunds on monthly plans \u2014 time your cancellation to the end of your billing period. Annual/2-year plans get a 30-day refund window. Before canceling, download your backed-up data if needed \u2014 you can request a hard drive restore for a fee."
+  },
+  {
+    "name": "Carbonite",
+    "slug": "carbonite",
+    "url": "https://www.carbonite.com",
+    "category": "cloud-storage",
+    "cancel_method": "online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to carbonite.com and sign in to your account.",
+      "Go to 'Account Summary' and find the auto-renewal setting. Turn off automatic renewal. Your subscription remains active through the paid period, then expires.",
+      "\u26a0\ufe0f CRITICAL: After your subscription expires, Carbonite permanently deletes your backed-up files after a grace period of 30\u201360 days. Download any important backed-up files before canceling."
+    ],
+    "cancel_url": "https://account.carbonite.com",
+    "known_friction": "Backed-up files are permanently deleted 30\u201360 days after subscription expiry. This is not prominently warned during the cancellation flow. | Retention tactics: May offer a discounted renewal rate.",
+    "free_alternatives": [
+      {
+        "name": "Backblaze",
+        "url": "https://www.backblaze.com",
+        "note": "Competing backup service, similar pricing"
+      },
+      {
+        "name": "Google Drive (free 15GB)",
+        "url": "https://drive.google.com",
+        "note": "Free 15GB cloud storage"
+      }
+    ],
+    "last_verified": "2026-04-01",
+    "notes": "Carbonite is an online backup service (files, not apps). The data deletion window is the critical thing \u2014 don't cancel without first downloading your backed-up files or ensuring you have local copies. Carbonite is owned by OpenText as of 2019."
   },
   {
     "name": "Google One",
@@ -295,14 +310,33 @@
     "slug": "mint",
     "url": "https://mint.intuit.com",
     "category": "finance",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "N/A",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Mint shut down on January 1, 2024. The service no longer exists. Intuit migrated Mint users to Credit Karma. There is nothing to cancel.",
+      "If you have a Credit Karma account created via Mint migration and want to close it: go to creditkarma.com > Settings > Account > Close Account."
+    ],
     "cancel_url": "",
     "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": "Mint has been transitioning users to Credit Karma. Cancel instructions may vary depending on migration status."
+    "free_alternatives": [
+      {
+        "name": "Credit Karma (free)",
+        "url": "https://www.creditkarma.com",
+        "note": "Intuit's replacement \u2014 free budgeting and credit monitoring"
+      },
+      {
+        "name": "YNAB",
+        "url": "https://www.youneedabudget.com",
+        "note": "Paid, but the gold standard for zero-based budgeting"
+      },
+      {
+        "name": "Monarch Money",
+        "url": "https://www.monarch.com",
+        "note": "Popular Mint replacement, paid"
+      }
+    ],
+    "last_verified": "2024-01-01",
+    "notes": "Mint (Intuit) shut down permanently on January 1, 2024. Users were migrated to Credit Karma. If you're still seeing Mint charges, they are likely Credit Karma-related or an error \u2014 contact Intuit support."
   },
   {
     "name": "Noom",
@@ -768,55 +802,119 @@
     "url": "https://www.betterhelp.com",
     "category": "health",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to betterhelp.com and sign in.",
+      "Click your profile icon > 'Account Settings'.",
+      "Scroll to the bottom of the page and click 'Cancel membership'.",
+      "Follow the prompts to confirm. You'll receive a confirmation email. Consider your ongoing therapy needs before canceling. If you want to pause rather than cancel, BetterHelp allows pauses of up to 4 weeks."
+    ],
+    "cancel_url": "https://www.betterhelp.com/account/",
+    "known_friction": "BetterHelp paid $7.8M in FTC refunds in 2023 for sharing user mental health data with Facebook and Snapchat for advertising despite promising not to. This was a data privacy issue, not a cancellation dark pattern, but is material context. | Retention tactics: Offers a pause instead of canceling.; May offer a financial hardship rate.",
+    "free_alternatives": [
+      {
+        "name": "Open Path Collective",
+        "url": "https://openpathcollective.org",
+        "note": "Reduced-cost therapy ($30-$80/session) for those who qualify"
+      },
+      {
+        "name": "SAMHSA helpline",
+        "url": "https://www.samhsa.gov/find-help/national-helpline",
+        "note": "Free mental health referral service: 1-800-662-4357"
+      }
+    ],
+    "last_verified": "2026-04-01",
+    "notes": "BetterHelp cancellation is online and straightforward. If you're canceling due to cost, ask about their financial hardship program before canceling \u2014 reduced rates are available. BetterHelp paid $7.8M in FTC refunds in 2023 for data privacy violations."
   },
   {
     "name": "Calm",
     "slug": "calm",
     "url": "https://www.calm.com",
     "category": "health",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "app store or web",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "\u26a0\ufe0f Uninstalling the Calm app does NOT cancel your subscription.",
+      "iOS: Settings > [your name] > Subscriptions > Calm > Cancel Subscription.",
+      "Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Calm > Cancel.",
+      "Web (if subscribed directly): calm.com > Profile > Settings > Manage Subscription > Cancel."
+    ],
+    "cancel_url": "https://support.calm.com/hc/en-us/articles/115002473607",
+    "known_friction": "Uninstalling Calm does not cancel the subscription. Must cancel through the originating platform. | Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Headspace (free tier)",
+        "url": "https://www.headspace.com",
+        "note": "Limited free content"
+      },
+      {
+        "name": "Insight Timer (free)",
+        "url": "https://insighttimer.com",
+        "note": "Large free library of guided meditations"
+      }
+    ],
+    "last_verified": "2026-02-10",
+    "notes": "Calm is a meditation and sleep app ($14.99/month or $69.99/year). Standard app store cancellation applies. Cancel method depends entirely on where you subscribed."
   },
   {
     "name": "Headspace",
     "slug": "headspace",
     "url": "https://www.headspace.com",
     "category": "health",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "app store or web",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Cancel method depends on where you subscribed \u2014 check your original purchase confirmation email.",
+      "iOS: Settings > [your name] > Subscriptions > Headspace > Cancel Subscription.",
+      "Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Headspace > Cancel.",
+      "Web (direct): headspace.com > Profile > Settings > Subscription > Cancel."
+    ],
+    "cancel_url": "https://help.headspace.com/hc/en-us/articles/115008364988",
+    "known_friction": "Deleting or uninstalling Headspace does not cancel the subscription. Must cancel through originating platform. | Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Insight Timer (free)",
+        "url": "https://insighttimer.com",
+        "note": "Large free meditation library"
+      },
+      {
+        "name": "Calm (free tier)",
+        "url": "https://www.calm.com",
+        "note": "Limited free content"
+      }
+    ],
+    "last_verified": "2026-01-24",
+    "notes": "Headspace merged with Ginger (mental health platform) in 2021 to form Headspace Health. The consumer meditation app continues as Headspace. Standard app-store cancellation rules apply."
   },
   {
     "name": "Talkspace",
     "slug": "talkspace",
     "url": "https://www.talkspace.com",
     "category": "health",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to talkspace.com or open the Talkspace app and sign in.",
+      "Go to your account settings and select 'Cancel Plan' or 'Pause Plan'. Steps vary slightly depending on whether you have an out-of-pocket plan, insurance-covered plan, or employer/EAP benefits plan.",
+      "For insurance or employer-covered plans: see help.talkspace.com for plan-specific instructions \u2014 the cancellation path differs.",
+      "Talkspace allows plan pausing as an alternative to full cancellation."
+    ],
+    "cancel_url": "https://help.talkspace.com/hc/en-us/articles/360000287366",
+    "known_friction": "Retention tactics: Offers a pause instead of canceling.",
+    "free_alternatives": [
+      {
+        "name": "Open Path Collective",
+        "url": "https://openpathcollective.org",
+        "note": "Reduced-cost therapy for those who qualify"
+      },
+      {
+        "name": "SAMHSA helpline",
+        "url": "https://www.samhsa.gov/find-help/national-helpline",
+        "note": "Free: 1-800-662-4357"
+      }
+    ],
+    "last_verified": "2026-01-14",
+    "notes": "Talkspace cancellation is online and reasonably clean. The process differs for insurance-covered vs. out-of-pocket plans. No refund for unused time in current billing period. Consider pausing instead of canceling if you might return."
   },
   {
     "name": "Allstate",
@@ -1006,13 +1104,34 @@
     "url": "https://www.siriusxm.com",
     "category": "membership",
     "cancel_method": "phone or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 5,
+    "cancel_steps": [
+      "Call SiriusXM: 1-866-635-2349. Be prepared for significant hold times. Online cancellation is technically available at siriusxm.com but widely reported as unreliable \u2014 many users end up in a loop or see errors. Phone is the only reliably working method.",
+      "State clearly and repeatedly: 'I want to cancel my subscription completely.' SiriusXM retention agents are known for making 4\u20136 consecutive offers before processing cancellation. Decline all offers firmly.",
+      "Get a cancellation confirmation number and note the agent's name. \u26a0\ufe0f SiriusXM has a documented history of continuing to charge after cancellation. Check your statement the following month.",
+      "If charged after cancellation: call back with your confirmation number and request a refund. If refused, dispute the charge with your bank."
+    ],
+    "cancel_url": "https://www.siriusxm.com/help/manage-or-cancel-service",
+    "known_friction": "SiriusXM's online cancel portal frequently fails or loops. Phone is the only reliably working cancellation method, despite a fully online signup process.; SiriusXM agents make 4\u20136 aggressive retention offers per call. Users must decline each before cancellation is processed. Some users report calls lasting 20\u201340 minutes.; SiriusXM has a documented history of continuing to charge customers after confirmed cancellation. Always verify the following month's statement. | Retention tactics: Offers 3 f",
+    "free_alternatives": [
+      {
+        "name": "Spotify (free tier)",
+        "url": "https://www.spotify.com",
+        "note": "Free music streaming with ads"
+      },
+      {
+        "name": "iHeartRadio (free)",
+        "url": "https://www.iheart.com",
+        "note": "Free radio and podcast streaming"
+      },
+      {
+        "name": "Pandora (free tier)",
+        "url": "https://www.pandora.com",
+        "note": "Free radio streaming"
+      }
+    ],
+    "last_verified": "2026-02-14",
+    "notes": "SiriusXM is one of the worst cancellation experiences in the US \u2014 consistently ranked alongside Comcast for friction. The FTC has received numerous complaints. Get a confirmation number. Check your next statement. If they charge you again, dispute it with your bank immediately."
   },
   {
     "name": "Uber One",
@@ -1851,20 +1970,6 @@
     "notes": "Amazon paid $2.5B to settle FTC dark patterns charges in 2025. The cancellation flow was improved post-settlement but still has more steps than necessary. The settlement required Amazon to make cancellation 'as easy as sign-up.' Amazon Prime Video subscriptions cancel separately from Prime membership if subscribed independently."
   },
   {
-    "name": "Blue Apron",
-    "slug": "blue-apron",
-    "url": "https://www.blueapron.com",
-    "category": "shopping",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
-  },
-  {
     "name": "DoorDash DashPass",
     "slug": "doordash-dashpass",
     "url": "https://www.doordash.com/dashpass",
@@ -2396,34 +2501,6 @@
     "notes": "YouTube Premium is one of the more straightforward cancels. The free tier of YouTube retains all content access \u2014 you lose ad-free viewing, background play, and offline downloads."
   },
   {
-    "name": "Birchbox",
-    "slug": "birchbox",
-    "url": "https://www.birchbox.com",
-    "category": "subscription-box",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
-  },
-  {
-    "name": "Book of the Month",
-    "slug": "book-of-the-month",
-    "url": "https://www.bookofthemonth.com",
-    "category": "subscription-box",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
-  },
-  {
     "name": "BarkBox",
     "slug": "barkbox",
     "url": "https://www.barkbox.com",
@@ -2441,6 +2518,68 @@
     "free_alternatives": [],
     "last_verified": "2025-05-04",
     "notes": "BarkBox cancellation is generally straightforward. The main thing to note is the billing cycle deadline \u2014 cancel before the 1st of the following month to avoid the next charge. BarkBox also offers Super Chewer (heavy chewer variant) which cancels separately."
+  },
+  {
+    "name": "Birchbox",
+    "slug": "birchbox",
+    "url": "https://www.birchbox.com",
+    "category": "subscription-boxes",
+    "cancel_method": "online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to birchbox.com and sign in.",
+      "Go to Account Settings > Subscriptions.",
+      "Select 'Cancel Subscription' and confirm. Cancellation stops auto-renewal. You'll still receive any box already billed for the current cycle.",
+      "\u26a0\ufe0f Renewals process on the 1st\u20135th of the month. Cancel before the 1st to avoid the next charge."
+    ],
+    "cancel_url": "https://www.birchbox.com/account/settings",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [],
+    "last_verified": "2026-03-06",
+    "notes": "Birchbox is a beauty sample subscription box. Cancellation is online and clean. Month-to-month subscribers can cancel anytime; term commitment plans (3, 6, 12 month) may have different terms. Check your plan type before canceling."
+  },
+  {
+    "name": "Blue Apron",
+    "slug": "blue-apron",
+    "url": "https://www.blueapron.com",
+    "category": "subscription-boxes",
+    "cancel_method": "online",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to blueapron.com and sign in.",
+      "Go to 'Account' > 'Plan Settings'.",
+      "Scroll to the bottom of the page. Look for 'Cancel Plan' \u2014 it may appear as a small 'click here' link below pause options. Blue Apron surfaces pause options (4, 6, 8, or 10 weeks) prominently before the cancel link, which is in smaller text at the bottom.",
+      "\u26a0\ufe0f Cancel at least 6 days before your next delivery date to avoid being charged for it."
+    ],
+    "cancel_url": "https://www.blueapron.com/account/plan_settings",
+    "known_friction": "The cancel link is placed in small text at the bottom of the plan settings page, below prominently displayed pause options. Users must scroll past multiple retention alternatives to find it. | Retention tactics: Offers delivery pauses (4\u201310 weeks) as primary alternative to canceling.; May offer a discounted box.",
+    "free_alternatives": [],
+    "last_verified": "2025-12-18",
+    "notes": "Blue Apron cancellation deadline: 6 days before next delivery to avoid charge. Blue Apron has had ongoing financial difficulties \u2014 the company has gone through multiple restructurings. If you're on a promotional rate, it may not be available again after canceling."
+  },
+  {
+    "name": "Book of the Month",
+    "slug": "book-of-the-month",
+    "url": "https://www.bookofthemonth.com",
+    "category": "subscription-boxes",
+    "cancel_method": "online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to bookofthemonth.com and sign in.",
+      "Go to Account > Membership settings.",
+      "Select 'Cancel membership' and follow the prompts. You can also skip months instead of canceling if you just need a break \u2014 skipping is free."
+    ],
+    "cancel_url": "https://www.bookofthemonth.com/help-center/adjust-my-membership/how-do-i-cancel-my-membership",
+    "known_friction": "Retention tactics: Highlights the skip option as an alternative.",
+    "free_alternatives": [
+      {
+        "name": "Public library (free)",
+        "url": "https://www.libbyapp.com",
+        "note": "Free ebooks and audiobooks with a library card via Libby"
+      }
+    ],
+    "last_verified": "2026-03-06",
+    "notes": "Book of the Month ($16.99/month) sends one hardcover book per month chosen from a curated selection. Clean cancellation. The skip option is genuinely free and useful if you just want to pause."
   },
   {
     "name": "Dollar Shave Club",
