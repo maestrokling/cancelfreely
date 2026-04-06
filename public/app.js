@@ -15,7 +15,7 @@ function render(list) {
   }
   main.innerHTML = list.map(s => `
     <div class="card">
-      <h2>${s.name}</h2>
+      <h2><a href="/cancel/${s.slug}/" style="color:inherit;text-decoration:none;">${s.name}</a></h2>
       <span class="difficulty d${s.cancel_difficulty}">${diffLabel(s.cancel_difficulty)}</span>
       <ol class="steps">${s.cancel_steps.map(step => `<li>${step}</li>`).join('')}</ol>
       ${s.known_friction ? `<div class="friction">Watch out: ${s.known_friction}</div>` : ''}
