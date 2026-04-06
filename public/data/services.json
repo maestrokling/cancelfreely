@@ -288,6 +288,35 @@
     "notes": "The app deletion trap is Tinder's most common gotcha. Always cancel through Apple/Google settings, not by deleting the app. Tinder offers Plus, Gold, and Platinum tiers \u2014 all cancel through the same platform-specific flow."
   },
   {
+    "name": "Acorns",
+    "slug": "acorns",
+    "url": "https://www.acorns.com",
+    "category": "finance",
+    "cancel_method": "online or app",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Open the Acorns app or go to app.acorns.com and sign in.",
+      "Tap your profile icon > Settings > Personal > Subscription > Close Account.",
+      "Follow the prompts to withdraw your balance and confirm account closure. Your invested balance will be liquidated and returned to your linked bank account. This may take 3-5 business days."
+    ],
+    "cancel_url": "https://www.acorns.com/support/signing-up/can-i-close-my-account-at-any-time/",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Robinhood (free)",
+        "url": "https://www.robinhood.com",
+        "note": "Free stock/ETF investing, no subscription"
+      },
+      {
+        "name": "Fidelity (free)",
+        "url": "https://www.fidelity.com",
+        "note": "Free investing with no account minimums"
+      }
+    ],
+    "last_verified": "2026-03-06",
+    "notes": "Acorns ($3-$5/month) is a micro-investing app. Account closure is in-app and straightforward. Your invested balance is liquidated and returned to your bank \u2014 this may trigger capital gains taxes if your investments have appreciated. Canceling is immediate; withdrawal takes a few business days."
+  },
+  {
     "name": "Credit Karma",
     "slug": "credit-karma",
     "url": "https://www.creditkarma.com",
@@ -392,6 +421,36 @@
     ],
     "last_verified": "2026-03-28",
     "notes": "Export all data before canceling \u2014 this is critical. Run and download: P&L, Balance Sheet, Transaction List, and any custom reports you need. QuickBooks Desktop licenses work differently from QuickBooks Online subscriptions."
+  },
+  {
+    "name": "Robinhood",
+    "slug": "robinhood",
+    "url": "https://www.robinhood.com",
+    "category": "finance",
+    "cancel_method": "online or app",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Before closing: sell or transfer all stocks, ETFs, and crypto. Withdraw all cash to your bank account. IRA accounts require a rollover to another institution. You cannot close a Robinhood account with a balance. All positions must be liquidated or transferred first.",
+      "In the app: tap your profile icon > Account > Investing > Account Information > Deactivate Account.",
+      "On web: go to account.robinhood.com > Settings > Investing > Deactivate Account.",
+      "Send a written confirmation to support@robinhood.com stating your intent to close the account. The written email step is required per Robinhood's process. A representative will follow up within 5 business days."
+    ],
+    "cancel_url": "https://robinhood.com/us/en/support/articles/close-my-account/",
+    "known_friction": "Robinhood requires all positions to be liquidated or transferred before account closure \u2014 you cannot simply close and have them handle it. For investors with diversified portfolios, this can take significant time and may trigger taxable events. | Retention tactics: None \u2014 account closure is straightforward once balances are zero.",
+    "free_alternatives": [
+      {
+        "name": "Fidelity (free trading)",
+        "url": "https://www.fidelity.com",
+        "note": "Commission-free trading with better research tools"
+      },
+      {
+        "name": "Charles Schwab (free)",
+        "url": "https://www.schwab.com",
+        "note": "Commission-free trading, full-service brokerage"
+      }
+    ],
+    "last_verified": "2026-01-23",
+    "notes": "Robinhood account closure is permanent. For ACATS transfer (moving investments to another broker without selling), initiate the transfer at the receiving broker \u2014 this avoids triggering taxable events. Robinhood Gold ($5/month) cancels separately through the app before account closure."
   },
   {
     "name": "TurboTax",
@@ -669,6 +728,35 @@
     "notes": "Planet Fitness is one of the most-cited examples of cancellation friction in the fitness industry. The in-person/certified mail requirement, combined with home-club restrictions, has been the subject of multiple state attorney general inquiries. The FTC's Click-to-Cancel Rule was meant to force online cancellation but has been stalled in court by gym industry lobbying as of early 2026. Always keep your certified mail receipt."
   },
   {
+    "name": "Apple Arcade",
+    "slug": "apple-arcade",
+    "url": "https://www.apple.com/apple-arcade/",
+    "category": "gaming",
+    "cancel_method": "device",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "On iPhone/iPad: Settings > [your name] > Subscriptions > Apple Arcade > Cancel Subscription.",
+      "On Mac: App Store > your profile icon > Subscriptions > Apple Arcade > Cancel.",
+      "On Apple TV: Settings > Users and Accounts > [your name] > Subscriptions > Apple Arcade > Cancel."
+    ],
+    "cancel_url": "https://support.apple.com/en-us/118428",
+    "known_friction": "Retention tactics: None \u2014 Apple's subscription management is clean.",
+    "free_alternatives": [
+      {
+        "name": "Google Play Pass",
+        "url": "https://play.google.com/intl/en_us/about/play-pass/",
+        "note": "Android equivalent \u2014 $4.99/month"
+      },
+      {
+        "name": "Xbox Game Pass",
+        "url": "https://www.xbox.com/xbox-game-pass",
+        "note": "PC and console game subscription"
+      }
+    ],
+    "last_verified": "2026-01-07",
+    "notes": "Apple Arcade ($6.99/month) is an ad-free, in-app purchase-free game subscription for Apple devices. Cancellation follows standard Apple subscription flow \u2014 one of the cleanest on the market."
+  },
+  {
     "name": "EA Play",
     "slug": "ea-play",
     "url": "https://www.ea.com/ea-play",
@@ -887,6 +975,25 @@
     "notes": "Headspace merged with Ginger (mental health platform) in 2021 to form Headspace Health. The consumer meditation app continues as Headspace. Standard app-store cancellation rules apply."
   },
   {
+    "name": "Hims & Hers",
+    "slug": "hims-hers",
+    "url": "https://www.hims.com",
+    "category": "health",
+    "cancel_method": "online or app",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to hims.com (or hers.com) and sign in.",
+      "Go to your profile > 'Subscriptions' > select the subscription to cancel > 'Cancel Subscription'.",
+      "\u26a0\ufe0f Cancel at least 48 hours before your next order date to avoid being charged and shipped the next order. Hims processes and ships orders before the billing date. Missing the 48-hour window means you'll receive and be charged for the next shipment.",
+      "Verify cancellation \u2014 some users report the account shows 'canceled' but a next refill date still appears. Confirm with support if unclear."
+    ],
+    "cancel_url": "https://support.hims.com/hc/en-us/articles/360000962263",
+    "known_friction": "Multiple BBB complaints describe accounts showing as 'canceled' while still displaying a next refill date \u2014 creating confusion about whether cancellation was processed. Some users were charged and shipped after believing they had canceled.; Hims processes orders well before the billing/ship date. Missing the 48-hour cancellation window results in a charge and shipment you cannot return. | Retention tactics: May offer a pause or reduced-frequency delivery instead of canceling.",
+    "free_alternatives": [],
+    "last_verified": "2026-04-01",
+    "notes": "Hims/Hers is a telehealth and subscription wellness brand (hair loss, ED, skincare, etc.). Cancel well in advance of your next order date \u2014 the 48-hour rule is strictly enforced. If you cancel and are still charged, contact support immediately; refunds are sometimes available for the most recent shipment."
+  },
+  {
     "name": "Talkspace",
     "slug": "talkspace",
     "url": "https://www.talkspace.com",
@@ -917,6 +1024,36 @@
     "notes": "Talkspace cancellation is online and reasonably clean. The process differs for insurance-covered vs. out-of-pocket plans. No refund for unused time in current billing period. Consider pausing instead of canceling if you might return."
   },
   {
+    "name": "WeightWatchers (WW)",
+    "slug": "weight-watchers",
+    "url": "https://www.weightwatchers.com",
+    "category": "health",
+    "cancel_method": "online or phone",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to weightwatchers.com/us/cancellation or log in and go to Account > Membership > Cancel.",
+      "If online cancellation isn't available for your plan, call WW: 1-800-651-6000. Some plan types require phone cancellation. This takes roughly 20 minutes including hold time.",
+      "If subscribed via Apple or Google, cancel through those platforms instead.",
+      "Ask about your refund eligibility \u2014 WW's refund policy varies by plan and region."
+    ],
+    "cancel_url": "https://www.weightwatchers.com/us/cancellation",
+    "known_friction": "Some WW subscription types cannot be canceled online and require a phone call. The plan-specific path is not surfaced clearly before signup. | Retention tactics: May offer a discounted renewal or a plan pause.; May offer a lower-cost plan tier.",
+    "free_alternatives": [
+      {
+        "name": "MyFitnessPal (free tier)",
+        "url": "https://www.myfitnesspal.com",
+        "note": "Free calorie tracking and food logging"
+      },
+      {
+        "name": "Lose It! (free tier)",
+        "url": "https://www.loseit.com",
+        "note": "Free weight and calorie tracking"
+      }
+    ],
+    "last_verified": "2026-02-12",
+    "notes": "WW rebranded from Weight Watchers in 2018. The cancellation process varies by plan type \u2014 some require phone. Average cancellation takes about 20 minutes. WW filed for bankruptcy in 2024 and emerged; the service continues to operate."
+  },
+  {
     "name": "Allstate",
     "slug": "allstate",
     "url": "https://www.allstate.com",
@@ -934,6 +1071,36 @@
     "free_alternatives": [],
     "last_verified": "2026-03-06",
     "notes": "Allstate is straightforward once you reach an agent or call center. Cancellation is processed immediately on request. Phone-only policy is the main friction point \u2014 no online self-service despite full online account management for other tasks."
+  },
+  {
+    "name": "CarShield",
+    "slug": "carshield",
+    "url": "https://www.carshield.com",
+    "category": "insurance",
+    "cancel_method": "phone",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call CarShield: 1-800-977-3450. Have your vehicle service contract number ready. CarShield does not allow online cancellation. Phone only.",
+      "State you want to cancel your vehicle protection plan. Get a cancellation confirmation number.",
+      "Refund terms: within 30 days = full refund. After 30 days = prorated refund minus a $75 cancellation fee. Processing time for refund: 45\u201360 days.",
+      "Send a written cancellation request via certified mail to your contract administrator as a backup. Some CarShield plans are administered by third parties \u2014 your contract should specify who to contact."
+    ],
+    "cancel_url": "",
+    "known_friction": "No online cancellation despite online signup. Phone required.; CarShield charges a $75 cancellation fee after the 30-day free look period. This fee is buried in the contract terms.; CarShield has faced significant FTC scrutiny and consumer complaints for misleading advertising (implying manufacturer relationship) and claims denials.; Prorated refunds take 45\u201360 days to process \u2014 significantly longer than most subscription services. | Retention tactics: May offer a reduced monthly rate to retain ",
+    "free_alternatives": [
+      {
+        "name": "Your auto manufacturer's warranty",
+        "url": "",
+        "note": "Check remaining factory warranty coverage first"
+      },
+      {
+        "name": "Your auto insurer",
+        "url": "",
+        "note": "Some auto insurers offer mechanical breakdown coverage"
+      }
+    ],
+    "last_verified": "2026-02-17",
+    "notes": "CarShield is heavily advertised via TV and radio. The FTC has received numerous complaints about its advertising practices and claims denials. Cancel within 30 days for a full refund with no fee. After 30 days: $75 fee + prorated refund that takes 45-60 days. Keep your cancellation confirmation number and send a certified mail backup."
   },
   {
     "name": "GEICO",
@@ -1995,6 +2162,36 @@
     "notes": "DashPass is a low-friction cancel. Watch for the mobile billing redirect if you subscribed through an app store. DashPass is also bundled with some Chase credit cards \u2014 if you have a Chase Sapphire or similar, you may have DashPass included."
   },
   {
+    "name": "Grubhub+",
+    "slug": "grubhub-plus",
+    "url": "https://www.grubhub.com/plus",
+    "category": "shopping",
+    "cancel_method": "online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to grubhub.com and sign in.",
+      "Click your profile icon > 'Grubhub+' > 'Manage Membership'.",
+      "Click 'Cancel Membership' (the link is light grey \u2014 look carefully).",
+      "Click 'Continue cancellation' > 'Cancel membership' to confirm. Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.grubhub.com/account/billing",
+    "known_friction": "The 'Cancel Membership' link is styled in light grey, making it visually hard to find compared to other options on the page.; Some users report not being able to find the cancel button at all depending on account state. If the button is missing, contact Grubhub support via chat. | Retention tactics: None beyond the confusing UI.",
+    "free_alternatives": [
+      {
+        "name": "Grubhub (no subscription)",
+        "url": "https://www.grubhub.com",
+        "note": "Order without Grubhub+ \u2014 delivery fees apply"
+      },
+      {
+        "name": "DoorDash DashPass",
+        "url": "https://www.doordash.com/dashpass",
+        "note": "Competing delivery subscription"
+      }
+    ],
+    "last_verified": "2026-02-03",
+    "notes": "Grubhub+ ($9.99/month) gives free delivery on eligible orders. Note: Grubhub+ is bundled for free with Amazon Prime in some promotions \u2014 if you got it via Prime, check your Amazon account to manage it. The light-grey cancel link is the main friction point."
+  },
+  {
     "name": "Instacart+",
     "slug": "instacart-plus",
     "url": "https://www.instacart.com/plus",
@@ -2181,6 +2378,35 @@
     "notes": "Audible is one of the highest-friction streaming cancellations. Key gotchas: (1) mobile app can't cancel, (2) regional site mismatch causes endless loops, (3) multi-screen retention flow. Unused credits are lost on cancellation. Books already purchased remain in your library indefinitely even after cancellation. The FTC's Click-to-Cancel Rule (July 2025) may pressure Audible to simplify this flow."
   },
   {
+    "name": "Crunchyroll",
+    "slug": "crunchyroll",
+    "url": "https://www.crunchyroll.com",
+    "category": "streaming",
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to crunchyroll.com and sign in.",
+      "Click your profile icon > 'Manage Premium' > 'Cancel Membership'. If subscribed via Apple, Google, Amazon, or Roku, cancel through that platform instead.",
+      "Confirm cancellation. Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.crunchyroll.com/account/membership",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Crunchyroll (ad-supported \u2014 ended Dec 2025)",
+        "url": "https://www.crunchyroll.com",
+        "note": "Free ad-supported tier ended December 31, 2025 \u2014 subscription now required"
+      },
+      {
+        "name": "Tubi (free)",
+        "url": "https://www.tubi.tv",
+        "note": "Free ad-supported streaming with some anime"
+      }
+    ],
+    "last_verified": "2026-03-01",
+    "notes": "Crunchyroll eliminated its free ad-supported tier on December 31, 2025 \u2014 subscription is now required to watch. Cancellation is clean with no ETF or dark patterns. Cancel through the originating platform if subscribed via app store."
+  },
+  {
     "name": "Disney+",
     "slug": "disney-plus",
     "url": "https://www.disneyplus.com",
@@ -2209,6 +2435,60 @@
     ],
     "last_verified": "2026-01-21",
     "notes": "If subscribed through a third-party (Apple, Google, Amazon, Roku, or via a cable provider), cancellation must happen on that platform \u2014 Disney+ website will not show a cancel option. Price increases in 2024-2025 drove significant subscriber churn."
+  },
+  {
+    "name": "ESPN+",
+    "slug": "espn-plus",
+    "url": "https://www.espn.com/espnplus/",
+    "category": "streaming",
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to espnplus.com or the ESPN app and sign in.",
+      "Go to your profile > 'Manage' > 'Cancel Subscription'. If subscribed via Apple, Google, Roku, or Amazon, cancel through that platform.",
+      "\u26a0\ufe0f If you have the Disney Bundle (ESPN+ + Hulu + Disney+), you cannot cancel ESPN+ separately. You must cancel the entire bundle.",
+      "Confirm cancellation. Access continues through end of billing period."
+    ],
+    "cancel_url": "https://support.espn.com/hc/en-us/articles/13617786586004",
+    "known_friction": "ESPN+ subscribers on the Disney Bundle cannot cancel ESPN+ as a standalone service \u2014 they must cancel the entire bundle (losing Disney+ and Hulu access too). | Retention tactics: May offer a discounted rate.",
+    "free_alternatives": [
+      {
+        "name": "ESPN (free news)",
+        "url": "https://www.espn.com",
+        "note": "Free scores, news, highlights \u2014 ESPN+ is for live events and exclusive content"
+      }
+    ],
+    "last_verified": "2026-03-01",
+    "notes": "ESPN+ standalone is $10.99/month. The Disney Bundle lock-in is the main dark pattern \u2014 if you subscribed to a bundle, canceling ESPN+ cancels everything. Check what bundle you're on before canceling."
+  },
+  {
+    "name": "Fubo",
+    "slug": "fubo",
+    "url": "https://www.fubo.tv",
+    "category": "streaming",
+    "cancel_method": "online",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to fubo.tv and sign in.",
+      "Click your profile icon > 'Account' > 'Manage Account' > 'Cancel Subscription'. If subscribed via Apple, Roku, Amazon, or another platform, cancel through that platform.",
+      "Fubo may present a pause option or retention offer \u2014 click through to reach the final cancel confirmation."
+    ],
+    "cancel_url": "https://support.fubo.tv/hc/en-us/articles/360021527991",
+    "known_friction": "Fubo surfaces a pause offer before the cancel confirmation, nudging users toward pausing rather than canceling. | Retention tactics: Offers a plan pause instead of canceling.; May offer a discounted rate.",
+    "free_alternatives": [
+      {
+        "name": "Sling TV",
+        "url": "https://www.sling.com",
+        "note": "Cheaper live TV streaming alternative"
+      },
+      {
+        "name": "YouTube TV",
+        "url": "https://tv.youtube.com",
+        "note": "Live TV streaming with sports"
+      }
+    ],
+    "last_verified": "2026-01-28",
+    "notes": "Fubo is a live TV streaming service focused on sports ($79.99+/month). No early termination fee. Cancel before the billing date to avoid the next charge."
   },
   {
     "name": "HBO Max",
@@ -2433,6 +2713,36 @@
     ],
     "last_verified": "2026-02-26",
     "notes": "Peacock has a free tier, so users may be able to downgrade rather than fully cancel. Some NBC content is available free. If subscribed via Apple, Amazon, or Roku, cancel through that platform."
+  },
+  {
+    "name": "Sling TV",
+    "slug": "sling-tv",
+    "url": "https://www.sling.com",
+    "category": "streaming",
+    "cancel_method": "online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to sling.com and sign in.",
+      "Click your profile icon > 'Account' > scroll to 'Cancel Subscription'.",
+      "Sling will offer a pause option (up to 3 months, $5/month). If you want to fully cancel, click 'Continue to Cancel'.",
+      "Confirm cancellation. Access continues through the end of the billing period."
+    ],
+    "cancel_url": "https://www.sling.com/help/en/account-questions/account-changes/pause-cancel-subscription",
+    "known_friction": "Retention tactics: Offers a discounted pause ($5/month) instead of canceling.",
+    "free_alternatives": [
+      {
+        "name": "Pluto TV (free)",
+        "url": "https://www.pluto.tv",
+        "note": "Free ad-supported live TV and on-demand"
+      },
+      {
+        "name": "Tubi (free)",
+        "url": "https://www.tubi.tv",
+        "note": "Free ad-supported streaming"
+      }
+    ],
+    "last_verified": "2026-01-23",
+    "notes": "Sling TV ($40-$55+/month) is one of the more affordable live TV streaming services. No contract, no ETF. The pause option at $5/month is a genuine option if you want to keep your account active cheaply."
   },
   {
     "name": "Spotify",
@@ -2763,6 +3073,31 @@
     ],
     "last_verified": "2025-11-29",
     "notes": "Cox is one of the US's largest cable ISPs, primarily operating in markets without direct fiber competition. Reddit r/CoxCommunications is full of price-gouging complaints from customers in monopoly markets. The 30-day satisfaction guarantee is a genuine policy \u2014 use it if you're in the first month. Cox and Charter announced a merger in 2025 that is pending regulatory review."
+  },
+  {
+    "name": "Mint Mobile",
+    "slug": "mint-mobile",
+    "url": "https://www.mintmobile.com",
+    "category": "telecom",
+    "cancel_method": "online or phone",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Port your number to the new carrier to automatically cancel Mint Mobile service. Number porting is the cleanest cancellation path \u2014 initiate at the new carrier. You'll need your Mint Mobile account number and PIN.",
+      "To cancel without porting: log in at mintmobile.com > Account > Cancel Service.",
+      "Or call Mint Mobile: 1-800-683-7392.",
+      "7-day refund window: if within 7 days of purchase, you can get a full refund."
+    ],
+    "cancel_url": "https://www.mintmobile.com/help-center/",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Google Fi (pay-per-use)",
+        "url": "https://fi.google.com",
+        "note": "Flexible billing, pay only for data you use"
+      }
+    ],
+    "last_verified": "2026-03-01",
+    "notes": "Mint Mobile is a budget carrier on T-Mobile's network. Plans are sold in 3, 6, or 12-month chunks \u2014 you're paying upfront, so 'cancellation' mostly means not renewing or porting away. The 7-day return policy applies to new purchases. T-Mobile acquired Mint Mobile in 2023."
   },
   {
     "name": "Spectrum (Charter)",
