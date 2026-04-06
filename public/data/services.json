@@ -1,19 +1,5 @@
 [
   {
-    "name": "Backblaze",
-    "slug": "backblaze",
-    "url": "https://www.backblaze.com",
-    "category": "cloud",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
-  },
-  {
     "name": "Carbonite",
     "slug": "carbonite",
     "url": "https://www.carbonite.com",
@@ -28,46 +14,117 @@
     "notes": ""
   },
   {
+    "name": "Backblaze",
+    "slug": "backblaze",
+    "url": "https://www.backblaze.com",
+    "category": "cloud-storage",
+    "cancel_method": "online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to backblaze.com and sign in.",
+      "Go to 'My Account' > 'Overview' > find your backup license and click 'Remove'. For Computer Backup: remove all registered backups and licenses. For B2 Cloud Storage: the account can be canceled separately.",
+      "To fully delete your account: go to 'My Account' > 'Account Details' > 'Close Account'."
+    ],
+    "cancel_url": "https://www.backblaze.com/computer-backup/docs/cancel-or-delete-a-backblaze-account",
+    "known_friction": "Backblaze explicitly states no refunds on monthly subscriptions. Cancel at the end of your billing period to avoid paying for unused time. | Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Backblaze (free trial)",
+        "url": "https://www.backblaze.com",
+        "note": "Free 30-day trial for Computer Backup"
+      },
+      {
+        "name": "Google Drive (free 15GB)",
+        "url": "https://drive.google.com",
+        "note": "Free 15GB"
+      }
+    ],
+    "last_verified": "2026-03-02",
+    "notes": "Backblaze is straightforward to cancel. No refunds on monthly plans \u2014 time your cancellation to the end of your billing period. Annual/2-year plans get a 30-day refund window. Before canceling, download your backed-up data if needed \u2014 you can request a hard drive restore for a fee."
+  },
+  {
     "name": "Google One",
     "slug": "google-one",
     "url": "https://one.google.com",
-    "category": "cloud",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "category": "cloud-storage",
+    "cancel_method": "online or app",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to one.google.com and sign in.",
+      "Click 'Manage' next to your storage plan, then select 'Cancel plan'.",
+      "On Android: Open Google One app > Settings > Manage Google One > Cancel membership.",
+      "Access reverts to the free 15GB tier. Files above that limit become inaccessible to upload/edit \u2014 but existing files are not deleted for a grace period. Prorated refund is available if you request it immediately after canceling."
+    ],
+    "cancel_url": "https://one.google.com/storage",
+    "known_friction": "Retention tactics: May offer a downgrade to a lower storage tier.",
+    "free_alternatives": [
+      {
+        "name": "Google (free 15GB)",
+        "url": "https://one.google.com",
+        "note": "Free 15GB shared across Gmail, Drive, and Photos"
+      }
+    ],
+    "last_verified": "2026-03-01",
+    "notes": "Google One is the storage tier upgrade for Gmail/Drive/Photos. Canceling reverts to the free 15GB. If you're over 15GB, prioritize cleaning up before canceling to avoid access issues."
   },
   {
     "name": "iCloud+",
     "slug": "icloud-plus",
-    "url": "https://www.apple.com/icloud",
-    "category": "cloud",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "url": "https://www.apple.com/icloud/",
+    "category": "cloud-storage",
+    "cancel_method": "device or online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "On iPhone/iPad: Go to Settings > [your name] > iCloud > Manage Account Storage > Change Storage Plan > Downgrade Options > select Free.",
+      "On Mac: System Settings > [your name] > iCloud > Manage > Change Storage Plan > Downgrade Options.",
+      "Without an Apple device: Go to appleid.apple.com, sign in, then manage subscriptions.",
+      "\u26a0\ufe0f Downgrading takes effect at the end of the billing period. Files above the free 5GB limit won't be deleted immediately, but new uploads and iCloud backups will stop working until you're under the limit."
+    ],
+    "cancel_url": "https://support.apple.com/en-us/108318",
+    "known_friction": "Apple's cancellation flow doesn't prominently surface what happens to data above 5GB after downgrade. Users who don't clean up first may lose access to backups and find devices can't back up. | Retention tactics: None \u2014 Apple's flow is clean.",
+    "free_alternatives": [
+      {
+        "name": "iCloud (free 5GB)",
+        "url": "https://www.icloud.com",
+        "note": "Free 5GB with Apple ID"
+      },
+      {
+        "name": "Google Photos (free 15GB)",
+        "url": "https://photos.google.com",
+        "note": "Free 15GB for photos/videos"
+      }
+    ],
+    "last_verified": "2025-11-18",
+    "notes": "iCloud+ plans start at $0.99/month for 50GB. Before downgrading, clean out iCloud Drive, delete old device backups, and optimize photo storage. Family Sharing members share the same storage plan \u2014 downgrading affects everyone."
   },
   {
-    "name": "OneDrive (standalone)",
+    "name": "OneDrive (Microsoft 365)",
     "slug": "onedrive",
-    "url": "https://www.microsoft.com/en-us/microsoft-365/onedrive",
-    "category": "cloud",
+    "url": "https://onedrive.live.com",
+    "category": "cloud-storage",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to account.microsoft.com and sign in. OneDrive storage plans are bundled with Microsoft 365. Canceling Microsoft 365 also cancels the extra storage.",
+      "Go to 'Services & subscriptions' > find your Microsoft 365 plan > 'Manage' > 'Cancel subscription'.",
+      "After cancellation, OneDrive reverts to the free 5GB tier. Files above that limit become read-only and then inaccessible after a grace period. \u26a0\ufe0f Microsoft is ending standalone SharePoint Online and OneDrive plans as of May 2026 \u2014 only Microsoft 365 bundles will be available going forward."
+    ],
+    "cancel_url": "https://account.microsoft.com/services",
+    "known_friction": "Retention tactics: May offer a discounted renewal.",
+    "free_alternatives": [
+      {
+        "name": "OneDrive (free 5GB)",
+        "url": "https://onedrive.live.com",
+        "note": "Free 5GB with Microsoft account"
+      },
+      {
+        "name": "Google Drive (free 15GB)",
+        "url": "https://drive.google.com",
+        "note": "Free 15GB"
+      }
+    ],
+    "last_verified": "2026-01-23",
+    "notes": "Standalone OneDrive storage plans are being discontinued by Microsoft (new sales end May 31, 2026). Storage above 5GB requires a Microsoft 365 subscription. After cancellation, download any files above the 5GB limit before they become inaccessible."
   },
   {
     "name": "Bumble",
@@ -216,18 +273,22 @@
     "notes": "The app deletion trap is Tinder's most common gotcha. Always cancel through Apple/Google settings, not by deleting the app. Tinder offers Plus, Gold, and Platinum tiers \u2014 all cancel through the same platform-specific flow."
   },
   {
-    "name": "Credit Karma (premium)",
+    "name": "Credit Karma",
     "slug": "credit-karma",
     "url": "https://www.creditkarma.com",
     "category": "finance",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Credit Karma is free \u2014 there is no paid subscription to cancel. To delete your account: go to creditkarma.com and sign in.",
+      "Go to Settings > Account > 'Close Account'. The close account option is somewhat buried \u2014 Reddit users note it requires some searching.",
+      "Follow the prompts to confirm account deletion. Credit Karma will delete your account and personal data. Note: if you have a Credit Karma Money account (savings or spending), that must be closed separately first."
+    ],
+    "cancel_url": "https://www.creditkarma.com/settings/account",
+    "known_friction": "The account deletion option is not prominently surfaced. Reddit users describe it as 'a bit tricky' to find. Credit Karma (owned by Intuit) monetizes through financial product referrals \u2014 account closure is not incentivized. | Retention tactics: None \u2014 no paid subscription.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-03-13",
+    "notes": "Credit Karma has no paid subscription \u2014 it's free and makes money through financial product referrals (credit cards, loans). If you want to stop using it, delete the account to remove your data. Close any Credit Karma Money accounts first before account deletion."
   },
   {
     "name": "Mint (Intuit)",
@@ -244,18 +305,59 @@
     "notes": "Mint has been transitioning users to Credit Karma. Cancel instructions may vary depending on migration status."
   },
   {
+    "name": "Noom",
+    "slug": "noom",
+    "url": "https://www.noom.com",
+    "category": "finance",
+    "cancel_method": "online or app",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "In the Noom app: tap your profile > Settings > Subscription > Cancel Subscription.",
+      "Online: go to noom.com > sign in > account settings > Subscription Portal > Cancel.",
+      "Navigate through multiple retention screens \u2014 Noom will offer free trial extensions, deep discounts, and pause options before allowing cancellation. Stay firm. Multiple Reddit users report needing to decline 3-5 offers before reaching the final cancel button.",
+      "Get a cancellation confirmation email \u2014 save it. Noom has been reported to continue charging after cancellation without confirmation."
+    ],
+    "cancel_url": "https://www.noom.com/support/faqs/subscription-and-billing/2025/10/how-to-cancel-your-noom-subscription-or-trial/",
+    "known_friction": "Multiple Reddit users report Noom continued renewing charges after what they believed was a successful cancellation, with no renewal notification emails. One user described discovering months of charges they never received receipts for.; Noom's cancellation flow includes multiple retention screens with escalating offers (free trials, deep discounts, pauses) that must each be declined before reaching the final cancel button.; Reddit users describe Noom as 'impossible to cancel,' with phone agents",
+    "free_alternatives": [
+      {
+        "name": "MyFitnessPal (free tier)",
+        "url": "https://www.myfitnesspal.com",
+        "note": "Free calorie tracking and food logging"
+      },
+      {
+        "name": "Lose It! (free tier)",
+        "url": "https://www.loseit.com",
+        "note": "Free calorie and weight tracking"
+      }
+    ],
+    "last_verified": "2025-10-01",
+    "notes": "Noom is one of the most complained-about health app cancellations. Always get a confirmation email and check your credit card statement for the following month. If you're charged after cancellation, file a chargeback and contact Noom support with your cancellation confirmation."
+  },
+  {
     "name": "QuickBooks",
     "slug": "quickbooks",
     "url": "https://quickbooks.intuit.com",
     "category": "finance",
-    "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Sign in at quickbooks.intuit.com.",
+      "Click the gear icon (Settings) > Account and Settings > Billing & Subscription.",
+      "Click 'Cancel subscription' and follow the prompts. For QuickBooks Self-Employed: same path, or go directly to quickbooks.intuit.com/self-employed.",
+      "Export your data before canceling: Reports > export to Excel/CSV. Access ends at end of billing period. \u26a0\ufe0f After cancellation, you lose access to your QuickBooks data. Export everything first."
+    ],
+    "cancel_url": "https://quickbooks.intuit.com/learn-support/en-us/help-article/cancel-products-services/cancel-quickbooks-online-subscription-trial/L0MFTXlbw_US_en_US",
+    "known_friction": "QuickBooks does not preserve data access after cancellation. Users who cancel without exporting lose access to years of financial records. This is not prominently warned in the cancellation flow. | Retention tactics: May offer a discounted rate or pause.; Offers to downgrade to a lower plan.",
+    "free_alternatives": [
+      {
+        "name": "Wave (free)",
+        "url": "https://www.waveapps.com",
+        "note": "Free accounting for small businesses"
+      }
+    ],
+    "last_verified": "2026-03-28",
+    "notes": "Export all data before canceling \u2014 this is critical. Run and download: P&L, Balance Sheet, Transaction List, and any custom reports you need. QuickBooks Desktop licenses work differently from QuickBooks Online subscriptions."
   },
   {
     "name": "TurboTax",
@@ -263,27 +365,57 @@
     "url": "https://turbotax.intuit.com",
     "category": "finance",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "TurboTax is primarily pay-per-filing, not a recurring subscription. Most users pay once per tax year when they file. If you have TurboTax Advantage (auto-delivery of desktop software) or TurboTax Live, that is a recurring subscription.",
+      "To cancel TurboTax Advantage: sign in at myturbotax.intuit.com > select 'My Account' > 'Manage TurboTax Advantage' > Cancel.",
+      "To remove TurboTax Live/Expert Assist from your current return (before paying): go to your return > Review Your Order > Downgrade. If you've already used the Expert feature, you cannot remove it from that return."
+    ],
+    "cancel_url": "https://ttlc.intuit.com/turbotax-support/en-us/help-article/change-service-level/cancel-turbotax-advantage-subscription/L4UBBY0Th_US_en_US",
+    "known_friction": "TurboTax aggressively upsells to higher tiers and Expert Assist during the filing process. The downgrade path is intentionally less visible than the upgrade path. | Retention tactics: May offer a discount on TurboTax Advantage renewal.",
+    "free_alternatives": [
+      {
+        "name": "IRS Free File",
+        "url": "https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free",
+        "note": "Free federal filing for income under $79,000"
+      },
+      {
+        "name": "FreeTaxUSA",
+        "url": "https://www.freetaxusa.com",
+        "note": "Free federal + $14.99 state"
+      }
+    ],
+    "last_verified": "2026-03-05",
+    "notes": "TurboTax's main dark pattern is upselling during the filing flow, not the subscription model. Most people pay per filing \u2014 if you're only filing once a year, there's no recurring subscription to cancel. TurboTax Advantage is the auto-renewing subscription for desktop software delivery."
   },
   {
     "name": "YNAB (You Need A Budget)",
     "slug": "ynab",
-    "url": "https://www.ynab.com",
+    "url": "https://www.youneedabudget.com",
     "category": "finance",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to app.youneedabudget.com and sign in.",
+      "Click your account name > 'My Account' > 'Cancel your subscription'. If subscribed via iTunes, cancel through Apple Settings > Subscriptions instead.",
+      "Confirm cancellation. Access continues through end of billing period. Your budget data is retained for 30 days after cancellation, then deleted."
+    ],
+    "cancel_url": "https://app.youneedabudget.com/my-account",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Mint (free, Intuit)",
+        "url": "https://mint.intuit.com",
+        "note": "Free budgeting \u2014 being discontinued, migrating to Credit Karma"
+      },
+      {
+        "name": "EveryDollar (free tier)",
+        "url": "https://www.ramseysolutions.com/ramseyplus/everydollar",
+        "note": "Free zero-based budgeting tool"
+      }
+    ],
+    "last_verified": "2026-03-03",
+    "notes": "YNAB is one of the cleaner finance subscription cancels. Export your budget data before canceling \u2014 it's deleted 30 days after account closure. YNAB offers a 34-day free trial for new users."
   },
   {
     "name": "Anytime Fitness",
@@ -507,70 +639,128 @@
     "slug": "ea-play",
     "url": "https://www.ea.com/ea-play",
     "category": "gaming",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or console",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "On PC (EA App): go to ea.com/manage-membership/cancel and sign in.",
+      "On PS4/PS5: Settings > Account Management > Account Information > PlayStation Subscriptions > select EA Play > Turn Off Auto-Renewal.",
+      "On Xbox: account.microsoft.com > Services & subscriptions > EA Play > Cancel.",
+      "On Steam: Library > Subscriptions > EA Play > Edit > Cancel my subscription."
+    ],
+    "cancel_url": "https://www.ea.com/manage-membership/cancel",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "EA (free-to-play games)",
+        "url": "https://www.ea.com",
+        "note": "Apex Legends, Battlefield and other F2P titles don't require EA Play"
+      }
+    ],
+    "last_verified": "2026-02-21",
+    "notes": "EA Play cancellation method depends on where you subscribed. EA Play Pro (PC only, higher tier) cancels through the EA App. Games accessed through EA Play's vault become unplayable after cancellation."
   },
   {
     "name": "Nintendo Switch Online",
     "slug": "nintendo-switch-online",
-    "url": "https://www.nintendo.com/switch/online",
+    "url": "https://www.nintendo.com/switch/online/",
     "category": "gaming",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or console",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "On Nintendo Switch: System Settings > Nintendo eShop > your account > Nintendo Switch Online > Turn Off Auto-Renewal. Must be done at least 48 hours before renewal date.",
+      "Online: Go to nintendo.com > sign in > your account > Shop Menu > Nintendo Switch Online > Turn Off Auto-Renewal.",
+      "Membership remains active through the end of the paid period, then lapses. Online play, cloud saves, and NES/SNES library access are lost when membership lapses."
+    ],
+    "cancel_url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/41196",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Nintendo Switch (no online)",
+        "url": "",
+        "note": "Single-player games work without NSO"
+      }
+    ],
+    "last_verified": "2026-01-21",
+    "notes": "Nintendo Switch Online is straightforward to cancel \u2014 one of the cleaner gaming subscription cancels. Turn off auto-renewal at least 48 hours before the renewal date. Family memberships affect all linked accounts."
   },
   {
     "name": "PlayStation Plus",
     "slug": "playstation-plus",
-    "url": "https://www.playstation.com/en-us/ps-plus",
+    "url": "https://www.playstation.com/ps-plus/",
     "category": "gaming",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or console",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "On PS5/PS4: Settings > Account Management > Account Information > PlayStation Subscriptions > select PS Plus > Turn Off Auto-Renewal.",
+      "Online: Go to playstation.com > Account > Subscriptions > PS Plus > Cancel.",
+      "Subscription continues through end of paid period. Monthly PS Plus games you claimed remain in your library as long as you maintain any PS Plus tier. \u26a0\ufe0f If you re-subscribe later, claimed games return \u2014 but games are lost if you never re-subscribe."
+    ],
+    "cancel_url": "https://www.playstation.com/en-us/support/subscriptions/cancel-playstation-plus/",
+    "known_friction": "PlayStation Plus faced significant cancellation complaints in 2025, with Sony investigated in multiple jurisdictions for dark patterns in its cancellation flow, including hiding the cancel option behind obscure menu paths.; Monthly PS Plus games claimed while subscribed become inaccessible if the subscription lapses \u2014 creating strong lock-in pressure to maintain the subscription. | Retention tactics: May offer a discounted upgrade or downgrade to a lower tier.; Shows games in your library that w",
+    "free_alternatives": [
+      {
+        "name": "PlayStation Network (free)",
+        "url": "https://www.playstation.com",
+        "note": "Free online play for free-to-play games; no PS Plus required"
+      }
+    ],
+    "last_verified": "2026-02-13",
+    "notes": "PS Plus has three tiers: Essential, Extra, Premium. You can downgrade instead of fully canceling. Games claimed while subscribed return if you re-subscribe later. PS4 games were removed as a 'key benefit' in January 2026."
   },
   {
-    "name": "Twitch (Turbo / subscriptions)",
+    "name": "Twitch",
     "slug": "twitch",
     "url": "https://www.twitch.tv",
     "category": "gaming",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to twitch.tv and sign in. Twitch subscriptions are per-channel \u2014 you cancel each channel subscription separately.",
+      "Go to twitch.tv/subscriptions to see all active channel subscriptions.",
+      "Click the gear icon next to the subscription you want to cancel, then select 'Don't Renew Subscription'. The subscription remains active until the end of the paid period.",
+      "If subscribed via mobile app store, cancel through Apple or Google instead."
+    ],
+    "cancel_url": "https://www.twitch.tv/subscriptions",
+    "known_friction": "Retention tactics: None \u2014 Twitch's cancellation is clean.",
+    "free_alternatives": [
+      {
+        "name": "Twitch (free)",
+        "url": "https://www.twitch.tv",
+        "note": "All streams are free to watch without a subscription"
+      }
+    ],
+    "last_verified": "2026-03-01",
+    "notes": "Twitch channel subscriptions ($4.99-$24.99/month) support individual streamers \u2014 canceling stops supporting that creator. Twitch Prime (now Prime Gaming) is separate and managed through Amazon Prime. Each channel subscription must be canceled individually."
   },
   {
     "name": "Xbox Game Pass",
     "slug": "xbox-game-pass",
-    "url": "https://www.xbox.com/en-US/xbox-game-pass",
+    "url": "https://www.xbox.com/xbox-game-pass",
     "category": "gaming",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to account.microsoft.com and sign in.",
+      "Go to 'Services & subscriptions' > find Xbox Game Pass > 'Manage' > 'Cancel subscription'.",
+      "On Xbox console: Settings > Account > Subscriptions > select Xbox Game Pass > Manage > Cancel.",
+      "Access continues through end of billing period. Downloaded games remain installed but unplayable after cancellation."
+    ],
+    "cancel_url": "https://account.microsoft.com/services",
+    "known_friction": "Xbox Game Pass Ultimate jumped 50% from $19.99 to $29.99/month in October 2025 \u2014 many subscribers were auto-renewed at the new price without prominent advance notice. Mass cancellation wave followed. | Retention tactics: May offer a discounted rate or free month.",
+    "free_alternatives": [
+      {
+        "name": "Xbox Game Pass Core (cheaper tier)",
+        "url": "https://www.xbox.com/xbox-game-pass",
+        "note": "Lower-cost tier with online play and limited game catalog"
+      },
+      {
+        "name": "Steam (free to use, buy games)",
+        "url": "https://store.steampowered.com",
+        "note": "No subscription required"
+      }
+    ],
+    "last_verified": "2026-02-15",
+    "notes": "Xbox Game Pass Ultimate hit $29.99/month after a 50% price hike in late 2025 \u2014 sparked mass cancellations. Cancellation itself is clean and online. Games downloaded through Game Pass are unplayable after cancellation (they require an active subscription license)."
   },
   {
     "name": "BetterHelp",
@@ -604,20 +794,6 @@
     "name": "Headspace",
     "slug": "headspace",
     "url": "https://www.headspace.com",
-    "category": "health",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
-  },
-  {
-    "name": "Noom",
-    "slug": "noom",
-    "url": "https://www.noom.com",
     "category": "health",
     "cancel_method": "online",
     "cancel_difficulty": 0,
@@ -737,74 +913,92 @@
     "notes": "State Farm is agent-based, which makes cancellation less friction-free than online-only insurers but generally straightforward. The agent relationship can work in your favor \u2014 they're often authorized to offer better rates to retain customers. Prorated refund is standard. State Farm is the largest US auto insurer by market share."
   },
   {
-    "name": "USAA",
-    "slug": "usaa",
-    "url": "https://www.usaa.com",
-    "category": "insurance",
-    "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
-  },
-  {
     "name": "AAA",
     "slug": "aaa",
     "url": "https://www.aaa.com",
     "category": "membership",
     "cancel_method": "phone or in-person",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Call your local AAA club (number varies by region \u2014 find it at aaa.com). AAA is a federation of regional clubs. Cancellation is handled by your local club, not a national center.",
+      "Or visit a local AAA branch in person.",
+      "Request cancellation and ask about your refund eligibility. Prorated refund is available IF: you have not used Emergency Roadside Services during the current term AND you meet any additional local club requirements."
+    ],
+    "cancel_url": "https://www.aaa.com/stop",
+    "known_friction": "Retention tactics: May highlight roadside coverage and travel discounts you'll lose.",
+    "free_alternatives": [
+      {
+        "name": "Your auto insurer's roadside assistance",
+        "url": "",
+        "note": "Many auto insurers include roadside assistance \u2014 check your policy"
+      },
+      {
+        "name": "Credit card roadside assistance",
+        "url": "",
+        "note": "Many credit cards (Chase Sapphire, Amex) include roadside assistance"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "AAA refund policy: prorated refund of unused dues is available if you haven't used roadside services. If you've called for a tow during the membership year, no refund is typically available. AAA is regional \u2014 find your club at aaa.com."
   },
   {
     "name": "Costco",
     "slug": "costco",
     "url": "https://www.costco.com",
     "category": "membership",
-    "cancel_method": "in-person or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_method": "in-store or phone",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Visit any Costco warehouse membership counter and speak with a team member. Immediate full refund of the membership fee \u2014 no questions asked, no proration required.",
+      "Alternatively, call Costco Member Services: 1-800-774-2678."
+    ],
+    "cancel_url": "https://customerservice.costco.com/app/answers/answer_view/a_id/1308",
+    "known_friction": "Retention tactics: None \u2014 Costco's satisfaction guarantee is genuine and no-pressure.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-03-01",
+    "notes": "Costco has one of the most consumer-friendly cancellation policies of any membership: full refund at any time, no questions asked, no proration required. This is a genuine guarantee \u2014 Costco's business model relies on membership renewal rates, so they make the value proposition work rather than making cancellation hard."
   },
   {
     "name": "OnStar",
     "slug": "onstar",
     "url": "https://www.onstar.com",
     "category": "membership",
-    "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or phone",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Online: go to onstar.com, sign in to your account, and navigate to 'Manage Plan' > 'Cancel Service'. OnStar says online cancellation is available, but some users report the dashboard doesn't surface a clear cancel option.",
+      "By phone: press the blue OnStar button in your vehicle and request cancellation, or call 1-888-466-7827.",
+      "State clearly you want to cancel \u2014 agents will make retention offers. OnStar charges $25-$50+/month depending on plan tier."
+    ],
+    "cancel_url": "https://www.onstar.com/how-to-cancel-onstar-subscription",
+    "known_friction": "OnStar phone cancellation routes through retention specialists who make multiple offers. Users report needing to decline discounts and downgrades before cancellation is processed.; OnStar claims online cancellation is available but users and third-party guides report the dashboard does not clearly surface a cancel option, effectively requiring a phone call. | Retention tactics: Offers a downgrade to a lower-tier plan.; Offers a discounted rate for 6-12 months.",
+    "free_alternatives": [
+      {
+        "name": "Your smartphone",
+        "url": "",
+        "note": "Most OnStar features (navigation, emergency call) are replicated by smartphone + carrier emergency services"
+      }
+    ],
+    "last_verified": "2026-03-02",
+    "notes": "OnStar is built into GM vehicles (Chevy, GMC, Buick, Cadillac). Many features work without a paid plan \u2014 basic emergency calling may be free. The $25-50/month plans add remote start, diagnostics, navigation, and 4G WiFi hotspot. After cancellation, the hardware remains in the vehicle but services are deactivated."
   },
   {
     "name": "Sam's Club",
     "slug": "sams-club",
     "url": "https://www.samsclub.com",
     "category": "membership",
-    "cancel_method": "online or in-person",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_method": "in-store or phone",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Visit any Sam's Club Member Service Desk in person. Immediate cancellation and prorated refund.",
+      "Alternatively, call Sam's Club: 1-888-746-7726.",
+      "Or request a refund online at samsclub.com."
+    ],
+    "cancel_url": "https://help.samsclub.com/app/answers/detail/a_id/2563",
+    "known_friction": "Members who signed up with a Sam's Club credit card may find auto-renewal is tied to the card and cannot be canceled at the membership counter \u2014 they must cancel the credit card to stop auto-renewal. | Retention tactics: None significant.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-12",
+    "notes": "Sam's Club is a Walmart-owned warehouse club. Cancellation is straightforward in most cases. The credit card auto-renewal quirk is the main gotcha \u2014 if you have a Sam's Club credit card, you may need to address that separately."
   },
   {
     "name": "SiriusXM",
@@ -819,6 +1013,48 @@
     "free_alternatives": [],
     "last_verified": "",
     "notes": ""
+  },
+  {
+    "name": "Uber One",
+    "slug": "uber-one",
+    "url": "https://www.uber.com/us/en/ride/uber-one/",
+    "category": "membership",
+    "cancel_method": "app",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Open the Uber app and tap your profile icon.",
+      "Tap 'Uber One' > 'Manage membership' > 'End membership'.",
+      "Confirm cancellation. Access continues through end of billing period. Uber's help page surfaces 'Pause Membership' before 'End Membership' \u2014 scroll past the pause option to find the cancel button."
+    ],
+    "cancel_url": "https://help.uber.com/en/riders/article/how-do-i-cancel-my-uber-one-membership",
+    "known_friction": "Uber's cancellation flow prominently surfaces a 'Pause Membership' option before showing 'End Membership', nudging users toward pausing rather than canceling. | Retention tactics: Offers a membership pause instead of cancellation.",
+    "free_alternatives": [
+      {
+        "name": "Uber (no subscription)",
+        "url": "https://www.uber.com",
+        "note": "Rides and Uber Eats without subscription \u2014 delivery fees apply"
+      }
+    ],
+    "last_verified": "2026-04-03",
+    "notes": "Uber One ($9.99/month or $99.99/year) gives discounts on rides and free delivery on Uber Eats. If you primarily use Uber Eats, check if DashPass or Instacart+ offers better value."
+  },
+  {
+    "name": "USAA",
+    "slug": "usaa",
+    "url": "https://www.usaa.com",
+    "category": "membership",
+    "cancel_method": "phone",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "IMPORTANT: Have replacement insurance active before canceling. Never have a coverage gap. USAA is restricted to military members, veterans, and their families. If you're canceling insurance (not membership), secure a new policy first.",
+      "Call USAA: 1-800-531-8722. USAA requires phone contact to cancel insurance policies. Online and app cancellation is not available.",
+      "Specify the policy and cancellation date. Unused premium is refunded pro-rata."
+    ],
+    "cancel_url": "https://www.justcancel.io/blog/cancel-usaa-insurance-2026",
+    "known_friction": "USAA requires speaking with a customer service representative to cancel insurance policies. Online or app self-service cancellation is not available. | Retention tactics: May review your policy to find discounts or coverage adjustments.",
+    "free_alternatives": [],
+    "last_verified": "2026-02-01",
+    "notes": "USAA is a financial services company serving military members and families \u2014 auto, home, renters insurance, banking, and investments. USAA consistently ranks among the highest for customer satisfaction. Phone-only cancellation is the main friction point. Prorated refund is standard. USAA membership itself doesn't have a fee \u2014 only the financial products (insurance, investments) have costs."
   },
   {
     "name": "New York Times",
@@ -1676,20 +1912,6 @@
     ],
     "last_verified": "2026-01-29",
     "notes": "Instacart+ cancellation is straightforward \u2014 website and app both work. No phone required. Instacart+ also bundles a Peacock subscription; that cancels separately through Peacock."
-  },
-  {
-    "name": "Uber One",
-    "slug": "uber-one",
-    "url": "https://www.uber.com/us/en/u/uber-one",
-    "category": "shopping",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
   },
   {
     "name": "Walmart+",
