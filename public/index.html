@@ -3,29 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CancelFreely — Cancel Any Subscription, Free, No Tracking</title>
-  <meta name="description" content="Free cancel instructions for 150+ subscription services. No login, no tracking, no upsells. Your data stays on your device.">
+  <title>CancelFreely — Cancel Any Subscription, Step by Step</title>
+  <meta name="description" content="Free cancel instructions for 100+ subscription services. Step by step. Rated for friction. Dark patterns documented. No login, no tracking, no data required.">
   <link rel="canonical" href="https://cancelfreely.com/">
-  <meta property="og:title" content="CancelFreely — Cancel Any Subscription, Free, No Tracking">
-  <meta property="og:description" content="Free cancel instructions for 100+ subscription services. No login, no tracking, no upsells.">
+  <meta property="og:title" content="CancelFreely — Cancel Any Subscription, Step by Step">
+  <meta property="og:description" content="Free, detailed cancel guides for 100+ services. No account. No data. No tricks.">
   <meta property="og:url" content="https://cancelfreely.com/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="CancelFreely — Cancel Any Subscription, Free">
-  <meta name="twitter:description" content="Free step-by-step cancel guides for 100+ subscriptions. No tricks.">
+  <meta name="twitter:title" content="CancelFreely — Cancel Any Subscription">
+  <meta name="twitter:description" content="Step-by-step cancel guides with dark patterns documented. Free. No data required.">
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* ── Layout ──────────────────────────────── */
+    .hero { text-align: center; padding: 3.5rem 1rem 2.5rem; max-width: 640px; margin: 0 auto; }
+    .hero h1 { font-size: 2rem; font-weight: 800; color: #16a34a; margin-bottom: 0.5rem; }
+    .hero p  { font-size: 1rem; color: #555; line-height: 1.65; margin-bottom: 1.75rem; }
+    .search-wrap { position: relative; max-width: 480px; margin: 0 auto; }
+    .search-wrap input { width: 100%; padding: 0.85rem 1.1rem; border: 1.5px solid #ddd; border-radius: 10px; font-size: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); outline: none; }
+    .search-wrap input:focus { border-color: #16a34a; }
+    #autocomplete { position: absolute; top: 100%; left: 0; right: 0; background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); z-index: 100; overflow: hidden; margin-top: 4px; }
+    .ac-item { padding: 0.65rem 1rem; font-size: 0.9rem; cursor: pointer; display: flex; align-items: center; gap: 0.6rem; }
+    .ac-item:hover { background: #f0fdf4; }
+    .ac-name { flex: 1; font-weight: 500; }
+    .ac-cfs  { font-size: 0.72rem; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
+    .cfs-1,.cfs-2 { background:#dcfce7; color:#166534; }
+    .cfs-3 { background:#fef9c3; color:#854d0e; }
+    .cfs-4 { background:#ffedd5; color:#9a3412; }
+    .cfs-5 { background:#fee2e2; color:#991b1b; }
+
+    /* ── Worst Offenders ─────────────────────── */
+    .worst { max-width: 860px; margin: 0 auto 2.5rem; padding: 0 1rem; }
+    .worst h2 { font-size: 0.78rem; font-weight: 700; color: #991b1b; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.75rem; text-align: center; }
+    .worst-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0.6rem; }
+    .worst-card { background: #fff; border: 1px solid #fecaca; border-radius: 8px; padding: 0.75rem 1rem; text-decoration: none; color: inherit; display: block; }
+    .worst-card:hover { border-color: #f87171; background: #fff5f5; }
+    .worst-card .wc-name { font-size: 0.875rem; font-weight: 600; color: #111; margin-bottom: 0.2rem; }
+    .worst-card .wc-cfs  { font-size: 0.72rem; font-weight: 700; color: #991b1b; }
+    .worst-card .wc-method { font-size: 0.72rem; color: #888; }
+
+    /* ── Three Paths ─────────────────────────── */
+    .paths { max-width: 860px; margin: 0 auto 2.5rem; padding: 0 1rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+    .path-card { background: #fff; border: 1px solid #e5e5e5; border-radius: 10px; padding: 1.25rem 1.5rem; text-decoration: none; color: inherit; display: block; }
+    .path-card:hover { border-color: #16a34a; background: #f9fdf9; }
+    .path-card .pc-icon { font-size: 1.4rem; margin-bottom: 0.5rem; }
+    .path-card .pc-title { font-size: 0.95rem; font-weight: 700; color: #111; margin-bottom: 0.3rem; }
+    .path-card .pc-desc  { font-size: 0.82rem; color: #666; line-height: 1.5; margin-bottom: 0.75rem; }
+    .path-card .pc-link  { font-size: 0.8rem; color: #16a34a; font-weight: 600; }
+
+    /* ── JustCancel nudge ───────────────────── */
+    .jc-nudge { max-width: 600px; margin: 0 auto 2.5rem; padding: 0 1rem; text-align: center; font-size: 0.82rem; color: #888; }
+    .jc-nudge a { color: #16a34a; }
+
+    /* ── Request form ────────────────────────── */
+    #request { max-width: 540px; margin: 0 auto 1rem; padding: 1.5rem 2rem; background: #fff; border: 1px solid #e5e5e5; border-radius: 12px; text-align: center; }
+    #request h2 { font-size: 1rem; font-weight: 600; margin-bottom: 0.35rem; }
+    #request > p { color: #666; font-size: 0.875rem; margin-bottom: 1rem; }
+    .request-fields { display: flex; flex-direction: column; gap: 0.6rem; }
+    .field-group { display: flex; flex-direction: column; gap: 0.25rem; text-align: left; }
+    .field-group label { font-size: 0.8rem; font-weight: 500; color: #555; }
+    .request-fields input, .request-fields textarea { padding: 0.65rem 1rem; border: 1px solid #ddd; border-radius: 8px; font-size: 0.9rem; font-family: inherit; resize: vertical; }
+    .request-fields button { background: #16a34a; color: #fff; border: none; padding: 0.7rem; border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer; margin-top: 0.25rem; }
+    .request-fields button:hover { background: #15803d; }
+    .request-note { font-size: 0.75rem; color: #aaa; margin-top: 0.5rem; margin-bottom: 0; }
+
+    @media(max-width:500px) {
+      .hero h1 { font-size: 1.5rem; }
+      .worst-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>CancelFreely</h1>
+    <h1><a href="/" style="color:inherit;text-decoration:none;">CancelFreely</a></h1>
     <p class="tagline">Cancel any subscription. Free instructions. No tracking. No upsells.</p>
-    <input type="search" id="search" placeholder="Search a service (Netflix, Spotify, Adobe...)">
   </header>
-  <main id="services"></main>
 
+  <!-- Hero + Search -->
+  <div class="hero">
+    <h1>Cancel Freely.</h1>
+    <p>You should be able to cancel any subscription, any time, without dark patterns, retention calls, or certified mail.<br>We document exactly how. Step by step. Rated for friction. Free. No account. No data required.</p>
+    <div class="search-wrap">
+      <input type="search" id="hero-search" placeholder="Search 100+ services — Netflix, Adobe, Comcast…" autocomplete="off">
+      <div id="autocomplete" style="display:none;"></div>
+    </div>
+  </div>
+
+  <!-- Worst Offenders -->
+  <div class="worst">
+    <h2>⚠ Hardest to Cancel</h2>
+    <div class="worst-grid" id="worst-grid"></div>
+  </div>
+
+  <!-- Three Paths -->
+  <div class="paths">
+    <a class="path-card" href="/cancel/">
+      <div class="pc-icon">📋</div>
+      <div class="pc-title">Cancel a Service</div>
+      <div class="pc-desc">Step-by-step guides for 100+ subscriptions. Dark patterns documented. Direct cancel links.</div>
+      <div class="pc-link">Browse all services →</div>
+    </a>
+    <a class="path-card" href="/find-your-subscriptions/">
+      <div class="pc-icon">🔍</div>
+      <div class="pc-title">Find Your Subscriptions</div>
+      <div class="pc-desc">6 methods to audit everything you're paying for — without sharing data with anyone.</div>
+      <div class="pc-link">Read the guide →</div>
+    </a>
+    <a class="path-card" href="/cancellation-rights-by-state/">
+      <div class="pc-icon">⚖️</div>
+      <div class="pc-title">Know Your Rights</div>
+      <div class="pc-desc">FTC rules, state laws, how to file a complaint, and when to dispute a charge.</div>
+      <div class="pc-link">Learn more →</div>
+    </a>
+  </div>
+
+  <!-- JustCancel nudge -->
+  <div class="jc-nudge">
+    Want someone to find your subscriptions for you? We recommend <a href="https://www.justcancel.io/" target="_blank" rel="noopener">JustCancel</a> — $5 one-time, upload a bank statement, files deleted after scan. No financial relationship; we recommend them because they do good work.
+  </div>
+
+  <!-- Request Form -->
   <section id="request">
-    <h2>Request a Service</h2>
-    <p>Don't see the service you need to cancel? Tell us and we'll add it.</p>
+    <h2>Missing a service?</h2>
+    <p>Request it and we'll add cancel instructions.</p>
     <div class="request-fields">
       <div class="field-group">
         <label for="service-name">Service name</label>
@@ -45,23 +145,80 @@
   </section>
 
   <footer>
-    <p>CancelFreely is free and never tracks you. No account required. No bank credentials. No tricks. · <a href="/about/">About</a> · <a href="/find-your-subscriptions/">Find your subscriptions</a> · <a href="https://ko-fi.com/cancelfreely" target="_blank" rel="noopener">☕ Buy us a coffee</a></p>
+    <p>CancelFreely is free and never tracks you. No account required. No bank credentials. No tricks. · <a href="/about/">About</a> · <a href="/cancel/">All services</a> · <a href="/dark-patterns/">Dark Patterns</a> · <a href="/ftc-click-to-cancel/">FTC Rule</a> · <a href="https://ko-fi.com/cancelfreely" target="_blank" rel="noopener">☕ Buy us a coffee</a></p>
   </footer>
-  <script src="app.js"></script>
+
   <script>
+    const DIFF_LABEL = ['', 'Simple', 'Easy', 'Moderate', 'Difficult', 'Hostile'];
+    let allServices = [];
+
+    fetch('/data/services.json')
+      .then(r => r.json())
+      .then(data => {
+        allServices = data;
+        renderWorst(data);
+      });
+
+    function renderWorst(data) {
+      const top = [...data]
+        .filter(s => s.cancel_difficulty >= 4)
+        .sort((a,b) => b.cancel_difficulty - a.cancel_difficulty || a.name.localeCompare(b.name))
+        .slice(0, 8);
+      const grid = document.getElementById('worst-grid');
+      grid.innerHTML = top.map(s => {
+        const cfs = s.cancel_difficulty;
+        return `<a class="worst-card" href="/cancel/${s.slug}/">
+          <div class="wc-name">${s.name}</div>
+          <div class="wc-cfs">CFS ${cfs}/5 — ${DIFF_LABEL[cfs]}</div>
+          <div class="wc-method">${s.cancel_method}</div>
+        </a>`;
+      }).join('');
+    }
+
+    const heroInput = document.getElementById('hero-search');
+    const acBox = document.getElementById('autocomplete');
+
+    heroInput.addEventListener('input', () => {
+      const q = heroInput.value.toLowerCase().trim();
+      if (!q || allServices.length === 0) { acBox.style.display = 'none'; return; }
+      const matches = allServices
+        .filter(s => s.name.toLowerCase().includes(q))
+        .slice(0, 8);
+      if (matches.length === 0) { acBox.style.display = 'none'; return; }
+      acBox.innerHTML = matches.map(s => {
+        const cfs = s.cancel_difficulty;
+        const cls = cfs >= 1 && cfs <= 5 ? `cfs-${cfs}` : '';
+        return `<div class="ac-item" onclick="location.href='/cancel/${s.slug}/'">
+          <span class="ac-name">${s.name}</span>
+          <span class="ac-cfs ${cls}">${DIFF_LABEL[cfs]||''}</span>
+        </div>`;
+      }).join('');
+      acBox.style.display = 'block';
+    });
+
+    document.addEventListener('click', e => {
+      if (!heroInput.contains(e.target) && !acBox.contains(e.target)) {
+        acBox.style.display = 'none';
+      }
+    });
+
+    heroInput.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        const q = heroInput.value.trim();
+        if (q) location.href = `/cancel/?q=${encodeURIComponent(q)}`;
+      }
+    });
+
     function submitRequest() {
       var name = document.getElementById('service-name').value.trim();
-      if (!name) {
-        alert('Please enter a service name.');
-        return;
-      }
+      if (!name) { alert('Please enter a service name.'); return; }
       var url = document.getElementById('service-url').value.trim();
       var notes = document.getElementById('service-notes').value.trim();
       var title = 'Service Request: ' + name;
       var body = 'Service name: ' + name;
-      if (url) body = body + '\nURL: ' + url;
-      if (notes) body = body + '\nNotes: ' + notes;
-      body = body + '\n\n---\nSubmitted via cancelfreely.com';
+      if (url) body += '\nURL: ' + url;
+      if (notes) body += '\nNotes: ' + notes;
+      body += '\n\n---\nSubmitted via cancelfreely.com';
       var ghUrl = 'https://github.com/maestrokling/cancelfreely/issues/new'
         + '?title=' + encodeURIComponent(title)
         + '&body=' + encodeURIComponent(body)
