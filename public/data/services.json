@@ -117,13 +117,17 @@
     "url": "https://www.carvana.com",
     "category": "automotive",
     "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Carvana is primarily a used car marketplace \u2014 not a recurring subscription. Most users are looking to return a recently purchased vehicle.",
+      "Vehicle return: Carvana offers a 7-day return policy on vehicles purchased. Go to carvana.com > My Account > Manage Your Vehicle > Return Vehicle.",
+      "For Carvana Care (vehicle protection plan): call 1-800-333-4554 or manage at carvana.com/account. Carvana Care is the recurring subscription component \u2014 vehicle protection / extended warranty."
+    ],
+    "cancel_url": "https://www.carvana.com/account",
+    "known_friction": "Retention tactics: None significant.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "Carvana is not a traditional subscription service. If you're here for: (1) vehicle return \u2014 use the 7-day return policy; (2) Carvana Care cancellation \u2014 call or manage online; (3) financing \u2014 contact your lender. The 7-day return window is a real consumer protection; use it if you have buyer's remorse."
   },
   {
     "name": "Connected Car Subscriptions (GM / OnStar)",
@@ -131,27 +135,41 @@
     "url": "https://www.gm.com",
     "category": "automotive",
     "cancel_method": "phone or online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Press the blue OnStar button in your GM vehicle and request cancellation, OR call 1-888-4ONSTAR (1-888-466-7827). See also the dedicated OnStar entry at cancelfreely.com/cancel/onstar for the full OnStar-specific guide.",
+      "For other GM connected services (WiFi hotspot, Remote Access, Super Cruise): go to account.gm.com > Subscriptions > manage individual services.",
+      "State which service(s) you want to cancel. Agents will make retention offers."
+    ],
+    "cancel_url": "https://account.gm.com",
+    "known_friction": "GM vehicles may have several separate connected service subscriptions: OnStar safety/security, WiFi hotspot (AT&T), Remote Access (app features), and Super Cruise (driver assist). Each may bill separately and cancel separately. Users often don't know how many they have. | Retention tactics: Offers discounted rates for individual services.; Offers to keep one service while canceling others.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": "Covers GM connected services including OnStar, WiFi hotspot, and remote access features."
+    "last_verified": "2026-03-02",
+    "notes": "GM connected services cover OnStar, WiFi hotspot, Remote Access, and Super Cruise across Chevrolet, GMC, Buick, and Cadillac brands. Some services are free trials that auto-convert \u2014 check account.gm.com to see all active subscriptions. The OnStar entry in our database covers the primary safety/security subscription in more detail."
   },
   {
     "name": "Endurance Warranty",
     "slug": "endurance-warranty",
     "url": "https://www.endurancewarranty.com",
     "category": "automotive",
-    "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "phone or mail",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call Endurance: 1-866-432-4443.",
+      "To cancel, you must mail a written cancellation request along with a Federal Odometer Statement or notarized mileage statement to the administrator listed in your contract. The mileage documentation requirement is unusual and adds significant friction compared to standard subscription cancellations.",
+      "Within 30 days of purchase: full refund. After 30 days: prorated refund minus a cancellation fee (typically $75-$150). 30-day free look period is standard in the vehicle warranty industry."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "Endurance requires a Federal Odometer Statement or notarized mileage statement to process cancellations \u2014 a bureaucratic hurdle not found in standard subscription services. This requirement slows the cancellation process significantly.; Endurance has a 30-day/1,000-mile waiting period before coverage activates. Customers who cancel before coverage begins may not realize they were never actually covered. | Retention tactics: May offer a modified plan or payment restructuring.",
+    "free_alternatives": [
+      {
+        "name": "Your manufacturer warranty",
+        "url": "",
+        "note": "Check remaining factory warranty before purchasing extended coverage"
+      }
+    ],
+    "last_verified": "2026-02-06",
+    "notes": "Endurance is a third-party vehicle service contract provider. The prorated refund is standard. Avoid all third-party warranty companies that contact you via robocall or unsolicited mail \u2014 these are frequently scams. Endurance is a legitimate company but cancellation requires more documentation than typical subscriptions."
   },
   {
     "name": "Toyota Connected Services",
@@ -159,13 +177,17 @@
     "url": "https://www.toyota.com/connected-services",
     "category": "automotive",
     "cancel_method": "phone or online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to toyota.com/connected-services and sign in to your Toyota account.",
+      "Navigate to Manage Services / Subscriptions and select the service to cancel. Toyota connected services include Remote Connect, Safety Connect, Wi-Fi Connect, Drive Connect (navigation), and Destination Assist.",
+      "Alternatively, call Toyota Connected Services support: 1-800-331-4331. Phone may be required for some service types."
+    ],
+    "cancel_url": "https://www.toyota.com/connected-services",
+    "known_friction": "New Toyota vehicles include free trials of connected services (typically 1-3 years). When trials expire, services auto-convert to paid subscriptions. Many owners are surprised by the charge and don't realize they signed up.; Toyota's connected services are sold as separate subscriptions (Remote Connect, Safety Connect, etc.), each billing and canceling independently. Owners may not know how many active subscriptions they have. | Retention tactics: May offer a discounted renewal rate.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-02-06",
+    "notes": "Toyota connected services vary by model year and trim. Check toyota.com/connected-services to see which services are available for your specific vehicle. Free trial periods vary \u2014 Remote Connect may be 3 years free on newer models. After the trial, each service bills separately."
   },
   {
     "name": "Backblaze",
@@ -1397,13 +1419,17 @@
     "url": "https://www.daily-harvest.com",
     "category": "food",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to daily-harvest.com and sign in.",
+      "Go to Account > Plan > Cancel Plan. Cancel before your weekly cutoff date (shown in your account) to avoid the next delivery.",
+      "Confirm cancellation."
+    ],
+    "cancel_url": "https://app.daily-harvest.com/account/plan",
+    "known_friction": "Retention tactics: May offer a pause option.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "Daily Harvest delivers pre-portioned, plant-based smoothies, grain bowls, and snacks. No contract. Cancel before your order cutoff to avoid the next charge."
   },
   {
     "name": "EveryPlate",
@@ -1411,27 +1437,35 @@
     "url": "https://www.everyplate.com",
     "category": "food",
     "cancel_method": "online or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to everyplate.com and sign in.",
+      "Go to Account > Plan Settings > Cancel Plan. \u26a0\ufe0f Cancel by Wednesday 11:59 PM CT \u2014 same cutoff as HelloFresh/Factor (EveryPlate is owned by HelloFresh).",
+      "Navigate past skip and pause options to reach the cancel option."
+    ],
+    "cancel_url": "https://www.everyplate.com/plans/settings",
+    "known_friction": "Like other HelloFresh brands, EveryPlate surfaces skip and pause options prominently before cancellation. Skipping is not canceling. | Retention tactics: Offers skip and pause prominently.; May offer a discount.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "EveryPlate is HelloFresh's budget meal kit brand (same parent, lower price, simpler recipes). Cancel by Wednesday 11:59 PM CT to avoid the next week's box."
   },
   {
     "name": "Factor",
     "slug": "factor",
     "url": "https://www.factor75.com",
     "category": "food",
-    "cancel_method": "online or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_method": "online",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to factor75.com and sign in.",
+      "Go to Account > Plan Settings > Cancel Plan. \u26a0\ufe0f Factor has a weekly cutoff: cancel by Wednesday 11:59 PM CT to avoid being charged for the following week's box.",
+      "Navigate past the 'skip' and 'pause' options \u2014 Factor prominently surfaces these before showing the cancel option."
+    ],
+    "cancel_url": "https://www.factor75.com/plans/settings",
+    "known_friction": "Factor's cancellation flow prominently surfaces 'skip a week' and 'pause' options before the cancel path, making it easy to accidentally skip rather than cancel. Many users think they've canceled when they've only skipped.; Factor processes charges and prepares meals weekly. Missing the Wednesday 11:59 PM CT cutoff means you'll receive and be billed for the next week's box even if you cancel immediately after. | Retention tactics: Prominently offers skip and pause options.; May offer a discount ",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-02-09",
+    "notes": "Factor (owned by HelloFresh) delivers pre-cooked meals. Cancel by Wednesday 11:59 PM CT to avoid the next week's charge. The skip/cancel confusion is the biggest gotcha \u2014 make sure you've completed full cancellation, not just skipped."
   },
   {
     "name": "Freshly",
@@ -1439,13 +1473,17 @@
     "url": "https://www.freshlyfrozen.com",
     "category": "food",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to freshlyfrozen.com and sign in. Note: Freshly rebranded to Freshly Frozen in 2024 after being acquired. Check if the service is available in your area.",
+      "Go to Account > Manage Plan > Cancel Plan. Cancel before the weekly cutoff (check your account for the specific deadline) to avoid the next shipment.",
+      "Confirm cancellation."
+    ],
+    "cancel_url": "https://www.freshlyfrozen.com/account",
+    "known_friction": "Retention tactics: May offer a pause or skip.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "Freshly rebranded and restructured under new ownership. Verify current service availability at freshlyfrozen.com before attempting to cancel \u2014 the service has had significant operational changes."
   },
   {
     "name": "Home Chef",
@@ -1453,13 +1491,17 @@
     "url": "https://www.homechef.com",
     "category": "food",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to homechef.com and sign in.",
+      "Go to Account > Manage Subscription > Cancel Subscription. \u26a0\ufe0f Deadline: cancel by Friday 12:00 PM CST to avoid being charged for the following week's box.",
+      "Confirm cancellation."
+    ],
+    "cancel_url": "https://www.homechef.com/account",
+    "known_friction": "Home Chef processes orders weekly. Missing the Friday 12 PM CST cutoff means you'll receive and pay for the next delivery. | Retention tactics: Offers a pause option instead of canceling.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2025-06-04",
+    "notes": "Home Chef (owned by Kroger) is a meal kit service. Clean cancellation once you find it. The Friday noon deadline is the critical gotcha \u2014 know your billing cycle before calling."
   },
   {
     "name": "Hungryroot",
@@ -1467,27 +1509,35 @@
     "url": "https://www.hungryroot.com",
     "category": "food",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to hungryroot.com and sign in.",
+      "Go to Settings > Account Details > Cancel Account. The cancel option is in 'Account Details' \u2014 not the obvious 'Subscription' section.",
+      "Hungryroot will ask if you want to take a break (pause) instead. Click 'Continue to Cancel' to proceed."
+    ],
+    "cancel_url": "https://www.hungryroot.com/settings",
+    "known_friction": "The cancel option is buried in 'Account Details' rather than the subscription settings where users expect to find it. Reddit users describe the cancellation path as 'hard to figure out and obviously done purposefully.' | Retention tactics: Pause option prominently offered before cancellation.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-03-15",
+    "notes": "Hungryroot is a hybrid grocery/meal kit service. Cancel before your order cutoff date (shown in your account) to avoid the next charge. The hidden cancel path in Account Details is the main friction point."
   },
   {
     "name": "Panera Unlimited Sip Club",
     "slug": "panera-sip-club",
-    "url": "https://www.panerabread.com",
+    "url": "https://www.panerabread.com/en-us/mypanera/subscription.html",
     "category": "food",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_method": "online or app",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to panerabread.com/UnlimitedSipClub or open the Panera app.",
+      "Go to Manage Subscription > Cancel Subscription.",
+      "No refund for unused subscription time, but access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.panerabread.com/en-us/mypanera/subscription/faqs.html",
+    "known_friction": "Retention tactics: None significant.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-02-01",
+    "notes": "Panera Unlimited Sip Club ($11.99/month) gives unlimited hot/cold beverages at Panera locations. Clean cancellation confirmed by official FAQ. No refund for unused time \u2014 cancel close to your billing date if you want to maximize use."
   },
   {
     "name": "Thrive Market",
@@ -1495,13 +1545,23 @@
     "url": "https://thrivemarket.com",
     "category": "food",
     "cancel_method": "online or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to thrivemarket.com and sign in.",
+      "Go to Account > Membership > Cancel Membership. If you can't find the cancel option, use the live chat at thrivemarket.com.",
+      "Thrive Market offers a 30-day refund on annual memberships if you haven't placed an order."
+    ],
+    "cancel_url": "https://thrivemarket.com/account/membership",
+    "known_friction": "Thrive Market requires a paid membership ($59.95/year or $12/month) to purchase anything. The membership model is upfront, but some users don't realize they're signing up for a recurring charge when they first sign up. | Retention tactics: May offer a credit or discount to stay.",
+    "free_alternatives": [
+      {
+        "name": "Costco (membership)",
+        "url": "https://www.costco.com",
+        "note": "Bulk organic/natural foods with membership"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Thrive Market ($59.95/year or $12/month) is a members-only online store for organic and natural products. 30-day refund on annual memberships if no orders placed. Monthly memberships can cancel anytime."
   },
   {
     "name": "Apple Arcade",
@@ -2211,14 +2271,29 @@
     "slug": "abcmouse",
     "url": "https://www.abcmouse.com",
     "category": "kids",
-    "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Desktop/laptop only for direct billing: go to abcmouse.com > Account > Manage Subscription > Cancel. \u26a0\ufe0f ABCmouse does NOT support cancellation on mobile browsers (phone or tablet). Must use a desktop or laptop.",
+      "If subscribed via Apple or Google Play, cancel through those platforms instead.",
+      "Confirm cancellation. No refund for unused time \u2014 access continues through end of billing period."
+    ],
+    "cancel_url": "https://support.abcmouse.com/hc/en-us/articles/34385750917783",
+    "known_friction": "ABCmouse explicitly does not support subscription cancellation on mobile browsers. Users on phones must switch to a desktop browser or use the app store path \u2014 a friction-adding design choice. | Retention tactics: May offer a pause or reduced rate.",
+    "free_alternatives": [
+      {
+        "name": "Khan Academy Kids (free)",
+        "url": "https://www.khanacademy.org/kids",
+        "note": "Free educational app for ages 2-8"
+      },
+      {
+        "name": "PBS Kids (free)",
+        "url": "https://pbskids.org",
+        "note": "Free educational content for young children"
+      }
+    ],
+    "last_verified": "2026-03-04",
+    "notes": "ABCmouse ($12.99/month) is an educational platform for ages 2-8. The mobile browser cancellation block is an unnecessary friction point. Use a desktop browser for direct-billed accounts."
   },
   {
     "name": "Disney Bundle",
@@ -2226,27 +2301,47 @@
     "url": "https://www.disneyplus.com/bundles",
     "category": "kids",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": "Distinct from Disney+ standalone; bundle includes Hulu and ESPN+. Cancellation may affect all three services."
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to disneyplus.com and sign in.",
+      "Go to your profile > Account > Subscription > Cancel Subscription. \u26a0\ufe0f Canceling the Disney Bundle cancels ALL services in the bundle \u2014 Disney+, Hulu, and ESPN+ simultaneously. You cannot cancel one without canceling all.",
+      "If you subscribed via Apple, Google, Amazon, or Hulu directly, cancel through that platform instead."
+    ],
+    "cancel_url": "https://www.disneyplus.com/account/subscription",
+    "known_friction": "The Disney Bundle cannot be partially canceled \u2014 canceling removes Disney+, Hulu, and ESPN+ access together. Users who want to keep one service must cancel the bundle and resubscribe to the individual service at a higher price. | Retention tactics: May offer a discount or downgrade to a single service.",
+    "free_alternatives": [
+      {
+        "name": "Individual services",
+        "url": "https://www.disneyplus.com",
+        "note": "Disney+, Hulu, or ESPN+ can be subscribed individually if you only need one"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "The Disney Bundle (Duo $9.99 Basic/$15.99 Premium, Trio $24.99/month) bundles Disney+, Hulu, and ESPN+. The bundle cancellation removes all three \u2014 plan accordingly. Bundle billing goes through Disney; if subscribed via Hulu or another platform, the cancel flow differs."
   },
   {
     "name": "Homer Reading",
     "slug": "homer",
     "url": "https://www.learnwithhomer.com",
     "category": "kids",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to learnwithhomer.com and sign in, or open the Homer app. Cancel method depends on how you subscribed.",
+      "Go to Account > Subscription > Cancel. If subscribed via Apple or Google Play, cancel through those platforms.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.learnwithhomer.com/account",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Khan Academy Kids (free)",
+        "url": "https://www.khanacademy.org/kids",
+        "note": "Free early learning app"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Homer ($9.99/month or $59.99/year) is an early reading and learning app for ages 2-8. Clean cancellation."
   },
   {
     "name": "KiwiCo",
@@ -2254,13 +2349,17 @@
     "url": "https://www.kiwico.com",
     "category": "kids",
     "cancel_method": "online or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to kiwico.com and sign in.",
+      "Go to Account > Subscription > Cancel Subscription. Cancel before your monthly processing date to avoid the next box charge.",
+      "Confirm cancellation."
+    ],
+    "cancel_url": "https://support.kiwico.com/en_us/how-do-i-cancel-my-subscription-r1XehPeGv",
+    "known_friction": "Retention tactics: Offers pause (every other month) instead of canceling.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "KiwiCo ($16.95-$29.95/month depending on crate type) delivers STEM/creative activity boxes for various age ranges. Clean cancellation. Check your processing date in account settings before canceling."
   },
   {
     "name": "Little Passports",
@@ -2268,27 +2367,42 @@
     "url": "https://www.littlepassports.com",
     "category": "kids",
     "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to littlepassports.com and sign in.",
+      "Go to Account > Manage Subscription > Cancel. Or call 1-888-444-7592.",
+      "Cancel before your monthly billing date to avoid the next charge."
+    ],
+    "cancel_url": "https://www.littlepassports.com/account",
+    "known_friction": "Retention tactics: May offer a pause or skip.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "Little Passports ($21.95-$24.95/month) delivers educational subscription boxes for ages 3-12 with a world-exploration theme. Online cancellation available."
   },
   {
     "name": "Noggin",
     "slug": "noggin",
     "url": "https://www.noggin.com",
     "category": "kids",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Cancel method depends on where you subscribed.",
+      "iOS: Settings > [your name] > Subscriptions > Noggin > Cancel.",
+      "Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Noggin > Cancel.",
+      "Web: noggin.com > Account > Manage Subscription > Cancel."
+    ],
+    "cancel_url": "https://www.noggin.com/account",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "PBS Kids (free)",
+        "url": "https://pbskids.org",
+        "note": "Free Nick Jr. and Nickelodeon-adjacent content"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Noggin ($7.99/month) is Nickelodeon's streaming service for young children (Paw Patrol, Dora, Blue's Clues, etc.). Standard app-store cancel rules apply."
   },
   {
     "name": "AAA",
