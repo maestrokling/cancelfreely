@@ -517,13 +517,28 @@
     "url": "https://www.chegg.com",
     "category": "education",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Go to chegg.com and sign in.",
+      "Go to Account > Subscriptions > select your plan > Cancel Subscription. Navigate through any retention screens \u2014 Chegg may show pause options, surveys, and discount offers before completing cancellation.",
+      "Get a cancellation confirmation email. Chegg has a documented history of continuing charges after cancellation \u2014 monitor your next statement."
+    ],
+    "cancel_url": "https://www.chegg.com/account",
+    "known_friction": "Chegg paid $7.5M to settle FTC charges in September 2025 for unlawful cancellation practices. The FTC found hidden links, pre-selected 'pause' options, mandatory surveys, and repeated attempts to dissuade cancellation \u2014 and continued charging customers who believed they had canceled.; Multiple users reported being charged after confirmed cancellation. Chegg's post-settlement flow has improved but get confirmation and check your next statement.; Chegg's pre-settlement cancellation flow required n",
+    "free_alternatives": [
+      {
+        "name": "Khan Academy (free)",
+        "url": "https://www.khanacademy.org",
+        "note": "Free tutoring and practice for many subjects"
+      },
+      {
+        "name": "Wolfram Alpha (free basic)",
+        "url": "https://www.wolframalpha.com",
+        "note": "Free computational math tool"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Chegg settled with the FTC for $7.5M in September 2025 over illegal dark patterns. Post-settlement, the cancellation flow is required to be cleaner \u2014 but get a confirmation email and verify no further charges. If charged after cancellation, dispute with your bank and file an FTC complaint at reportfraud.ftc.gov."
   },
   {
     "name": "Coursera Plus",
@@ -531,27 +546,54 @@
     "url": "https://www.coursera.org",
     "category": "education",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to coursera.org and sign in.",
+      "Click your profile icon > Settings > Subscriptions > Cancel subscription.",
+      "If within 14 days of purchase: request a full refund \u2014 Coursera Plus has a 14-day money-back guarantee. After 14 days, no refund is available. Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.coursera.org/account/memberships",
+    "known_friction": "Retention tactics: May offer a pause or discounted rate.",
+    "free_alternatives": [
+      {
+        "name": "Coursera (free audit)",
+        "url": "https://www.coursera.org",
+        "note": "Many courses can be audited for free without a certificate"
+      },
+      {
+        "name": "edX (free audit)",
+        "url": "https://www.edx.org",
+        "note": "Similar course platform with free audit option"
+      }
+    ],
+    "last_verified": "2026-03-15",
+    "notes": "Coursera Plus ($59/month or $399/year) gives unlimited access to 7,000+ courses. 14-day refund window is genuine. Course progress and certificates earned are retained after cancellation."
   },
   {
     "name": "Duolingo Plus",
     "slug": "duolingo-plus",
     "url": "https://www.duolingo.com",
     "category": "education",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "app store or web",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Cancel method depends on where you subscribed.",
+      "iOS: Settings > [your name] > Subscriptions > Duolingo > Cancel.",
+      "Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Duolingo > Cancel.",
+      "Web: duolingo.com > Profile > Settings > Super Duolingo > Cancel subscription.",
+      "Your streak and progress are preserved after canceling \u2014 you revert to the free tier with ads."
+    ],
+    "cancel_url": "https://www.duolingo.com/settings/subscription",
+    "known_friction": "Deleting the Duolingo app does not cancel the subscription. Must cancel through originating platform. | Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Duolingo (free tier)",
+        "url": "https://www.duolingo.com",
+        "note": "Free with ads; all core language learning content included"
+      }
+    ],
+    "last_verified": "2026-04-01",
+    "notes": "Duolingo Plus/Super Duolingo ($6.99-$9.99/month) removes ads and adds streak protection. The free tier includes all language content \u2014 Plus is a convenience upgrade, not a content gate. Streak and progress survive cancellation."
   },
   {
     "name": "LinkedIn Learning",
@@ -559,13 +601,28 @@
     "url": "https://www.linkedin.com/learning",
     "category": "education",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to linkedin.com and sign in. LinkedIn Learning is bundled with LinkedIn Premium \u2014 canceling Learning cancels the Premium subscription too.",
+      "Go to your profile > Premium hub > Cancel subscription. Or go to linkedin.com/premium/manage and select cancel.",
+      "Access continues through end of billing period. Certificates earned are retained on your profile."
+    ],
+    "cancel_url": "https://www.linkedin.com/premium/manage",
+    "known_friction": "LinkedIn Learning is not a standalone product \u2014 it's included in LinkedIn Premium. You cannot cancel Learning without canceling the full Premium subscription. | Retention tactics: May offer a discounted renewal.",
+    "free_alternatives": [
+      {
+        "name": "Coursera (free audit)",
+        "url": "https://www.coursera.org",
+        "note": "Free audit access to many courses"
+      },
+      {
+        "name": "YouTube (free)",
+        "url": "https://www.youtube.com",
+        "note": "Free professional tutorials"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "LinkedIn Learning is included with LinkedIn Premium Career ($39.99/month) and Premium Business ($59.99/month). Canceling Premium cancels Learning access. Certificates you've already earned remain on your LinkedIn profile regardless of subscription status."
   },
   {
     "name": "MasterClass",
@@ -573,41 +630,87 @@
     "url": "https://www.masterclass.com",
     "category": "education",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to masterclass.com and sign in.",
+      "Go to Account > Settings > Cancel Subscription (or 'Cancel Membership Renewal').",
+      "MasterClass has a 30-day satisfaction guarantee \u2014 if within 30 days, contact support for a refund. After 30 days, no refund is available. Access continues through end of billing period.",
+      "If subscribed via a third-party marketplace or gift card, MasterClass will not process cancellations \u2014 contact that marketplace directly."
+    ],
+    "cancel_url": "https://www.masterclass.com/account",
+    "known_friction": "MasterClass primarily sells annual plans. The renewal date arrives once a year, making it easy to forget to cancel before being charged for another full year.; MasterClass explicitly disclaims responsibility for subscriptions purchased through third-party marketplaces \u2014 customers must handle cancellation through wherever they purchased. | Retention tactics: May offer a pause or discounted renewal.",
+    "free_alternatives": [
+      {
+        "name": "YouTube (free)",
+        "url": "https://www.youtube.com",
+        "note": "Many MasterClass instructors also have free YouTube content"
+      },
+      {
+        "name": "Skillshare (free trial)",
+        "url": "https://www.skillshare.com",
+        "note": "Creative skills platform"
+      }
+    ],
+    "last_verified": "2026-03-15",
+    "notes": "MasterClass ($120-$180/year) is annual-billed. Set a calendar reminder 30 days before renewal to decide whether to keep it. The 30-day guarantee is genuine. After the annual renewal date passes with no cancellation, you're committed to another full year."
   },
   {
     "name": "Rosetta Stone",
     "slug": "rosetta-stone",
     "url": "https://www.rosettastone.com",
     "category": "education",
-    "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to rosettastone.com and sign in.",
+      "Go to Account > Subscriptions > Cancel subscription. If subscribed via Apple or Google Play, cancel through those platforms.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://support.rosettastone.com/s/article/Cancel-your-Subscription",
+    "known_friction": "Retention tactics: May offer a discounted rate or pause.",
+    "free_alternatives": [
+      {
+        "name": "Duolingo (free)",
+        "url": "https://www.duolingo.com",
+        "note": "Free language learning app"
+      },
+      {
+        "name": "BBC Languages (free)",
+        "url": "https://www.bbc.co.uk/languages",
+        "note": "Free language courses"
+      }
+    ],
+    "last_verified": "2025-08-11",
+    "notes": "Rosetta Stone ($11.99-$14.99/month or lifetime purchase) is one of the older language learning platforms. The lifetime purchase model means some users have a one-time purchase rather than a subscription \u2014 those don't need cancellation. Cancel the subscription only; the lifetime license is permanent."
   },
   {
     "name": "Skillshare",
     "slug": "skillshare",
     "url": "https://www.skillshare.com",
     "category": "education",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to skillshare.com and sign in. If subscribed via iOS or Android, cancel through Apple/Google instead.",
+      "Go to Account > Membership & Payments > Cancel Membership.",
+      "Access continues through end of billing period. No refund for unused time."
+    ],
+    "cancel_url": "https://www.skillshare.com/account",
+    "known_friction": "Retention tactics: May offer a discounted renewal or pause.",
+    "free_alternatives": [
+      {
+        "name": "YouTube (free)",
+        "url": "https://www.youtube.com",
+        "note": "Free creative and professional tutorials"
+      },
+      {
+        "name": "Coursera (free audit)",
+        "url": "https://www.coursera.org",
+        "note": "Free course access without certificate"
+      }
+    ],
+    "last_verified": "2026-03-01",
+    "notes": "Skillshare ($32/month or $168/year) is a creative skills platform (design, illustration, photography, etc.). Clean cancellation. No refund for unused time \u2014 time your cancellation to near the end of your billing period."
   },
   {
     "name": "Udemy Pro",
@@ -615,13 +718,28 @@
     "url": "https://www.udemy.com",
     "category": "education",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to udemy.com and sign in.",
+      "Go to Account > Subscriptions > find your plan > Cancel subscription. If subscribed via Apple or Google Play, cancel through those platforms instead.",
+      "Access continues through end of billing period. Courses previously purchased individually are retained."
+    ],
+    "cancel_url": "https://www.udemy.com/home/account-security/",
+    "known_friction": "Retention tactics: May offer a discounted renewal.",
+    "free_alternatives": [
+      {
+        "name": "Udemy (individual course purchase)",
+        "url": "https://www.udemy.com",
+        "note": "Individual courses frequently on sale for $10-15; no subscription needed"
+      },
+      {
+        "name": "YouTube (free tutorials)",
+        "url": "https://www.youtube.com",
+        "note": "Free video tutorials on most topics"
+      }
+    ],
+    "last_verified": "2026-01-21",
+    "notes": "Udemy's subscription (Personal Plan) is distinct from individual course purchases. Canceling the subscription does not remove courses you've individually purchased \u2014 those are yours permanently. The subscription gives unlimited access to the full catalog while active."
   },
   {
     "name": "Fastmail",
@@ -629,13 +747,28 @@
     "url": "https://www.fastmail.com",
     "category": "email",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to fastmail.com and sign in.",
+      "Go to Settings > Billing > Cancel account. If you have multiple users on your account, delete all other users first before you can cancel.",
+      "No further payments required after cancellation. Export your email data first (Settings > Export)."
+    ],
+    "cancel_url": "https://www.fastmail.help/hc/en-us/articles/1500000277342",
+    "known_friction": "Retention tactics: None \u2014 Fastmail sends renewal reminders and makes cancellation clean.",
+    "free_alternatives": [
+      {
+        "name": "Proton Mail (free tier)",
+        "url": "https://proton.me",
+        "note": "Encrypted email, 1GB free"
+      },
+      {
+        "name": "Gmail (free)",
+        "url": "https://mail.google.com",
+        "note": "15GB free"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Fastmail ($3-$9/month depending on plan) is a privacy-respecting email provider based in Australia. Clean cancellation with advance renewal reminders. Export your email before canceling \u2014 Settings > Export gives you a full MBOX backup."
   },
   {
     "name": "Google Workspace Individual",
@@ -643,13 +776,23 @@
     "url": "https://workspace.google.com",
     "category": "email",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to workspace.google.com and sign in with your Google account. Note: Google Workspace Individual (personal) is different from Google Workspace Business/Enterprise (admin console). These instructions are for Individual.",
+      "Go to Settings > Subscriptions > Cancel subscription. Or go to support.google.com/google-workspace-individual and follow the cancellation link.",
+      "Access continues through end of billing period. Email, Meet, and other features revert to standard free Google account limits."
+    ],
+    "cancel_url": "https://support.google.com/google-workspace-individual/answer/10758208",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Google (free personal)",
+        "url": "https://accounts.google.com",
+        "note": "Free Gmail, Meet, Drive \u2014 15GB storage"
+      }
+    ],
+    "last_verified": "2026-01-29",
+    "notes": "Google Workspace Individual ($9.99/month) adds Meet premium features, custom email domains, and enhanced storage to a personal Google account. For Business/Enterprise plans, cancellation is in the Admin console (different process). After canceling Individual, your Google account continues normally on the free tier."
   },
   {
     "name": "Proton Mail Plus",
@@ -657,27 +800,57 @@
     "url": "https://proton.me",
     "category": "email",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to proton.me and sign in.",
+      "Click your profile icon > All settings > Dashboard > Downgrade plan. You're downgrading to the free tier \u2014 Proton doesn't have a traditional 'cancel' since the free plan continues.",
+      "Select the free plan. If you exceed free storage limits after downgrade, you'll need to delete emails/files to get under the cap."
+    ],
+    "cancel_url": "https://proton.me/support/manage-subscription",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "Proton Mail (free tier)",
+        "url": "https://proton.me",
+        "note": "Free with 1GB storage, 1 address"
+      }
+    ],
+    "last_verified": "2026-04-01",
+    "notes": "Proton Mail is on the /alternatives page as a trusted service. Cancellation is a downgrade to the free tier \u2014 clean, no friction. Free tier includes 1GB storage and 1 email address. Paid plans start at $3.99/month (Mail Plus) with more storage and addresses."
   },
   {
     "name": "Skype Premium",
     "slug": "skype",
     "url": "https://www.skype.com",
     "category": "email",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "N/A",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Skype shut down on May 5, 2025. There is nothing to cancel. Microsoft ended Skype after 14 years. All calling subscriptions were automatically terminated.",
+      "Any Skype Credit remaining was available for use until the shutdown date. Subscriptions extending beyond May 1, 2025 were automatically canceled and converted to Skype Credit where applicable.",
+      "If you're still seeing charges from Skype after May 2025, dispute them with your bank."
+    ],
     "cancel_url": "",
     "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "free_alternatives": [
+      {
+        "name": "Microsoft Teams (free)",
+        "url": "https://teams.microsoft.com",
+        "note": "Microsoft's replacement for Skype"
+      },
+      {
+        "name": "Zoom (free tier)",
+        "url": "https://zoom.us",
+        "note": "40-minute free group calls"
+      },
+      {
+        "name": "Signal (free)",
+        "url": "https://signal.org",
+        "note": "Encrypted calls and messaging"
+      }
+    ],
+    "last_verified": "2026-01-01",
+    "notes": "Skype officially shut down May 5, 2025. Microsoft migrated users to Microsoft Teams. If you had a Skype Number, you needed to port it to another carrier before shutdown. Any ongoing charges after May 2025 are unauthorized \u2014 dispute with your bank."
   },
   {
     "name": "Superhuman",
@@ -685,13 +858,28 @@
     "url": "https://superhuman.com",
     "category": "email",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "In the Superhuman app (Mac): press Cmd+K > type 'Cancel Subscription' > follow prompts.",
+      "Or go to superhuman.com/admin and cancel from the billing section.",
+      "If you can't find the cancel option, email support@superhuman.com. Team/contracted accounts have a different cancellation process \u2014 contact your account manager."
+    ],
+    "cancel_url": "https://superhuman.com/admin",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Gmail (free)",
+        "url": "https://mail.google.com",
+        "note": "Free with standard features"
+      },
+      {
+        "name": "Fastmail",
+        "url": "https://www.fastmail.com",
+        "note": "Privacy-respecting email from $3/month"
+      }
+    ],
+    "last_verified": "2026-01-28",
+    "notes": "Superhuman ($30/month) is a premium email client focused on speed. Clean cancellation. After canceling, your underlying email account (Gmail, Outlook, etc.) is unaffected \u2014 you just lose the Superhuman interface."
   },
   {
     "name": "Amazon Try Before You Buy",
@@ -2385,69 +2573,140 @@
     "url": "https://music.amazon.com",
     "category": "music",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to amazon.com and sign in.",
+      "Go to Account & Lists > Memberships & Subscriptions > Amazon Music Unlimited > Cancel subscription. Or go directly to music.amazon.com/settings.",
+      "If subscribed via Apple App Store or Google Play, cancel through those platforms.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://music.amazon.com/settings",
+    "known_friction": "Retention tactics: May offer a discounted rate.",
+    "free_alternatives": [
+      {
+        "name": "Amazon Music (free with Prime)",
+        "url": "https://music.amazon.com",
+        "note": "Limited catalog included with Amazon Prime"
+      },
+      {
+        "name": "Spotify (free tier)",
+        "url": "https://www.spotify.com",
+        "note": "Free with ads"
+      }
+    ],
+    "last_verified": "2026-03-08",
+    "notes": "Amazon Music Unlimited ($10.99/month standalone, $9.99/month for Prime members, $8.99 for students) gives full on-demand catalog access. Note: Amazon Prime includes a limited version of Amazon Music \u2014 canceling Unlimited does not cancel Prime."
   },
   {
     "name": "Deezer",
     "slug": "deezer",
     "url": "https://www.deezer.com",
     "category": "music",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to deezer.com and sign in. If subscribed via Apple, Google Play, or PayPal, cancel through those platforms.",
+      "Go to Account > Subscription > Cancel subscription > select reason > Confirm.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.deezer.com/account/subscription",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Deezer (free tier)",
+        "url": "https://www.deezer.com",
+        "note": "Free with ads and shuffle-only on mobile"
+      },
+      {
+        "name": "Spotify (free tier)",
+        "url": "https://www.spotify.com",
+        "note": "Free with ads"
+      }
+    ],
+    "last_verified": "2026-03-08",
+    "notes": "Deezer Premium ($10.99/month) offers ad-free listening. Clean cancellation. Export playlists via deezer.com/en/profile/export or use a tool like Soundiiz to migrate playlists to another service."
   },
   {
     "name": "Pandora Premium",
     "slug": "pandora",
     "url": "https://www.pandora.com",
     "category": "music",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to pandora.com and sign in. If subscribed via Apple or Google Play, cancel through those platforms.",
+      "Click your profile icon > Settings > Subscription > Switch Plan > Cancel.",
+      "Access continues through end of billing period. Reverts to free (ad-supported) radio."
+    ],
+    "cancel_url": "https://www.pandora.com/account/subscription",
+    "known_friction": "Retention tactics: May offer a downgrade to Pandora Plus instead of full cancellation.",
+    "free_alternatives": [
+      {
+        "name": "Pandora (free tier)",
+        "url": "https://www.pandora.com",
+        "note": "Free ad-supported radio \u2014 the original Pandora experience"
+      },
+      {
+        "name": "iHeartRadio (free)",
+        "url": "https://www.iheart.com",
+        "note": "Free radio streaming"
+      }
+    ],
+    "last_verified": "2026-02-01",
+    "notes": "Pandora Premium ($9.99/month) or Plus ($4.99/month). Pandora Plus is a cheaper tier that keeps some Pandora features without on-demand listening \u2014 offered as a downgrade alternative to full cancellation. Pandora is owned by SiriusXM."
   },
   {
     "name": "SoundCloud Go",
     "slug": "soundcloud-go",
     "url": "https://soundcloud.com",
     "category": "music",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "On desktop: go to soundcloud.com/you/subscriptions and cancel from there. Desktop-only for direct billing \u2014 the mobile app does not have a cancel option for direct-billed subscriptions.",
+      "If subscribed via Apple or Google Play, cancel through those platforms.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://soundcloud.com/you/subscriptions",
+    "known_friction": "Direct-billed SoundCloud Go subscriptions can only be canceled on desktop \u2014 there is no cancel option in the mobile app for direct billing. | Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "SoundCloud (free tier)",
+        "url": "https://soundcloud.com",
+        "note": "Free with ads; large independent music catalog"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "SoundCloud Go ($5.99/month) and Go+ ($9.99/month) remove ads and add offline listening. SoundCloud is notable for independent and emerging artist content not on other platforms. Desktop-only cancellation for direct billing is the main friction point."
   },
   {
     "name": "Tidal",
     "slug": "tidal",
     "url": "https://tidal.com",
     "category": "music",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to tidal.com and sign in. If subscribed via Apple or Google Play, cancel through those platforms instead.",
+      "Click your profile icon > Account > Subscription > Cancel subscription.",
+      "Access continues through end of billing period. Playlists and favorites are retained if you resubscribe."
+    ],
+    "cancel_url": "https://tidal.com/account/subscription",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Spotify (free tier)",
+        "url": "https://www.spotify.com",
+        "note": "Free with ads"
+      },
+      {
+        "name": "YouTube Music (free)",
+        "url": "https://music.youtube.com",
+        "note": "Free with ads"
+      }
+    ],
+    "last_verified": "2026-02-24",
+    "notes": "Tidal ($10.99-$19.99/month) offers HiFi audio quality. Note: Tidal went through a significant ownership restructuring in 2025 \u2014 verify current pricing and plan names at tidal.com before canceling."
   },
   {
     "name": "New York Times",
