@@ -2780,13 +2780,17 @@
     "url": "https://www.23andme.com",
     "category": "misc",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to 23andme.com and sign in.",
+      "Go to Settings > Membership > Cancel Membership.",
+      "Your DNA results and health reports remain accessible after cancellation."
+    ],
+    "cancel_url": "https://www.23andme.com/settings/membership/",
+    "known_friction": "Retention tactics: None significant.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "23andMe's Premium subscription ($29/month) is separate from the one-time DNA kit purchase. Canceling Premium does not delete your DNA data or reports. Note: 23andMe filed for bankruptcy in 2024. Verify current service status and data policies at 23andme.com before purchasing \u2014 data rights are an active concern."
   },
   {
     "name": "Ancestry",
@@ -2794,13 +2798,28 @@
     "url": "https://www.ancestry.com",
     "category": "misc",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to ancestry.com and sign in.",
+      "Click your username > Account Settings > Subscriptions > Cancel. If subscribed via Apple or Google Play, cancel through those platforms.",
+      "Access continues through end of billing period. Your family tree and DNA results are retained."
+    ],
+    "cancel_url": "https://www.ancestry.com/account/subscription",
+    "known_friction": "Ancestry free trials auto-convert to paid subscriptions. Many users sign up for a trial to view a record and are charged when the trial ends. | Retention tactics: May offer a discounted rate.; May offer a lower-tier plan.",
+    "free_alternatives": [
+      {
+        "name": "FamilySearch (free)",
+        "url": "https://www.familysearch.org",
+        "note": "Free genealogy records from the LDS Church"
+      },
+      {
+        "name": "MyHeritage (limited free)",
+        "url": "https://www.myheritage.com",
+        "note": "Free with limited features"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Ancestry ($24.99-$49.99/month) gives access to genealogy records. Your family tree data is yours and stays accessible after cancellation. DNA results (if you did AncestryDNA) remain available regardless of subscription status."
   },
   {
     "name": "Credit Sesame Premium",
@@ -2808,13 +2827,28 @@
     "url": "https://www.creditsesame.com",
     "category": "misc",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to creditsesame.com and sign in.",
+      "Go to Account > Settings > Subscription > Cancel.",
+      "Access reverts to the free tier."
+    ],
+    "cancel_url": "https://www.creditsesame.com/settings",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Credit Sesame (free)",
+        "url": "https://www.creditsesame.com",
+        "note": "Free credit score monitoring"
+      },
+      {
+        "name": "Credit Karma (free)",
+        "url": "https://www.creditkarma.com",
+        "note": "Free credit monitoring"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Credit Sesame's free tier is generous \u2014 most users don't need the paid tier. Clean downgrade to free."
   },
   {
     "name": "Experian Premium",
@@ -2822,13 +2856,28 @@
     "url": "https://www.experian.com",
     "category": "misc",
     "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to experian.com and sign in.",
+      "Go to Account > Membership > Cancel Membership. Or call 1-479-343-6239.",
+      "Access reverts to the free tier (basic credit report access)."
+    ],
+    "cancel_url": "https://www.experian.com/consumer-products/member-center.html",
+    "known_friction": "Experian sells several overlapping products: CreditWorks, IdentityWorks, Experian Boost (free), and bundles. It's easy to cancel one while still being charged for another. | Retention tactics: May offer a discounted rate.",
+    "free_alternatives": [
+      {
+        "name": "Experian (free basic)",
+        "url": "https://www.experian.com",
+        "note": "Free credit score and report"
+      },
+      {
+        "name": "AnnualCreditReport.com (free)",
+        "url": "https://www.annualcreditreport.com",
+        "note": "Free weekly reports from all 3 bureaus"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Experian has multiple premium products \u2014 check your statements to confirm exactly which product(s) you're paying for before canceling. The free tier includes a credit score and basic monitoring."
   },
   {
     "name": "Identity Guard",
@@ -2836,13 +2885,28 @@
     "url": "https://www.identityguard.com",
     "category": "misc",
     "cancel_method": "phone or online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Call Identity Guard: 1-800-452-2541.",
+      "Or go to identityguard.com > Account > Cancel Subscription.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.identityguard.com/account",
+    "known_friction": "Retention tactics: May offer a discounted rate.",
+    "free_alternatives": [
+      {
+        "name": "Credit Karma (free)",
+        "url": "https://www.creditkarma.com",
+        "note": "Free credit monitoring"
+      },
+      {
+        "name": "AnnualCreditReport.com (free)",
+        "url": "https://www.annualcreditreport.com",
+        "note": "Free weekly credit reports from all 3 bureaus"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Identity Guard ($8.99-$29.99/month) provides identity theft monitoring and insurance. Note: Identity Guard is owned by Aura \u2014 if you see Aura charges, that's the same company."
   },
   {
     "name": "LifeLock",
@@ -2850,13 +2914,28 @@
     "url": "https://www.lifelock.com",
     "category": "misc",
     "cancel_method": "phone or online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": "May be bundled with Norton. Cancellation may differ from standalone Norton."
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Call LifeLock: 1-800-543-3562.",
+      "Or go to lifelock.com > Account > Manage Plan > Cancel. LifeLock may be bundled with Norton 360. If you have a Norton + LifeLock bundle, canceling one may affect the other \u2014 clarify with the agent.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.lifelock.com/account",
+    "known_friction": "LifeLock is frequently sold bundled with Norton 360. Customers who cancel LifeLock may not realize they're also canceling Norton, and vice versa. | Retention tactics: May offer a discounted rate.",
+    "free_alternatives": [
+      {
+        "name": "Credit Karma (free)",
+        "url": "https://www.creditkarma.com",
+        "note": "Free credit monitoring and alerts"
+      },
+      {
+        "name": "AnnualCreditReport.com (free)",
+        "url": "https://www.annualcreditreport.com",
+        "note": "Free weekly reports from Equifax, Experian, TransUnion"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "LifeLock (owned by NortonLifeLock/Gen Digital) provides identity theft protection. If bundled with Norton, clarify what's being canceled. LifeLock has paid hundreds of millions in FTC settlements historically for overstating its protection capabilities."
   },
   {
     "name": "Nutrisystem",
@@ -2864,13 +2943,17 @@
     "url": "https://www.nutrisystem.com",
     "category": "misc",
     "cancel_method": "phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call Nutrisystem: 1-800-585-5483. Nutrisystem does not offer online self-service cancellation. Phone only.",
+      "State you want to cancel. Nutrisystem requires 14 days notice before your next auto-ship order to avoid being charged.",
+      "Check your contract for any commitment period. Auto-delivery plans may have minimum order requirements."
+    ],
     "cancel_url": "",
-    "known_friction": "",
+    "known_friction": "No online cancellation despite online signup. Phone required.; Must call 14 days before auto-ship date to avoid next charge. Missing this window means receiving and paying for another shipment. | Retention tactics: May offer a discount or modified plan.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "Nutrisystem delivers pre-packaged diet meals on auto-ship. Call at least 14 days before your next order date. Get a cancellation confirmation number."
   },
   {
     "name": "SiriusXM (Streaming Only)",
@@ -2878,13 +2961,28 @@
     "url": "https://www.siriusxm.com/streaming",
     "category": "misc",
     "cancel_method": "phone or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_difficulty": 5,
+    "cancel_steps": [
+      "Call SiriusXM: 1-866-635-2349. This is the streaming-only plan \u2014 same cancellation process as vehicle subscriptions. See also the full SiriusXM cancel guide at cancelfreely.com/cancel/siriusxm for complete dark pattern documentation.",
+      "State you want to cancel your streaming subscription. Decline all retention offers.",
+      "Get a confirmation number. Check your next statement \u2014 SiriusXM has a documented history of continuing charges after confirmed cancellation."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": "Distinct from SiriusXM vehicle subscription in Batch 1. Streaming-only plan may have different cancel flow."
+    "known_friction": "SiriusXM streaming plans use the same 4-6 screen retention process and post-cancellation charge history as vehicle subscriptions. Phone-only, extreme hold times, multiple retention offers before cancellation is processed. | Retention tactics: 4-6 retention offers before cancellation is processed.",
+    "free_alternatives": [
+      {
+        "name": "Spotify (free tier)",
+        "url": "https://www.spotify.com",
+        "note": "Free music streaming with ads"
+      },
+      {
+        "name": "iHeartRadio (free)",
+        "url": "https://www.iheart.com",
+        "note": "Free radio and podcast streaming"
+      }
+    ],
+    "last_verified": "2026-02-14",
+    "notes": "The streaming-only SiriusXM plan may have a different cancel flow than vehicle subscriptions in some cases \u2014 but users report the same retention friction. See the main SiriusXM entry for full dark pattern documentation."
   },
   {
     "name": "Amazon Music Unlimited",
