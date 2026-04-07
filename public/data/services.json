@@ -3229,13 +3229,17 @@
     "url": "https://www.chewy.com",
     "category": "pets",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to chewy.com and sign in.",
+      "Go to Account > Autoship > find the item > Cancel Autoship. You can cancel individual items or all Autoship orders separately.",
+      "Confirm. No contract, no fee."
+    ],
+    "cancel_url": "https://www.chewy.com/app/account/autoship",
+    "known_friction": "Retention tactics: None.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "Chewy Autoship is a recurring delivery subscription for pet food and supplies (typically 5-10% discount). Cancel per-item or all at once. One of the cleanest subscription cancels \u2014 item-level control, no friction."
   },
   {
     "name": "Ollie",
@@ -3243,13 +3247,17 @@
     "url": "https://www.myollie.com",
     "category": "pets",
     "cancel_method": "online or email",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to myollie.com and sign in.",
+      "Go to Account > Subscription > Cancel Subscription. Or email support@myollie.com.",
+      "Cancel before your next order processing date to avoid the next shipment and charge."
+    ],
+    "cancel_url": "https://www.myollie.com/account",
+    "known_friction": "Retention tactics: May offer a pause or adjusted frequency.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "Ollie delivers fresh dog food on subscription. Similar to The Farmer's Dog. Cancel before your order cutoff. Plans are portioned per your dog's profile."
   },
   {
     "name": "PetPlate",
@@ -3257,13 +3265,17 @@
     "url": "https://www.petplate.com",
     "category": "pets",
     "cancel_method": "online or email",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to petplate.com and sign in.",
+      "Go to Account > Subscription > Cancel. Or email support@petplate.com.",
+      "Cancel before your next order processing date to avoid the next charge."
+    ],
+    "cancel_url": "https://www.petplate.com/account",
+    "known_friction": "Retention tactics: May offer a pause.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "PetPlate delivers vet-developed fresh dog food on subscription. Cancel before your order cutoff \u2014 check account for specific date."
   },
   {
     "name": "The Farmer's Dog",
@@ -3271,13 +3283,17 @@
     "url": "https://www.thefarmersdog.com",
     "category": "pets",
     "cancel_method": "online or email",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to thefarmersdog.com and sign in.",
+      "Go to Account > Manage Plan > Cancel Plan. Or email support@thefarmersdog.com to request cancellation.",
+      "Cancel before your next order processing date (visible in your account) to avoid the next charge."
+    ],
+    "cancel_url": "https://www.thefarmersdog.com/dashboard",
+    "known_friction": "Retention tactics: May offer a pause or adjusted plan.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "The Farmer's Dog delivers fresh, human-grade dog food on a subscription basis. Plans are customized per dog. Cancel before your order cutoff to avoid the next shipment."
   },
   {
     "name": "Adobe Creative Cloud",
