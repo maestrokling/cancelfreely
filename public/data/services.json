@@ -5257,13 +5257,23 @@
     "url": "https://www.clearme.com",
     "category": "travel",
     "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to clearme.com and sign in.",
+      "Go to Account > Membership > Cancel Membership. Or call 1-855-253-2763.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.clearme.com/account",
+    "known_friction": "Retention tactics: May offer a discounted rate or pause.",
+    "free_alternatives": [
+      {
+        "name": "TSA PreCheck",
+        "url": "https://www.tsa.gov/precheck",
+        "note": "Federal program, $78 for 5 years \u2014 slower than CLEAR but no annual fee"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "CLEAR ($199/year) provides biometric identity verification at airports. Note: CLEAR and TSA PreCheck are different products that complement each other \u2014 CLEAR gets you to the ID check faster; PreCheck lets you skip the security screening line. Cancel CLEAR independently of PreCheck."
   },
   {
     "name": "Global Entry Renewal",
@@ -5271,13 +5281,17 @@
     "url": "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry",
     "category": "travel",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Global Entry is not a recurring subscription \u2014 it's a 5-year enrollment ($120). To not renew, simply let it expire.",
+      "To cancel an active application or membership: log into the Trusted Traveler Programs portal at ttp.cbp.dhs.gov.",
+      "Note: Global Entry includes TSA PreCheck. Letting Global Entry lapse means losing both."
+    ],
+    "cancel_url": "https://ttp.cbp.dhs.gov",
+    "known_friction": "Retention tactics: None.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": "Not a recurring subscription; renewal every 5 years."
+    "last_verified": "2026-01-15",
+    "notes": "Global Entry ($120 for 5 years) includes TSA PreCheck and expedited customs re-entry for international travelers. It's a government program, not a commercial subscription \u2014 no dark patterns. Many credit cards (Chase Sapphire, Amex Platinum, etc.) reimburse the enrollment fee."
   },
   {
     "name": "Going (formerly Scott's Cheap Flights)",
@@ -5285,27 +5299,57 @@
     "url": "https://www.going.com",
     "category": "travel",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to going.com and sign in.",
+      "Go to Account > Subscription > Cancel Subscription.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.going.com/account",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Going (free tier)",
+        "url": "https://www.going.com",
+        "note": "Free tier with limited deal alerts"
+      },
+      {
+        "name": "Google Flights (free)",
+        "url": "https://flights.google.com",
+        "note": "Free flight price tracking"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Going ($25-$50/year) sends flight deal alerts. Clean cancellation. Formerly Scott's Cheap Flights, rebranded 2022."
   },
   {
     "name": "Hopper Premium",
     "slug": "hopper",
     "url": "https://www.hopper.com",
     "category": "travel",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Open the Hopper app or go to hopper.com and sign in.",
+      "Go to Account > Subscription > Cancel.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.hopper.com/account",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Hopper (free basic)",
+        "url": "https://www.hopper.com",
+        "note": "Free price prediction and booking"
+      },
+      {
+        "name": "Google Flights (free)",
+        "url": "https://flights.google.com",
+        "note": "Free flight price tracking"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Hopper Premium ($9.99/month) adds price freeze and cancel for any reason features. Clean cancellation."
   },
   {
     "name": "Tripadvisor Plus",
@@ -5313,13 +5357,23 @@
     "url": "https://www.tripadvisor.com/Plus",
     "category": "travel",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to tripadvisor.com and sign in.",
+      "Go to Account > Tripadvisor Plus > Manage Membership > Cancel.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.tripadvisor.com/plus/manage",
+    "known_friction": "Retention tactics: May offer a discount.",
+    "free_alternatives": [
+      {
+        "name": "Tripadvisor (free)",
+        "url": "https://www.tripadvisor.com",
+        "note": "Free reviews and booking without Plus discounts"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Tripadvisor Plus ($99/year) offers hotel discounts and perks. Clean online cancellation."
   },
   {
     "name": "TSA PreCheck Renewal",
@@ -5327,12 +5381,16 @@
     "url": "https://www.tsa.gov/precheck",
     "category": "travel",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "TSA PreCheck is not a recurring subscription \u2014 it's a 5-year enrollment that costs $78. To not renew, simply do nothing when it expires.",
+      "If you enrolled through IDEMIA, Telos, or another enrollment provider and have auto-renew enabled: log into that provider's portal and turn off auto-renewal.",
+      "You'll receive renewal notices by email before expiration \u2014 just ignore them if you don't want to renew."
+    ],
+    "cancel_url": "https://universalenroll.dhs.gov/myaccount",
+    "known_friction": "Retention tactics: None.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": "Not a recurring subscription; renewal every 5 years. Users search for how to not renew."
+    "last_verified": "2026-01-15",
+    "notes": "TSA PreCheck is a 5-year enrollment, not an annual subscription. Most people land here because they received a renewal notice or were charged for an unexpected renewal. If your enrollment provider has auto-renewal, log into their portal (IDEMIA, Telos, etc.) to disable it."
   }
 ]
