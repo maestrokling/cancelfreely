@@ -4059,13 +4059,23 @@
     "url": "https://discord.com/nitro",
     "category": "social",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Open Discord (app or web) and sign in.",
+      "Go to User Settings (gear icon) > Subscriptions > Cancel. If subscribed via Apple or Google Play, cancel through those platforms.",
+      "Access continues through end of billing period. Boosted servers lose your boost."
+    ],
+    "cancel_url": "https://discord.com/settings/subscriptions",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "Discord (free)",
+        "url": "https://discord.com",
+        "note": "Full Discord with standard file size and emoji limits"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Discord Nitro ($9.99/month or $99.99/year) adds animated avatars, larger file uploads, and server boosts. Clean cancellation. If you have server boosts active, they're removed at cancellation."
   },
   {
     "name": "Reddit Premium",
@@ -4073,55 +4083,95 @@
     "url": "https://www.reddit.com/premium",
     "category": "social",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to reddit.com and sign in.",
+      "Go to reddit.com/premium > Cancel Premium.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.reddit.com/premium",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "Reddit (free)",
+        "url": "https://www.reddit.com",
+        "note": "Full Reddit access without Premium"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Reddit Premium ($5.99/month) removes ads and adds a monthly Reddit Coins allowance. One of the cleanest social media subscription cancels."
   },
   {
     "name": "Snapchat+",
     "slug": "snapchat-plus",
     "url": "https://www.snapchat.com",
     "category": "social",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Snapchat+ is only available via in-app purchase \u2014 cancel through the originating platform.",
+      "iOS: Settings > [your name] > Subscriptions > Snapchat+ > Cancel.",
+      "Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Snapchat+ > Cancel."
+    ],
+    "cancel_url": "https://support.snapchat.com/en-US/article/snapchat-plus",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "Snapchat (free)",
+        "url": "https://www.snapchat.com",
+        "note": "Free with standard features"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Snapchat+ ($3.99/month) adds exclusive features. App-store only subscription \u2014 cancel through Apple or Google."
   },
   {
     "name": "Tumblr Ad-Free",
     "slug": "tumblr-ad-free",
     "url": "https://www.tumblr.com",
     "category": "social",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to tumblr.com and sign in. If subscribed via Apple or Google Play, cancel through those platforms.",
+      "Go to Account > Subscription > Cancel.",
+      "Access continues through end of billing period. Ads return after cancellation."
+    ],
+    "cancel_url": "https://www.tumblr.com/settings/account",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "Tumblr (free with ads)",
+        "url": "https://www.tumblr.com",
+        "note": "Free with ads"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Tumblr Ad-Free ($7.99/month) removes ads. Clean cancellation."
   },
   {
     "name": "X Premium (Twitter)",
     "slug": "x-premium",
     "url": "https://x.com",
     "category": "social",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to x.com and sign in, or open the X app. If subscribed via Apple or Google Play, cancel through those platforms.",
+      "Go to Settings > Subscription > Cancel subscription.",
+      "Access continues through end of billing period. Premium features (blue checkmark, longer posts, etc.) are removed."
+    ],
+    "cancel_url": "https://x.com/settings/subscription",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "X (free)",
+        "url": "https://x.com",
+        "note": "Free with standard features"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "X Premium ($8-$16/month) adds verification, longer posts, ad revenue sharing, and other features. Clean cancellation."
   },
   {
     "name": "Gaia",
