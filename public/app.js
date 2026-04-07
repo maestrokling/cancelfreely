@@ -20,6 +20,7 @@ function render(list) {
       <ol class="steps">${s.cancel_steps.map(step => `<li>${step}</li>`).join('')}</ol>
       ${s.known_friction ? `<div class="friction">Watch out: ${s.known_friction}</div>` : ''}
       ${s.cancel_url ? `<a class="cancel-btn" href="${s.cancel_url}" target="_blank" rel="noopener">Go to cancel page</a>` : ''}
+      ${s.deletefreely_slug ? `<a class="df-link" href="https://deletefreely.com/companies/${s.deletefreely_slug}/" target="_blank" rel="noopener">🗑️ Delete your data from ${s.name} →</a>` : ''}
     </div>
   `).join('');
 }
