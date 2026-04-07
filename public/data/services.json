@@ -5,13 +5,22 @@
     "url": "https://www.anthropic.com",
     "category": "ai-tools",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": "Pay-as-you-go; not a traditional subscription. Users searching for how to stop charges."
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Anthropic API is pay-as-you-go, not a traditional subscription. To stop charges: go to console.anthropic.com > Billing > Remove payment method or set a usage limit to $0.",
+      "To close the account entirely: go to console.anthropic.com > Account Settings > Delete Account."
+    ],
+    "cancel_url": "https://console.anthropic.com/settings/billing",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "Claude (free tier)",
+        "url": "https://claude.ai",
+        "note": "Free Claude access without API"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Anthropic API is pay-per-token, not a subscription. To stop charges, set a spending limit of $0 in the console or remove your payment method. API credits may expire \u2014 check your account for any prepaid balance before closing."
   },
   {
     "name": "Copy.ai",
@@ -19,13 +28,28 @@
     "url": "https://www.copy.ai",
     "category": "ai-tools",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to copy.ai and sign in.",
+      "Go to Settings > Billing > Cancel Plan.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://app.copy.ai/settings/billing",
+    "known_friction": "Retention tactics: May offer a discounted rate.",
+    "free_alternatives": [
+      {
+        "name": "Copy.ai (free tier)",
+        "url": "https://www.copy.ai",
+        "note": "Free tier with limited credits"
+      },
+      {
+        "name": "ChatGPT (free)",
+        "url": "https://chat.openai.com",
+        "note": "Free AI writing"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Copy.ai ($49-$249+/month) is an AI copywriting tool. Clean cancellation."
   },
   {
     "name": "Cursor Pro",
@@ -33,13 +57,28 @@
     "url": "https://cursor.sh",
     "category": "ai-tools",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to cursor.sh and sign in.",
+      "Go to Account > Billing > Cancel Subscription.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://cursor.sh/settings",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "Cursor (free tier)",
+        "url": "https://cursor.sh",
+        "note": "Free tier with limited AI completions"
+      },
+      {
+        "name": "VS Code + Codeium (free)",
+        "url": "https://codeium.com",
+        "note": "Free AI code completion extension"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Cursor Pro ($20/month) is an AI code editor. Clean cancellation."
   },
   {
     "name": "GitHub Copilot",
@@ -47,13 +86,29 @@
     "url": "https://github.com/features/copilot",
     "category": "ai-tools",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to github.com and sign in.",
+      "Click your profile icon > Settings > Billing and plans > Plans and usage.",
+      "In the 'GitHub Copilot' section, click 'Manage subscription' > 'Cancel subscription'. Or downgrade to the free tier if you qualify (students, open source maintainers may have free access).",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://github.com/settings/copilot",
+    "known_friction": "Multiple GitHub community forum posts describe users who believed they canceled but continued to be charged for up to a year. The cancellation was processed via 'Downgrade to free' rather than an explicit cancel button, causing confusion. GitHub declined refunds in some cases. | Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "GitHub Copilot (free tier)",
+        "url": "https://github.com/features/copilot",
+        "note": "Free tier with limited completions available for all users"
+      },
+      {
+        "name": "Codeium (free)",
+        "url": "https://codeium.com",
+        "note": "Free AI code completion"
+      }
+    ],
+    "last_verified": "2026-04-05",
+    "notes": "GitHub Copilot Individual is $10/month. A free tier with limited completions was introduced in 2024. If you're only lightly using Copilot, check if the free tier meets your needs before canceling entirely. For teams/enterprise, cancellation goes through the organization billing settings."
   },
   {
     "name": "Jasper AI",
@@ -61,13 +116,28 @@
     "url": "https://www.jasper.ai",
     "category": "ai-tools",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to jasper.ai and sign in.",
+      "Go to Settings > Billing > Cancel Subscription.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://app.jasper.ai/settings/billing",
+    "known_friction": "Retention tactics: May offer a discounted rate.",
+    "free_alternatives": [
+      {
+        "name": "ChatGPT (free tier)",
+        "url": "https://chat.openai.com",
+        "note": "Free AI writing with GPT-4o"
+      },
+      {
+        "name": "Claude (free tier)",
+        "url": "https://claude.ai",
+        "note": "Free AI writing assistant"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Jasper AI ($39-$99+/month) is an AI writing assistant for marketing and business content. Clean online cancellation."
   },
   {
     "name": "Midjourney",
@@ -75,27 +145,52 @@
     "url": "https://www.midjourney.com",
     "category": "ai-tools",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to midjourney.com/account and sign in.",
+      "Click 'Cancel Plan' and confirm. Or use the /subscribe command in Discord to access your billing page, then cancel from there.",
+      "Access continues through end of billing period. Images you've generated are retained."
+    ],
+    "cancel_url": "https://www.midjourney.com/account",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "Adobe Firefly (free tier)",
+        "url": "https://firefly.adobe.com",
+        "note": "Free AI image generation"
+      },
+      {
+        "name": "DALL-E (via ChatGPT free)",
+        "url": "https://chat.openai.com",
+        "note": "Limited free image generation"
+      }
+    ],
+    "last_verified": "2026-01-27",
+    "notes": "Midjourney ($10-$120/month depending on plan) is the leading AI image generation service. Clean cancellation. Generated images are retained after cancellation. The /subscribe Discord command provides an alternative path to billing management."
   },
   {
     "name": "Perplexity Pro",
     "slug": "perplexity-pro",
     "url": "https://www.perplexity.ai",
     "category": "ai-tools",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to perplexity.ai and sign in. If subscribed via Apple or Google Play, cancel through those platforms.",
+      "Click your profile icon > Settings > Subscription > Cancel.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.perplexity.ai/settings/account",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "Perplexity (free tier)",
+        "url": "https://www.perplexity.ai",
+        "note": "Free AI search with limited Pro model usage"
+      }
+    ],
+    "last_verified": "2026-03-15",
+    "notes": "Perplexity Pro ($20/month) adds unlimited Pro searches and more model options. One of the cleaner AI tool cancels."
   },
   {
     "name": "Replit Pro",
@@ -103,13 +198,28 @@
     "url": "https://replit.com",
     "category": "ai-tools",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to replit.com and sign in.",
+      "Click your profile icon > Account > Billing > Cancel Subscription.",
+      "Access continues through end of billing period. Free projects remain accessible."
+    ],
+    "cancel_url": "https://replit.com/account",
+    "known_friction": "Retention tactics: May offer a discounted rate.",
+    "free_alternatives": [
+      {
+        "name": "Replit (free tier)",
+        "url": "https://replit.com",
+        "note": "Free browser-based coding with public projects"
+      },
+      {
+        "name": "GitHub Codespaces (free tier)",
+        "url": "https://github.com/features/codespaces",
+        "note": "60 free hours/month"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Replit Pro ($20/month) adds private projects, more compute, and AI coding features. Clean cancellation."
   },
   {
     "name": "Carvana",
@@ -909,27 +1019,42 @@
     "url": "https://www.amazon.com/b?node=21446531011",
     "category": "fashion",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Amazon Try Before You Buy is not a subscription \u2014 it's a free Prime member feature. To stop using it, simply don't order more try-on boxes.",
+      "For active try-on orders: return unwanted items within 7 days using the prepaid return label. You are only charged for items you keep.",
+      "If you have a Prime Wardrobe credit card or enrollment: go to amazon.com > Account > Prime Wardrobe settings to manage."
+    ],
+    "cancel_url": "https://www.amazon.com/b?node=21446531011",
+    "known_friction": "Retention tactics: None \u2014 not a subscription.",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-01-15",
+    "notes": "Amazon Try Before You Buy (formerly Prime Wardrobe) is a Prime benefit, not a separate subscription. You try up to 8 items for 7 days, return what you don't want, and only pay for what you keep. No monthly fee beyond Prime membership."
   },
   {
     "name": "Fabletics",
     "slug": "fabletics",
     "url": "https://www.fabletics.com",
     "category": "fashion",
-    "cancel_method": "online or chat",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
+    "cancel_method": "phone or online chat",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Call Fabletics: 1-844-322-5384 (24/7). This is the primary cancellation method. Fabletics requires phone or live chat to cancel the VIP membership \u2014 no self-service online cancel.",
+      "Alternatively use live chat at fabletics.com.",
+      "State clearly you want to cancel the VIP membership. Agents will make retention offers \u2014 decline them.",
+      "\u26a0\ufe0f Skip by the 5th of each month or you are charged $59.95 as a 'member credit.' If you have accumulated credits, use them before canceling."
+    ],
     "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "known_friction": "Despite a fully online signup, Fabletics requires phone or chat to cancel the VIP membership. No self-service cancel option exists online.; Fabletics charges $59.95 on the 6th of each month if you haven't actively skipped or shopped. Many members forget, accumulate charges, and then face credits they don't want. The skip reminder is buried.; Monthly charges convert to 'member credits' rather than cash charges, creating a pool of non-refundable credits that lock users in ('I've already paid for i",
+    "free_alternatives": [
+      {
+        "name": "Fabletics (non-VIP)",
+        "url": "https://www.fabletics.com",
+        "note": "Can shop at regular prices without VIP membership"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Fabletics VIP is a classic dark pattern subscription: free shipping and discounts in exchange for a $59.95/month charge unless you actively skip each month. Use up any accumulated credits before canceling \u2014 they don't convert to cash. Call before the 5th of the month to avoid that month's charge."
   },
   {
     "name": "Nuuly",
@@ -937,13 +1062,23 @@
     "url": "https://www.nuuly.com",
     "category": "fashion",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to nuuly.com and sign in.",
+      "Go to Account > Subscription > Cancel Subscription. Return current rental items by the due date.",
+      "Confirm. Clean, no retention screens."
+    ],
+    "cancel_url": "https://www.nuuly.com/account/subscription",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "ThredUp (secondhand)",
+        "url": "https://www.thredup.com",
+        "note": "Buy secondhand designer clothing"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Nuuly ($88/month, owned by Urban Outfitters Group) rents 6 items/month. Noted by multiple reviewers as one of the easiest fashion rental subscriptions to cancel."
   },
   {
     "name": "Rent the Runway",
@@ -951,13 +1086,23 @@
     "url": "https://www.renttherunway.com",
     "category": "fashion",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to renttherunway.com and sign in.",
+      "Go to Account > Membership > Cancel Membership. Return all rented items before or when canceling. You are responsible for items until returned.",
+      "Confirm cancellation. Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.renttherunway.com/account",
+    "known_friction": "You must return all rented items before or upon cancellation. Failure to return items results in additional charges. This creates logistical friction around cancellation timing. | Retention tactics: May offer a pause instead of canceling.",
+    "free_alternatives": [
+      {
+        "name": "ThredUp (secondhand purchase)",
+        "url": "https://www.thredup.com",
+        "note": "Buy secondhand instead of renting"
+      }
+    ],
+    "last_verified": "2026-02-28",
+    "notes": "Rent the Runway ($94-$144/month) rents designer clothing. Return all items before canceling \u2014 you're responsible for them until RTR receives them back. The pause option is worth considering if you just need a break."
   },
   {
     "name": "ThredUp Goody Boxes",
@@ -965,13 +1110,23 @@
     "url": "https://www.thredup.com",
     "category": "fashion",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to thredup.com and sign in.",
+      "Go to Account > Goody Box > Cancel subscription.",
+      "Return any items from an active box you don't want to keep within the return window."
+    ],
+    "cancel_url": "https://www.thredup.com/goodybox",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "ThredUp (browse and buy)",
+        "url": "https://www.thredup.com",
+        "note": "Browse secondhand clothing without a subscription"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "ThredUp Goody Boxes are a styled secondhand clothing subscription \u2014 you keep what you like, return the rest. You pay a styling fee regardless of whether you keep anything. Cancel before your next box ships to avoid the fee."
   },
   {
     "name": "Acorns",
@@ -3907,42 +4062,79 @@
     "slug": "gaia",
     "url": "https://www.gaia.com",
     "category": "spirituality",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to gaia.com and sign in. If subscribed via Apple, Google Play, Roku, or Amazon, cancel through those platforms.",
+      "Go to your profile > Settings > Manage Subscription > Cancel.",
+      "Access continues through end of billing period. No pause option available."
+    ],
+    "cancel_url": "https://www.gaia.com/account",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "YouTube (free spiritual content)",
+        "url": "https://www.youtube.com",
+        "note": "Free meditation, yoga, and wellness content"
+      }
+    ],
+    "last_verified": "2026-03-02",
+    "notes": "Gaia ($11.99/month or $99/year) is a streaming service for consciousness-expanding content \u2014 yoga, meditation, ancient wisdom, UFO documentaries. No pause option as of 2026. Standard cancel through originating platform."
   },
   {
     "name": "Insight Timer Premium",
     "slug": "insight-timer",
     "url": "https://insighttimer.com",
     "category": "spirituality",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "app store or online",
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Cancel through the platform where you subscribed.",
+      "iOS: Settings > [your name] > Subscriptions > Insight Timer > Cancel.",
+      "Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Insight Timer > Cancel.",
+      "Web: insighttimer.com > Account > Subscription > Cancel."
+    ],
+    "cancel_url": "https://insighttimer.com/settings",
+    "known_friction": "Retention tactics: None.",
+    "free_alternatives": [
+      {
+        "name": "Insight Timer (free tier)",
+        "url": "https://insighttimer.com",
+        "note": "Largest free meditation library \u2014 100,000+ free guided meditations. Premium is optional."
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Insight Timer's free tier is genuinely excellent \u2014 100,000+ free guided meditations from real teachers. Premium ($59.99/year) adds courses and offline access. One of the cleanest cancels in the wellness space."
   },
   {
     "name": "Pray.com",
     "slug": "pray",
     "url": "https://www.pray.com",
     "category": "spirituality",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Cancel through the platform where you subscribed.",
+      "iOS: Settings > [your name] > Subscriptions > Pray.com > Cancel.",
+      "Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Pray.com > Cancel.",
+      "Web: pray.com > Account > Manage Subscription > Cancel."
+    ],
+    "cancel_url": "https://pray.com/account",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Pray.com (free tier)",
+        "url": "https://pray.com",
+        "note": "Free access to some content"
+      },
+      {
+        "name": "YouVersion Bible App (free)",
+        "url": "https://www.youversion.com",
+        "note": "Free Bible reading app"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Pray.com ($9.99/month or $59.99/year) offers Christian audio content \u2014 prayers, meditations, sleep stories, Bible content. Standard app-store cancellation applies."
   },
   {
     "name": "Amazon Prime Video",
