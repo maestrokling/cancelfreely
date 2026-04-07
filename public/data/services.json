@@ -464,7 +464,8 @@
       }
     ],
     "last_verified": "2026-01-23",
-    "notes": "Bumble's cancellation is cleaner than most dating apps \u2014 web cancellation works for web subscribers. Covers Bumble Boost, Premium, and Premium+ tiers. Cancel method depends entirely on where you originally subscribed."
+    "notes": "Bumble's cancellation is cleaner than most dating apps \u2014 web cancellation works for web subscribers. Covers Bumble Boost, Premium, and Premium+ tiers. Cancel method depends entirely on where you originally subscribed.",
+    "deletefreely_slug": "bumble"
   },
   {
     "name": "eHarmony",
@@ -520,7 +521,8 @@
       }
     ],
     "last_verified": "2026-02-04",
-    "notes": "Hinge (owned by Match Group) is generally considered one of the better-designed dating apps. The free tier is genuinely usable. The subscription (Hinge+ or HingeX) cancels through Apple/Google. No refund for unused time."
+    "notes": "Hinge (owned by Match Group) is generally considered one of the better-designed dating apps. The free tier is genuinely usable. The subscription (Hinge+ or HingeX) cancels through Apple/Google. No refund for unused time.",
+    "deletefreely_slug": "hinge"
   },
   {
     "name": "Match.com",
@@ -550,7 +552,8 @@
       }
     ],
     "last_verified": "2026-02-17",
-    "notes": "Match is owned by Match Group (same company as Tinder, Hinge, OkCupid). No refund for unused time is the main gotcha \u2014 time cancellation carefully to near the end of your billing period."
+    "notes": "Match is owned by Match Group (same company as Tinder, Hinge, OkCupid). No refund for unused time is the main gotcha \u2014 time cancellation carefully to near the end of your billing period.",
+    "deletefreely_slug": "match"
   },
   {
     "name": "Tinder",
@@ -585,7 +588,8 @@
       }
     ],
     "last_verified": "2026-02-01",
-    "notes": "The app deletion trap is Tinder's most common gotcha. Always cancel through Apple/Google settings, not by deleting the app. Tinder offers Plus, Gold, and Platinum tiers \u2014 all cancel through the same platform-specific flow."
+    "notes": "The app deletion trap is Tinder's most common gotcha. Always cancel through Apple/Google settings, not by deleting the app. Tinder offers Plus, Gold, and Platinum tiers \u2014 all cancel through the same platform-specific flow.",
+    "deletefreely_slug": "tinder"
   },
   {
     "name": "GoDaddy",
@@ -1223,7 +1227,8 @@
     "known_friction": "The account deletion option is not prominently surfaced. Reddit users describe it as 'a bit tricky' to find. Credit Karma (owned by Intuit) monetizes through financial product referrals \u2014 account closure is not incentivized. | Retention tactics: None \u2014 no paid subscription.",
     "free_alternatives": [],
     "last_verified": "2026-03-13",
-    "notes": "Credit Karma has no paid subscription \u2014 it's free and makes money through financial product referrals (credit cards, loans). If you want to stop using it, delete the account to remove your data. Close any Credit Karma Money accounts first before account deletion."
+    "notes": "Credit Karma has no paid subscription \u2014 it's free and makes money through financial product referrals (credit cards, loans). If you want to stop using it, delete the account to remove your data. Close any Credit Karma Money accounts first before account deletion.",
+    "deletefreely_slug": "credit-karma"
   },
   {
     "name": "Mint (Intuit)",
@@ -1341,7 +1346,8 @@
       }
     ],
     "last_verified": "2026-01-23",
-    "notes": "Robinhood account closure is permanent. For ACATS transfer (moving investments to another broker without selling), initiate the transfer at the receiving broker \u2014 this avoids triggering taxable events. Robinhood Gold ($5/month) cancels separately through the app before account closure."
+    "notes": "Robinhood account closure is permanent. For ACATS transfer (moving investments to another broker without selling), initiate the transfer at the receiving broker \u2014 this avoids triggering taxable events. Robinhood Gold ($5/month) cancels separately through the app before account closure.",
+    "deletefreely_slug": "robinhood"
   },
   {
     "name": "TurboTax",
@@ -1581,7 +1587,8 @@
       }
     ],
     "last_verified": "2025-10-30",
-    "notes": "Peloton has two subscription tiers: All-Access (for equipment owners, ~$44/mo) and App (for non-equipment users, ~$12.99/mo). Canceling is straightforward online. Equipment owners who cancel lose most class content but the bike/tread still functions for manual workouts. Peloton restructured its debt in 2025 to avoid bankruptcy \u2014 company is still operating as of early 2026."
+    "notes": "Peloton has two subscription tiers: All-Access (for equipment owners, ~$44/mo) and App (for non-equipment users, ~$12.99/mo). Canceling is straightforward online. Equipment owners who cancel lose most class content but the bike/tread still functions for manual workouts. Peloton restructured its debt in 2025 to avoid bankruptcy \u2014 company is still operating as of early 2026.",
+    "deletefreely_slug": "peloton"
   },
   {
     "name": "Planet Fitness",
@@ -2790,7 +2797,8 @@
     "known_friction": "Retention tactics: None significant.",
     "free_alternatives": [],
     "last_verified": "2026-01-15",
-    "notes": "23andMe's Premium subscription ($29/month) is separate from the one-time DNA kit purchase. Canceling Premium does not delete your DNA data or reports. Note: 23andMe filed for bankruptcy in 2024. Verify current service status and data policies at 23andme.com before purchasing \u2014 data rights are an active concern."
+    "notes": "23andMe's Premium subscription ($29/month) is separate from the one-time DNA kit purchase. Canceling Premium does not delete your DNA data or reports. Note: 23andMe filed for bankruptcy in 2024. Verify current service status and data policies at 23andme.com before purchasing \u2014 data rights are an active concern.",
+    "deletefreely_slug": "23andme"
   },
   {
     "name": "Ancestry",
@@ -2819,7 +2827,8 @@
       }
     ],
     "last_verified": "2026-01-15",
-    "notes": "Ancestry ($24.99-$49.99/month) gives access to genealogy records. Your family tree data is yours and stays accessible after cancellation. DNA results (if you did AncestryDNA) remain available regardless of subscription status."
+    "notes": "Ancestry ($24.99-$49.99/month) gives access to genealogy records. Your family tree data is yours and stays accessible after cancellation. DNA results (if you did AncestryDNA) remain available regardless of subscription status.",
+    "deletefreely_slug": "ancestry"
   },
   {
     "name": "Credit Sesame Premium",
@@ -2877,7 +2886,8 @@
       }
     ],
     "last_verified": "2026-01-15",
-    "notes": "Experian has multiple premium products \u2014 check your statements to confirm exactly which product(s) you're paying for before canceling. The free tier includes a credit score and basic monitoring."
+    "notes": "Experian has multiple premium products \u2014 check your statements to confirm exactly which product(s) you're paying for before canceling. The free tier includes a credit score and basic monitoring.",
+    "deletefreely_slug": "experian"
   },
   {
     "name": "Identity Guard",
@@ -3673,7 +3683,8 @@
       }
     ],
     "last_verified": "2025-11-19",
-    "notes": "Dropbox is one of the more straightforward SaaS cancels. The main gotcha is mobile billing \u2014 if you subscribed through an app store, you must cancel there. After cancellation, Dropbox reverts to 2GB free storage."
+    "notes": "Dropbox is one of the more straightforward SaaS cancels. The main gotcha is mobile billing \u2014 if you subscribed through an app store, you must cancel there. After cancellation, Dropbox reverts to 2GB free storage.",
+    "deletefreely_slug": "dropbox"
   },
   {
     "name": "Evernote",
@@ -3713,7 +3724,8 @@
       }
     ],
     "last_verified": "2026-02-17",
-    "notes": "Evernote rebranded its plans in early 2026 (Personal/Professional \u2192 Starter/Advanced). The free tier is now very limited (1 notebook, 50 notes). Export your notes in ENEX format before canceling if you have significant content. Evernote has struggled financially in recent years \u2014 worth exporting data regardless."
+    "notes": "Evernote rebranded its plans in early 2026 (Personal/Professional \u2192 Starter/Advanced). The free tier is now very limited (1 notebook, 50 notes). Export your notes in ENEX format before canceling if you have significant content. Evernote has struggled financially in recent years \u2014 worth exporting data regardless.",
+    "deletefreely_slug": "evernote"
   },
   {
     "name": "Grammarly",
@@ -3748,7 +3760,8 @@
       }
     ],
     "last_verified": "2025-09-15",
-    "notes": "Grammarly is one of the cleaner SaaS cancels \u2014 no dark patterns reported. The free tier is functional for basic use. Grammarly rebranded its premium tier and added AI writing features in 2024-2025."
+    "notes": "Grammarly is one of the cleaner SaaS cancels \u2014 no dark patterns reported. The free tier is functional for basic use. Grammarly rebranded its premium tier and added AI writing features in 2024-2025.",
+    "deletefreely_slug": "grammarly"
   },
   {
     "name": "LinkedIn Premium",
@@ -3838,7 +3851,8 @@
       }
     ],
     "last_verified": "2026-03-15",
-    "notes": "Notion is one of the cleanest cancellation experiences in SaaS. The free tier is genuinely useful for individuals. All content is preserved after downgrade. Cannot cancel from mobile \u2014 desktop only."
+    "notes": "Notion is one of the cleanest cancellation experiences in SaaS. The free tier is genuinely useful for individuals. All content is preserved after downgrade. Cannot cancel from mobile \u2014 desktop only.",
+    "deletefreely_slug": "notion"
   },
   {
     "name": "Slack",
@@ -3868,7 +3882,8 @@
       }
     ],
     "last_verified": "2026-03-15",
-    "notes": "Slack's free tier is functional for small teams. The main limitation is 90-day message history \u2014 messages older than 90 days become inaccessible on the free plan. Cancellation requires Workspace Owner access."
+    "notes": "Slack's free tier is functional for small teams. The main limitation is 90-day message history \u2014 messages older than 90 days become inaccessible on the free plan. Cancellation requires Workspace Owner access.",
+    "deletefreely_slug": "slack"
   },
   {
     "name": "Zoom",
@@ -3903,7 +3918,8 @@
       }
     ],
     "last_verified": "2026-01-28",
-    "notes": "Zoom's cancellation is straightforward. The free tier is usable for most personal use cases \u2014 the 40-minute group meeting limit is the main constraint."
+    "notes": "Zoom's cancellation is straightforward. The free tier is usable for most personal use cases \u2014 the 40-minute group meeting limit is the main constraint.",
+    "deletefreely_slug": "zoom"
   },
   {
     "name": "1Password",
@@ -4823,7 +4839,8 @@
       }
     ],
     "last_verified": "2026-01-23",
-    "notes": "Netflix is considered one of the easier streaming services to cancel \u2014 the process is fully online and straightforward. The main friction is emotional (loss aversion screens), not procedural. Direct cancel URL works without navigating through account settings."
+    "notes": "Netflix is considered one of the easier streaming services to cancel \u2014 the process is fully online and straightforward. The main friction is emotional (loss aversion screens), not procedural. Direct cancel URL works without navigating through account settings.",
+    "deletefreely_slug": "netflix"
   },
   {
     "name": "Paramount+",
@@ -4949,7 +4966,8 @@
       }
     ],
     "last_verified": "2026-01-26",
-    "notes": "Spotify doesn't remove access when you cancel Premium \u2014 you drop to the free ad-supported tier. This reduces the urgency of the cancellation decision. The emotional manipulation during the flow is well-documented but the actual process is not procedurally difficult."
+    "notes": "Spotify doesn't remove access when you cancel Premium \u2014 you drop to the free ad-supported tier. This reduces the urgency of the cancellation decision. The emotional manipulation during the flow is well-documented but the actual process is not procedurally difficult.",
+    "deletefreely_slug": "spotify"
   },
   {
     "name": "YouTube Premium",
@@ -5183,7 +5201,8 @@
       }
     ],
     "last_verified": "2026-03-03",
-    "notes": "AT&T Fiber (internet) has no early termination fee \u2014 a genuine advantage over older cable contracts. Wireless cancellation is complicated if you have a device installment plan \u2014 you must pay off the remaining device balance. AT&T runs switching promotions for competitors, so check T-Mobile/Verizon for trade-in and payoff offers before canceling."
+    "notes": "AT&T Fiber (internet) has no early termination fee \u2014 a genuine advantage over older cable contracts. Wireless cancellation is complicated if you have a device installment plan \u2014 you must pay off the remaining device balance. AT&T runs switching promotions for competitors, so check T-Mobile/Verizon for trade-in and payoff offers before canceling.",
+    "deletefreely_slug": "att"
   },
   {
     "name": "Comcast Xfinity",
@@ -5298,7 +5317,8 @@
       }
     ],
     "last_verified": "2026-02-15",
-    "notes": "Spectrum/Charter lost significant internet subscribers in 2025 (over 500,000) as fiber and 5G alternatives expanded. No ETF is genuinely helpful. The no-proration policy is the main financial gotcha \u2014 calculate your billing cycle end date before calling. Comcast and Spectrum together lost over 1 million internet customers in 2025."
+    "notes": "Spectrum/Charter lost significant internet subscribers in 2025 (over 500,000) as fiber and 5G alternatives expanded. No ETF is genuinely helpful. The no-proration policy is the main financial gotcha \u2014 calculate your billing cycle end date before calling. Comcast and Spectrum together lost over 1 million internet customers in 2025.",
+    "deletefreely_slug": "spectrum"
   },
   {
     "name": "T-Mobile",
@@ -5328,7 +5348,8 @@
       }
     ],
     "last_verified": "2026-02-14",
-    "notes": "T-Mobile has generally better cancellation friction than AT&T or Comcast \u2014 phone cancellation works and the process is faster. The number port trick is the cleanest path if switching carriers. T-Mobile's churn ticked up in Q3 2025 \u2014 they are aggressively competing on retention offers."
+    "notes": "T-Mobile has generally better cancellation friction than AT&T or Comcast \u2014 phone cancellation works and the process is faster. The number port trick is the cleanest path if switching carriers. T-Mobile's churn ticked up in Q3 2025 \u2014 they are aggressively competing on retention offers.",
+    "deletefreely_slug": "t-mobile"
   },
   {
     "name": "Verizon",
@@ -5358,7 +5379,8 @@
       }
     ],
     "last_verified": "2026-02-07",
-    "notes": "Port your number to the new carrier first if switching \u2014 this automatically cancels Verizon service without needing to call retention. For Fios, no ETF on most residential plans. Device installment balances survive service cancellation and must be paid off separately."
+    "notes": "Port your number to the new carrier first if switching \u2014 this automatically cancels Verizon service without needing to call retention. For Fios, no ETF on most residential plans. Device installment balances survive service cancellation and must be paid off separately.",
+    "deletefreely_slug": "verizon"
   },
   {
     "name": "Bluegreen Vacations",
