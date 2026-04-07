@@ -593,13 +593,28 @@
     "url": "https://www.godaddy.com",
     "category": "domains",
     "cancel_method": "online or phone",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 3,
+    "cancel_steps": [
+      "Go to godaddy.com and sign in.",
+      "Go to your account > Renewals & Billing > find the product > turn off Auto-Renew. GoDaddy has many separate product lines \u2014 domains, hosting, email, website builder. Each cancels separately.",
+      "For refunds within 30 days: contact GoDaddy support at 1-480-505-8877 or via chat."
+    ],
+    "cancel_url": "https://www.godaddy.com/help/cancel-my-godaddy-account-3157",
+    "known_friction": "GoDaddy is notorious for aggressive upselling during domain purchase \u2014 privacy protection, SSL, hosting, email, website builder, all pre-checked or prominently pushed. Many users end up with services they didn't intend to buy.; GoDaddy bills each service separately with different renewal dates, making it easy to lose track of what you're paying for. Turning off auto-renew on a domain doesn't affect hosting, and vice versa. | Retention tactics: May offer a discount to keep services.",
+    "free_alternatives": [
+      {
+        "name": "Cloudflare Registrar",
+        "url": "https://www.cloudflare.com/products/registrar/",
+        "note": "At-cost domain registration, no markup"
+      },
+      {
+        "name": "Namecheap",
+        "url": "https://www.namecheap.com",
+        "note": "Competitive domain pricing"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "GoDaddy sells dozens of separate products. Audit your account for everything you're paying for \u2014 domains, hosting, email, SSL, website builder, Microsoft 365, etc. Each has its own auto-renew setting. Turn off auto-renew on domains you don't want rather than waiting for the renewal date."
   },
   {
     "name": "Namecheap Auto-Renewal",
@@ -607,13 +622,23 @@
     "url": "https://www.namecheap.com",
     "category": "domains",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 1,
+    "cancel_steps": [
+      "Go to namecheap.com and sign in.",
+      "Go to Domain List > find the domain > toggle Auto-Renew off. The domain will expire at its current expiration date and not be renewed.",
+      "For hosting/other products: go to Hosting > find the plan > Cancel."
+    ],
+    "cancel_url": "https://www.namecheap.com/domains/manage/",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Cloudflare Registrar",
+        "url": "https://www.cloudflare.com/products/registrar/",
+        "note": "At-cost domain registration"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Namecheap is one of the cleaner domain registrars. Toggle auto-renew per domain. Domains that aren't renewed go into a grace/redemption period before full expiry \u2014 you have a short window to recover them after expiration if needed."
   },
   {
     "name": "Squarespace",
@@ -621,13 +646,28 @@
     "url": "https://www.squarespace.com",
     "category": "domains",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to squarespace.com and sign in.",
+      "Go to Settings > Billing > Cancel Site. Canceling a site removes it and stops billing. Domain registrations are separate \u2014 cancel those individually under Domains.",
+      "Export your content before canceling: Settings > Advanced > Export."
+    ],
+    "cancel_url": "https://support.squarespace.com/hc/en-us/articles/205815428",
+    "known_friction": "Retention tactics: May offer a pause or discount.",
+    "free_alternatives": [
+      {
+        "name": "WordPress.com (free tier)",
+        "url": "https://wordpress.com",
+        "note": "Free with wordpress.com subdomain"
+      },
+      {
+        "name": "Cloudflare Pages (free)",
+        "url": "https://pages.cloudflare.com",
+        "note": "Free static site hosting"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Squarespace website subscriptions and domain registrations bill separately. Canceling the site plan doesn't cancel your domain \u2014 manage domains separately. Export content before canceling."
   },
   {
     "name": "Wix Premium",
@@ -635,13 +675,23 @@
     "url": "https://www.wix.com",
     "category": "domains",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to wix.com and sign in.",
+      "Go to Upgrade > Manage Plans > Cancel Plan. Domain registrations and premium plans bill separately.",
+      "Access continues through end of billing period. Free plan continues after cancellation."
+    ],
+    "cancel_url": "https://support.wix.com/en/article/canceling-a-wix-premium-plan",
+    "known_friction": "Retention tactics: May offer a discount.",
+    "free_alternatives": [
+      {
+        "name": "Wix (free tier)",
+        "url": "https://www.wix.com",
+        "note": "Free with wix.com subdomain and Wix ads"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Wix reverts to the free tier after plan cancellation \u2014 your site stays up with a Wix subdomain. Domain registrations must be canceled separately."
   },
   {
     "name": "Chegg",
