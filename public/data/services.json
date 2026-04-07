@@ -3223,27 +3223,58 @@
     "url": "https://www.bark.us",
     "category": "parental",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to bark.us and sign in.",
+      "Go to Account > Subscription > Cancel Subscription.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.bark.us/account/subscription",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Bark (free trial)",
+        "url": "https://www.bark.us",
+        "note": "Free 7-day trial"
+      },
+      {
+        "name": "Google Family Link (free)",
+        "url": "https://families.google.com/familylink/",
+        "note": "Free parental controls for Android/Chromebook"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Bark ($14/month or $99/year) monitors kids' devices for signs of bullying, depression, and inappropriate content using AI rather than full surveillance. Clean cancellation."
   },
   {
     "name": "Life360 Premium",
     "slug": "life360",
     "url": "https://www.life360.com",
     "category": "parental",
-    "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_method": "online or app store",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Open the Life360 app or go to life360.com and sign in. Cancel method depends on where you subscribed.",
+      "iOS: Settings > [your name] > Subscriptions > Life360 > Cancel.",
+      "Android: Google Play > Profile > Payments & Subscriptions > Life360 > Cancel.",
+      "Web direct: life360.com > Account > Manage Membership > Cancel."
+    ],
+    "cancel_url": "https://www.life360.com/account",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Life360 (free tier)",
+        "url": "https://www.life360.com",
+        "note": "Free with basic location sharing"
+      },
+      {
+        "name": "Google Family Sharing (free)",
+        "url": "https://families.google.com",
+        "note": "Free location sharing within Google ecosystem"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Life360 ($7.99-$19.99/month) adds crash detection, roadside assistance, and location history. Standard app-store cancellation applies."
   },
   {
     "name": "Net Nanny",
@@ -3251,13 +3282,28 @@
     "url": "https://www.netnanny.com",
     "category": "parental",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to netnanny.com and sign in.",
+      "Go to Account > Subscription > Cancel Subscription.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.netnanny.com/account",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Google Family Link (free)",
+        "url": "https://families.google.com/familylink/",
+        "note": "Free parental controls"
+      },
+      {
+        "name": "Apple Screen Time (free)",
+        "url": "",
+        "note": "Free, built into iOS/macOS"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Net Nanny ($39.99-$89.99/year) is a web filtering and parental control tool. Clean online cancellation."
   },
   {
     "name": "Qustodio",
@@ -3265,13 +3311,28 @@
     "url": "https://www.qustodio.com",
     "category": "parental",
     "cancel_method": "online",
-    "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Go to qustodio.com and sign in.",
+      "Go to Account > Subscription > Cancel Plan.",
+      "Access continues through end of billing period."
+    ],
+    "cancel_url": "https://www.qustodio.com/account",
+    "known_friction": "Retention tactics: None significant.",
+    "free_alternatives": [
+      {
+        "name": "Qustodio (free tier)",
+        "url": "https://www.qustodio.com",
+        "note": "Free for 1 device"
+      },
+      {
+        "name": "Google Family Link (free)",
+        "url": "https://families.google.com/familylink/",
+        "note": "Free parental controls"
+      }
+    ],
+    "last_verified": "2026-01-15",
+    "notes": "Qustodio ($54.95-$137.95/year depending on device count) is a parental control platform. Clean cancellation."
   },
   {
     "name": "Chewy Autoship",
