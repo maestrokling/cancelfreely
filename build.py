@@ -9,13 +9,18 @@ Run from workspace root: python3 cancel-database/build.py
 import yaml, json, os, glob, html
 from datetime import date
 
-SERVICES_DIR = os.path.join(os.path.dirname(__file__), "services")
-PUBLIC_DIR   = "/tmp/cancelfreely/public"
+SERVICES_DIR = os.path.dirname(__file__)
+PUBLIC_DIR   = os.path.join(os.path.dirname(__file__), "public")
 OUTPUT_PATH  = os.path.join(PUBLIC_DIR, "data", "services.json")
 CANCEL_DIR   = os.path.join(PUBLIC_DIR, "cancel")
 SITE_URL     = "https://cancelfreely.com"
 
 # Slugs that also have a DeleteFreely data-deletion page
+# Slugs that have a DitchTheMega full ecosystem exit guide
+DITCHTHEMEGA_SLUGS = {
+    "amazon-prime", "amazon-prime-video", "audible", "kindle-unlimited",
+}
+
 DELETEFREELY_SLUGS = {
     "23andme", "ancestry", "att", "bumble", "credit-karma",
     "dropbox", "evernote", "experian", "grammarly", "hinge",
@@ -147,6 +152,14 @@ def render_page(s):
     if alts_html:
         alts_html = f'<section class="alts"><h2>Free Alternatives</h2><ul>{alts_html}</ul></section>'
 
+    # DitchTheMega cross-link (Amazon ecosystem pages)
+    ditchthemega_html = ""
+    if slug in DITCHTHEMEGA_SLUGS:
+        ditchthemega_html = f'''<div class="delete-link-box" style="background:#1a1205;border-color:#78350f;">
+  <strong style="color:#f59e0b;">🚪 Want to leave the entire Amazon ecosystem?</strong>
+  <p style="color:#d1d5db;">Canceling {name} is step one. DitchTheMega has free, step-by-step guides to leaving every Amazon service — Kindle, Alexa, Ring, Photos, Prime Video, and more. <a href="https://ditchthemega.com/amazon/" style="color:#f59e0b;">See the complete Amazon exit guide →</a></p>
+</div>'''
+
     # DeleteFreely cross-link
     delete_link_html = ""
     if slug in DELETEFREELY_SLUGS:
@@ -234,6 +247,7 @@ def render_page(s):
     {retention_html}
     {alts_html}
     {('<div class="notes-box"><strong>Notes:</strong> ' + notes + '</div>') if notes else ''}
+    {ditchthemega_html}
     {delete_link_html}
     <div class="related">
       <h2>Need more help?</h2>

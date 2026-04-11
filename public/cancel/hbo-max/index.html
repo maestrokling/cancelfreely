@@ -47,6 +47,10 @@
     .report-row a { color:#aaa; }
     .back-link   { display:inline-block; margin:1.5rem 1rem 0; font-size:0.85rem; color:#16a34a; text-decoration:none; }
     .back-link:hover { text-decoration:underline; }
+    .delete-link-box { background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px; padding:1rem 1.25rem; margin:1.5rem 0; font-size:0.875rem; }
+    .delete-link-box strong { display:block; margin-bottom:0.3rem; color:#1e3a5f; }
+    .delete-link-box p { margin:0; color:#374151; }
+    .delete-link-box a { color:#2563eb; }
     @media(max-width:600px) {
       .cancel-btn-lg { position:sticky; bottom:1rem; z-index:10; box-shadow:0 2px 8px rgba(0,0,0,0.15); }
     }
@@ -64,7 +68,7 @@
     <div class="svc-meta">Method: online · Last verified: 2026-02-15 · <a href="https://www.max.com" target="_blank" rel="noopener">Official site</a></div>
   </div>
   <div class="svc-body">
-    <a class="cancel-btn-lg" href="https://www.max.com/account" target="_blank" rel="noopener">Go to cancel page →</a>
+    <a class="cancel-btn-lg" href="https://www.max.com/settings/subscription" target="_blank" rel="noopener">Go to cancel page →</a>
     <h2>Cancellation Steps</h2>
     <ol class="steps"><li>Go to max.com and sign in. The service rebranded from HBO Max to &#x27;Max&#x27; in 2023. Cancellation steps are the same.</li><li>Click your profile icon, then select &#x27;Settings&#x27;.</li><li>Select &#x27;Subscription&#x27; or &#x27;Billing&#x27;.</li><li>Click &#x27;Cancel Plan&#x27; and follow the prompts. If you subscribed through a TV provider, cable company, or third-party app store, you must cancel through that provider.</li></ol>
     <section class="watch-out"><h2>⚠ Watch Out — Dark Patterns</h2><div class="dark-item"><strong>⚠ billing platform maze</strong><p>Max has one of the most complex billing ecosystems of any streaming service — subscribers may come from Amazon, Apple, Roku, YouTube TV, AT&amp;T, Hulu add-on, or direct billing. Cancellation path varies significantly by source, and the website doesn&#x27;t always clearly identify which path applies to you.</p><a href="/dark-patterns/#billing-platform-maze" class="pattern-link">What is billing platform maze? →</a></div><div class="dark-item"><strong>⚠ price hike + complexity</strong><p>Late 2025 price increases to $10.99/$18.49/$22.99 across tiers, combined with complex cancellation paths, led to significant user confusion.</p><a href="/dark-patterns/#price-hike-+-complexity" class="pattern-link">What is price hike + complexity? →</a></div></section>
@@ -76,6 +80,8 @@
 </section>
     <section class="alts"><h2>Free Alternatives</h2><ul><li><a href="https://tubitv.com" target="_blank" rel="noopener">Tubi</a> — Free ad-supported streaming</li><li><a href="https://pluto.tv" target="_blank" rel="noopener">Pluto TV</a> — Free ad-supported streaming</li></ul></section>
     <div class="notes-box"><strong>Notes:</strong> The rebrand from HBO Max to Max in 2023 added confusion. Cancellation difficulty depends heavily on billing source — direct billing is straightforward; third-party billing requires going to that platform. If you subscribed via a cable bundle (AT&amp;T, Spectrum, etc.), you may need to call your provider.</div>
+    
+    
     <div class="related">
       <h2>Need more help?</h2>
       <ul>
