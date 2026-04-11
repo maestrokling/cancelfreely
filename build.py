@@ -264,6 +264,7 @@ def render_page(s):
   <footer>
     <p style="margin-bottom:-4px;">CancelFreely is free and never tracks you. No account required. No bank credentials. No tricks.</p>
     <p><a href="/about/">About</a> · <a href="/cancel/">All services</a> · <a href="/dark-patterns/">Dark Patterns</a> · <a href="/ftc-click-to-cancel/">FTC Rule</a> · <a href="/alternatives/">Services We Trust</a> · <a href="https://ko-fi.com/cancelfreely" target="_blank" rel="noopener">☕ Ko-fi</a></p>
+    <p style="margin-top:.35rem;font-size:.8rem;"><a href="/privacy/" style="color:#aaa;">Privacy Policy</a> · <a href="/terms/" style="color:#aaa;">Terms of Use</a></p>
     <p style="margin-top:.5rem;font-size:.8rem;color:#aaa;">Part of the data sovereignty toolkit: <a href="https://deletefreely.com" style="color:#aaa;">DeleteFreely</a> · <a href="https://ditchthemega.com" style="color:#aaa;">DitchTheMega</a> · <a href="https://closingaccounts.com" style="color:#aaa;">Closing Accounts</a></p>
   </footer>
 </body>
@@ -276,6 +277,8 @@ def build_sitemap(slugs):
         f"  <url><loc>{SITE_URL}/about/</loc><lastmod>{today}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>",
         f"  <url><loc>{SITE_URL}/find-your-subscriptions/</loc><lastmod>{today}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>",
         f"  <url><loc>{SITE_URL}/alternatives/</loc><lastmod>{today}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>",
+        f"  <url><loc>{SITE_URL}/privacy/</loc><lastmod>{today}</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>",
+        f"  <url><loc>{SITE_URL}/terms/</loc><lastmod>{today}</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>",
     ]
     for slug in slugs:
         urls.append(f'  <url><loc>{SITE_URL}/cancel/{slug}/</loc><lastmod>{today}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
@@ -322,7 +325,90 @@ for s in services:
     page_count += 1
 print(f"Generated {page_count} static service pages → {CANCEL_DIR}/")
 
-# 3. Write sitemap
+# 3. Write privacy and terms pages
+privacy_html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — CancelFreely</title>
+  <meta name="description" content="CancelFreely collects no personal data. No analytics. No cookies. No tracking.">
+  <link rel="canonical" href="https://cancelfreely.com/privacy/">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .prose { max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
+    .prose h1 { font-size: 1.5rem; font-weight: 700; color: #16a34a; margin-bottom: 1rem; }
+    .prose p { margin-bottom: 1rem; font-size: 0.95rem; line-height: 1.75; color: #333; }
+    .prose a { color: #16a34a; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="/" style="color:inherit;text-decoration:none;">CancelFreely</a></h1>
+    <p class="tagline">Cancel any subscription. Free instructions. No tracking. No upsells.</p>
+  </header>
+  <div class="prose">
+    <h1>Privacy Policy</h1>
+    <p>CancelFreely collects no personal data. We use no analytics. We set no cookies. We don't track your browsing. We don't know who you are. We don't want to know who you are.</p>
+    <p>Our cancel database is open source and hosted on GitHub. The site is static HTML served through Cloudflare Pages. No server-side code processes your requests. No database stores your visits.</p>
+    <p>If you use the service request form, it opens a GitHub Issue in a public repository. GitHub's <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener">privacy policy</a> applies to that interaction, not ours, because we have nothing to apply.</p>
+    <p>If you email us at <a href="mailto:info@cancelfreely.com">info@cancelfreely.com</a>, we receive your email. We don't add you to a list. We don't sell your address. We reply if a reply is needed and that's the end of it.</p>
+    <p>This site exists to help you take control of your data. We start by not taking any of it.</p>
+    <p style="color:#aaa;font-size:0.8rem;">Last updated: April 2026</p>
+  </div>
+  <footer>
+    <p style="margin-bottom:-4px;">CancelFreely is free and never tracks you. No account required. No bank credentials. No tricks.</p>
+    <p><a href="/about/">About</a> · <a href="/cancel/">All services</a> · <a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms of Use</a></p>
+  </footer>
+</body>
+</html>"""
+
+terms_html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Use — CancelFreely</title>
+  <meta name="description" content="CancelFreely provides general cancellation information. Not legal advice. Use at your own risk.">
+  <link rel="canonical" href="https://cancelfreely.com/terms/">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .prose { max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
+    .prose h1 { font-size: 1.5rem; font-weight: 700; color: #16a34a; margin-bottom: 1rem; }
+    .prose p { margin-bottom: 1rem; font-size: 0.95rem; line-height: 1.75; color: #333; }
+    .prose a { color: #16a34a; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="/" style="color:inherit;text-decoration:none;">CancelFreely</a></h1>
+    <p class="tagline">Cancel any subscription. Free instructions. No tracking. No upsells.</p>
+  </header>
+  <div class="prose">
+    <h1>Terms of Use</h1>
+    <p>CancelFreely provides general information about subscription cancellation. It is not legal advice. We make reasonable efforts to keep instructions accurate and current but cannot guarantee accuracy. Use at your own risk.</p>
+    <p>Links to third-party sites are not endorsements. We are not responsible for the practices of the services we document.</p>
+    <p>The CancelFreely database is open source and available on GitHub. Content may be used and contributed under the terms of the repository license.</p>
+    <p style="color:#aaa;font-size:0.8rem;">Last updated: April 2026</p>
+  </div>
+  <footer>
+    <p style="margin-bottom:-4px;">CancelFreely is free and never tracks you. No account required. No bank credentials. No tricks.</p>
+    <p><a href="/about/">About</a> · <a href="/cancel/">All services</a> · <a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms of Use</a></p>
+  </footer>
+</body>
+</html>"""
+
+os.makedirs(os.path.join(PUBLIC_DIR, "privacy"), exist_ok=True)
+with open(os.path.join(PUBLIC_DIR, "privacy", "index.html"), "w") as fh:
+    fh.write(privacy_html)
+print(f"Built privacy page")
+
+os.makedirs(os.path.join(PUBLIC_DIR, "terms"), exist_ok=True)
+with open(os.path.join(PUBLIC_DIR, "terms", "index.html"), "w") as fh:
+    fh.write(terms_html)
+print(f"Built terms page")
+
+# 5. Write sitemap
 sitemap = build_sitemap([s["slug"] for s in services if s["slug"]])
 with open(os.path.join(PUBLIC_DIR, "sitemap.xml"), "w") as fh:
     fh.write(sitemap)
