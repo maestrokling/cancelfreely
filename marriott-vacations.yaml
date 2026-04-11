@@ -1,0 +1,14 @@
+name: Marriott Vacations Worldwide
+slug: marriott-vacations
+url: https://www.marriottvacationsworldwide.com
+category: timeshare
+cancel_method: phone or mail
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

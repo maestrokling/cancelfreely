@@ -1,0 +1,14 @@
+name: 23andMe Premium
+slug: 23andme
+url: https://www.23andme.com
+category: misc
+cancel_method: online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

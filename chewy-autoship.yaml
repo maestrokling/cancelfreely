@@ -1,0 +1,14 @@
+name: Chewy Autoship
+slug: chewy-autoship
+url: https://www.chewy.com
+category: pets
+cancel_method: online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

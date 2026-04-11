@@ -1,0 +1,14 @@
+name: LifeLock
+slug: lifelock
+url: https://www.lifelock.com
+category: misc
+cancel_method: phone or online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: "May be bundled with Norton. Cancellation may differ from standalone Norton."

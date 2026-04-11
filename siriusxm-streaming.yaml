@@ -1,0 +1,14 @@
+name: Sirius XM (Streaming Only)
+slug: siriusxm-streaming
+url: https://www.siriusxm.com/streaming
+category: misc
+cancel_method: phone or chat
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: "Distinct from SiriusXM vehicle subscription. Streaming-only plan may have different cancel flow."

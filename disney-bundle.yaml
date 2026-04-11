@@ -1,0 +1,14 @@
+name: Disney Bundle
+slug: disney-bundle
+url: https://www.disneyplus.com/bundles
+category: kids
+cancel_method: online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: "Distinct from Disney+ standalone; bundle includes Hulu and ESPN+. Cancellation may affect all three services."

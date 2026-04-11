@@ -1,0 +1,14 @@
+name: Bluegreen Vacations
+slug: bluegreen-vacations
+url: https://www.bluegreenvacations.com
+category: timeshare
+cancel_method: phone or mail
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

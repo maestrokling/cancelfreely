@@ -1,0 +1,14 @@
+name: Going (formerly Scott's Cheap Flights)
+slug: going
+url: https://www.going.com
+category: travel
+cancel_method: online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

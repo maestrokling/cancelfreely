@@ -1,0 +1,14 @@
+name: Proton Mail Plus
+slug: proton-mail
+url: https://proton.me
+category: email
+cancel_method: online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

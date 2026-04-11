@@ -1,0 +1,14 @@
+name: Hilton Grand Vacations
+slug: hilton-grand-vacations
+url: https://www.hiltongrandvacations.com
+category: timeshare
+cancel_method: phone or mail
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

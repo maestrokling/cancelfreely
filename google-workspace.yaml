@@ -1,0 +1,14 @@
+name: Google Workspace Individual
+slug: google-workspace
+url: https://workspace.google.com
+category: email
+cancel_method: online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

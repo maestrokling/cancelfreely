@@ -1,0 +1,14 @@
+name: Daily Harvest
+slug: daily-harvest
+url: https://www.daily-harvest.com
+category: food
+cancel_method: online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""

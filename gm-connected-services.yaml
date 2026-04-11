@@ -1,0 +1,14 @@
+name: GM Connected Services / OnStar
+slug: gm-connected-services
+url: https://www.gm.com
+category: automotive
+cancel_method: phone or online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: "Covers GM connected services including OnStar, WiFi hotspot, and remote access features."

@@ -1,0 +1,14 @@
+name: Anthropic API
+slug: anthropic-api
+url: https://www.anthropic.com
+category: ai-tools
+cancel_method: online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: "Pay-as-you-go; not a traditional subscription. Users searching for how to stop charges."

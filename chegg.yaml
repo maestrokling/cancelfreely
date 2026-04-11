@@ -1,0 +1,14 @@
+name: Chegg
+slug: chegg
+url: https://www.chegg.com
+category: education
+cancel_method: online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: ""
