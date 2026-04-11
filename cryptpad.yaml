@@ -1,0 +1,16 @@
+name: CryptPad
+slug: cryptpad
+url: https://cryptpad.org
+category: Productivity
+cancel_method: Online
+cancel_difficulty: 1
+direct_cancel_url: "https://cryptpad.fr/settings/#subscription"
+cancel_steps:
+  - Log in to your CryptPad account
+  - Go to Settings
+  - Select "Subscription"
+  - Click to cancel your subscription
+  - Confirm cancellation
+last_verified: 2026-04-11
+notes: "Free tier available. Self-hosted instances have no subscription. Canceling downgrades to free tier."
+known_friction: Low

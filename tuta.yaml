@@ -1,0 +1,16 @@
+name: Tuta
+slug: tuta
+url: https://tuta.com
+category: Email
+cancel_method: Online
+cancel_difficulty: 1
+direct_cancel_url: "https://app.tuta.com/#settings"
+cancel_steps:
+  - Log in to your Tuta account at app.tuta.com
+  - Go to Settings (gear icon, top right)
+  - Select "Subscription"
+  - Click "Cancel subscription"
+  - Follow the confirmation steps
+last_verified: 2026-04-11
+notes: "Free tier available. Canceling paid plan downgrades to free; account and emails are retained."
+known_friction: Low — cancellation is straightforward in settings

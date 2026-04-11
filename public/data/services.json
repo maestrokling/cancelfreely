@@ -1,5 +1,47 @@
 [
   {
+    "name": "Tuta",
+    "slug": "tuta",
+    "url": "https://tuta.com",
+    "category": "Email",
+    "cancel_method": "Online",
+    "cancel_difficulty": 0,
+    "cancel_steps": [],
+    "cancel_url": "https://app.tuta.com/#settings",
+    "known_friction": "",
+    "free_alternatives": [],
+    "last_verified": "2026-04-11",
+    "notes": "Free tier available. Canceling paid plan downgrades to free; account and emails are retained."
+  },
+  {
+    "name": "CryptPad",
+    "slug": "cryptpad",
+    "url": "https://cryptpad.org",
+    "category": "Productivity",
+    "cancel_method": "Online",
+    "cancel_difficulty": 0,
+    "cancel_steps": [],
+    "cancel_url": "https://cryptpad.fr/settings/#subscription",
+    "known_friction": "",
+    "free_alternatives": [],
+    "last_verified": "2026-04-11",
+    "notes": "Free tier available. Self-hosted instances have no subscription. Canceling downgrades to free tier."
+  },
+  {
+    "name": "NextDNS",
+    "slug": "nextdns",
+    "url": "https://nextdns.io",
+    "category": "Security",
+    "cancel_method": "Online",
+    "cancel_difficulty": 0,
+    "cancel_steps": [],
+    "cancel_url": "https://my.nextdns.io/account",
+    "known_friction": "",
+    "free_alternatives": [],
+    "last_verified": "2026-04-11",
+    "notes": "Free tier (300,000 queries/month) is available. Canceling paid plan reverts to the free tier."
+  },
+  {
     "name": "Backblaze",
     "slug": "backblaze",
     "url": "https://www.backblaze.com",

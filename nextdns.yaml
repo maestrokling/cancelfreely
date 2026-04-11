@@ -1,0 +1,15 @@
+name: NextDNS
+slug: nextdns
+url: https://nextdns.io
+category: Security
+cancel_method: Online
+cancel_difficulty: 1
+direct_cancel_url: "https://my.nextdns.io/account"
+cancel_steps:
+  - Log in to my.nextdns.io
+  - Go to Account settings
+  - Select Subscription
+  - Click "Cancel subscription"
+last_verified: 2026-04-11
+notes: "Free tier (300,000 queries/month) is available. Canceling paid plan reverts to the free tier."
+known_friction: Low — simple cancellation in account settings
