@@ -1,10 +1,10 @@
 name: Beachbody / BODi
 slug: beachbody
-url: https://www.beachbodyondemand.com
+url: https://www.bodi.com
 category: fitness
 cancel_method: online or phone
 friction_score: 3
-last_verified: 2026-05-28
+last_verified: 2026-04-11
 steps:
   - step: 1
     instruction: "Go to bodi.com (formerly beachbodyondemand.com) and sign in."

@@ -22,7 +22,7 @@ dark_patterns: []
 retention_tactics:
   - "Offers a membership pause option before canceling."
   - "Highlights upcoming live content to trigger FOMO."
-direct_cancel_url: "https://members.onepeloton.com/membership"
+direct_cancel_url: "https://account.onepeloton.com/mymembership"
 free_alternatives:
   - name: "YouTube cycling/fitness channels"
     url: "https://www.youtube.com"

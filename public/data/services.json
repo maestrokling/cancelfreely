@@ -242,7 +242,7 @@
   {
     "name": "Beachbody / BODi",
     "slug": "beachbody",
-    "url": "https://www.beachbodyondemand.com",
+    "url": "https://www.bodi.com",
     "category": "fitness",
     "cancel_method": "online or phone",
     "cancel_difficulty": 3,
@@ -266,7 +266,7 @@
         "note": "Free guided workout app"
       }
     ],
-    "last_verified": "2026-05-28",
+    "last_verified": "2026-04-11",
     "notes": "BODi (Beachbody) operates on annual plans that auto-renew. The main complaint pattern is surprise renewals and refusal to honor same-day cancellation requests. Cancel at least 30 days before your renewal date to be safe. The service was originally phone-only to cancel; online cancellation was added but may still route to phone for some accounts."
   },
   {
@@ -374,7 +374,7 @@
       "Select 'Cancel Membership' and follow the prompts. You can cancel All-Access (equipment-linked) or the App subscription separately.",
       "Confirm cancellation. If you own Peloton equipment, you can still use it after canceling the subscription but will lose access to live classes and most on-demand content. Some limited free content remains accessible."
     ],
-    "cancel_url": "https://members.onepeloton.com/membership",
+    "cancel_url": "https://account.onepeloton.com/mymembership",
     "known_friction": "Retention tactics: Offers a membership pause option before canceling.; Highlights upcoming live content to trigger FOMO.",
     "free_alternatives": [
       {
