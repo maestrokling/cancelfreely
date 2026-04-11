@@ -388,7 +388,7 @@
         "note": "Free guided workouts"
       }
     ],
-    "last_verified": "2025-10-30",
+    "last_verified": "2026-04-11",
     "notes": "Peloton has two subscription tiers: All-Access (for equipment owners, ~$44/mo) and App (for non-equipment users, ~$12.99/mo). Canceling is straightforward online. Equipment owners who cancel lose most class content but the bike/tread still functions for manual workouts. Peloton restructured its debt in 2025 to avoid bankruptcy \u2014 company is still operating as of early 2026."
   },
   {
@@ -423,7 +423,7 @@
         "note": "Free workout app with live and on-demand classes"
       }
     ],
-    "last_verified": "2026-02-05",
+    "last_verified": "2026-04-11",
     "notes": "Planet Fitness is one of the most-cited examples of cancellation friction in the fitness industry. The in-person/certified mail requirement, combined with home-club restrictions, has been the subject of multiple state attorney general inquiries. The FTC's Click-to-Cancel Rule was meant to force online cancellation but has been stalled in court by gym industry lobbying as of early 2026. Always keep your certified mail receipt."
   },
   {
@@ -703,7 +703,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   },
   {
@@ -717,7 +717,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   },
   {
@@ -801,7 +801,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   },
   {
@@ -1011,7 +1011,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   },
   {
@@ -1025,7 +1025,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   },
   {
@@ -1039,7 +1039,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   },
   {
@@ -1053,7 +1053,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   },
   {
@@ -1109,7 +1109,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   },
   {
@@ -1222,7 +1222,7 @@
         "note": "Free with ads, strong indie/underground catalog"
       }
     ],
-    "last_verified": "2025-09-16",
+    "last_verified": "2026-04-11",
     "notes": "Apple Music cancellation uses the same flow as all Apple subscriptions. Note that any music downloaded for offline listening will become unplayable after cancellation \u2014 unlike Spotify, there is no free tier to fall back to."
   },
   {
@@ -1252,7 +1252,7 @@
         "note": "Free ad-supported streaming"
       }
     ],
-    "last_verified": "2026-02-16",
+    "last_verified": "2026-04-11",
     "notes": "Apple TV+ cancellation is handled through Apple's standard subscription management system, which is consistent across all Apple services. No significant dark patterns reported. Often bundled with new Apple device purchases (3-month free trial)."
   },
   {
@@ -1318,7 +1318,7 @@
         "note": "Free content including many Disney classics uploaded officially"
       }
     ],
-    "last_verified": "2026-01-21",
+    "last_verified": "2026-04-11",
     "notes": "If subscribed through a third-party (Apple, Google, Amazon, Roku, or via a cable provider), cancellation must happen on that platform \u2014 Disney+ website will not show a cancel option. Price increases in 2024-2025 drove significant subscriber churn."
   },
   {
@@ -1378,7 +1378,7 @@
         "note": "Free ad-supported streaming"
       }
     ],
-    "last_verified": "2026-01-23",
+    "last_verified": "2026-04-11",
     "notes": "Cancellation method depends heavily on how you subscribed. Direct subscribers can cancel at hulu.com. Those on the Disney Bundle, or who subscribed through Apple, Amazon, or Roku must cancel through those platforms. Deleting the app does NOT cancel the subscription."
   },
   {
@@ -1482,7 +1482,7 @@
         "note": "Limited free tier available"
       }
     ],
-    "last_verified": "2026-01-23",
+    "last_verified": "2026-04-11",
     "notes": "Netflix is considered one of the easier streaming services to cancel \u2014 the process is fully online and straightforward. The main friction is emotional (loss aversion screens), not procedural. Direct cancel URL works without navigating through account settings."
   },
   {
@@ -1578,7 +1578,7 @@
         "note": "Limited free tier included with Prime"
       }
     ],
-    "last_verified": "2026-01-26",
+    "last_verified": "2026-04-11",
     "notes": "Spotify doesn't remove access when you cancel Premium \u2014 you drop to the free ad-supported tier. This reduces the urgency of the cancellation decision. The emotional manipulation during the flow is well-documented but the actual process is not procedurally difficult."
   },
   {
@@ -1608,7 +1608,7 @@
         "note": "Free ad blocker for desktop browsers"
       }
     ],
-    "last_verified": "2025-11-24",
+    "last_verified": "2026-04-11",
     "notes": "YouTube Premium is one of the more straightforward cancels. The free tier of YouTube retains all content access \u2014 you lose ad-free viewing, background play, and offline downloads."
   },
   {
@@ -1706,7 +1706,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   },
   {
@@ -1720,7 +1720,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   },
   {
@@ -1776,7 +1776,7 @@
     "cancel_url": "",
     "known_friction": "",
     "free_alternatives": [],
-    "last_verified": "",
+    "last_verified": "2026-04-11",
     "notes": ""
   }
 ]

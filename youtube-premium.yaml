@@ -4,7 +4,7 @@ url: https://www.youtube.com/premium
 category: streaming
 cancel_method: online
 friction_score: 2
-last_verified: 2025-11-24
+last_verified: 2026-04-11
 steps:
   - step: 1
     instruction: "Go to youtube.com/paid_memberships and sign in."

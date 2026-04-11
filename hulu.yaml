@@ -4,7 +4,7 @@ url: https://www.hulu.com
 category: streaming
 cancel_method: online
 friction_score: 2
-last_verified: 2026-01-23
+last_verified: 2026-04-11
 steps:
   - step: 1
     instruction: "Go to hulu.com and sign in."

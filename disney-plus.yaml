@@ -4,7 +4,7 @@ url: https://www.disneyplus.com
 category: streaming
 cancel_method: online
 friction_score: 2
-last_verified: 2026-01-21
+last_verified: 2026-04-11
 steps:
   - step: 1
     instruction: "Go to disneyplus.com and sign in."

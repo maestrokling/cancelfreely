@@ -4,7 +4,7 @@ url: https://www.spotify.com
 category: streaming
 cancel_method: online
 friction_score: 3
-last_verified: 2026-01-26
+last_verified: 2026-04-11
 steps:
   - step: 1
     instruction: "Go to spotify.com/account and sign in."
