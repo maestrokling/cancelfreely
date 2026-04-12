@@ -19,6 +19,26 @@ SITE_URL     = "https://cancelfreely.com"
 # Slugs that have a DitchTheMega full ecosystem exit guide
 DITCHTHEMEGA_SLUGS = {
     "amazon-prime", "amazon-prime-video", "audible", "kindle-unlimited",
+    "apple-tv-plus", "apple-music", "icloud-plus",
+    "youtube-premium", "google-one", "google-workspace",
+    "microsoft-365", "onedrive", "xbox-game-pass", "linkedin-premium",
+}
+
+DITCHTHEMEGA_COMPANY = {
+    "amazon-prime": ("Amazon", "https://ditchthemega.com/amazon/"),
+    "amazon-prime-video": ("Amazon", "https://ditchthemega.com/amazon/"),
+    "audible": ("Amazon", "https://ditchthemega.com/amazon/"),
+    "kindle-unlimited": ("Amazon", "https://ditchthemega.com/amazon/"),
+    "apple-tv-plus": ("Apple", "https://ditchthemega.com/apple/"),
+    "apple-music": ("Apple", "https://ditchthemega.com/apple/"),
+    "icloud-plus": ("Apple", "https://ditchthemega.com/apple/"),
+    "youtube-premium": ("Google", "https://ditchthemega.com/google/"),
+    "google-one": ("Google", "https://ditchthemega.com/google/"),
+    "google-workspace": ("Google", "https://ditchthemega.com/google/"),
+    "microsoft-365": ("Microsoft", "https://ditchthemega.com/microsoft/"),
+    "onedrive": ("Microsoft", "https://ditchthemega.com/microsoft/"),
+    "xbox-game-pass": ("Microsoft", "https://ditchthemega.com/microsoft/"),
+    "linkedin-premium": ("Microsoft", "https://ditchthemega.com/microsoft/"),
 }
 
 DELETEFREELY_SLUGS = {
@@ -155,9 +175,10 @@ def render_page(s):
     # DitchTheMega cross-link (Amazon ecosystem pages)
     ditchthemega_html = ""
     if slug in DITCHTHEMEGA_SLUGS:
+        company, company_url = DITCHTHEMEGA_COMPANY.get(slug, ("Big Tech", "https://ditchthemega.com/"))
         ditchthemega_html = f'''<div class="delete-link-box" style="background:#1a1205;border-color:#78350f;">
-  <strong style="color:#f59e0b;">🚪 Want to leave the entire Amazon ecosystem?</strong>
-  <p style="color:#d1d5db;">Canceling {name} is step one. DitchTheMega has free, step-by-step guides to leaving every Amazon service — Kindle, Alexa, Ring, Photos, Prime Video, and more. <a href="https://ditchthemega.com/amazon/" style="color:#f59e0b;">See the complete Amazon exit guide →</a></p>
+  <strong style="color:#f59e0b;">🚪 Want to leave the entire {company} ecosystem?</strong>
+  <p style="color:#d1d5db;">Canceling {name} is one step. DitchTheMega has free, step-by-step guides to leaving every {company} service. <a href="{company_url}" style="color:#f59e0b;">See the complete {company} exit guide →</a></p>
 </div>'''
 
     # DeleteFreely cross-link

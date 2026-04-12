@@ -1581,12 +1581,18 @@
     "category": "misc",
     "cancel_method": "online",
     "cancel_difficulty": 0,
-    "cancel_steps": [],
-    "cancel_url": "",
-    "known_friction": "",
+    "cancel_steps": [
+      "Log in to your 23andMe account at 23andme.com",
+      "Go to Settings (top right menu)",
+      "Select \"Membership + Billing\"",
+      "Find your current subscription and click \"Cancel Membership\"",
+      "Follow the confirmation prompts"
+    ],
+    "cancel_url": "https://you.23andme.com/settings/membership/",
+    "known_friction": "May present warnings about losing access to ongoing health reports before cancellation",
     "free_alternatives": [],
-    "last_verified": "",
-    "notes": ""
+    "last_verified": "2026-04-11",
+    "notes": "IMPORTANT: 23andMe filed for Chapter 11 bankruptcy in March 2025. The company's future and how it handles customer genetic data is uncertain. Consider downloading your raw DNA data before canceling or closing your account, as the company or its assets may be sold. Your genetic data is particularly sensitive \u2014 review 23andMe's privacy settings and consider requesting deletion of your data under GDPR or CCPA if applicable."
   },
   {
     "name": "Ancestry",

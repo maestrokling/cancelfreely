@@ -3,12 +3,19 @@ slug: 23andme
 url: https://www.23andme.com
 category: misc
 cancel_method: online
-cancel_difficulty: null
+cancel_difficulty: 2
 friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
+last_verified: 2026-04-11
+steps:
+  - Log in to your 23andMe account at 23andme.com
+  - Go to Settings (top right menu)
+  - Select "Membership + Billing"
+  - Find your current subscription and click "Cancel Membership"
+  - Follow the confirmation prompts
+dark_patterns:
+  - type: guilt-tripping
+    description: "May present warnings about losing access to ongoing health reports before cancellation"
 retention_tactics: []
-direct_cancel_url: null
+direct_cancel_url: "https://you.23andme.com/settings/membership/"
 free_alternatives: []
-notes: ""
+notes: "IMPORTANT: 23andMe filed for Chapter 11 bankruptcy in March 2025. The company's future and how it handles customer genetic data is uncertain. Consider downloading your raw DNA data before canceling or closing your account, as the company or its assets may be sold. Your genetic data is particularly sensitive — review 23andMe's privacy settings and consider requesting deletion of your data under GDPR or CCPA if applicable."
