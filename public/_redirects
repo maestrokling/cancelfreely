@@ -1,0 +1,25 @@
+# Orphaned service pages - redirect to main cancel directory
+/cancel/acorns/ /cancel/ 301
+/cancel/acorns /cancel/ 301
+/cancel/apple-arcade/ /cancel/ 301
+/cancel/apple-arcade /cancel/ 301
+/cancel/crunchyroll/ /cancel/ 301
+/cancel/crunchyroll /cancel/ 301
+/cancel/espn-plus/ /cancel/ 301
+/cancel/espn-plus /cancel/ 301
+/cancel/fubo/ /cancel/ 301
+/cancel/fubo /cancel/ 301
+/cancel/grubhub-plus/ /cancel/ 301
+/cancel/grubhub-plus /cancel/ 301
+/cancel/hims-hers/ /cancel/ 301
+/cancel/hims-hers /cancel/ 301
+/cancel/lemonade/ /cancel/ 301
+/cancel/lemonade /cancel/ 301
+/cancel/mint-mobile/ /cancel/ 301
+/cancel/mint-mobile /cancel/ 301
+/cancel/robinhood/ /cancel/ 301
+/cancel/robinhood /cancel/ 301
+/cancel/sling-tv/ /cancel/ 301
+/cancel/sling-tv /cancel/ 301
+/cancel/weight-watchers/ /cancel/weightwatchers/ 301
+/cancel/weight-watchers /cancel/weightwatchers/ 301
