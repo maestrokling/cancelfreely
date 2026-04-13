@@ -5,6 +5,10 @@ on:
     - cron: '0 6 * * 1' # Every Monday at 6 AM UTC
   workflow_dispatch:
 
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   check-urls:
     runs-on: ubuntu-latest
@@ -16,11 +20,17 @@ jobs:
 
       - name: Check URLs from services.json
         run: |
-          python3 - <<'EOF'
+          python3 - <<'PYEOF'
           import json, requests, sys
 
           with open('public/data/services.json') as f:
               services = json.load(f)
+
+          # These domains block crawlers — treat as passing
+          ALLOWLIST = {
+              'wsj.com', 'washingtonpost.com', 'microsoft.com',
+              'mcafee.com', 'spectrum.com', 'amazon.com',
+          }
 
           broken = []
           for s in services:
@@ -28,6 +38,9 @@ jobs:
               for field in ['url', 'cancel_url']:
                   url = s.get(field, '')
                   if not url or url == 'null':
+                      continue
+                  # Skip known bot-blocking domains
+                  if any(d in url for d in ALLOWLIST):
                       continue
                   try:
                       r = requests.get(url, timeout=10, allow_redirects=True,
@@ -38,7 +51,7 @@ jobs:
                       broken.append(f"- **{slug}** ({field}): {url} — ERROR: {e}")
 
           if broken:
-              report = "# URL Check Report - $(date -u +%Y-%m-%d)\n\n" + "\n".join(broken)
+              report = "# URL Check Report\n\n" + "\n".join(broken)
               with open('url-report.md', 'w') as f:
                   f.write(report)
               print(f"{len(broken)} broken URLs found:")
@@ -47,11 +60,11 @@ jobs:
               print("All URLs passed.")
               with open('url-report.md', 'w') as f:
                   f.write("All URLs passed.")
-          EOF
+          PYEOF
 
       - name: Open issue if failures found
         run: |
-          failures=$(grep -c "HTTP\|ERROR" url-report.md || true)
+          failures=$(grep -c "^- " url-report.md || true)
           if [ "$failures" -gt "0" ]; then
             gh issue create \
               --title "URL Check: $failures broken links found ($(date -u +%Y-%m-%d))" \
