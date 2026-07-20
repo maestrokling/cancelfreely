@@ -24,7 +24,7 @@ dark_patterns:
     source: "goal.com, January 2026; technology.org, February 2026"
 retention_tactics:
   - "May offer a pause or discounted rate before confirming cancellation."
-direct_cancel_url: "https://www.paramountplus.com/account/subscription/"
+direct_cancel_url: "https://help.paramountplus.com/s/my-subscriptions"
 free_alternatives:
   - name: "Pluto TV"
     url: "https://pluto.tv"

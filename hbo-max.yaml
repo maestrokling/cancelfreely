@@ -1,14 +1,14 @@
 name: HBO Max
 slug: hbo-max
-url: https://www.max.com
+url: https://www.hbomax.com
 category: streaming
 cancel_method: online
 friction_score: 3
 last_verified: 2026-02-15
 steps:
   - step: 1
-    instruction: "Go to max.com and sign in."
-    note: "The service rebranded from HBO Max to 'Max' in 2023. Cancellation steps are the same."
+    instruction: "Go to hbomax.com and sign in."
+    note: "The service rebranded HBO Max -> Max in 2023, then rebranded back to HBO Max in July 2025. The max.com domain still works but redirects to hbomax.com. Cancellation steps are unchanged."
   - step: 2
     instruction: "Click your profile icon, then select 'Settings'."
     note: ""
@@ -29,7 +29,7 @@ retention_tactics:
   - "Offers to pause subscription before canceling."
   - "May present discounted plan offers."
   - "Binge strategy: some guides recommend subscribing for one month, binging, then canceling — this is how many users approach Max."
-direct_cancel_url: "https://www.max.com/settings/subscription"
+direct_cancel_url: "https://www.hbomax.com/subscription"
 free_alternatives:
   - name: "Tubi"
     url: "https://tubitv.com"
@@ -37,4 +37,4 @@ free_alternatives:
   - name: "Pluto TV"
     url: "https://pluto.tv"
     note: "Free ad-supported streaming"
-notes: "The rebrand from HBO Max to Max in 2023 added confusion. Cancellation difficulty depends heavily on billing source — direct billing is straightforward; third-party billing requires going to that platform. If you subscribed via a cable bundle (AT&T, Spectrum, etc.), you may need to call your provider."
+notes: "The rebrand from HBO Max to Max in 2023 (and back to HBO Max in July 2025) added confusion. Cancellation difficulty depends heavily on billing source — direct billing is straightforward; third-party billing requires going to that platform. If you subscribed via a cable bundle (AT&T, Spectrum, etc.), you may need to call your provider."
