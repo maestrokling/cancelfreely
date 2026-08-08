@@ -1,0 +1,14 @@
+name: Freshly
+slug: freshly
+url: https://www.freshly.com
+category: food
+cancel_method: online
+cancel_difficulty: null
+friction_score: null
+last_verified: null
+steps: []
+dark_patterns: []
+retention_tactics: []
+direct_cancel_url: null
+free_alternatives: []
+notes: "FLAGGED 2026-07-20: Freshly meal delivery service shut down entirely in January 2023 (confirmed via foodondemand.com and multiple trade coverage). This entry is a stub with no cancel steps and the company no longer exists. Recommend removing this entry from the site rather than fixing the URL."
