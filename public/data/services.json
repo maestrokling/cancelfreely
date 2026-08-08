@@ -1651,7 +1651,7 @@
       "Navigate through ClassPass's multi-step retention flow \u2014 reported as 8-10 steps by users. You'll be presented with pause options, credit rollover offers, and alternative plan downgrades before reaching the final cancel button.",
       "Select a cancellation reason and confirm. Any unused credits expire at the end of your billing period. Credits do not roll over after cancellation."
     ],
-    "cancel_url": "https://classpass.com/account/plan",
+    "cancel_url": "https://help.classpass.com/hc/en-us/articles/204578119-How-do-I-cancel-my-ClassPass-membership",
     "known_friction": "Users report 8-10 required steps to complete cancellation, including multiple retention screens. One user documented being 'auto-enrolled into ClassPass's $89/month membership' and needing 8-10 steps to cancel.; Some users report being auto-enrolled into paid memberships from free trials without sufficient advance warning. | Retention tactics: Offers to pause membership for 1-3 months.; Offers a reduced credit plan instead of canceling.; Reminds you of unused credits that will expire.; Shows nea",
     "free_alternatives": [
       {
@@ -3068,7 +3068,7 @@
       "Follow the confirmation prompts to finalize cancellation. Your DNA results and health reports from your initial kit purchase remain accessible after canceling the Premium subscription.",
       "IMPORTANT: To delete your genetic data entirely, go to Settings > 23andMe Data > Request Data Deletion. Canceling Premium does NOT delete your DNA data. You must separately request data deletion if you want your genetic information removed from their servers."
     ],
-    "cancel_url": "https://www.23andme.com/settings/membership/",
+    "cancel_url": "https://customercare.23andme.com/hc/en-us/articles/10327142222359-Canceling-your-Premium-Membership",
     "known_friction": "Canceling the subscription does not delete your genetic data. Users must navigate to a completely separate settings page to request data deletion, and the process takes up to 30 days. Many users cancel thinking their data is gone.; Cancellation flow emphasizes health reports, pharmacogenomics insights, and ancestry updates you'll lose access to, creating anxiety about losing health-related information. | Retention tactics: Emphasizes loss of ongoing health report updates and pharmacogenomics dat",
     "free_alternatives": [],
     "last_verified": "2026-04-13",
@@ -4506,7 +4506,7 @@
       "Select 'Cancel DashPass' and confirm. If subscribed via Apple App Store or Google Play, cancel through those platforms instead.",
       "Access continues through end of billing period."
     ],
-    "cancel_url": "https://www.doordash.com/consumer/manage_dashpass/",
+    "cancel_url": "https://help.doordash.com/en-us/consumers/article/how-do-i-cancel-my-dashpass-subscription",
     "known_friction": "Users who subscribed via iOS or Android must cancel through Apple/Google, not the DoorDash app or website. | Retention tactics: May offer a discounted rate or free month.",
     "free_alternatives": [
       {

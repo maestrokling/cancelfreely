@@ -33,7 +33,7 @@ retention_tactics:
   - "Offers a reduced credit plan instead of canceling."
   - "Reminds you of unused credits that will expire."
   - "Shows nearby studios and upcoming classes."
-direct_cancel_url: "https://classpass.com/account/plan"
+direct_cancel_url: "https://help.classpass.com/hc/en-us/articles/204578119-How-do-I-cancel-my-ClassPass-membership"
 free_alternatives:
   - name: "Individual studio drop-ins"
     url: null
