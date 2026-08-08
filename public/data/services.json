@@ -1142,40 +1142,6 @@
     "notes": "Proton Mail is widely considered one of the most ethical tech companies in terms of cancellation experience. Paid plans start at $3.99/month (Mail Plus) with 15GB storage and 10 email addresses, up to $12.99/month (Proton Unlimited) which bundles Mail, VPN, Drive, Calendar, and Pass. Cancellation is a downgrade to the generous free tier \u2014 your account, email address, and existing messages are fully preserved. The only practical friction is managing storage if you exceed the 1GB free limit. Custom domain email addresses stop functioning on the free tier, so users should plan for that before downgrading. Proton is based in Switzerland and subject to Swiss privacy laws, which is a key selling point of the service."
   },
   {
-    "name": "Skype Premium",
-    "slug": "skype",
-    "url": "https://www.skype.com",
-    "category": "email",
-    "cancel_method": "N/A",
-    "cancel_difficulty": 1,
-    "cancel_steps": [
-      "Skype shut down on May 5, 2025. There is nothing to cancel. Microsoft ended Skype after 21 years of operation. All calling subscriptions were automatically terminated.",
-      "Any Skype Credit remaining was available for use until the shutdown date. Subscriptions extending beyond May 1, 2025 were automatically canceled and converted to Skype Credit where applicable. Microsoft provided a migration path to Teams for all Skype users.",
-      "If you're still seeing charges from Skype after May 2025, dispute them with your bank immediately. No legitimate Skype charges should appear after the shutdown date."
-    ],
-    "cancel_url": "",
-    "known_friction": "",
-    "free_alternatives": [
-      {
-        "name": "Microsoft Teams (free)",
-        "url": "https://teams.microsoft.com",
-        "note": "Microsoft's official replacement for Skype with free personal calling"
-      },
-      {
-        "name": "Zoom (free tier)",
-        "url": "https://zoom.us",
-        "note": "40-minute free group calls, unlimited 1:1 calls"
-      },
-      {
-        "name": "Signal (free)",
-        "url": "https://signal.org",
-        "note": "End-to-end encrypted calls and messaging, fully free"
-      }
-    ],
-    "last_verified": "2026-04-13",
-    "notes": "Skype officially shut down on May 5, 2025, after 21 years of service. Microsoft automatically migrated user contacts and chat history to Microsoft Teams. If you had a Skype Number, you needed to port it to another carrier before the shutdown date or lose it. Skype Credit balances that remained at shutdown were forfeited unless converted. Any charges appearing after May 2025 are unauthorized and should be disputed with your bank or credit card provider."
-  },
-  {
     "name": "Superhuman",
     "slug": "superhuman",
     "url": "https://superhuman.com",
@@ -1209,24 +1175,6 @@
     ],
     "last_verified": "2026-04-13",
     "notes": "Superhuman costs $30/month per user, making it one of the most expensive email clients on the market. The value proposition centers on speed, keyboard shortcuts, AI triage, and read status tracking. After canceling, your underlying email account (Gmail, Outlook, etc.) is completely unaffected -- you simply lose the Superhuman interface layer. There is no data loss risk since Superhuman does not store your email. Team and enterprise plans may have annual commitments with different cancellation terms. Superhuman has grown significantly since removing its waitlist model and now targets business teams rather than individual productivity enthusiasts."
-  },
-  {
-    "name": "Amazon Try Before You Buy",
-    "slug": "amazon-try-before-you-buy",
-    "url": "https://www.amazon.com/b?node=21446531011",
-    "category": "fashion",
-    "cancel_method": "online",
-    "cancel_difficulty": 1,
-    "cancel_steps": [
-      "Amazon Try Before You Buy is not a subscription \u2014 it's a free Prime member feature. To stop using it, simply don't order more try-on boxes.",
-      "For active try-on orders: return unwanted items within 7 days using the prepaid return label. You are only charged for items you keep. If you fail to return items within 7 days, you will be charged the full price.",
-      "To manage or cancel pending Try Before You Buy orders, go to Your Orders on amazon.com. There is no recurring subscription to cancel \u2014 this is a per-order service."
-    ],
-    "cancel_url": "",
-    "known_friction": "If you don't return items within the 7-day try-on window, you're automatically charged full price. The deadline can be easy to miss, especially for busy shoppers. | Retention tactics: None \u2014 not a subscription service.",
-    "free_alternatives": [],
-    "last_verified": "2026-04-13",
-    "notes": "Amazon Try Before You Buy (formerly Prime Wardrobe) is a Prime benefit, not a separate subscription. You try up to 8 items for 7 days, return what you don't want, and only pay for what you keep. The key thing to know is the strict 7-day return window \u2014 if you miss it, you're charged for everything. No monthly fee beyond your existing Prime membership. This service has been scaled back significantly since its 2018 launch, with reduced eligible item selection."
   },
   {
     "name": "Fabletics",
@@ -1854,24 +1802,6 @@
     "free_alternatives": [],
     "last_verified": "2026-02-09",
     "notes": "Factor (owned by HelloFresh) delivers pre-cooked meals. Cancel by Wednesday 11:59 PM CT to avoid the next week's charge. The skip/cancel confusion is the biggest gotcha \u2014 make sure you've completed full cancellation, not just skipped."
-  },
-  {
-    "name": "Freshly",
-    "slug": "freshly",
-    "url": "https://www.freshlyfrozen.com",
-    "category": "food",
-    "cancel_method": "online",
-    "cancel_difficulty": 2,
-    "cancel_steps": [
-      "Go to freshlyfrozen.com and sign in. Freshly rebranded to Freshly Frozen in 2024 after being acquired. Check if the service is still available in your area.",
-      "Go to Account > Manage Plan > Cancel Plan. Cancel before the weekly cutoff (check your account for the specific deadline) to avoid the next shipment.",
-      "Follow the cancellation prompts and confirm. If the online cancellation option is unavailable, contact customer support directly."
-    ],
-    "cancel_url": "https://www.freshlyfrozen.com/account",
-    "known_friction": "The rebrand from Freshly to Freshly Frozen, combined with ownership changes, makes it difficult for users to find the correct cancellation page or even determine if their account is still active. | Retention tactics: May offer a pause or skip option.; Suggests adjusting meal quantity or delivery frequency.",
-    "free_alternatives": [],
-    "last_verified": "2026-04-13",
-    "notes": "Freshly (originally a fresh pre-made meal delivery service owned by Nestl\u00e9) was shut down by Nestl\u00e9 in 2023, then the brand was acquired and relaunched as Freshly Frozen with a pivot to frozen meals. The service has undergone significant operational changes and reduced delivery areas. If you have an active subscription, verify your account status at freshlyfrozen.com. If you're having trouble canceling a legacy Freshly subscription, contact your bank to dispute any charges from a service that may have changed substantially from what you originally signed up for."
   },
   {
     "name": "Home Chef",
