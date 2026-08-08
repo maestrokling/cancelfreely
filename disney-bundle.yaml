@@ -3,12 +3,26 @@ slug: disney-bundle
 url: https://www.disneyplus.com/bundles
 category: kids
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: "Distinct from Disney+ standalone; bundle includes Hulu and ESPN+. Cancellation may affect all three services."
+friction_score: 3
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: Go to disneyplus.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to your profile > Account > Subscription > Cancel Subscription. ⚠️ Canceling the Disney Bundle cancels ALL services in the bundle — Disney+, Hulu, and ESPN+ simultaneously. You cannot cancel one without canceling all.
+  note: null
+- step: 3
+  instruction: If you subscribed via Apple, Google, Amazon, or Hulu directly, cancel through that platform instead.
+  note: null
+dark_patterns:
+- type: bundle lock-in
+  description: The Disney Bundle cannot be partially canceled — canceling removes Disney+, Hulu, and ESPN+ access together. Users who want to keep one service must cancel the bundle and resubscribe to the individual service at a higher price.
+retention_tactics:
+- May offer a discount or downgrade to a single service.
+direct_cancel_url: https://www.disneyplus.com/account/subscription
+free_alternatives:
+- name: Individual services
+  url: https://www.disneyplus.com
+  note: Disney+, Hulu, or ESPN+ can be subscribed individually if you only need one
+notes: The Disney Bundle (Duo $9.99 Basic/$15.99 Premium, Trio $24.99/month) bundles Disney+, Hulu, and ESPN+. The bundle cancellation removes all three — plan accordingly. Bundle billing goes through Disney; if subscribed via Hulu or another platform, the cancel flow differs.

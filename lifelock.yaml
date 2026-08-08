@@ -1,14 +1,31 @@
 name: LifeLock
 slug: lifelock
-url: https://lifelock.norton.com
+url: https://www.lifelock.com
 category: misc
 cancel_method: phone or online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: "May be bundled with Norton. Cancellation may differ from standalone Norton."
+friction_score: 3
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: 'Call LifeLock: 1-800-543-3562.'
+  note: null
+- step: 2
+  instruction: Or go to lifelock.com > Account > Manage Plan > Cancel. LifeLock may be bundled with Norton 360. If you have a Norton + LifeLock bundle, canceling one may affect the other — clarify with the agent.
+  note: null
+- step: 3
+  instruction: Access continues through end of billing period.
+  note: null
+dark_patterns:
+- type: Norton bundle confusion
+  description: LifeLock is frequently sold bundled with Norton 360. Customers who cancel LifeLock may not realize they're also canceling Norton, and vice versa.
+retention_tactics:
+- May offer a discounted rate.
+direct_cancel_url: https://www.lifelock.com/account
+free_alternatives:
+- name: Credit Karma (free)
+  url: https://www.creditkarma.com
+  note: Free credit monitoring and alerts
+- name: AnnualCreditReport.com (free)
+  url: https://www.annualcreditreport.com
+  note: Free weekly reports from Equifax, Experian, TransUnion
+notes: LifeLock (owned by NortonLifeLock/Gen Digital) provides identity theft protection. If bundled with Norton, clarify what's being canceled. LifeLock has paid hundreds of millions in FTC settlements historically for overstating its protection capabilities.

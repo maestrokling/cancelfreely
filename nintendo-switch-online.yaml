@@ -1,13 +1,35 @@
 name: Nintendo Switch Online
 slug: nintendo-switch-online
-url: https://www.nintendo.com/switch/online
+url: https://www.nintendo.com/switch/online/
 category: gaming
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or console
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'On Nintendo Switch: Go to System Settings > Nintendo eShop > select your account > Nintendo Switch Online > Turn Off Automatic Renewal. Must be done at least 48 hours before the renewal date to take effect.'
+  note: null
+- step: 2
+  instruction: 'Online: Go to accounts.nintendo.com > sign in > Shop Menu > Nintendo Switch Online > Turn Off Automatic Renewal. You can also manage this through the Nintendo Switch Online section of the eShop website.'
+  note: null
+- step: 3
+  instruction: Membership remains active through the end of the paid period. When membership lapses, you lose online multiplayer, cloud saves, NES/SNES/N64/Game Boy library access, and DLC access for Expansion Pack content.
+  note: null
+- step: 4
+  instruction: 'For Family Memberships: only the admin account holder can turn off auto-renewal. All linked family members lose access when the membership lapses.'
+  note: null
+dark_patterns:
+- type: loss aversion / cloud save hostage
+  description: Cloud save data is only accessible with an active membership. If your membership lapses, cloud saves are retained by Nintendo for approximately 180 days but are inaccessible until you resubscribe — effectively holding your save data hostage.
+retention_tactics:
+- Warns about losing access to cloud saves and retro game libraries.
+- Family membership admin receives reminders that all family members will lose access.
+direct_cancel_url: https://accounts.nintendo.com
+free_alternatives:
+- name: Nintendo Switch (offline)
+  url: null
+  note: Single-player and local multiplayer games work without NSO — only online multiplayer and cloud saves require it
+- name: Free-to-play online games
+  url: null
+  note: Fortnite, Rocket League, and other free-to-play titles do NOT require NSO for online play
+notes: Nintendo Switch Online ($3.99/month, $19.99/year Individual, $34.99/year Family; Expansion Pack adds N64/Game Boy/Sega Genesis games for $49.99/year Individual or $79.99/year Family). The service is straightforward to cancel by turning off automatic renewal, but the cloud save policy is a notable friction point — save data becomes inaccessible (though retained for ~180 days) after lapse, creating a soft lock-in. Free-to-play games like Fortnite and Rocket League do not require NSO for online play. The 48-hour advance cancellation requirement means you cannot cancel at the last minute on the renewal date.

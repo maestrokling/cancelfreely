@@ -1,13 +1,34 @@
 name: FabFitFun
 slug: fabfitfun
-url: https://fabfitfun.com
-category: subscription-box
+url: https://www.fabfitfun.com
+category: subscription-boxes
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to fabfitfun.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to your Account Settings > Membership.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Membership' and follow the multi-step prompts. The flow includes surveys, retention offers, and alternative suggestions before reaching the final cancel button.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Access continues through end of current season. Cancel before the seasonal billing date to avoid the next charge.
+  note: null
+dark_patterns:
+- type: seasonal billing confusion
+  description: FabFitFun bills seasonally (4x/year) rather than monthly, making it easy to forget about and miss the cancellation window for the next box.
+- type: annual plan lock-in
+  description: Annual subscribers ($199.99/year) are locked in for all four boxes — no refund for unused boxes if you cancel mid-year.
+- type: multi-step cancel flow
+  description: The cancellation requires navigating multiple screens of surveys, retention offers, and pause suggestions before reaching the actual cancel confirmation.
+retention_tactics:
+- Offers a discount on the next box during cancellation flow.
+- Suggests seasonal skip or pause options.
+- Shows customization credits and add-on deals you'll lose.
+direct_cancel_url: https://fabfitfun.com/cancel-subscription
 free_alternatives: []
-notes: ""
+notes: FabFitFun ($59.99/season for seasonal, $199.99/year for annual) is a quarterly lifestyle subscription box with beauty, fitness, home, and wellness products. Each box is valued at $200+ in retail products. The main friction is the seasonal billing cycle — cancel before the seasonal charge date (roughly early February, May, August, November) to avoid the next box. Annual subscribers cannot get refunds for remaining boxes. FabFitFun's 'Select' members get to choose more items, which creates additional switching cost.

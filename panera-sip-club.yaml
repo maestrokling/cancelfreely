@@ -1,14 +1,29 @@
 name: Panera Unlimited Sip Club
 slug: panera-sip-club
-url: https://www.panerabread.com
+url: https://www.panerabread.com/en-us/mypanera/subscription.html
 category: food
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+cancel_method: online or app
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to panerabread.com and sign in to your MyPanera account, or open the Panera Bread app.
+  note: null
+- step: 2
+  instruction: Navigate to MyPanera > Subscription > Manage Subscription.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Subscription' and confirm. No refund for unused time, but access continues through the end of your current billing period.
+  note: null
+- step: 4
+  instruction: You will receive a confirmation email. Keep it for your records. If you do not see a cancel option, contact Panera support at 1-855-372-6372.
+  note: null
+dark_patterns:
+- type: loss aversion messaging
+  description: During cancellation, Panera shows how many free drinks you redeemed and the dollar value of savings you will lose, framing cancellation as a financial loss.
+retention_tactics:
+- Shows savings summary (e.g., 'You saved $47 this month') before confirming cancellation.
+- May offer a discounted month or a pause option.
+direct_cancel_url: https://www.panerabread.com/en-us/mypanera/subscription.html
 free_alternatives: []
-notes: ""
+notes: Panera Unlimited Sip Club costs $14.99/month (price increased from $11.99 in 2024) and includes unlimited self-serve drinks — coffee, tea, fountain beverages, and charged lemonades — at Panera Bread locations. The subscription must be redeemed in-store, so it only makes financial sense if you visit Panera regularly. Panera faced controversy in 2024 over its Charged Lemonade drinks (high caffeine content leading to health incidents and lawsuits), which led to reformulation. Cancellation is straightforward through the website or app, though the savings summary during the cancel flow is a mild loss-aversion tactic. No refund for unused time.

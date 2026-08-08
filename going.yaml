@@ -3,12 +3,31 @@ slug: going
 url: https://www.going.com
 category: travel
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to going.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Subscription > Cancel Subscription.
+  note: null
+- step: 3
+  instruction: Confirm cancellation. Access continues through end of billing period. You revert to the free tier with limited deal alerts.
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+retention_tactics:
+- Shows recent deals you would have received to demonstrate value.
+- Highlights savings statistics from deals you've used.
+direct_cancel_url: https://app.going.com/settings/membership
+free_alternatives:
+- name: Going (free tier)
+  url: https://www.going.com
+  note: Free tier with limited domestic economy deal alerts
+- name: Google Flights (free)
+  url: https://flights.google.com
+  note: Free flight price tracking and alerts
+- name: Skiplagged (free)
+  url: https://skiplagged.com
+  note: Free hidden-city flight deal finder
+notes: Going ($49/year for Elite, $199/year for Premium) sends curated flight deal alerts for domestic and international flights, often 40-90% off normal fares. Formerly known as Scott's Cheap Flights, rebranded in 2022. The free tier provides a taste of deals but limits to domestic economy only. Cancellation is clean with no friction. The Elite tier covers economy deals and the Premium tier adds business/first class deal alerts. The service has been consistently well-reviewed and the cancel process matches — straightforward and no-pressure.

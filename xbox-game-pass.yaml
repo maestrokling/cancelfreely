@@ -1,13 +1,34 @@
 name: Xbox Game Pass
 slug: xbox-game-pass
-url: https://www.xbox.com/en-US/xbox-game-pass
+url: https://www.xbox.com/xbox-game-pass
 category: gaming
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-02-15'
+steps:
+- step: 1
+  instruction: Go to account.microsoft.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to 'Services & subscriptions' > find Xbox Game Pass > 'Manage' > 'Cancel subscription'.
+  note: null
+- step: 3
+  instruction: 'On Xbox console: Settings > Account > Subscriptions > select Xbox Game Pass > Manage > Cancel.'
+  note: null
+- step: 4
+  instruction: Access continues through end of billing period. Downloaded games remain installed but unplayable after cancellation.
+  note: null
+dark_patterns:
+- type: price hike auto-renewal
+  description: Xbox Game Pass Ultimate jumped 50% from $19.99 to $29.99/month in October 2025 — many subscribers were auto-renewed at the new price without prominent advance notice. Mass cancellation wave followed.
+retention_tactics:
+- May offer a discounted rate or free month.
+direct_cancel_url: https://account.microsoft.com/services
+free_alternatives:
+- name: Xbox Game Pass Core (cheaper tier)
+  url: https://www.xbox.com/xbox-game-pass
+  note: Lower-cost tier with online play and limited game catalog
+- name: Steam (free to use, buy games)
+  url: https://store.steampowered.com
+  note: No subscription required
+notes: Xbox Game Pass Ultimate hit $29.99/month after a 50% price hike in late 2025 — sparked mass cancellations. Cancellation itself is clean and online. Games downloaded through Game Pass are unplayable after cancellation (they require an active subscription license).

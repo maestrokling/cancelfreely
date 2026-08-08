@@ -3,12 +3,35 @@ slug: credit-sesame
 url: https://www.creditsesame.com
 category: misc
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to creditsesame.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Settings > Subscription > Cancel.
+  note: null
+- step: 3
+  instruction: Follow the confirmation prompts. Your account reverts to the free tier. Credit monitoring continues at a basic level.
+  note: null
+dark_patterns:
+- type: upsell-heavy free tier
+  description: The free tier constantly promotes premium features with alerts and notifications, making it feel incomplete and pressuring users to maintain the paid subscription.
+- type: confusing plan tiers
+  description: Credit Sesame has multiple paid tiers (Platinum, Diamond) with overlapping feature sets, making it unclear what you're actually losing when you downgrade.
+retention_tactics:
+- Shows credit score features and identity theft protection you'll lose.
+- May offer a discounted rate or trial extension.
+direct_cancel_url: https://www.creditsesame.com/settings
+free_alternatives:
+- name: Credit Sesame (free)
+  url: https://www.creditsesame.com
+  note: Free credit score monitoring with TransUnion data
+- name: Credit Karma (free)
+  url: https://www.creditkarma.com
+  note: Free credit monitoring with TransUnion and Equifax data
+- name: AnnualCreditReport.com
+  url: https://www.annualcreditreport.com
+  note: Free weekly credit reports from all three bureaus (federally mandated)
+notes: Credit Sesame Premium ($15.95-$24.95/month depending on tier) adds identity theft insurance, advanced monitoring, and credit-building tools. The free tier is genuinely useful for basic credit score tracking — most users don't need the paid version. Credit Karma offers comparable free monitoring. Before paying for premium credit monitoring, check if your bank or credit card already offers free credit score access and monitoring alerts, as many now do.

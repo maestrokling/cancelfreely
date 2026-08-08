@@ -2,12 +2,30 @@ name: Hinge
 slug: hinge
 url: https://hinge.co
 category: dating
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: app store
+friction_score: 2
+last_verified: '2026-02-04'
+steps:
+- step: 1
+  instruction: ⚠️ Deleting your Hinge account or the app does NOT cancel your subscription. You must cancel through the platform where you subscribed.
+  note: null
+- step: 2
+  instruction: 'iOS: Open Settings > [your name] > Subscriptions > Hinge > Cancel Subscription.'
+  note: null
+- step: 3
+  instruction: 'Android: Open Google Play > Profile > Payments & Subscriptions > Subscriptions > Hinge > Cancel.'
+  note: null
+- step: 4
+  instruction: Access continues through end of billing period.
+  note: null
+dark_patterns:
+- type: account deletion doesn't cancel
+  description: Deleting the Hinge account or app does not cancel the paid subscription. Users must cancel through Apple or Google separately — a common trap.
+retention_tactics:
+- None — Apple/Google handle the flow.
+direct_cancel_url: https://help.hinge.co/hc/en-us/articles/36311108859411
+free_alternatives:
+- name: Hinge (free tier)
+  url: https://hinge.co
+  note: Free tier with 8 daily likes — functional for most users
+notes: Hinge (owned by Match Group) is generally considered one of the better-designed dating apps. The free tier is genuinely usable. The subscription (Hinge+ or HingeX) cancels through Apple/Google. No refund for unused time.

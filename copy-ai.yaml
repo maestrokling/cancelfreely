@@ -3,12 +3,35 @@ slug: copy-ai
 url: https://www.copy.ai
 category: ai-tools
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to app.copy.ai and sign in.
+  note: null
+- step: 2
+  instruction: Go to Settings > Billing > Cancel Plan.
+  note: null
+- step: 3
+  instruction: Follow the confirmation prompts. Access continues through end of billing period. Your generated content and templates are retained.
+  note: null
+dark_patterns:
+- type: feature gating on free tier
+  description: The free tier is extremely limited (2,000 words/month), making it feel inadequate as a fallback and increasing pressure to maintain the paid subscription.
+- type: annual plan lock-in
+  description: Annual plans are significantly cheaper per month but lock users in for the full year with no prorated refund if canceled early.
+retention_tactics:
+- May offer a discounted rate or free month during cancellation.
+- Shows usage statistics highlighting value received from the service.
+direct_cancel_url: https://app.copy.ai/settings/billing
+free_alternatives:
+- name: Copy.ai (free tier)
+  url: https://www.copy.ai
+  note: Free tier with 2,000 words/month
+- name: ChatGPT (free)
+  url: https://chat.openai.com
+  note: Free AI writing assistance with no word limit
+- name: Claude (free tier)
+  url: https://claude.ai
+  note: Free AI writing with daily usage limits
+notes: Copy.ai ($49/month Pro, $249+/month for Teams/Enterprise) is an AI copywriting and content generation tool. The cancellation process itself is online and straightforward. The main friction is the stark difference between paid and free tiers — the free tier's 2,000 word/month limit makes it essentially a demo rather than a usable product. Annual plan subscribers should note there's no prorated refund for early cancellation. Your generated content and saved templates remain accessible after canceling.

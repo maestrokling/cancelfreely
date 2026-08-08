@@ -3,12 +3,25 @@ slug: tsa-precheck
 url: https://www.tsa.gov/precheck
 category: travel
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: TSA PreCheck is not a recurring subscription. It is a 5-year enrollment costing $78 ($70 online renewal). To not renew, simply do nothing when it expires. There is nothing to actively cancel -- your enrollment simply lapses after 5 years.
+  note: null
+- step: 2
+  instruction: 'If you enrolled through an enrollment provider (IDEMIA, Telos, Alclear, etc.) and they enabled auto-renewal, log into that provider''s portal to disable auto-renewal. IDEMIA: universalenroll.dhs.gov/myaccount. Check your enrollment confirmation email for your provider.'
+  note: null
+- step: 3
+  instruction: Renewal notices arrive by email approximately 6 months before expiration. Ignore them if you do not wish to renew. These are legitimate TSA/DHS emails, not spam, but they do not auto-charge you unless you opted into auto-renewal.
+  note: null
+- step: 4
+  instruction: If you were auto-charged for a renewal you did not authorize, contact your enrollment provider to dispute and request a refund. TSA itself does not process payments -- enrollment providers handle billing.
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+retention_tactics:
+- Sends multiple renewal reminder emails starting 6 months before expiration to create urgency around re-enrollment.
+- Some enrollment providers default to auto-renewal opt-in during the initial enrollment process.
+direct_cancel_url: https://universalenroll.dhs.gov/myaccount
 free_alternatives: []
-notes: "Not a recurring subscription; renewal every 5 years. Users search for how to not renew."
+notes: TSA PreCheck costs $78 for new enrollment or $70 for online renewal, covering a 5-year period -- it is not an annual subscription. Most people searching for 'cancel TSA PreCheck' have received a renewal notice or discovered an unexpected auto-renewal charge from their enrollment provider. The TSA itself does not handle billing; third-party enrollment providers (primarily IDEMIA) manage registration and payment. Consider Global Entry ($100/5 years) or NEXUS ($50/5 years) as alternatives that include PreCheck benefits plus additional border crossing perks. The REAL ID enforcement deadline has driven increased interest in trusted traveler programs.

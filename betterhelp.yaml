@@ -3,11 +3,33 @@ slug: betterhelp
 url: https://www.betterhelp.com
 category: health
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-01'
+steps:
+- step: 1
+  instruction: Go to betterhelp.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon > 'Account Settings'.
+  note: null
+- step: 3
+  instruction: Scroll to the bottom of the page and click 'Cancel membership'.
+  note: null
+- step: 4
+  instruction: Follow the prompts to confirm. You'll receive a confirmation email. Consider your ongoing therapy needs before canceling. If you want to pause rather than cancel, BetterHelp allows pauses of up to 4 weeks.
+  note: null
+dark_patterns:
+- type: FTC settlement (2023)
+  description: BetterHelp paid $7.8M in FTC refunds in 2023 for sharing user mental health data with Facebook and Snapchat for advertising despite promising not to. This was a data privacy issue, not a cancellation dark pattern, but is material context.
+retention_tactics:
+- Offers a pause instead of canceling.
+- May offer a financial hardship rate.
+direct_cancel_url: https://www.betterhelp.com/account/
+free_alternatives:
+- name: Open Path Collective
+  url: https://openpathcollective.org
+  note: Reduced-cost therapy ($30-$80/session) for those who qualify
+- name: SAMHSA helpline
+  url: https://www.samhsa.gov/find-help/national-helpline
+  note: 'Free mental health referral service: 1-800-662-4357'
+notes: BetterHelp cancellation is online and straightforward. If you're canceling due to cost, ask about their financial hardship program before canceling — reduced rates are available. BetterHelp paid $7.8M in FTC refunds in 2023 for data privacy violations.

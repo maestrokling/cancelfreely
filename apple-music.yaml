@@ -4,32 +4,35 @@ url: https://music.apple.com
 category: streaming
 cancel_method: online
 friction_score: 2
-last_verified: 2026-04-11
+last_verified: '2026-04-13'
 steps:
-  - step: 1
-    instruction: "Go to music.apple.com and sign in with your Apple ID."
-    note: "On iPhone/iPad: Settings > [Your Name] > Subscriptions > Apple Music > Cancel Subscription."
-  - step: 2
-    instruction: "Click the My Account icon, then select 'Settings'."
-    note: ""
-  - step: 3
-    instruction: "Scroll to 'Subscriptions' and click 'Manage'."
-    note: ""
-  - step: 4
-    instruction: "Select Apple Music and click 'Cancel Subscription'."
-    note: "Confirm when prompted. Music access ends at the end of the billing period. Downloaded songs become unplayable after cancellation."
-dark_patterns: []
+- step: 1
+  instruction: 'On iPhone/iPad: Settings > [Your Name] > Subscriptions > Apple Music > Cancel Subscription. This is the fastest method.'
+  note: null
+- step: 2
+  instruction: 'On web: Go to music.apple.com, sign in, click My Account icon > Settings > Subscriptions > Manage.'
+  note: null
+- step: 3
+  instruction: Select Apple Music and click 'Cancel Subscription'.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Music access ends at the end of the billing period. All downloaded songs become unplayable after cancellation. Your library and playlists are preserved if you resubscribe.
+  note: null
+dark_patterns:
+- type: download lock-in
+  description: All music downloaded for offline listening becomes unplayable after cancellation. Unlike Spotify, there is no free tier to fall back to — you lose all access to the catalog.
 retention_tactics:
-  - "None widely reported. Apple's subscription system is consistent and low-friction."
-direct_cancel_url: "https://music.apple.com/account/settings"
+- Apple's subscription system is consistent and low-friction. No aggressive retention flow reported.
+- If subscribed through Apple One bundle, canceling Apple Music requires downgrading the entire bundle.
+direct_cancel_url: https://support.apple.com/en-us/118428
 free_alternatives:
-  - name: "Spotify (free tier)"
-    url: "https://www.spotify.com"
-    note: "Free with ads and shuffle-only mobile"
-  - name: "YouTube Music (free tier)"
-    url: "https://music.youtube.com"
-    note: "Free with ads"
-  - name: "SoundCloud (free tier)"
-    url: "https://soundcloud.com"
-    note: "Free with ads, strong indie/underground catalog"
-notes: "Apple Music cancellation uses the same flow as all Apple subscriptions. Note that any music downloaded for offline listening will become unplayable after cancellation — unlike Spotify, there is no free tier to fall back to."
+- name: Spotify (free tier)
+  url: https://www.spotify.com
+  note: Free with ads and shuffle-only on mobile
+- name: YouTube Music (free tier)
+  url: https://music.youtube.com
+  note: Free with ads
+- name: SoundCloud (free tier)
+  url: https://soundcloud.com
+  note: Free with ads, strong indie/underground catalog
+notes: Apple Music ($10.99/month individual, $16.99/month family, $5.99/month student) uses Apple's standard subscription management. Unlike Spotify, there is no free tier — cancellation means losing all catalog access. Downloaded music becomes unplayable, but your library metadata and playlists are preserved and restored if you resubscribe. If you're on an Apple One bundle, you need to cancel or downgrade the bundle itself. Apple Music's lossless and spatial audio are included at no extra cost, unlike some competitors.

@@ -2,12 +2,31 @@ name: QuickBooks
 slug: quickbooks
 url: https://quickbooks.intuit.com
 category: finance
-cancel_method: online or phone
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online
+friction_score: 3
+last_verified: '2026-03-28'
+steps:
+- step: 1
+  instruction: Sign in at quickbooks.intuit.com.
+  note: null
+- step: 2
+  instruction: Click the gear icon (Settings) > Account and Settings > Billing & Subscription.
+  note: null
+- step: 3
+  instruction: 'Click ''Cancel subscription'' and follow the prompts. For QuickBooks Self-Employed: same path, or go directly to quickbooks.intuit.com/self-employed.'
+  note: null
+- step: 4
+  instruction: 'Export your data before canceling: Reports > export to Excel/CSV. Access ends at end of billing period. ⚠️ After cancellation, you lose access to your QuickBooks data. Export everything first.'
+  note: null
+dark_patterns:
+- type: data loss on cancellation
+  description: QuickBooks does not preserve data access after cancellation. Users who cancel without exporting lose access to years of financial records. This is not prominently warned in the cancellation flow.
+retention_tactics:
+- May offer a discounted rate or pause.
+- Offers to downgrade to a lower plan.
+direct_cancel_url: https://quickbooks.intuit.com/learn-support/en-us/help-article/cancel-products-services/cancel-quickbooks-online-subscription-trial/L0MFTXlbw_US_en_US
+free_alternatives:
+- name: Wave (free)
+  url: https://www.waveapps.com
+  note: Free accounting for small businesses
+notes: 'Export all data before canceling — this is critical. Run and download: P&L, Balance Sheet, Transaction List, and any custom reports you need. QuickBooks Desktop licenses work differently from QuickBooks Online subscriptions.'

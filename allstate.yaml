@@ -3,11 +3,26 @@ slug: allstate
 url: https://www.allstate.com
 category: insurance
 cancel_method: phone or agent
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-03-06'
+steps:
+- step: 1
+  instruction: 'IMPORTANT: Have your new policy active before canceling. Never have a coverage gap.'
+  note: null
+- step: 2
+  instruction: 'Call Allstate: 1-800-255-7828, or contact your local Allstate agent. Allstate does not allow online or app cancellation. Phone or agent only.'
+  note: null
+- step: 3
+  instruction: Provide your policy number and cancellation date. Cancellation is typically immediate upon request — no delay.
+  note: null
+- step: 4
+  instruction: Unused premium is refunded. Some states allow a short-rate cancellation fee for mid-term cancellation.
+  note: null
+dark_patterns:
+- type: phone-only cancellation
+  description: Allstate requires phone or agent contact to cancel despite offering online policy management for other tasks.
+retention_tactics:
+- Agent will offer a rate review or loyalty discount.
+direct_cancel_url: https://www.allstate.com/support/how-to-cancel-policy.aspx
 free_alternatives: []
-notes: ""
+notes: Allstate is straightforward once you reach an agent or call center. Cancellation is processed immediately on request. Phone-only policy is the main friction point — no online self-service despite full online account management for other tasks.

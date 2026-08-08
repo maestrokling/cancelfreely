@@ -1,13 +1,40 @@
 name: YNAB (You Need A Budget)
 slug: ynab
-url: https://www.ynab.com
+url: https://www.youneedabudget.com
 category: finance
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to app.youneedabudget.com and sign in. If you subscribed via Apple App Store, cancel through iOS Settings > [your name] > Subscriptions > YNAB instead.
+  note: null
+- step: 2
+  instruction: Click your account name in the top-left, then select 'My Account' or 'Account Settings'.
+  note: null
+- step: 3
+  instruction: Scroll to the subscription section and click 'Cancel your subscription'.
+  note: null
+- step: 4
+  instruction: 'Select a cancellation reason and confirm. Access continues through the end of the billing period. IMPORTANT: Export your budget data before canceling. Go to your budget > File > Export Budget. Data is deleted 30 days after account closure.'
+  note: null
+dark_patterns:
+- type: data deletion countdown
+  description: YNAB warns that budget data will be permanently deleted 30 days after cancellation, creating urgency and loss aversion around years of financial tracking history.
+- type: exit survey with targeted rebuttals
+  description: The cancellation flow includes a survey where selecting specific reasons (like price) triggers targeted counter-arguments and alternative suggestions designed to address your objection.
+retention_tactics:
+- Displays budget statistics and financial progress during cancellation to remind users of the value they have built.
+- May offer a discounted rate or extended trial for users who cite price as their reason for leaving.
+direct_cancel_url: https://app.youneedabudget.com/settings
+free_alternatives:
+- name: Actual Budget (free, open source)
+  url: https://actualbudget.org
+  note: Free open-source envelope budgeting app similar to YNAB's methodology
+- name: EveryDollar (free tier)
+  url: https://www.ramseysolutions.com/ramseyplus/everydollar
+  note: Free zero-based budgeting tool from Dave Ramsey's team
+- name: Spreadsheet templates
+  url: https://docs.google.com/spreadsheets
+  note: Free Google Sheets budget templates replicate YNAB's envelope method
+notes: YNAB costs $14.99/month or $109/year and follows a zero-based envelope budgeting methodology. The price increased significantly from $84/year to $99/year in 2021 and again to $109/year in 2024, generating substantial user backlash each time. YNAB offers a 34-day free trial for new users and provides a free year for students. The most important step before canceling is exporting your budget data, as all data is permanently deleted 30 days after account closure. YNAB does not offer prorated refunds on annual plans. The budgeting methodology itself is well-regarded, and the open-source alternative Actual Budget replicates much of YNAB's approach without the subscription cost.

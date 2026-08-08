@@ -1,13 +1,31 @@
 name: Backblaze
 slug: backblaze
 url: https://www.backblaze.com
-category: cloud
+category: cloud-storage
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-03-02'
+steps:
+- step: 1
+  instruction: Go to backblaze.com and sign in.
+  note: null
+- step: 2
+  instruction: 'Go to ''My Account'' > ''Overview'' > find your backup license and click ''Remove''. For Computer Backup: remove all registered backups and licenses. For B2 Cloud Storage: the account can be canceled separately.'
+  note: null
+- step: 3
+  instruction: 'To fully delete your account: go to ''My Account'' > ''Account Details'' > ''Close Account''.'
+  note: null
+dark_patterns:
+- type: no refund on monthly plans
+  description: Backblaze explicitly states no refunds on monthly subscriptions. Cancel at the end of your billing period to avoid paying for unused time.
+retention_tactics:
+- None significant.
+direct_cancel_url: https://www.backblaze.com/computer-backup/docs/cancel-or-delete-a-backblaze-account
+free_alternatives:
+- name: Backblaze (free trial)
+  url: https://www.backblaze.com
+  note: Free 30-day trial for Computer Backup
+- name: Google Drive (free 15GB)
+  url: https://drive.google.com
+  note: Free 15GB
+notes: Backblaze is straightforward to cancel. No refunds on monthly plans — time your cancellation to the end of your billing period. Annual/2-year plans get a 30-day refund window. Before canceling, download your backed-up data if needed — you can request a hard drive restore for a fee.

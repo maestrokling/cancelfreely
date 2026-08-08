@@ -3,12 +3,31 @@ slug: proton-mail
 url: https://proton.me
 category: email
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to account.proton.me and sign in with your Proton account.
+  note: null
+- step: 2
+  instruction: Navigate to Dashboard (or Plans) in the left sidebar.
+  note: null
+- step: 3
+  instruction: Click 'Downgrade account' or 'Switch to Free' at the bottom of the plans page. This is a downgrade to the free tier, not a full account deletion. Your email address and existing emails are preserved.
+  note: null
+- step: 4
+  instruction: Confirm the downgrade. If you exceed free tier storage limits (1GB), you will need to delete emails or attachments to get under the cap. Your custom domain email addresses (if any) will stop working on the free tier. Download important emails before downgrading if you use custom domains.
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+retention_tactics:
+- Shows a comparison of features you will lose (storage, aliases, custom domains, VPN, Drive storage) before confirming the downgrade.
+- No aggressive retention. Proton is widely regarded as having an ethical, transparent cancellation process.
+direct_cancel_url: https://account.proton.me/u/0/mail/dashboard
+free_alternatives:
+- name: Proton Mail (free tier)
+  url: https://proton.me
+  note: Free with 1GB storage, 1 email address, end-to-end encryption
+- name: Tutanota (free tier)
+  url: https://tuta.com
+  note: Free encrypted email with 1GB storage
+notes: Proton Mail is widely considered one of the most ethical tech companies in terms of cancellation experience. Paid plans start at $3.99/month (Mail Plus) with 15GB storage and 10 email addresses, up to $12.99/month (Proton Unlimited) which bundles Mail, VPN, Drive, Calendar, and Pass. Cancellation is a downgrade to the generous free tier — your account, email address, and existing messages are fully preserved. The only practical friction is managing storage if you exceed the 1GB free limit. Custom domain email addresses stop functioning on the free tier, so users should plan for that before downgrading. Proton is based in Switzerland and subject to Swiss privacy laws, which is a key selling point of the service.

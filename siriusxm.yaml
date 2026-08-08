@@ -3,11 +3,42 @@ slug: siriusxm
 url: https://www.siriusxm.com
 category: membership
 cancel_method: phone or chat
-friction_score: null
-last_verified: 2026-04-11
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 5
+last_verified: '2026-02-14'
+steps:
+- step: 1
+  instruction: 'Call SiriusXM: 1-866-635-2349. Be prepared for significant hold times. Online cancellation is technically available at siriusxm.com but widely reported as unreliable — many users end up in a loop or see errors. Phone is the only reliably working method.'
+  note: null
+- step: 2
+  instruction: 'State clearly and repeatedly: ''I want to cancel my subscription completely.'' SiriusXM retention agents are known for making 4–6 consecutive offers before processing cancellation. Decline all offers firmly.'
+  note: null
+- step: 3
+  instruction: Get a cancellation confirmation number and note the agent's name. ⚠️ SiriusXM has a documented history of continuing to charge after cancellation. Check your statement the following month.
+  note: null
+- step: 4
+  instruction: 'If charged after cancellation: call back with your confirmation number and request a refund. If refused, dispute the charge with your bank.'
+  note: null
+dark_patterns:
+- type: no reliable online cancellation
+  description: SiriusXM's online cancel portal frequently fails or loops. Phone is the only reliably working cancellation method, despite a fully online signup process.
+- type: extreme retention pressure
+  description: SiriusXM agents make 4–6 aggressive retention offers per call. Users must decline each before cancellation is processed. Some users report calls lasting 20–40 minutes.
+- type: post-cancellation charges
+  description: SiriusXM has a documented history of continuing to charge customers after confirmed cancellation. Always verify the following month's statement.
+retention_tactics:
+- Offers 3 free months.
+- Offers 50%+ discount for 6-12 months.
+- Offers to remove specific channels to lower price.
+- Transfers to a 'loyalty specialist' to make additional offers.
+direct_cancel_url: https://www.siriusxm.com/help/manage-or-cancel-service
+free_alternatives:
+- name: Spotify (free tier)
+  url: https://www.spotify.com
+  note: Free music streaming with ads
+- name: iHeartRadio (free)
+  url: https://www.iheart.com
+  note: Free radio and podcast streaming
+- name: Pandora (free tier)
+  url: https://www.pandora.com
+  note: Free radio streaming
+notes: SiriusXM is one of the worst cancellation experiences in the US — consistently ranked alongside Comcast for friction. The FTC has received numerous complaints. Get a confirmation number. Check your next statement. If they charge you again, dispute it with your bank immediately.

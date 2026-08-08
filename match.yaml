@@ -3,11 +3,34 @@ slug: match
 url: https://www.match.com
 category: dating
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-02-17'
+steps:
+- step: 1
+  instruction: Go to match.com and sign in. If subscribed via Apple or Google, cancel through those platforms instead.
+  note: null
+- step: 2
+  instruction: Click your profile photo > Settings > Subscription.
+  note: null
+- step: 3
+  instruction: Find 'Cancel Subscription' or 'Manage Subscription' and follow the prompts. Match requires navigating through several menus — the cancel option is not prominently displayed.
+  note: null
+- step: 4
+  instruction: ⚠️ Canceling stops auto-renewal but your subscription remains active until the end of the paid term. Match does not issue refunds for unused time.
+  note: null
+dark_patterns:
+- type: no-refund policy
+  description: Match.com does not refund unused subscription time after cancellation. Canceling stops future charges but does not recover the current period.
+- type: confusing 'cancel' framing
+  description: Match's cancel flow turns off auto-renewal but doesn't make clear that the subscription itself continues until the paid period ends. Users sometimes believe they've gotten a refund when they haven't.
+retention_tactics:
+- May offer a discounted renewal.
+direct_cancel_url: https://www.match.com/cp/RegistrationSettings.aspx
+free_alternatives:
+- name: Hinge (free tier)
+  url: https://hinge.co
+  note: Free tier with daily likes
+- name: OkCupid (free tier)
+  url: https://www.okcupid.com
+  note: Generous free tier
+notes: Match is owned by Match Group (same company as Tinder, Hinge, OkCupid). No refund for unused time is the main gotcha — time cancellation carefully to near the end of your billing period.

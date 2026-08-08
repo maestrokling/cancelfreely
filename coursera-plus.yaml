@@ -3,12 +3,42 @@ slug: coursera-plus
 url: https://www.coursera.org
 category: education
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to coursera.org and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon > Settings > Subscriptions > Cancel subscription.
+  note: null
+- step: 3
+  instruction: 'Follow the confirmation prompts. If within 14 days of purchase: request a full refund — Coursera Plus has a 14-day money-back guarantee.'
+  note: null
+- step: 4
+  instruction: Confirm cancellation. After 14 days, no refund is available. Access continues through end of billing period. Course progress and earned certificates are retained permanently.
+  note: null
+dark_patterns:
+- type: certificate lock-in
+  description: Individual courses can be audited for free, but certificates are only available with a paid subscription. This creates sunk-cost pressure around incomplete certificate programs.
+- type: annual plan no-refund
+  description: The annual plan ($399/year) locks users in for a full year with no refund after the 14-day window. Monthly is available at $59/month but costs significantly more over a year.
+retention_tactics:
+- Shows course progress and incomplete specializations you'll lose access to.
+- May offer a discounted monthly rate or pause option.
+- Highlights certificates in progress that won't be completed.
+direct_cancel_url: https://www.coursera.org/account/memberships
+free_alternatives:
+- name: Coursera (free audit)
+  url: https://www.coursera.org
+  note: Most courses can be audited for free — you see all content but don't get a certificate
+- name: edX (free audit)
+  url: https://www.edx.org
+  note: Similar platform with free course audit option
+- name: Khan Academy (free)
+  url: https://www.khanacademy.org
+  note: Completely free education platform covering many subjects
+- name: MIT OpenCourseWare (free)
+  url: https://ocw.mit.edu
+  note: Free MIT course materials
+notes: Coursera Plus ($59/month or $399/year) gives unlimited access to 7,000+ courses, professional certificates, and guided projects. The 14-day refund window is genuine and worth knowing about — many users sign up, try it, and request a refund within the window. Course progress and earned certificates are retained permanently after cancellation. The main pressure point is incomplete specializations and certificate programs, which create sunk-cost motivation to stay. Individual courses can still be audited for free after canceling Plus.

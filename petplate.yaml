@@ -3,12 +3,33 @@ slug: petplate
 url: https://www.petplate.com
 category: pets
 cancel_method: online or email
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to petplate.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Navigate to your Account dashboard and look for Subscription or Order management. The cancel option may not be immediately visible — look under 'Manage Subscription' or 'Edit Plan'.
+  note: null
+- step: 3
+  instruction: If you can find a cancel option, click it and complete the process. Some users report the online cancel option is difficult to find or intermittently unavailable.
+  note: null
+- step: 4
+  instruction: If you cannot cancel online, email help@petplate.com with your account email and a clear request to cancel all future orders. Keep the confirmation email for your records. If you do not receive confirmation within 24 hours, follow up.
+  note: null
+- step: 5
+  instruction: Cancel before your next order processing date to avoid being charged and shipped the next box. Processing typically occurs 3-5 days before the scheduled delivery date.
+  note: null
+dark_patterns:
+- type: hidden cancellation
+  description: The cancel button is not prominently displayed in the account dashboard. Users frequently report difficulty finding it and resorting to email support.
+- type: forced contact
+  description: When online cancellation fails or is unavailable, users must email support to cancel, adding friction and delay to the process.
+retention_tactics:
+- Offers to pause deliveries or adjust delivery frequency.
+- May offer a significant discount (up to 50% off) on the next order.
+- Asks detailed questions about why you are leaving before processing the cancellation.
+direct_cancel_url: https://www.petplate.com/account
 free_alternatives: []
-notes: ""
+notes: PetPlate delivers vet-designed fresh dog food on a subscription basis, with plans customized by dog size and dietary needs. Pricing ranges from approximately $3-$10/day per dog depending on the meal plan and dog size. The cancellation experience is one of the weaker points — the cancel option is often hard to find in the dashboard, and many users report needing to email support to fully cancel. The order processing cutoff date is critical to avoid being charged for the next shipment. PetPlate competes with Ollie and The Farmer's Dog in the premium fresh dog food market. If you have trouble canceling online, email help@petplate.com and be specific about wanting to cancel, not just pause.

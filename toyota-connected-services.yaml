@@ -3,12 +3,25 @@ slug: toyota-connected-services
 url: https://www.toyota.com/connected-services
 category: automotive
 cancel_method: phone or online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-02-06'
+steps:
+- step: 1
+  instruction: Go to toyota.com/connected-services and sign in to your Toyota account.
+  note: null
+- step: 2
+  instruction: Navigate to Manage Services / Subscriptions and select the service to cancel. Toyota connected services include Remote Connect, Safety Connect, Wi-Fi Connect, Drive Connect (navigation), and Destination Assist.
+  note: null
+- step: 3
+  instruction: 'Alternatively, call Toyota Connected Services support: 1-800-331-4331. Phone may be required for some service types.'
+  note: null
+dark_patterns:
+- type: free trial auto-conversion
+  description: New Toyota vehicles include free trials of connected services (typically 1-3 years). When trials expire, services auto-convert to paid subscriptions. Many owners are surprised by the charge and don't realize they signed up.
+- type: multiple separate services
+  description: Toyota's connected services are sold as separate subscriptions (Remote Connect, Safety Connect, etc.), each billing and canceling independently. Owners may not know how many active subscriptions they have.
+retention_tactics:
+- May offer a discounted renewal rate.
+direct_cancel_url: https://www.toyota.com/connected-services
 free_alternatives: []
-notes: ""
+notes: Toyota connected services vary by model year and trim. Check toyota.com/connected-services to see which services are available for your specific vehicle. Free trial periods vary — Remote Connect may be 3 years free on newer models. After the trial, each service bills separately.

@@ -2,12 +2,42 @@ name: Talkspace
 slug: talkspace
 url: https://www.talkspace.com
 category: health
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'Determine your plan type: out-of-pocket (self-pay), insurance-covered, or employer/EAP benefits. The cancellation path differs for each. Out-of-pocket plans are the most straightforward to cancel online.'
+  note: null
+- step: 2
+  instruction: 'For out-of-pocket plans: Go to talkspace.com or open the Talkspace app, sign in, and navigate to account settings.'
+  note: null
+- step: 3
+  instruction: Select 'Manage Subscription' or 'Cancel Plan'. Talkspace will offer a pause option before full cancellation. You must click past the pause offer to reach full cancellation.
+  note: null
+- step: 4
+  instruction: 'For insurance or employer-covered plans: visit help.talkspace.com or contact Talkspace support for plan-specific cancellation instructions, as these are managed differently. Insurance-covered plans may require contacting your insurance provider or HR department instead.'
+  note: null
+- step: 5
+  instruction: Confirm cancellation. No refund is provided for unused time in the current billing period. Your therapy chat history remains accessible for a limited time after cancellation.
+  note: null
+dark_patterns:
+- type: emotional guilt framing
+  description: Cancellation messaging emphasizes the importance of continuing mental health care and may imply that stopping therapy is harmful, creating guilt around the cancellation decision.
+- type: forced pause interstitial
+  description: Presents a mandatory pause option screen before allowing users to proceed to full cancellation, requiring an extra step to decline.
+retention_tactics:
+- Offers a pause option (typically 1-3 months) before allowing full cancellation.
+- May offer a reduced rate or therapist change if dissatisfaction is cited as the reason for leaving.
+direct_cancel_url: https://help.talkspace.com/hc/en-us/articles/360000287366
+free_alternatives:
+- name: Open Path Collective
+  url: https://openpathcollective.org
+  note: Reduced-cost therapy ($30-$80/session) for those who qualify financially
+- name: SAMHSA National Helpline
+  url: https://www.samhsa.gov/find-help/national-helpline
+  note: 'Free 24/7 helpline: 1-800-662-4357 for mental health and substance abuse referrals'
+- name: 7 Cups (free)
+  url: https://www.7cups.com
+  note: Free emotional support through trained volunteer listeners
+notes: Talkspace plans range from approximately $69-$109/week for self-pay messaging therapy, with live sessions costing more. Insurance coverage varies by plan and state. The cancellation process is relatively clean for self-pay users but becomes significantly more complex for insurance or employer-sponsored plans, where Talkspace may direct you back to your benefits administrator. No prorated refunds are given for unused time within a billing period. Talkspace is publicly traded (TALK) and has faced scrutiny over therapist working conditions and data privacy practices. If you are in crisis, the 988 Suicide and Crisis Lifeline is available 24/7.

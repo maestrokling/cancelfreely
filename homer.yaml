@@ -2,13 +2,31 @@ name: Homer Reading
 slug: homer
 url: https://www.learnwithhomer.com
 category: kids
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to learnwithhomer.com and sign in, or open the Homer app. Cancel method depends on how you subscribed — direct, Apple, or Google Play.
+  note: null
+- step: 2
+  instruction: 'If subscribed directly: go to Account > Subscription > Cancel Subscription. If subscribed via Apple: Settings > [your name] > Subscriptions > Homer > Cancel. If via Google Play: Google Play > Profile > Payments & Subscriptions > Subscriptions > Homer > Cancel.'
+  note: null
+- step: 3
+  instruction: Confirm cancellation. Access continues through end of billing period. Your child's progress data is retained after cancellation.
+  note: null
+dark_patterns:
+- type: guilt trip / child-focused messaging
+  description: Cancellation flow references your child's learning progress and milestones, implying cancellation may interrupt their educational development.
+retention_tactics:
+- May offer a discounted rate or free trial extension during cancellation flow.
+- Highlights child's reading progress and streak data as a retention nudge.
+direct_cancel_url: https://www.learnwithhomer.com/account
+free_alternatives:
+- name: Khan Academy Kids
+  url: https://www.khanacademy.org/kids
+  note: Completely free early learning app for ages 2-8 with reading, math, and social-emotional content
+- name: Duolingo ABC
+  url: https://www.duolingo.com/abc
+  note: Free learn-to-read app for ages 3-7
+notes: Homer ($9.99/month or $59.99/year) is an early reading and learning app for children ages 2-8, developed by Begin (formerly Homer Learning). The app uses a personalized learning path based on your child's interests. Cancellation is generally clean but varies by subscription platform — direct website cancellations are the simplest, while app store subscriptions must be managed through Apple or Google. Homer was acquired by Begin in 2022, and some users have reported confusion about charges appearing under the Begin brand name.

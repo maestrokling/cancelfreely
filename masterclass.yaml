@@ -3,12 +3,34 @@ slug: masterclass
 url: https://www.masterclass.com
 category: education
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-03-15'
+steps:
+- step: 1
+  instruction: Go to masterclass.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Settings > Cancel Subscription (or 'Cancel Membership Renewal').
+  note: null
+- step: 3
+  instruction: MasterClass has a 30-day satisfaction guarantee — if within 30 days, contact support for a refund. After 30 days, no refund is available. Access continues through end of billing period.
+  note: null
+- step: 4
+  instruction: If subscribed via a third-party marketplace or gift card, MasterClass will not process cancellations — contact that marketplace directly.
+  note: null
+dark_patterns:
+- type: annual-only billing
+  description: MasterClass primarily sells annual plans. The renewal date arrives once a year, making it easy to forget to cancel before being charged for another full year.
+- type: third-party purchase exclusion
+  description: MasterClass explicitly disclaims responsibility for subscriptions purchased through third-party marketplaces — customers must handle cancellation through wherever they purchased.
+retention_tactics:
+- May offer a pause or discounted renewal.
+direct_cancel_url: https://www.masterclass.com/account
+free_alternatives:
+- name: YouTube (free)
+  url: https://www.youtube.com
+  note: Many MasterClass instructors also have free YouTube content
+- name: Skillshare (free trial)
+  url: https://www.skillshare.com
+  note: Creative skills platform
+notes: MasterClass ($120-$180/year) is annual-billed. Set a calendar reminder 30 days before renewal to decide whether to keep it. The 30-day guarantee is genuine. After the annual renewal date passes with no cancellation, you're committed to another full year.

@@ -3,12 +3,36 @@ slug: qustodio
 url: https://www.qustodio.com
 category: parental
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to family.qustodio.com and sign in to your parent account.
+  note: null
+- step: 2
+  instruction: Click on your profile name or avatar, then go to 'My account' or 'Subscription'.
+  note: null
+- step: 3
+  instruction: Look for 'Cancel subscription' or 'Turn off auto-renewal' and click it. If you purchased through Apple App Store or Google Play, you must cancel through those platforms instead.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Your premium features remain active until the end of the current billing period. After the paid period ends, your account reverts to the free tier (1 device, limited features). Parental controls on additional devices will stop working.
+  note: null
+dark_patterns:
+- type: emotional guilt framing
+  description: During cancellation, Qustodio frames the decision around child safety, implying that canceling could leave your children unprotected online.
+retention_tactics:
+- Presents child safety messaging during the cancellation flow to create guilt about removing protections.
+- May offer a discounted renewal or suggest downgrading to a smaller device plan.
+direct_cancel_url: https://family.qustodio.com/account
+free_alternatives:
+- name: Qustodio (free tier)
+  url: https://www.qustodio.com
+  note: Free for 1 device with basic web filtering and time limits
+- name: Google Family Link (free)
+  url: https://families.google.com/familylink/
+  note: Free parental controls for Android and Chromebook devices
+- name: Apple Screen Time (free)
+  url: https://support.apple.com/en-us/HT208982
+  note: Built-in parental controls for iPhone, iPad, and Mac
+notes: Qustodio is a cross-platform parental control service with plans ranging from $54.95/year (Small, 5 devices) to $137.95/year (Large, 15 devices). The cancellation process is straightforward online, though the emotional framing around child safety during the cancel flow is a notable retention tactic — it implies that canceling Qustodio could put your children at risk. Free alternatives like Google Family Link and Apple Screen Time provide solid basic parental controls at no cost, though they are platform-specific. After cancellation, the free tier continues to cover 1 device with limited monitoring. Users who subscribed through app stores must cancel through those platforms, which is a common source of confusion.

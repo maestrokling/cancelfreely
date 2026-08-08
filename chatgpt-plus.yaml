@@ -1,13 +1,37 @@
 name: ChatGPT Plus
 slug: chatgpt-plus
-url: https://chatgpt.com
+url: https://chat.openai.com
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-01-13'
+steps:
+- step: 1
+  instruction: Go to chat.openai.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon in the bottom left, then select 'Settings'.
+  note: null
+- step: 3
+  instruction: Go to 'Account' (not the 'Manage' button under payments — use the first 'Manage' button in the subscription section). Users report confusion between two 'Manage' buttons — use the one directly under your subscription details, not the payments section.
+  note: null
+- step: 4
+  instruction: Click 'Cancel plan' and confirm. Access continues through the end of the billing period. Reverts to the free tier (GPT-4o with usage limits).
+  note: null
+dark_patterns:
+- type: confusing UI navigation
+  description: Multiple 'Manage' buttons in the settings create confusion about which one leads to cancellation. Reddit users report spending significant time finding the correct path.
+retention_tactics:
+- None significant reported beyond standard confirmation screen.
+direct_cancel_url: https://chat.openai.com/settings
+free_alternatives:
+- name: ChatGPT (free tier)
+  url: https://chat.openai.com
+  note: Free access to GPT-4o with usage limits
+- name: Claude (free tier)
+  url: https://claude.ai
+  note: Free access to Claude with usage limits
+- name: Gemini (free)
+  url: https://gemini.google.com
+  note: Free Google AI assistant
+notes: ChatGPT Plus cancellation is relatively simple once you find the right button. The free tier of ChatGPT still includes GPT-4o access with usage caps. Deleting your account also cancels the subscription automatically.

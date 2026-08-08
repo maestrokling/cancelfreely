@@ -3,12 +3,32 @@ slug: github-copilot
 url: https://github.com/features/copilot
 category: ai-tools
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-05'
+steps:
+- step: 1
+  instruction: Go to github.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon > Settings > Billing and plans > Plans and usage.
+  note: null
+- step: 3
+  instruction: In the 'GitHub Copilot' section, click 'Manage subscription' > 'Cancel subscription'. Or downgrade to the free tier if you qualify (students, open source maintainers may have free access).
+  note: null
+- step: 4
+  instruction: Access continues through end of billing period.
+  note: null
+dark_patterns:
+- type: post-cancellation charges reported
+  description: Multiple GitHub community forum posts describe users who believed they canceled but continued to be charged for up to a year. The cancellation was processed via 'Downgrade to free' rather than an explicit cancel button, causing confusion. GitHub declined refunds in some cases.
+retention_tactics:
+- None significant.
+direct_cancel_url: https://github.com/settings/copilot
+free_alternatives:
+- name: GitHub Copilot (free tier)
+  url: https://github.com/features/copilot
+  note: Free tier with limited completions available for all users
+- name: Codeium (free)
+  url: https://codeium.com
+  note: Free AI code completion
+notes: GitHub Copilot Individual is $10/month. A free tier with limited completions was introduced in 2024. If you're only lightly using Copilot, check if the free tier meets your needs before canceling entirely. For teams/enterprise, cancellation goes through the organization billing settings.

@@ -3,12 +3,41 @@ slug: squarespace
 url: https://www.squarespace.com
 category: domains
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to squarespace.com and sign in to your account. You must be the site owner or have billing permissions.
+  note: null
+- step: 2
+  instruction: Navigate to Settings > Billing & Account > Cancel Site. Domain registrations are billed separately from website plans. Canceling your site plan does NOT cancel domain registrations.
+  note: null
+- step: 3
+  instruction: Squarespace will show what you will lose. Review and click 'Confirm Cancellation'. You may be offered a discount or pause option before reaching the final cancel button.
+  note: null
+- step: 4
+  instruction: 'Export your content before canceling: Settings > Advanced > Import / Export > Export. Squarespace exports to WordPress XML format. Images and files may need to be downloaded separately.'
+  note: null
+- step: 5
+  instruction: If you have a domain registered through Squarespace, manage it separately under Domains. You can transfer it to another registrar. Domains registered through Squarespace continue to renew independently of your site plan.
+  note: null
+dark_patterns:
+- type: loss aversion messaging
+  description: Shows a detailed summary of site statistics, pages, and content that will be lost, along with a countdown of days until site deletion, to create anxiety about canceling.
+- type: separate domain billing confusion
+  description: Domain registrations and website plans are billed separately with different cancellation paths, leading many users to believe they have fully canceled when they are still being charged for domain renewals.
+retention_tactics:
+- Offers a pause option or discounted rate when cancellation is initiated.
+- Displays site traffic statistics and content counts during the cancellation flow to remind users of invested effort.
+direct_cancel_url: https://support.squarespace.com/hc/en-us/articles/205815428
+free_alternatives:
+- name: WordPress.com (free tier)
+  url: https://wordpress.com
+  note: Free website with wordpress.com subdomain, limited storage
+- name: Cloudflare Pages (free)
+  url: https://pages.cloudflare.com
+  note: Free static site hosting with global CDN
+- name: Carrd (free tier)
+  url: https://carrd.co
+  note: Free single-page responsive websites
+notes: Squarespace plans range from $16/month (Personal) to $49/month (Commerce Advanced), billed annually, with monthly billing costing more. The most common cancellation pitfall is the separation between website plans and domain registrations -- many users cancel their site plan but continue to be charged for domain auto-renewal. Squarespace acquired Google Domains in 2023, bringing millions of domain-only customers onto the platform. Content export is limited to WordPress XML format, and some elements like custom CSS, galleries, and scheduling data do not export cleanly. Sites are recoverable for 30 days after cancellation before permanent deletion.

@@ -3,12 +3,44 @@ slug: udemy-pro
 url: https://www.udemy.com
 category: education
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to udemy.com and sign in to your account. If you subscribed via Apple App Store or Google Play, cancel through those platforms instead.
+  note: null
+- step: 2
+  instruction: Click your profile icon in the top right, then go to 'Subscriptions' or 'Account Settings'.
+  note: null
+- step: 3
+  instruction: Find your active subscription plan (Personal Plan or Pro) and click 'Cancel subscription'.
+  note: null
+- step: 4
+  instruction: Select a cancellation reason, then confirm cancellation. Access continues through the end of the billing period. Courses you purchased individually (outside the subscription) are yours permanently.
+  note: null
+- step: 5
+  instruction: Download any course certificates or completion records you want to keep before your access expires. Subscription course progress and certificates may not be accessible after cancellation.
+  note: null
+dark_patterns:
+- type: loss aversion with progress
+  description: During cancellation, Udemy displays your course progress, certificates earned, and learning streaks to create anxiety about losing access to in-progress learning.
+- type: confusing plan distinction
+  description: The difference between individually purchased courses (permanent) and subscription-access courses (lost on cancellation) is not always clear, leading users to fear losing all their courses.
+retention_tactics:
+- May offer a discounted renewal rate or extended trial when price is cited as the cancellation reason.
+- Displays learning statistics and progress during the cancellation flow to remind users of invested effort.
+direct_cancel_url: https://www.udemy.com/home/account-security/
+free_alternatives:
+- name: Udemy (individual course purchase)
+  url: https://www.udemy.com
+  note: Individual courses frequently on sale for $10-15 and are owned permanently without subscription
+- name: YouTube (free tutorials)
+  url: https://www.youtube.com
+  note: Extensive free video tutorials on virtually any topic
+- name: Khan Academy (free)
+  url: https://www.khanacademy.org
+  note: Completely free comprehensive education platform
+- name: freeCodeCamp (free)
+  url: https://www.freecodecamp.org
+  note: Free coding and web development courses with certifications
+notes: Udemy's Personal Plan subscription costs approximately $16.58/month (billed annually) or $29.99/month (billed monthly) and provides unlimited access to a curated catalog of courses. This is distinct from Udemy's individual course marketplace where courses are purchased once and owned permanently. Canceling the subscription does not affect individually purchased courses -- those remain in your account forever. The subscription model was introduced relatively recently and competes with platforms like Coursera Plus and LinkedIn Learning. Udemy frequently runs sales where individual courses drop to $10-15, which may be more cost-effective than the subscription for users who only need a few specific courses.

@@ -1,13 +1,29 @@
 name: Blue Apron
 slug: blue-apron
 url: https://www.blueapron.com
-category: shopping
+category: subscription-boxes
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2025-12-18'
+steps:
+- step: 1
+  instruction: Go to blueapron.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to 'Account' > 'Plan Settings'.
+  note: null
+- step: 3
+  instruction: Scroll to the bottom of the page. Look for 'Cancel Plan' — it may appear as a small 'click here' link below pause options. Blue Apron surfaces pause options (4, 6, 8, or 10 weeks) prominently before the cancel link, which is in smaller text at the bottom.
+  note: null
+- step: 4
+  instruction: ⚠️ Cancel at least 6 days before your next delivery date to avoid being charged for it.
+  note: null
+dark_patterns:
+- type: de-emphasized cancel link
+  description: The cancel link is placed in small text at the bottom of the plan settings page, below prominently displayed pause options. Users must scroll past multiple retention alternatives to find it.
+retention_tactics:
+- Offers delivery pauses (4–10 weeks) as primary alternative to canceling.
+- May offer a discounted box.
+direct_cancel_url: https://www.blueapron.com/account/plan_settings
 free_alternatives: []
-notes: ""
+notes: 'Blue Apron cancellation deadline: 6 days before next delivery to avoid charge. Blue Apron has had ongoing financial difficulties — the company has gone through multiple restructurings. If you''re on a promotional rate, it may not be available again after canceling.'

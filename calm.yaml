@@ -2,12 +2,33 @@ name: Calm
 slug: calm
 url: https://www.calm.com
 category: health
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: app store or web
+friction_score: 2
+last_verified: '2026-02-10'
+steps:
+- step: 1
+  instruction: ⚠️ Uninstalling the Calm app does NOT cancel your subscription.
+  note: null
+- step: 2
+  instruction: 'iOS: Settings > [your name] > Subscriptions > Calm > Cancel Subscription.'
+  note: null
+- step: 3
+  instruction: 'Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Calm > Cancel.'
+  note: null
+- step: 4
+  instruction: 'Web (if subscribed directly): calm.com > Profile > Settings > Manage Subscription > Cancel.'
+  note: null
+dark_patterns:
+- type: app deletion doesn't cancel
+  description: Uninstalling Calm does not cancel the subscription. Must cancel through the originating platform.
+retention_tactics:
+- None significant.
+direct_cancel_url: https://support.calm.com/hc/en-us/articles/115002473607
+free_alternatives:
+- name: Headspace (free tier)
+  url: https://www.headspace.com
+  note: Limited free content
+- name: Insight Timer (free)
+  url: https://insighttimer.com
+  note: Large free library of guided meditations
+notes: Calm is a meditation and sleep app ($14.99/month or $69.99/year). Standard app store cancellation applies. Cancel method depends entirely on where you subscribed.

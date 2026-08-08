@@ -1,0 +1,37 @@
+name: Crunchyroll
+slug: crunchyroll
+url: https://www.crunchyroll.com
+category: streaming
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to crunchyroll.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon > 'Manage Premium' > 'Cancel Membership'. If subscribed via Apple, Google, Amazon, or Roku, you must cancel through that platform instead.
+  note: null
+- step: 3
+  instruction: Select a cancellation reason and confirm. Access continues through end of billing period.
+  note: null
+dark_patterns:
+- type: free tier elimination
+  description: Crunchyroll eliminated its free ad-supported tier on December 31, 2025, removing the fallback option that previously let users watch with ads. Cancellation now means losing all access to the catalog.
+- type: platform-specific cancellation
+  description: Users who subscribed through third-party platforms (Apple, Google, Roku, Amazon) cannot cancel through the Crunchyroll website — they must navigate to the platform's subscription management, which many users don't realize.
+retention_tactics:
+- Shows upcoming seasonal anime releases you'll miss.
+- May offer a downgrade to a lower tier (Fan vs Mega Fan).
+direct_cancel_url: https://www.crunchyroll.com/account/membership
+free_alternatives:
+- name: Tubi (free)
+  url: https://www.tubi.tv
+  note: Free ad-supported streaming with a growing anime selection
+- name: Pluto TV (free)
+  url: https://pluto.tv
+  note: Free streaming with dedicated anime channels
+- name: RetroCrush (free)
+  url: https://www.retrocrush.tv
+  note: Free ad-supported classic anime streaming
+notes: 'Crunchyroll ($7.99-$14.99/month depending on tier: Fan, Mega Fan, Ultimate Fan) is the dominant anime streaming platform following its merger with Funimation. The elimination of the free ad-supported tier on December 31, 2025 was a significant change — subscription is now required for any access. If you subscribed through a third-party app store, you must cancel through that platform''s subscription management. Crunchyroll is owned by Sony (via Funimation Global Group) and holds exclusive streaming rights for many major anime titles.'

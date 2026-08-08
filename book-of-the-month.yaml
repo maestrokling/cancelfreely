@@ -1,13 +1,38 @@
 name: Book of the Month
 slug: book-of-the-month
 url: https://www.bookofthemonth.com
-category: subscription-box
+category: subscription-boxes
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to bookofthemonth.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Membership settings.
+  note: null
+- step: 3
+  instruction: Select 'Cancel membership' and follow the prompts. Consider using the free 'Skip' option instead if you just need a break.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Any unused book credits are forfeited upon cancellation. Redeem them before canceling.
+  note: null
+dark_patterns:
+- type: skip-before-cancel maze
+  description: The cancellation flow strongly pushes the 'Skip a Month' option multiple times before allowing actual cancellation, making it unclear how to fully cancel.
+- type: credit forfeiture
+  description: Unused book credits (from add-on purchases or accumulated months) are forfeited upon cancellation. This creates sunk-cost pressure to stay subscribed.
+retention_tactics:
+- Prominently highlights the free skip option as an alternative to cancellation.
+- Shows unused book credits that will be lost.
+- May offer a discounted rate or bonus credit to stay.
+direct_cancel_url: https://www.bookofthemonth.com/my-account
+free_alternatives:
+- name: Libby (free with library card)
+  url: https://www.libbyapp.com
+  note: Free ebooks and audiobooks from your local library
+- name: Project Gutenberg
+  url: https://www.gutenberg.org
+  note: Free classic books in digital format
+notes: Book of the Month ($16.99/month) sends one hardcover book per month chosen from a curated selection of 5-7 new releases. The skip option is genuinely free and useful — you can skip unlimited months with no penalty. However, the cancellation flow pushes skip so aggressively that it functions as a soft dark pattern. Unused book credits are forfeited upon cancellation, so redeem any accrued credits before canceling. BOTM was acquired by Zola in 2021 and continues to operate as a standalone brand.

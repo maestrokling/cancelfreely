@@ -1,0 +1,35 @@
+name: WeightWatchers (WW)
+slug: weight-watchers
+url: https://www.weightwatchers.com
+category: health
+cancel_method: online or phone
+friction_score: 3
+last_verified: '2026-02-12'
+steps:
+- step: 1
+  instruction: Go to weightwatchers.com/us/cancellation or log in and go to Account > Membership > Cancel.
+  note: null
+- step: 2
+  instruction: 'If online cancellation isn''t available for your plan, call WW: 1-800-651-6000. Some plan types require phone cancellation. This takes roughly 20 minutes including hold time.'
+  note: null
+- step: 3
+  instruction: If subscribed via Apple or Google, cancel through those platforms instead.
+  note: null
+- step: 4
+  instruction: Ask about your refund eligibility — WW's refund policy varies by plan and region.
+  note: null
+dark_patterns:
+- type: phone-required for some plans
+  description: Some WW subscription types cannot be canceled online and require a phone call. The plan-specific path is not surfaced clearly before signup.
+retention_tactics:
+- May offer a discounted renewal or a plan pause.
+- May offer a lower-cost plan tier.
+direct_cancel_url: https://www.weightwatchers.com/us/cancellation
+free_alternatives:
+- name: MyFitnessPal (free tier)
+  url: https://www.myfitnesspal.com
+  note: Free calorie tracking and food logging
+- name: Lose It! (free tier)
+  url: https://www.loseit.com
+  note: Free weight and calorie tracking
+notes: WW rebranded from Weight Watchers in 2018. The cancellation process varies by plan type — some require phone. Average cancellation takes about 20 minutes. WW filed for bankruptcy in 2024 and emerged; the service continues to operate.

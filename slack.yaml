@@ -3,11 +3,41 @@ slug: slack
 url: https://slack.com
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Sign into your Slack workspace on desktop at slack.com. You must be a Workspace Owner or the person who originally upgraded the workspace. Workspace Admins cannot cancel.
+  note: null
+- step: 2
+  instruction: Click your workspace name in the top left, then select 'Tools & settings' > 'Workspace settings'. This opens in a browser window even if you started from the desktop app.
+  note: null
+- step: 3
+  instruction: Go to the 'Billing' tab.
+  note: null
+- step: 4
+  instruction: Select 'Cancel plan' or 'Switch to Free' to downgrade to the free tier. On annual plans, unused months may be refunded pro-rata depending on your agreement. On monthly plans, access continues through the end of the billing period.
+  note: null
+- step: 5
+  instruction: Confirm the downgrade. Your workspace reverts to the free plan with 90-day message history. Messages older than 90 days become hidden (not deleted) on the free plan. Re-upgrading restores full history.
+  note: null
+dark_patterns:
+- type: data loss anxiety
+  description: Warns that you will lose access to message history beyond 90 days, creating urgency around potential data loss even though messages are retained and restored upon re-upgrading.
+- type: buried cancellation path
+  description: Cancel option requires navigating through workspace settings in a browser rather than being accessible from the main app interface, and is restricted to Workspace Owners only.
+retention_tactics:
+- May offer a discounted plan or extended trial period when cancellation is initiated.
+- Prominently displays a summary of workspace activity and integrations that will be affected by downgrading.
+direct_cancel_url: https://slack.com/intl/en-us/help/articles/48764458651795
+free_alternatives:
+- name: Slack (free tier)
+  url: https://slack.com
+  note: Free tier with 90-day message history, 10 app integrations, and 1:1 huddles
+- name: Discord (free)
+  url: https://discord.com
+  note: Free team communication with unlimited message history, voice channels, and screen sharing
+- name: Mattermost (free, self-hosted)
+  url: https://mattermost.com
+  note: Open-source Slack alternative with unlimited history when self-hosted
+notes: Slack Pro costs $8.75/user/month (billed annually) or $10.50/user/month (billed monthly), with Business+ at $15/user/month. The free tier is functional for small teams but the 90-day message history limit is the primary pain point driving upgrades. Cancellation requires Workspace Owner permissions, which can be a blocker in organizations where ownership has changed hands or the original upgrader has left. Slack was acquired by Salesforce in 2021, and enterprise contracts may have different cancellation terms. Pro-rata refunds on annual plans are handled case-by-case through Slack support.

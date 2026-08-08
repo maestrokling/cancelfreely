@@ -2,12 +2,30 @@ name: DoorDash DashPass
 slug: doordash-dashpass
 url: https://www.doordash.com/dashpass
 category: shopping
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: "https://help.doordash.com/en-us/consumers/article/how-do-i-cancel-my-dashpass-subscription"
-free_alternatives: []
-notes: ""
+cancel_method: online or app
+friction_score: 2
+last_verified: '2026-02-20'
+steps:
+- step: 1
+  instruction: Open the DoorDash app or go to doordash.com and sign in.
+  note: null
+- step: 2
+  instruction: Tap your profile icon > DashPass > Manage DashPass.
+  note: null
+- step: 3
+  instruction: Select 'Cancel DashPass' and confirm. If subscribed via Apple App Store or Google Play, cancel through those platforms instead.
+  note: null
+- step: 4
+  instruction: Access continues through end of billing period.
+  note: null
+dark_patterns:
+- type: mobile billing redirect
+  description: Users who subscribed via iOS or Android must cancel through Apple/Google, not the DoorDash app or website.
+retention_tactics:
+- May offer a discounted rate or free month.
+direct_cancel_url: https://help.doordash.com/en-us/consumers/article/how-do-i-cancel-my-dashpass-subscription
+free_alternatives:
+- name: DoorDash (no subscription)
+  url: https://www.doordash.com
+  note: Order without DashPass — delivery fees apply per order
+notes: DashPass is a low-friction cancel. Watch for the mobile billing redirect if you subscribed through an app store. DashPass is also bundled with some Chase credit cards — if you have a Chase Sapphire or similar, you may have DashPass included.

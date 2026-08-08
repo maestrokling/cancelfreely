@@ -1,13 +1,34 @@
 name: HelloFresh
 slug: hellofresh
 url: https://www.hellofresh.com
-category: shopping
+category: subscription-boxes
 cancel_method: online
-friction_score: null
-last_verified: 2026-04-11
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-03-15'
+steps:
+- step: 1
+  instruction: Go to hellofresh.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon > 'Account Settings' > scroll down to 'Plan Settings'.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Plan' and work through the cancellation flow. HelloFresh presents reason-based retention screens — the content varies based on your stated reason for leaving. Stay firm and keep clicking through.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. You'll receive an email confirming cancellation. ⚠️ Cancel by 11:59 PM (local time) 5 days before your next delivery to avoid being charged for it.
+  note: null
+dark_patterns:
+- type: reason-based retention screens
+  description: HelloFresh's cancellation flow customizes retention offers based on your stated reason for canceling — e.g., if you cite 'too much packaging,' they show a screen about their sustainability efforts. Each reason triggers a tailored counter-argument before you reach the final cancel button.
+- type: cancellation deadline obscured
+  description: HelloFresh requires cancellation 5 days before the next delivery to avoid charges. This deadline is not prominently surfaced during cancellation.
+- type: historical dark patterns (settled)
+  description: HelloFresh paid a $7.5M California settlement in 2025 for inadequate renewal disclosures and cancellation friction. The current flow has improved but still includes retention screens.
+retention_tactics:
+- Offers a pause instead of canceling (2-6 weeks).
+- Offers a significant discount on the next box.
+- Shows tailored messaging based on your cancellation reason.
+direct_cancel_url: https://www.hellofresh.com/plans
 free_alternatives: []
-notes: ""
+notes: Cancel at least 5 days before your next scheduled delivery to avoid being charged. HelloFresh paid $7.5M to California in 2025 over dark pattern practices. The flow has improved post-settlement but still has more friction than necessary.

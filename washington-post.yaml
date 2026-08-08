@@ -3,11 +3,35 @@ slug: washington-post
 url: https://www.washingtonpost.com
 category: news
 cancel_method: online or chat
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-04-02'
+steps:
+- step: 1
+  instruction: Go to washingtonpost.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon, then go to 'Account' > 'Manage subscription'.
+  note: null
+- step: 3
+  instruction: Look for 'Cancel subscription' — if not visible, use the live chat at help.washingtonpost.com. Some subscription types require chat to cancel.
+  note: null
+- step: 4
+  instruction: Chat agents will make retention offers. State clearly you want to cancel and do not want a discounted rate.
+  note: null
+dark_patterns:
+- type: chat-required cancellation
+  description: Online self-service cancellation is not available for all subscribers. Many are routed to live chat, where retention agents make offers before processing cancellation.
+- type: introductory pricing trap
+  description: WaPo heavily promotes introductory rates ($1-4/month for 4-12 weeks) that auto-renew at $12-17/month. Subscriber churn has been significant following Bezos editorial changes.
+retention_tactics:
+- Chat agents offer discounted rates (often $1-4/month) to stay.
+- Offers a temporary pause instead of canceling.
+direct_cancel_url: https://account.washingtonpost.com/subscription-management/
+free_alternatives:
+- name: AP News
+  url: https://apnews.com
+  note: Free wire service
+- name: Public libraries
+  url: null
+  note: Many libraries offer free WaPo digital access
+notes: WaPo experienced multiple waves of mass subscriber cancellations in 2025 following editorial changes by owner Jeff Bezos. Cancellation friction is typical for major newspaper subscriptions. Library access is widely available.

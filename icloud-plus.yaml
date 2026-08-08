@@ -1,13 +1,34 @@
 name: iCloud+
 slug: icloud-plus
-url: https://www.apple.com/icloud
-category: cloud
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+url: https://www.apple.com/icloud/
+category: cloud-storage
+cancel_method: device or online
+friction_score: 2
+last_verified: '2025-11-18'
+steps:
+- step: 1
+  instruction: 'On iPhone/iPad: Go to Settings > [your name] > iCloud > Manage Account Storage > Change Storage Plan > Downgrade Options > select Free.'
+  note: null
+- step: 2
+  instruction: 'On Mac: System Settings > [your name] > iCloud > Manage > Change Storage Plan > Downgrade Options.'
+  note: null
+- step: 3
+  instruction: 'Without an Apple device: Go to appleid.apple.com, sign in, then manage subscriptions.'
+  note: null
+- step: 4
+  instruction: ⚠️ Downgrading takes effect at the end of the billing period. Files above the free 5GB limit won't be deleted immediately, but new uploads and iCloud backups will stop working until you're under the limit.
+  note: null
+dark_patterns:
+- type: data loss risk obscured
+  description: Apple's cancellation flow doesn't prominently surface what happens to data above 5GB after downgrade. Users who don't clean up first may lose access to backups and find devices can't back up.
+retention_tactics:
+- None — Apple's flow is clean.
+direct_cancel_url: https://support.apple.com/en-us/108318
+free_alternatives:
+- name: iCloud (free 5GB)
+  url: https://www.icloud.com
+  note: Free 5GB with Apple ID
+- name: Google Photos (free 15GB)
+  url: https://photos.google.com
+  note: Free 15GB for photos/videos
+notes: iCloud+ plans start at $0.99/month for 50GB. Before downgrading, clean out iCloud Drive, delete old device backups, and optimize photo storage. Family Sharing members share the same storage plan — downgrading affects everyone.

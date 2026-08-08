@@ -3,12 +3,33 @@ slug: ring-protect
 url: https://ring.com
 category: home-services
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to ring.com/account and sign in, or open the Ring app on your phone.
+  note: null
+- step: 2
+  instruction: Navigate to Account > Subscriptions (web) or tap the menu icon > Account > Subscriptions (app).
+  note: null
+- step: 3
+  instruction: Select the Ring Protect plan you want to cancel and click 'Cancel Plan'. If you have multiple Ring devices, you may have per-device Basic plans or a whole-home Plus/Pro plan.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. No contract, no early termination fee. After canceling, Ring cameras continue to work for live viewing and motion alerts. You lose cloud video recording, video history, and person detection features. Existing saved videos will be deleted after the plan expires.
+  note: null
+dark_patterns:
+- type: functionality degradation warning
+  description: Ring emphasizes during cancellation that your cameras will lose cloud recording and video history, creating anxiety about home security gaps even though live viewing still works.
+retention_tactics:
+- Shows a summary of how many videos were captured and events detected, emphasizing the value of cloud recording.
+- May offer an annual plan discount if you are on a monthly plan.
+direct_cancel_url: https://account.ring.com/account/subscriptions
+free_alternatives:
+- name: Ring (no subscription)
+  url: https://ring.com
+  note: Ring devices still work for live viewing and motion alerts without a plan — you just lose cloud video storage and history
+- name: Wyze Cam (affordable alternative)
+  url: https://www.wyze.com
+  note: Budget security cameras with free cloud storage for short clips and optional affordable subscription
+notes: 'Ring Protect has three tiers: Basic ($4.99/month per device), Plus ($10/month for all devices at one address, includes extended warranty), and Pro ($20/month, adds 24/7 professional monitoring and Alarm features). Ring is owned by Amazon, which has faced scrutiny over Ring''s partnerships with law enforcement and privacy practices. No contract or early termination fee — cancellation is clean. The key consideration is that without a subscription, Ring cameras still function for real-time video and alerts but cannot save footage to the cloud, which means you lose the ability to review past events. Ring has been adding features to push users toward the higher-tier Pro plan, including video verification for Ring Alarm. Annual plans offer a discount over monthly billing.'

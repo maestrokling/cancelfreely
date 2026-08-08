@@ -3,12 +3,39 @@ slug: replit-pro
 url: https://replit.com
 category: ai-tools
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to replit.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Click your username or avatar in the left sidebar, then select 'Account'.
+  note: null
+- step: 3
+  instruction: Go to the 'Plans & billing' or 'Billing' section.
+  note: null
+- step: 4
+  instruction: Click 'Cancel subscription' or 'Downgrade to Free' and confirm. Your existing projects (Repls) remain accessible on the free tier. Private Repls may become read-only or public depending on current free tier policies.
+  note: null
+- step: 5
+  instruction: Access continues through the end of your billing period. Free tier projects remain accessible but with reduced compute resources and storage limits.
+  note: null
+dark_patterns:
+- type: loss aversion / feature removal warning
+  description: During cancellation, Replit shows a detailed list of Pro features you will lose, including private Repls, AI coding assistance credits, and compute power, framing the downgrade as a significant loss.
+retention_tactics:
+- Shows a feature comparison highlighting what you lose on the free tier.
+- May offer a discounted rate or additional AI credits to retain you.
+direct_cancel_url: https://replit.com/account
+free_alternatives:
+- name: Replit (free tier)
+  url: https://replit.com
+  note: Free browser-based coding with public projects and limited compute
+- name: GitHub Codespaces (free tier)
+  url: https://github.com/features/codespaces
+  note: 60 free core-hours/month of cloud development environments
+- name: VS Code (free)
+  url: https://code.visualstudio.com
+  note: Free local code editor with extensive extension ecosystem
+notes: Replit has restructured its pricing multiple times. The current Pro plan (approximately $20-25/month) includes private Repls, enhanced AI coding features (Ghostwriter/Agent), more compute power, and additional storage. Replit has pivoted heavily toward AI-assisted development, making AI credits a central part of the Pro value proposition. Cancellation is online and relatively straightforward, though the feature-loss summary during the cancel flow creates some friction. The free tier remains useful for learning and public projects but has significant compute and storage limitations. Replit's pricing and feature tiers have changed frequently, so the exact offerings at cancellation time may differ from what was advertised at sign-up.

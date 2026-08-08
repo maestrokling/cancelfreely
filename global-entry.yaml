@@ -3,12 +3,24 @@ slug: global-entry
 url: https://www.cbp.gov/travel/trusted-traveler-programs/global-entry
 category: travel
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Global Entry is not a recurring subscription — it's a 5-year enrollment ($120). To not renew, simply let it expire.
+  note: null
+- step: 2
+  instruction: 'To cancel an active application: log into the Trusted Traveler Programs portal at ttp.cbp.dhs.gov. Application fees are non-refundable once submitted.'
+  note: null
+- step: 3
+  instruction: 'To revoke an active membership: contact CBP through ttp.cbp.dhs.gov. Global Entry includes TSA PreCheck — letting Global Entry lapse means losing both benefits.'
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: "Not a recurring subscription; renewal every 5 years."
+retention_tactics:
+- None — this is a government program with no commercial retention tactics.
+direct_cancel_url: https://ttp.cbp.dhs.gov
+free_alternatives:
+- name: TSA PreCheck (standalone)
+  url: https://www.tsa.gov/precheck
+  note: $78 for 5 years — domestic-only expedited screening without customs benefits
+notes: Global Entry ($120 for 5 years, or $24/year effective) includes TSA PreCheck and expedited customs re-entry for international travelers. It's a government program run by U.S. Customs and Border Protection — no dark patterns, no retention tactics, no auto-renewal. Many premium credit cards (Chase Sapphire Reserve, Amex Platinum, Capital One Venture X, etc.) reimburse the enrollment fee as a cardholder benefit. Renewal requires a new application and may require a new interview. The program has expanded enrollment centers and reduced wait times since 2023.

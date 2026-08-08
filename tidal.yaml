@@ -2,13 +2,39 @@ name: Tidal
 slug: tidal
 url: https://tidal.com
 category: music
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'Determine how you subscribed: directly through Tidal, via Apple App Store, or via Google Play. The cancellation method depends on this. If you subscribed through a mobile app store, you must cancel through that platform, not through Tidal''s website.'
+  note: null
+- step: 2
+  instruction: 'For direct Tidal subscriptions: Go to tidal.com and sign in. Click your profile icon > Account > Subscription.'
+  note: null
+- step: 3
+  instruction: Click 'Cancel subscription' and confirm. Access continues through the end of the billing period. Your playlists, favorites, and listening history are retained if you resubscribe later.
+  note: null
+- step: 4
+  instruction: 'For Apple: Settings > [your name] > Subscriptions > Tidal > Cancel. For Google Play: Play Store > Profile > Payments & subscriptions > Subscriptions > Tidal > Cancel.'
+  note: null
+dark_patterns:
+- type: loss aversion with audio quality
+  description: During cancellation, Tidal emphasizes that you will lose access to lossless and hi-res audio quality, targeting audiophile identity and the sunk cost of curated playlists.
+- type: downgrade confusion
+  description: Tidal's tier restructuring (from HiFi/HiFi Plus to Individual/Duo/Family) has created confusion about what plan you are on and what you are actually canceling.
+retention_tactics:
+- May offer a discounted rate or extended free trial period during the cancellation flow.
+- Presents a plan downgrade option as an alternative to full cancellation.
+direct_cancel_url: https://tidal.com/account/subscription
+free_alternatives:
+- name: Spotify (free tier)
+  url: https://www.spotify.com
+  note: Free with ads and shuffle-only on mobile
+- name: YouTube Music (free tier)
+  url: https://music.youtube.com
+  note: Free ad-supported music streaming
+- name: Apple Music (free trial)
+  url: https://music.apple.com
+  note: 1-month free trial, then $10.99/month
+notes: Tidal costs $10.99/month for Individual or $16.99/month for Family plans, with all tiers now including lossless HiFi audio quality after their 2023-2024 plan restructuring. Tidal differentiates on audio quality, offering lossless FLAC and Dolby Atmos tracks. The service underwent significant ownership changes -- originally owned by Jay-Z's Project Panther, then majority-acquired by Block (formerly Square) in 2021, with further restructuring in 2024-2025. Cancellation is straightforward for direct subscribers but requires app store management for mobile subscribers. Your library and playlists persist after cancellation and are restored if you resubscribe.

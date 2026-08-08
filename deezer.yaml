@@ -2,13 +2,34 @@ name: Deezer
 slug: deezer
 url: https://www.deezer.com
 category: music
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to deezer.com and sign in. If subscribed via Apple, Google Play, or PayPal, cancel through those platforms.
+  note: null
+- step: 2
+  instruction: Go to Account > Subscription > Cancel subscription.
+  note: null
+- step: 3
+  instruction: Select a reason and confirm cancellation. Access continues through end of billing period. Your playlists and favorites are preserved on the free tier.
+  note: null
+dark_patterns:
+- type: download loss
+  description: All music downloaded for offline listening becomes unplayable after cancellation. The free tier restricts to shuffle-only on mobile.
+retention_tactics:
+- Shows upcoming features and content you'll lose access to.
+- May offer a discounted rate during the cancellation flow.
+direct_cancel_url: https://www.deezer.com/account/subscription
+free_alternatives:
+- name: Deezer (free tier)
+  url: https://www.deezer.com
+  note: Free with ads and shuffle-only on mobile
+- name: Spotify (free tier)
+  url: https://www.spotify.com
+  note: Free with ads and shuffle-only on mobile
+- name: YouTube Music (free tier)
+  url: https://music.youtube.com
+  note: Free with ads
+notes: Deezer Premium ($10.99/month) offers ad-free listening with offline downloads and on-demand playback. Deezer is more popular in Europe, Latin America, and Africa than in the US. Before canceling, export your playlists using Deezer's built-in export feature or a third-party tool like Soundiiz or TuneMyMusic to migrate playlists to Spotify, Apple Music, or YouTube Music. The free tier preserves your library and playlists but reverts to shuffle mode on mobile.

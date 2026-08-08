@@ -3,11 +3,44 @@ slug: evernote
 url: https://evernote.com
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to evernote.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon, then go to 'Settings' > 'Billing'.
+  note: null
+- step: 3
+  instruction: Click 'Cancel subscription' and follow the prompts. If subscribed via Apple App Store or Google Play, cancel through those platforms instead.
+  note: null
+- step: 4
+  instruction: 'IMPORTANT: Export your notes before cancellation if you have more than 50 notes. The free tier limits you to 1 notebook and 50 notes. Use File > Export All Notes to save in ENEX format. Consider importing to Notion, Obsidian, or OneNote.'
+  note: null
+dark_patterns:
+- type: crippled free tier
+  description: The free tier was drastically reduced to 1 notebook and 50 notes, making it essentially unusable as a fallback. Users with years of notes face losing access to their data unless they pay or export.
+- type: data hostage
+  description: Notes beyond the free tier limit become inaccessible (not deleted, but locked behind the paywall). Users must either continue paying or go through the export process to retrieve their own data.
+- type: export friction
+  description: While export exists, it's not prominently featured and the ENEX format requires third-party tools to import into competing services, adding friction to leaving.
+retention_tactics:
+- May offer a discounted rate during cancellation flow.
+- Shows how many notes exceed the free tier limit, creating urgency.
+- Highlights features like search, offline access, and PDF annotation you'll lose.
+direct_cancel_url: https://www.evernote.com/Settings.action
+free_alternatives:
+- name: Notion (free tier)
+  url: https://www.notion.so
+  note: Free for personal use with generous limits — supports ENEX import
+- name: Obsidian (free)
+  url: https://obsidian.md
+  note: Free local-first markdown note-taking app
+- name: Apple Notes
+  url: null
+  note: Free, built into Apple devices, syncs via iCloud
+- name: Google Keep
+  url: https://keep.google.com
+  note: Free note-taking with Google account
+notes: Evernote ($14.99/month Personal, $17.99/month Professional) has undergone significant changes including acquisition by Bending Spoons in 2023, layoffs of most staff, and drastic free tier limitations (1 notebook, 50 notes). The crippled free tier is widely considered one of the most aggressive dark patterns in the productivity space — users with years of accumulated notes are effectively forced to pay or lose access. Before canceling, export all notes in ENEX format and import into an alternative like Notion (which has a built-in ENEX importer) or Obsidian. Given Evernote's uncertain future, exporting your data is advisable regardless of whether you plan to cancel.

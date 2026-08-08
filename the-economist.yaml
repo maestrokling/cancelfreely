@@ -3,11 +3,35 @@ slug: the-economist
 url: https://www.economist.com
 category: news
 cancel_method: phone or email
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 4
+last_verified: '2026-02-15'
+steps:
+- step: 1
+  instruction: Go to economist.com and sign in, then go to your account/subscription settings. Online self-service cancellation is not available for most subscribers.
+  note: null
+- step: 2
+  instruction: Use live chat (when available) at economist.com/help, or email customerservices@economist.com.
+  note: null
+- step: 3
+  instruction: 'Alternatively, call The Economist customer service (number varies by region — find it on their help page). US: 1-800-456-6086'
+  note: null
+- step: 4
+  instruction: State you want to cancel. Agents will attempt retention offers including extended free trials.
+  note: null
+dark_patterns:
+- type: no self-service cancellation
+  description: The Economist does not offer a straightforward online self-service cancel button for most subscribers. Users must contact support via chat, email, or phone. Trustpilot reviewers describe taking up to 30 minutes to cancel a free trial via chat.
+- type: multi-screen retention flow
+  description: During cancellation, multiple screens communicate the 'value' of the subscription. The continue-to-cancel button becomes progressively less prominent as you advance.
+retention_tactics:
+- Offers an extended free trial (1-2 months) to delay cancellation.
+- Offers a heavily discounted renewal rate.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: Reuters
+  url: https://www.reuters.com
+  note: Free global news
+- name: BBC News
+  url: https://www.bbc.com/news
+  note: Free global news coverage
+notes: The Economist's cancellation friction is well-documented. Chat is generally faster than phone or email. Be persistent — agents are trained to offer trials and discounts before processing cancellation. Email cancellation may take several business days to confirm.

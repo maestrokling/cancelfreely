@@ -1,13 +1,34 @@
 name: Birchbox
 slug: birchbox
 url: https://www.birchbox.com
-category: subscription-box
+category: subscription-boxes
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to birchbox.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account Settings > Subscriptions.
+  note: null
+- step: 3
+  instruction: Select 'Cancel Subscription' and confirm. Cancellation stops auto-renewal. You'll still receive any box already billed for the current cycle.
+  note: null
+- step: 4
+  instruction: Cancel before the 1st of the month to avoid the next charge. Renewals process on the 1st–5th of the month.
+  note: null
+dark_patterns:
+- type: term commitment lock-in
+  description: Multi-month plans (3, 6, 12 months) cannot be canceled mid-term. Only month-to-month subscribers can cancel at any time. This distinction is not always clear at sign-up.
+- type: early billing window
+  description: Renewals process on the 1st-5th of the month, giving subscribers a narrow window to cancel before being charged for the next box.
+retention_tactics:
+- May offer a discount on the next box during cancellation flow.
+- Highlights loyalty points balance that will be forfeited upon cancellation.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: Allure Beauty Box
+  url: https://www.allure.com/beauty-box
+  note: Similar beauty sample box, can cancel anytime
+notes: 'Birchbox ($15/month for month-to-month) is a beauty and grooming sample subscription box. The key distinction is between month-to-month and term commitment plans: only month-to-month can cancel freely, while 3/6/12-month plans are locked in for the full term. Birchbox has had financial difficulties and changed ownership multiple times — verify current service status and shipping timelines. Loyalty points are forfeited upon cancellation, so redeem any points in the Birchbox Shop before canceling.'

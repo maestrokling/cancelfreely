@@ -3,11 +3,29 @@ slug: state-farm
 url: https://www.statefarm.com
 category: insurance
 cancel_method: phone or agent
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'IMPORTANT: Have your new insurance policy active before canceling State Farm. Never have a coverage gap, especially for auto or homeowners insurance. A coverage gap can result in higher premiums with your new insurer and potential legal issues for auto insurance.'
+  note: null
+- step: 2
+  instruction: Contact your local State Farm agent directly. Find your agent at statefarm.com/agent or call 1-800-STATEFARM (1-800-782-8332). State Farm uses an exclusive agent model. Your assigned agent is the primary contact for all policy changes including cancellation.
+  note: null
+- step: 3
+  instruction: Provide your policy number and requested cancellation date. Request written confirmation of cancellation. State Farm may require a written cancellation request signed by the policyholder, particularly for homeowners and life insurance policies.
+  note: null
+- step: 4
+  instruction: Ask about your refund. Unused premium is refunded pro-rata for most policy types. Refund processing typically takes 5-10 business days. Check that your payment method on file is current.
+  note: null
+dark_patterns:
+- type: agent-gated cancellation
+  description: State Farm requires cancellation through a personal agent rather than offering self-service online cancellation, creating a social pressure barrier where the agent can actively discourage leaving.
+- type: coverage gap fear
+  description: Agents emphasize the risks of coverage gaps during the cancellation conversation, which while factually accurate, is strategically used to create urgency and delay the cancellation decision.
+retention_tactics:
+- Your agent will treat cancellation as a retention opportunity and will typically offer a rate review, bundle discount, or policy adjustment before processing.
+- State Farm agents may suggest reviewing coverage levels or deductibles to lower premiums rather than canceling outright.
+direct_cancel_url: https://www.statefarm.com/customer-care/manage-your-accounts/cancel-my-policy
 free_alternatives: []
-notes: ""
+notes: State Farm is the largest property and casualty insurer in the United States by market share. The agent-based cancellation model means you cannot cancel entirely online, which adds friction compared to direct-to-consumer insurers like Geico or Progressive. However, the agent relationship can work in your favor as agents have discretion to offer competitive rate adjustments to retain customers. Pro-rata refunds are standard for mid-term cancellations. State Farm policies include a standard grace period, so timing your cancellation to align with your new policy start date is important to avoid both gaps and overlapping coverage.

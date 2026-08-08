@@ -3,12 +3,33 @@ slug: google-workspace
 url: https://workspace.google.com
 category: email
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to workspace.google.com and sign in with your Google account. Google Workspace Individual (personal) is different from Google Workspace Business/Enterprise. These instructions are for Individual.
+  note: null
+- step: 2
+  instruction: Go to Settings > Subscriptions > Cancel subscription.
+  note: null
+- step: 3
+  instruction: Confirm cancellation. Access continues through end of billing period. Email, Meet, and other features revert to standard free Google account limits.
+  note: null
+- step: 4
+  instruction: 'For Google Workspace Business/Enterprise: Sign into admin.google.com > Billing > Cancel subscription. Business plans have different cancellation procedures and may involve data migration for your entire organization.'
+  note: null
+dark_patterns:
+- type: business data migration complexity
+  description: For Business/Enterprise plans, canceling means potentially losing custom domain email, shared drives, and organizational data. The migration process is complex and time-sensitive.
+retention_tactics:
+- Shows premium features (longer Meet calls, enhanced storage) that will be lost.
+- For Business plans, highlights the complexity of migrating team data.
+direct_cancel_url: https://workspace.google.com/dashboard
+free_alternatives:
+- name: Google (free personal)
+  url: https://accounts.google.com
+  note: Free Gmail, Meet (60-min limit), Drive — 15GB storage
+- name: Zoho Workplace (free tier)
+  url: https://www.zoho.com/workplace/
+  note: Free tier with custom domain email for up to 5 users
+notes: Google Workspace Individual ($9.99/month) adds longer Google Meet calls (no time limit), extra storage, and professional features to a personal Google account. For Business/Enterprise plans ($6-$18+/user/month), cancellation is handled through admin.google.com and requires careful planning — you need to export organizational data, migrate email, and update domain DNS records. Individual plan cancellation is straightforward and your Google account continues normally on the free tier. Always export critical data before canceling any Workspace plan.

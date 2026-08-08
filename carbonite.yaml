@@ -1,13 +1,31 @@
 name: Carbonite
 slug: carbonite
 url: https://www.carbonite.com
-category: cloud
-cancel_method: phone
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+category: cloud-storage
+cancel_method: online
+friction_score: 2
+last_verified: '2026-04-01'
+steps:
+- step: 1
+  instruction: Go to carbonite.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Go to 'Account Summary' and find the auto-renewal setting. Turn off automatic renewal. Your subscription remains active through the paid period, then expires.
+  note: null
+- step: 3
+  instruction: '⚠️ CRITICAL: After your subscription expires, Carbonite permanently deletes your backed-up files after a grace period of 30–60 days. Download any important backed-up files before canceling.'
+  note: null
+dark_patterns:
+- type: data deletion on cancellation
+  description: Backed-up files are permanently deleted 30–60 days after subscription expiry. This is not prominently warned during the cancellation flow.
+retention_tactics:
+- May offer a discounted renewal rate.
+direct_cancel_url: https://account.carbonite.com
+free_alternatives:
+- name: Backblaze
+  url: https://www.backblaze.com
+  note: Competing backup service, similar pricing
+- name: Google Drive (free 15GB)
+  url: https://drive.google.com
+  note: Free 15GB cloud storage
+notes: Carbonite is an online backup service (files, not apps). The data deletion window is the critical thing — don't cancel without first downloading your backed-up files or ensuring you have local copies. Carbonite is owned by OpenText as of 2019.

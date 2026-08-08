@@ -1,13 +1,25 @@
-name: Credit Karma (premium)
+name: Credit Karma
 slug: credit-karma
 url: https://www.creditkarma.com
 category: finance
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 2
+last_verified: '2026-03-13'
+steps:
+- step: 1
+  instruction: 'Credit Karma is free — there is no paid subscription to cancel. To delete your account: go to creditkarma.com and sign in.'
+  note: null
+- step: 2
+  instruction: Go to Settings > Account > 'Close Account'. The close account option is somewhat buried — Reddit users note it requires some searching.
+  note: null
+- step: 3
+  instruction: 'Follow the prompts to confirm account deletion. Credit Karma will delete your account and personal data. Note: if you have a Credit Karma Money account (savings or spending), that must be closed separately first.'
+  note: null
+dark_patterns:
+- type: buried account deletion
+  description: The account deletion option is not prominently surfaced. Reddit users describe it as 'a bit tricky' to find. Credit Karma (owned by Intuit) monetizes through financial product referrals — account closure is not incentivized.
+retention_tactics:
+- None — no paid subscription.
+direct_cancel_url: https://www.creditkarma.com/settings/account
 free_alternatives: []
-notes: ""
+notes: Credit Karma has no paid subscription — it's free and makes money through financial product referrals (credit cards, loans). If you want to stop using it, delete the account to remove your data. Close any Credit Karma Money accounts first before account deletion.

@@ -2,12 +2,24 @@ name: Sam's Club
 slug: sams-club
 url: https://www.samsclub.com
 category: membership
-cancel_method: online or in-person
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+cancel_method: in-store or phone
+friction_score: 2
+last_verified: '2026-01-12'
+steps:
+- step: 1
+  instruction: Visit any Sam's Club Member Service Desk in person. Immediate cancellation and prorated refund.
+  note: null
+- step: 2
+  instruction: 'Alternatively, call Sam''s Club: 1-888-746-7726.'
+  note: null
+- step: 3
+  instruction: Or request a refund online at samsclub.com.
+  note: null
+dark_patterns:
+- type: credit card auto-renewal lock-in
+  description: Members who signed up with a Sam's Club credit card may find auto-renewal is tied to the card and cannot be canceled at the membership counter — they must cancel the credit card to stop auto-renewal.
+retention_tactics:
+- None significant.
+direct_cancel_url: https://help.samsclub.com/app/answers/detail/a_id/2563
 free_alternatives: []
-notes: ""
+notes: Sam's Club is a Walmart-owned warehouse club. Cancellation is straightforward in most cases. The credit card auto-renewal quirk is the main gotcha — if you have a Sam's Club credit card, you may need to address that separately.

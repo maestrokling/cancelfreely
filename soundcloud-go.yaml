@@ -2,13 +2,27 @@ name: SoundCloud Go
 slug: soundcloud-go
 url: https://soundcloud.com
 category: music
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: 'On desktop: go to soundcloud.com/you/subscriptions and cancel from there. Desktop-only for direct billing — the mobile app does not have a cancel option for direct-billed subscriptions.'
+  note: null
+- step: 2
+  instruction: If subscribed via Apple or Google Play, cancel through those platforms.
+  note: null
+- step: 3
+  instruction: Access continues through end of billing period.
+  note: null
+dark_patterns:
+- type: mobile can't cancel
+  description: Direct-billed SoundCloud Go subscriptions can only be canceled on desktop — there is no cancel option in the mobile app for direct billing.
+retention_tactics:
+- None significant.
+direct_cancel_url: https://soundcloud.com/you/subscriptions
+free_alternatives:
+- name: SoundCloud (free tier)
+  url: https://soundcloud.com
+  note: Free with ads; large independent music catalog
+notes: SoundCloud Go ($5.99/month) and Go+ ($9.99/month) remove ads and add offline listening. SoundCloud is notable for independent and emerging artist content not on other platforms. Desktop-only cancellation for direct billing is the main friction point.

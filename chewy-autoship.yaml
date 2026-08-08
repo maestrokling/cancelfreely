@@ -3,12 +3,24 @@ slug: chewy-autoship
 url: https://www.chewy.com
 category: pets
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to chewy.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Autoship > find the item you want to cancel. You can cancel individual items or all Autoship orders separately.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Autoship' for each item, or 'Cancel All' to stop all recurring orders.
+  note: null
+- step: 4
+  instruction: Confirm. No contract, no fee, no retention maze. You can re-enable Autoship at any time.
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+retention_tactics:
+- None — Chewy is widely cited as one of the most customer-friendly subscription services.
+direct_cancel_url: https://www.chewy.com/app/account/autoship
 free_alternatives: []
-notes: ""
+notes: Chewy Autoship is a recurring delivery subscription for pet food and supplies, typically offering a 5-35% discount on regular prices. It is one of the cleanest subscription cancellations available — item-level control, no commitment, no cancellation fee, no guilt messaging. Chewy's customer service (1-800-672-4399) is consistently rated as excellent and can also cancel Autoship over the phone. The company is known for its customer-first approach, including sending sympathy cards and flowers when customers report a pet has passed away.

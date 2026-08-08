@@ -3,12 +3,36 @@ slug: net-nanny
 url: https://www.netnanny.com
 category: parental
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to netnanny.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Navigate to Account > Subscription > Manage Subscription. Net Nanny uses Cleverbridge as its billing platform — you may be redirected to their portal.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Subscription' or 'Turn off auto-renewal' and follow the confirmation prompts. Your current license remains active through the end of your billing period.
+  note: null
+- step: 4
+  instruction: Alternatively, contact Net Nanny support at support@netnanny.com or through the website chat. Uninstall Net Nanny from all devices after your subscription expires to remove filtering.
+  note: null
+dark_patterns:
+- type: roach motel / billing complexity
+  description: Cancellation routes through a third-party billing platform (Cleverbridge), which can be confusing as users may not recognize the redirect or know their Cleverbridge credentials.
+retention_tactics:
+- May offer a discounted renewal rate through the Cleverbridge portal.
+- Sends renewal reminder emails with urgency messaging about protecting children online.
+direct_cancel_url: https://www.netnanny.com/account
+free_alternatives:
+- name: Google Family Link
+  url: https://families.google.com/familylink/
+  note: Free parental controls for Android — app blocking, screen time, content filtering, and location tracking
+- name: Apple Screen Time
+  url: https://support.apple.com/guide/iphone/set-up-screen-time-for-a-family-member-iph7f15d92dd/ios
+  note: Free, built into iOS/iPadOS/macOS — content restrictions, screen time limits, and app controls
+- name: OpenDNS Family Shield
+  url: https://www.opendns.com/setupguide/#familyshield
+  note: Free DNS-based web filtering that works at the router level for the whole household
+notes: Net Nanny ($39.99/year for 1 device, up to $89.99/year for 20 devices) provides web content filtering, screen time management, app blocking, and location tracking across Windows, Mac, Android, iOS, and Kindle Fire. The service is owned by Zift (formerly ContentWatch). Cancellation is handled through Cleverbridge, a third-party billing platform, which can confuse users who do not recognize the redirect. After cancellation, remember to uninstall the Net Nanny software from all devices, as the filtering agent remains active until removed. The free parental control options from Google and Apple have narrowed Net Nanny's competitive advantage significantly.

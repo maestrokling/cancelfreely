@@ -3,11 +3,35 @@ slug: dropbox
 url: https://www.dropbox.com
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2025-11-19'
+steps:
+- step: 1
+  instruction: Go to dropbox.com and sign in. If you purchased via mobile app store, you must cancel through Apple App Store or Google Play instead.
+  note: null
+- step: 2
+  instruction: Click your avatar in the top right, then select 'Settings'.
+  note: null
+- step: 3
+  instruction: Click the 'Plan' tab, then select 'Cancel plan'.
+  note: null
+- step: 4
+  instruction: Dropbox shows a final retention screen — click 'Cancel subscription' to confirm. Storage reverts to the free 2GB tier after cancellation. Files above that limit remain in your account but become inaccessible until storage is within the free limit.
+  note: null
+dark_patterns:
+- type: mobile billing redirect
+  description: Users who subscribed via iOS or Android cannot cancel on the Dropbox website — must cancel through the originating app store.
+retention_tactics:
+- Shows a final 'are you sure' screen with storage and feature loss highlights.
+direct_cancel_url: https://www.dropbox.com/account/plan
+free_alternatives:
+- name: Google Drive (free 15GB)
+  url: https://drive.google.com
+  note: 15GB free storage with Google account
+- name: OneDrive (free 5GB)
+  url: https://onedrive.live.com
+  note: 5GB free with Microsoft account
+- name: iCloud (free 5GB)
+  url: https://www.icloud.com
+  note: 5GB free with Apple ID
+notes: Dropbox is one of the more straightforward SaaS cancels. The main gotcha is mobile billing — if you subscribed through an app store, you must cancel there. After cancellation, Dropbox reverts to 2GB free storage.

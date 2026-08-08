@@ -3,11 +3,42 @@ slug: new-york-times
 url: https://www.nytimes.com
 category: news
 cancel_method: online or phone
-friction_score: null
-last_verified: 2026-04-11
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-01-16'
+steps:
+- step: 1
+  instruction: Go to nytimes.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your account name, then go to 'Account' > 'Manage Account'.
+  note: null
+- step: 3
+  instruction: Under your subscription, look for 'Cancel Subscription'. The cancel option may not be visible for all subscription types. Some users are routed to a chat or phone flow instead.
+  note: null
+- step: 4
+  instruction: If online cancellation is not available, call 1-800-698-4637 or use the live chat at help.nytimes.com. Phone/chat agents will make retention offers before completing cancellation.
+  note: null
+- step: 5
+  instruction: If subscribed via Apple, Amazon, or Google Play, cancel through those platforms instead.
+  note: null
+dark_patterns:
+- type: online cancellation suppression
+  description: NYT does not offer online cancellation for all subscription types. Many users are routed to phone or chat, where they face retention pressure. This has been widely documented as a deliberate dark pattern.
+- type: introductory pricing trap
+  description: NYT heavily promotes introductory rates ($1-4/week for first year) that auto-renew at full price ($17-25+/week). Many users cancel after the intro period expires.
+retention_tactics:
+- Phone/chat agents offer significant discounts (often 50-75% off) to stay.
+- Offers a pause on delivery or digital access.
+- Reminds you of Games, Cooking, Wirecutter access bundled in.
+direct_cancel_url: https://www.nytimes.com/subscription/multiproduct/lp8HYKU.html
+free_alternatives:
+- name: AP News
+  url: https://apnews.com
+  note: Free wire service news
+- name: Reuters
+  url: https://www.reuters.com
+  note: Free news wire
+- name: Public libraries
+  url: null
+  note: Many libraries offer free NYT digital access with a library card
+notes: NYT is one of the most documented dark pattern cases in news subscriptions. The phone/chat-only cancellation for many subscribers is intentional. If you reach a retention agent, be firm — they are authorized to offer steep discounts. The Athletic is now bundled under NYT and cancels through nytimes.com/athletic/settings.

@@ -1,13 +1,34 @@
 name: BarkBox
 slug: barkbox
 url: https://www.barkbox.com
-category: shopping
-cancel_method: online or chat
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+category: subscription-boxes
+cancel_method: online or email
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to barkbox.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to your account settings, find your subscription, and click 'Edit' then 'Cancel Renewal'. The cancel option may be labeled 'Turn Off Auto-Renew' rather than 'Cancel'.
+  note: null
+- step: 3
+  instruction: Alternatively, email BarkBox's 'Happy Team' at help@barkbox.com to request cancellation. Include your account email and subscription details.
+  note: null
+- step: 4
+  instruction: Cancel before the 1st of the month following your current billing period to avoid the next charge. Check your specific billing cycle date in account settings before canceling.
+  note: null
+dark_patterns:
+- type: commitment plan lock-in
+  description: BarkBox offers 1, 6, and 12-month plans. Multi-month plans cannot be canceled mid-term — you're locked in for the full commitment period. This is not always made clear during sign-up.
+- type: auto-upgrade pricing
+  description: After an initial discounted multi-month plan ends, it auto-renews at the full monthly rate. Users who signed up at a promotional price are often surprised by the higher renewal charge.
+- type: hidden cancel button
+  description: The cancel/turn-off-renewal option is nested under Edit in account settings rather than being directly accessible, requiring multiple clicks to find.
+retention_tactics:
+- Offers a discount on the next box or a free extra toy.
+- Suggests pausing the subscription instead of canceling.
+- May offer a free month to retain subscribers.
 direct_cancel_url: null
 free_alternatives: []
-notes: ""
+notes: 'BarkBox ($23-$35/month depending on plan length and box size) sends monthly themed boxes of dog toys, treats, and chews. The main friction point is the multi-month commitment: 6 and 12-month plans cannot be canceled mid-term, and this is not prominently disclosed during sign-up. BarkBox also offers Super Chewer (for heavy chewers) which has a separate subscription. Customer service via email (help@barkbox.com) is generally responsive if the web interface is frustrating. Always check your commitment end date before attempting to cancel.'

@@ -3,11 +3,39 @@ slug: lastpass
 url: https://www.lastpass.com
 category: security
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'Go to lastpass.com and sign in to your vault. IMPORTANT: Export your vault data BEFORE canceling. Go to Account Settings > Advanced > Export to download your passwords.'
+  note: null
+- step: 2
+  instruction: Click your email/profile in the top right, then go to Account Settings > Subscription.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Subscription' and follow the prompts to confirm. Account reverts to the free tier at end of billing period. Your vault data is preserved but access is limited to one device type.
+  note: null
+- step: 4
+  instruction: 'Consider migrating to an alternative before canceling: import your exported vault into Bitwarden, 1Password, or another manager. Bitwarden offers free import from LastPass CSV/JSON exports.'
+  note: null
+dark_patterns:
+- type: loss aversion messaging
+  description: Cancellation flow highlights premium features you'll lose (multi-device sync, advanced MFA, priority support) with emphasis on security risks of downgrading.
+- type: artificial complexity
+  description: The cancel button is buried several clicks deep in account settings, not in the obvious billing section navigation.
+retention_tactics:
+- Offers a discounted renewal rate during cancellation flow.
+- Warns about losing multi-device sync and reverting to single device type access.
+- Emphasizes security implications of not having premium password management.
+direct_cancel_url: https://lastpass.com/my.php#account-information
+free_alternatives:
+- name: Bitwarden
+  url: https://bitwarden.com
+  note: Free, open-source password manager — widely recommended as a LastPass replacement. Premium is $10/year.
+- name: KeePassXC
+  url: https://keepassxc.org
+  note: Free, open-source, offline password manager with no cloud dependency
+- name: Proton Pass
+  url: https://proton.me/pass
+  note: Free tier from Proton with end-to-end encryption and email alias generation
+notes: LastPass ($3/month Premium, $4/month Families) suffered a catastrophic security breach in 2022 where encrypted vault data and customer metadata were stolen. Many security professionals and publications actively recommend migrating away from LastPass to alternatives like Bitwarden or 1Password. The free tier, restricted to a single device type (mobile or desktop) since 2021, makes the service impractical for multi-device users without paying. Always export your vault before canceling — Account Settings > Advanced > Export. LastPass's parent company GoTo (formerly LogMeIn) has faced ongoing criticism for its breach response transparency.

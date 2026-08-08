@@ -2,13 +2,32 @@ name: Hilton Grand Vacations
 slug: hilton-grand-vacations
 url: https://www.hiltongrandvacations.com
 category: timeshare
-cancel_method: phone or mail
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+cancel_method: certified mail or official exit program
+friction_score: 5
+last_verified: '2026-02-13'
+steps:
+- step: 1
+  instruction: 'CRITICAL: Check your purchase contract for the rescission period — typically 3 to 10 days depending on your state. Act immediately if within this window.'
+  note: null
+- step: 2
+  instruction: 'Within the rescission period: Write a formal rescission letter stating: your full name, contract number, purchase date, and the exact sentence ''I am writing to inform you of my decision to rescind my timeshare contract with Hilton Grand Vacations.'' All signers on the contract must sign the letter.'
+  note: null
+- step: 3
+  instruction: Send via USPS Certified Mail with Return Receipt to the cancellation address in your contract. Keep all tracking documentation permanently. Postmark must be before the rescission deadline — not delivery date.
+  note: null
+- step: 4
+  instruction: 'After the rescission period: Contact Hilton Grand Vacations owner services to ask about their official exit/deed-back program: 1-800-230-7068. Hilton has an official exit program for qualifying owners. Eligibility typically requires the account to be current on all payments.'
+  note: null
+- step: 5
+  instruction: ⚠️ Do not pay any upfront fees to a third-party exit company. The FTC and state AGs have taken action against many of these.
+  note: null
+dark_patterns:
+- type: high-pressure sales presentations
+  description: Multi-hour presentations with urgency tactics and misleading claims about rental income, investment value, or flexibility.
+- type: perpetual maintenance fees
+  description: Annual maintenance fees ($1,000-$3,500+) escalate indefinitely. The only way to stop them is to exit the contract through the official program.
+retention_tactics:
+- Owner services may offer hardship deferment, club currency conversions, or alternative programs before processing an exit.
 direct_cancel_url: null
 free_alternatives: []
-notes: ""
+notes: Hilton Grand Vacations (HGV) acquired Diamond Resorts in 2021, significantly expanding their portfolio. If you own through Diamond, the exit process is now managed by HGV. The rescission window is the critical action item — everything else requires going through HGV's official program or a licensed attorney.

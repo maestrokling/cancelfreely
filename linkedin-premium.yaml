@@ -3,11 +3,35 @@ slug: linkedin-premium
 url: https://www.linkedin.com/premium
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-03-01'
+steps:
+- step: 1
+  instruction: Go to linkedin.com and sign in. If you subscribed via Apple App Store or iTunes, you must cancel through Apple — LinkedIn's website will not show a cancel option.
+  note: null
+- step: 2
+  instruction: Click your profile icon, then select 'Premium features' or go directly to linkedin.com/premium/manage.
+  note: null
+- step: 3
+  instruction: Click 'Manage subscription' then select 'Cancel subscription'. The cancel option is intentionally less prominent than the 'Keep my Premium' option.
+  note: null
+- step: 4
+  instruction: Select a reason and navigate through the retention screens to confirm cancellation. Access continues through the end of the billing period. InMail credits and premium insights are lost.
+  note: null
+dark_patterns:
+- type: free trial auto-enrollment
+  description: LinkedIn's free trials auto-enroll into paid subscriptions without prominent advance warning before the charge. Users report being charged without realizing their trial ended.
+- type: de-emphasized cancel path
+  description: The cancellation flow follows classic dark patterns — cancel option is less visually prominent than retention options.
+- type: Apple billing maze
+  description: Users who subscribed via iTunes cannot cancel on LinkedIn — must navigate to Apple subscriptions. LinkedIn's website gives no clear indication of this.
+retention_tactics:
+- Offers a discounted renewal rate.
+- Shows InMail credits and job search insights you'll lose.
+- Highlights recent profile views from recruiters.
+direct_cancel_url: https://www.linkedin.com/premium/manage
+free_alternatives:
+- name: LinkedIn (free)
+  url: https://www.linkedin.com
+  note: Full LinkedIn access without InMail or premium insights
+notes: LinkedIn Premium is notable for its free trial trap — many users are charged after forgetting to cancel. Cancel before the trial end date to avoid charges. If you subscribed through iTunes/Apple, you must cancel there, not on LinkedIn's website.

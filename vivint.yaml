@@ -3,12 +3,32 @@ slug: vivint
 url: https://www.vivint.com
 category: home-services
 cancel_method: phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 4
+last_verified: '2026-01-29'
+steps:
+- step: 1
+  instruction: 'Call Vivint: 1-800-216-5232. Have your account number and PIN ready.'
+  note: null
+- step: 2
+  instruction: State you want to cancel. Be prepared for retention offers.
+  note: null
+- step: 3
+  instruction: CRITICAL — check if you have an equipment financing agreement (Vivint Flex Pay). You must pay off the remaining equipment balance separately from the monitoring cancellation. This can be $1,000+ for equipment. Vivint separates monitoring contracts from equipment financing. Canceling monitoring does not cancel equipment payments.
+  note: null
+- step: 4
+  instruction: Get cancellation confirmation in writing.
+  note: null
+dark_patterns:
+- type: equipment financing trap
+  description: Vivint uses a 'Flex Pay' model that separates equipment financing (often $1,500-$2,500 financed over 60 months) from monitoring contracts. Canceling monitoring doesn't eliminate the equipment loan obligation. Many customers are surprised by the total exit cost.
+- type: door-to-door sales pressure
+  description: Vivint primarily sells via door-to-door sales, which is associated with high-pressure tactics and complex contract structures that customers don't fully understand at signing.
+retention_tactics:
+- Offers a monitoring rate reduction.
+- Offers equipment upgrade to keep you locked in.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: SimpliSafe (no contract)
+  url: https://simplisafe.com
+  note: No contract, no equipment financing
+notes: Vivint's total exit cost = remaining equipment financing balance + any monitoring early termination fees. Calculate both before calling. Military deployment and disability are typically grounds for waiving ETFs. If you financed through a third party (not Vivint directly), that loan continues regardless of service cancellation.

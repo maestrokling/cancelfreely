@@ -1,13 +1,28 @@
 name: Uber One
 slug: uber-one
-url: https://www.uber.com/us/en/u/uber-one
-category: shopping
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+url: https://www.uber.com/us/en/ride/uber-one/
+category: membership
+cancel_method: app
+friction_score: 2
+last_verified: '2026-04-03'
+steps:
+- step: 1
+  instruction: Open the Uber app and tap your profile icon.
+  note: null
+- step: 2
+  instruction: Tap 'Uber One' > 'Manage membership' > 'End membership'.
+  note: null
+- step: 3
+  instruction: Confirm cancellation. Access continues through end of billing period. Uber's help page surfaces 'Pause Membership' before 'End Membership' — scroll past the pause option to find the cancel button.
+  note: null
+dark_patterns:
+- type: pause-first presentation
+  description: Uber's cancellation flow prominently surfaces a 'Pause Membership' option before showing 'End Membership', nudging users toward pausing rather than canceling.
+retention_tactics:
+- Offers a membership pause instead of cancellation.
+direct_cancel_url: https://help.uber.com/en/riders/article/how-do-i-cancel-my-uber-one-membership
+free_alternatives:
+- name: Uber (no subscription)
+  url: https://www.uber.com
+  note: Rides and Uber Eats without subscription — delivery fees apply
+notes: Uber One ($9.99/month or $99.99/year) gives discounts on rides and free delivery on Uber Eats. If you primarily use Uber Eats, check if DashPass or Instacart+ offers better value.

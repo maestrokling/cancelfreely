@@ -2,13 +2,43 @@ name: Skillshare
 slug: skillshare
 url: https://www.skillshare.com
 category: education
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to skillshare.com and sign in to your account. If subscribed via iOS or Android app, you must cancel through Apple/Google subscription management instead.
+  note: null
+- step: 2
+  instruction: Click your profile icon, then go to 'Account Settings' or 'Settings'.
+  note: null
+- step: 3
+  instruction: Navigate to 'Payments' or 'Membership' and click 'Cancel Membership'.
+  note: null
+- step: 4
+  instruction: Walk through the cancellation flow — Skillshare will present multiple retention offers and screens before confirming. You may be offered a pause, a discounted month, or a free month before reaching the final cancel button.
+  note: null
+- step: 5
+  instruction: Confirm cancellation. Access continues through the end of your billing period. No refund for unused time. Your class history and saved classes are preserved if you return later.
+  note: null
+dark_patterns:
+- type: obstacle course cancellation
+  description: Skillshare's cancellation flow includes multiple retention screens — a pause offer, a discount offer, a survey, and a final confirmation — requiring users to navigate through 4-5 screens before the subscription is actually canceled.
+- type: free trial auto-conversion
+  description: Skillshare's free trial (typically 7 days) automatically converts to a paid annual subscription, and the trial-to-paid transition is a common source of billing complaints.
+retention_tactics:
+- Offers a pause on membership (typically 1-3 months) before allowing cancellation.
+- Presents a discounted renewal or a free month to retain you.
+- Shows your learning progress and class history to create sunk-cost attachment.
+direct_cancel_url: https://www.skillshare.com/settings/payments
+free_alternatives:
+- name: YouTube (free)
+  url: https://www.youtube.com
+  note: Massive library of free creative and professional tutorials
+- name: Coursera (free audit)
+  url: https://www.coursera.org
+  note: Free course auditing from top universities without certificate
+- name: Khan Academy (free)
+  url: https://www.khanacademy.org
+  note: Free education platform covering many subjects
+notes: Skillshare costs approximately $13.99/month or $167.88/year ($13.99/month billed annually) and focuses on creative skills — illustration, design, photography, writing, and freelancing. The cancellation process is one of the more friction-heavy in the education category, with multiple retention screens that users must navigate before reaching the actual cancel confirmation. The free trial auto-conversion to an annual plan is a frequent source of complaints on the BBB and app store reviews. No refund is given for unused time on annual plans, so timing your cancellation is important. Skillshare laid off a portion of staff in 2023-2024 as the online education market contracted post-pandemic, but continues to operate with a large content library.

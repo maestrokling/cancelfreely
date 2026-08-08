@@ -1,13 +1,38 @@
 name: Google One
 slug: google-one
 url: https://one.google.com
-category: cloud
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+category: cloud-storage
+cancel_method: online or app
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to one.google.com and sign in.
+  note: null
+- step: 2
+  instruction: Click 'Manage' next to your storage plan, then select 'Cancel plan'.
+  note: null
+- step: 3
+  instruction: 'On Android: Open Google One app > Settings > Manage Google One > Cancel membership. If subscribed via iOS App Store, cancel through Apple''s subscription management.'
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Access reverts to the free 15GB tier. Files above that limit become inaccessible to upload/edit — but existing files are not deleted for a grace period. Prorated refund is available if requested promptly.
+  note: null
+dark_patterns:
+- type: storage hostage
+  description: If you're over the 15GB free limit, canceling means you can't upload new files, receive new emails (if Gmail is full), or sync new photos. Google doesn't delete your files but makes them effectively frozen.
+- type: shared storage confusion
+  description: Google One storage is shared across Gmail, Drive, and Photos. Users often don't realize that canceling Google One affects all three services, not just Drive.
+retention_tactics:
+- Shows current storage usage and how much exceeds the free tier.
+- Offers a downgrade to a lower (cheaper) storage tier instead of full cancellation.
+- Highlights Google One benefits like VPN, dark web monitoring, and family sharing.
+direct_cancel_url: https://one.google.com/storage
+free_alternatives:
+- name: Google (free 15GB)
+  url: https://one.google.com
+  note: Free 15GB shared across Gmail, Drive, and Photos
+- name: iCloud (free 5GB)
+  url: https://www.icloud.com
+  note: Free 5GB for Apple users
+notes: Google One ($1.99/month for 100GB, $2.99/month for 200GB, $9.99/month for 2TB) is the paid storage upgrade for Gmail, Drive, and Photos. Canceling reverts to the free 15GB shared across all three services. If you're over 15GB, clean up before canceling — Google won't delete your files immediately but will prevent new uploads and email receipt. Google One also includes additional benefits like VPN (on 2TB+ plans), Google Photos editing features, and family storage sharing. The prorated refund option for annual plans is available but must be requested.

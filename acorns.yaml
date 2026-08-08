@@ -1,0 +1,42 @@
+name: Acorns
+slug: acorns
+url: https://www.acorns.com
+category: finance
+cancel_method: online or app
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Open the Acorns app or go to app.acorns.com and sign in. Account closure must be done through the app or website — you cannot call to cancel.
+  note: null
+- step: 2
+  instruction: Tap your profile icon > Settings > Personal > Subscription > Close Account.
+  note: null
+- step: 3
+  instruction: Follow the prompts to withdraw your balance and confirm account closure. Your invested balance will be liquidated (sold) and returned to your linked bank account. This may take 3-6 business days.
+  note: null
+- step: 4
+  instruction: Confirm the tax implications of liquidating your investments. Selling investments may trigger capital gains taxes if your positions have appreciated. Consider timing your closure accordingly.
+  note: null
+dark_patterns:
+- type: forced liquidation
+  description: To close your Acorns account, all investments must be sold — you cannot transfer holdings to another brokerage. This creates a taxable event and a psychological barrier to leaving.
+- type: multi-step guilt flow
+  description: The cancellation flow shows your investment progress, projected growth, and how much you'll 'lose' by leaving, creating emotional friction before allowing closure.
+- type: no investment transfer
+  description: Unlike traditional brokerages that support ACAT transfers, Acorns does not allow transferring your portfolio to another broker — you must sell everything and start over.
+retention_tactics:
+- Shows projected future value of investments to create fear of missing out.
+- May offer a free month or reduced subscription rate during cancellation flow.
+direct_cancel_url: https://app.acorns.com/settings/subscription
+free_alternatives:
+- name: Robinhood (free)
+  url: https://www.robinhood.com
+  note: Free stock/ETF investing with no subscription fees
+- name: Fidelity (free)
+  url: https://www.fidelity.com
+  note: Free investing with no account minimums and fractional shares
+- name: SoFi Invest (free)
+  url: https://www.sofi.com/invest/
+  note: Free stock/ETF investing with no commissions
+notes: 'Acorns ($3-$12/month depending on tier: Bronze, Silver, Gold) is a micro-investing app that rounds up purchases and invests spare change. The main cancellation friction is the forced liquidation requirement — unlike traditional brokerages, you cannot transfer your portfolio to another broker via ACAT. All positions must be sold, which may trigger capital gains taxes. The monthly subscription fee relative to small balances is a common complaint: on a $500 balance, the $3/month fee represents a 7.2% annual drag. No early termination fee, but the tax implications of forced selling create real financial friction.'

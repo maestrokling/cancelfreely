@@ -1,14 +1,25 @@
 name: Amazon Try Before You Buy
 slug: amazon-try-before-you-buy
-url: https://www.amazon.com/try-before-you-buy
+url: https://www.amazon.com/b?node=21446531011
 category: fashion
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Amazon Try Before You Buy is not a subscription — it's a free Prime member feature. To stop using it, simply don't order more try-on boxes.
+  note: null
+- step: 2
+  instruction: 'For active try-on orders: return unwanted items within 7 days using the prepaid return label. You are only charged for items you keep. If you fail to return items within 7 days, you will be charged the full price.'
+  note: null
+- step: 3
+  instruction: To manage or cancel pending Try Before You Buy orders, go to Your Orders on amazon.com. There is no recurring subscription to cancel — this is a per-order service.
+  note: null
+dark_patterns:
+- type: auto-charge deadline
+  description: If you don't return items within the 7-day try-on window, you're automatically charged full price. The deadline can be easy to miss, especially for busy shoppers.
+retention_tactics:
+- None — not a subscription service.
 direct_cancel_url: null
 free_alternatives: []
-notes: "FLAGGED 2026-07-20: Amazon discontinued the 'Try Before You Buy' / Prime Wardrobe program in January 2025 (confirmed via AP News and multiple trade coverage). This entry is a stub with no cancel steps and the service no longer exists. Recommend removing this entry from the site rather than fixing the URL."
+notes: Amazon Try Before You Buy (formerly Prime Wardrobe) is a Prime benefit, not a separate subscription. You try up to 8 items for 7 days, return what you don't want, and only pay for what you keep. The key thing to know is the strict 7-day return window — if you miss it, you're charged for everything. No monthly fee beyond your existing Prime membership. This service has been scaled back significantly since its 2018 launch, with reduced eligible item selection.

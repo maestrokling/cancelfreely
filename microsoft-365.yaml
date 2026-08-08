@@ -3,11 +3,43 @@ slug: microsoft-365
 url: https://www.microsoft.com/microsoft-365
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to account.microsoft.com and sign in with your Microsoft account.
+  note: null
+- step: 2
+  instruction: Click 'Services & subscriptions' in the top navigation.
+  note: null
+- step: 3
+  instruction: Find Microsoft 365 and click 'Manage'. You may see 'Turn off recurring billing' or 'Cancel' depending on your subscription type.
+  note: null
+- step: 4
+  instruction: Select 'Cancel subscription' and follow the multi-step prompts to confirm. Microsoft presents several retention screens before final confirmation.
+  note: null
+- step: 5
+  instruction: Access continues through the end of the current billing period. Files saved in OneDrive remain accessible in read-only mode for a limited period (usually 90 days) after expiration. Download important files before canceling. OneDrive storage drops from 1TB to 5GB free.
+  note: null
+dark_patterns:
+- type: loss aversion messaging
+  description: Cancellation flow prominently shows OneDrive storage usage, number of files at risk, and Office apps you'll lose access to, framing cancellation as a significant data loss event.
+- type: obstruction / multi-step flow
+  description: Cancel flow requires navigating through 4-5 confirmation screens including a survey, feature reminders, and alternative offers before reaching the final cancel button.
+retention_tactics:
+- Offers a discounted renewal rate (sometimes up to 50% off).
+- Prominently displays OneDrive storage usage and warns about file inaccessibility.
+- Suggests switching to a cheaper plan tier instead of canceling entirely.
+- Shows remaining days of paid access to encourage reconsidering.
+direct_cancel_url: https://account.microsoft.com/services
+free_alternatives:
+- name: LibreOffice
+  url: https://www.libreoffice.org
+  note: Free, open-source Office suite with Writer, Calc, Impress — full offline functionality
+- name: Google Workspace (free tier)
+  url: https://workspace.google.com
+  note: Free Docs, Sheets, Slides, and 15GB storage with a Google account
+- name: OnlyOffice
+  url: https://www.onlyoffice.com
+  note: Free, open-source Office-compatible suite with good .docx/.xlsx compatibility
+notes: Microsoft 365 Personal ($6.99/month or $69.99/year) and Family ($9.99/month or $99.99/year) include Word, Excel, PowerPoint, Outlook, and 1TB OneDrive storage per user. Cancellation is online-only but involves a multi-step retention flow that emphasizes data loss risks. Business subscriptions through the Microsoft 365 admin center follow a different, more complex process. After cancellation, OneDrive storage drops to the free 5GB tier and files exceeding that limit become read-only for approximately 90 days before potential deletion. The FTC's click-to-cancel rule may eventually simplify this process. Always download OneDrive files before your subscription lapses.

@@ -3,12 +3,31 @@ slug: godaddy
 url: https://www.godaddy.com
 category: domains
 cancel_method: online or phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: Go to godaddy.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to your account > Renewals & Billing > find the product > turn off Auto-Renew. GoDaddy has many separate product lines — domains, hosting, email, website builder. Each cancels separately.
+  note: null
+- step: 3
+  instruction: 'For refunds within 30 days: contact GoDaddy support at 1-480-505-8877 or via chat.'
+  note: null
+dark_patterns:
+- type: upsell-heavy checkout
+  description: GoDaddy is notorious for aggressive upselling during domain purchase — privacy protection, SSL, hosting, email, website builder, all pre-checked or prominently pushed. Many users end up with services they didn't intend to buy.
+- type: multiple separate billing items
+  description: GoDaddy bills each service separately with different renewal dates, making it easy to lose track of what you're paying for. Turning off auto-renew on a domain doesn't affect hosting, and vice versa.
+retention_tactics:
+- May offer a discount to keep services.
+direct_cancel_url: https://www.godaddy.com/help/cancel-my-godaddy-account-3157
+free_alternatives:
+- name: Cloudflare Registrar
+  url: https://www.cloudflare.com/products/registrar/
+  note: At-cost domain registration, no markup
+- name: Namecheap
+  url: https://www.namecheap.com
+  note: Competitive domain pricing
+notes: GoDaddy sells dozens of separate products. Audit your account for everything you're paying for — domains, hosting, email, SSL, website builder, Microsoft 365, etc. Each has its own auto-renew setting. Turn off auto-renew on domains you don't want rather than waiting for the renewal date.

@@ -2,12 +2,39 @@ name: EA Play
 slug: ea-play
 url: https://www.ea.com/ea-play
 category: gaming
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or console
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'On PC (EA App): go to ea.com/manage-membership/cancel and sign in.'
+  note: null
+- step: 2
+  instruction: 'On PS4/PS5: Settings > Account Management > Account Information > PlayStation Subscriptions > select EA Play > Turn Off Auto-Renewal.'
+  note: null
+- step: 3
+  instruction: 'On Xbox: account.microsoft.com > Services & subscriptions > EA Play > Cancel. EA Play is included with Xbox Game Pass Ultimate — if subscribed through Game Pass, cancel that instead.'
+  note: null
+- step: 4
+  instruction: 'On Steam: Library > Subscriptions > EA Play > Edit > Cancel my subscription.'
+  note: null
+- step: 5
+  instruction: Access continues through end of billing period. Games from the vault become unplayable after cancellation. Save data is preserved — if you resubscribe, your progress is intact.
+  note: null
+dark_patterns:
+- type: platform-fragmented cancellation
+  description: Cancellation method varies entirely based on where you subscribed (EA App, PlayStation, Xbox, Steam). There is no single place to manage your EA Play subscription, which creates confusion.
+- type: vault game lock-out
+  description: Games accessed through EA Play's vault become completely unplayable after cancellation — including games you've invested hundreds of hours in. This creates strong lock-in for players deep into vault games.
+retention_tactics:
+- Shows upcoming game releases and vault additions.
+- Highlights 10% discount on EA purchases that will be lost.
+direct_cancel_url: https://www.ea.com/manage-membership/cancel
+free_alternatives:
+- name: EA free-to-play games
+  url: https://www.ea.com
+  note: Apex Legends, Rocket League Sideswipe and other F2P titles don't require EA Play
+- name: Epic Games (free weekly games)
+  url: https://store.epicgames.com
+  note: Free games weekly that you keep permanently
+notes: EA Play ($5.99/month or $39.99/year for basic, $16.99/month for Pro on PC) provides access to a vault of EA games plus 10% discount on EA purchases. EA Play Pro (PC only) includes new releases on day one. The cancellation process varies by platform — cancel through whichever storefront you originally subscribed. EA Play is included in Xbox Game Pass Ultimate, so check if you're subscribed through that bundle. Games from the vault become unplayable after cancellation, but save data is preserved.

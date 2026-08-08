@@ -3,12 +3,26 @@ slug: rent-the-runway
 url: https://www.renttherunway.com
 category: fashion
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-02-28'
+steps:
+- step: 1
+  instruction: Go to renttherunway.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Membership > Cancel Membership. Return all rented items before or when canceling. You are responsible for items until returned.
+  note: null
+- step: 3
+  instruction: Confirm cancellation. Access continues through end of billing period.
+  note: null
+dark_patterns:
+- type: item return obligation
+  description: You must return all rented items before or upon cancellation. Failure to return items results in additional charges. This creates logistical friction around cancellation timing.
+retention_tactics:
+- May offer a pause instead of canceling.
+direct_cancel_url: https://www.renttherunway.com/account
+free_alternatives:
+- name: ThredUp (secondhand purchase)
+  url: https://www.thredup.com
+  note: Buy secondhand instead of renting
+notes: Rent the Runway ($94-$144/month) rents designer clothing. Return all items before canceling — you're responsible for them until RTR receives them back. The pause option is worth considering if you just need a break.

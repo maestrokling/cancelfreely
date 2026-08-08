@@ -1,13 +1,40 @@
-name: OneDrive (standalone)
+name: OneDrive (Microsoft 365)
 slug: onedrive
-url: https://www.microsoft.com/en-us/microsoft-365/onedrive
-category: cloud
+url: https://onedrive.live.com
+category: cloud-storage
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to account.microsoft.com and sign in with your Microsoft account. OneDrive storage is bundled with Microsoft 365. Canceling Microsoft 365 also cancels the extra OneDrive storage.
+  note: null
+- step: 2
+  instruction: Go to 'Services & subscriptions', find your Microsoft 365 plan, click 'Manage', then click 'Cancel subscription'.
+  note: null
+- step: 3
+  instruction: Walk through the cancellation flow — Microsoft will show retention offers and ask for a reason. You may be offered a discounted renewal or a switch to a different plan.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Download any files above the 5GB free limit before the grace period ends. After cancellation, OneDrive reverts to the free 5GB tier. Files above that limit become read-only and are eventually deleted after a grace period (typically 90 days, though Microsoft may change this).
+  note: null
+dark_patterns:
+- type: bundling lock-in
+  description: OneDrive storage is bundled with Microsoft 365, so canceling cloud storage also means losing access to Office apps (Word, Excel, PowerPoint). This makes it harder to leave just the storage component.
+- type: data hostage anxiety
+  description: Microsoft warns during cancellation that files exceeding the free tier limit will become inaccessible, creating urgency and anxiety about data loss.
+retention_tactics:
+- Offers a discounted renewal rate during the cancellation flow.
+- Shows a summary of all Microsoft 365 features you will lose (Office apps, OneDrive storage, Outlook features).
+direct_cancel_url: https://account.microsoft.com/services
+free_alternatives:
+- name: OneDrive (free 5GB)
+  url: https://onedrive.live.com
+  note: Free 5GB with any Microsoft account
+- name: Google Drive (free 15GB)
+  url: https://drive.google.com
+  note: Free 15GB shared across Gmail, Drive, and Photos
+- name: Proton Drive (free 1GB)
+  url: https://proton.me/drive
+  note: End-to-end encrypted free cloud storage
+notes: Microsoft 365 Personal costs $6.99/month or $69.99/year, and includes 1TB OneDrive storage along with Office apps. Standalone OneDrive storage plans were discontinued by Microsoft in 2026, so all OneDrive storage above 5GB now requires a Microsoft 365 subscription. The bundling of storage with Office apps creates a lock-in effect — users who only want cloud storage must pay for the full suite. After cancellation, there is a grace period to download files above the 5GB free limit, but Microsoft can change this window. The cancellation flow includes retention offers but is otherwise straightforward.

@@ -2,13 +2,32 @@ name: Holiday Inn Club Vacations
 slug: holiday-inn-club-vacations
 url: https://www.holidayinnclub.com
 category: timeshare
-cancel_method: phone or mail
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+cancel_method: certified mail or official exit program
+friction_score: 5
+last_verified: '2026-02-03'
+steps:
+- step: 1
+  instruction: 'CRITICAL: Check your contract for the rescission period — typically 3 to 10 days depending on your state. Act immediately if within this window.'
+  note: null
+- step: 2
+  instruction: 'Within the rescission period: Write a rescission letter with your contract number, purchase date, and a clear statement that you are exercising your right of rescission. All signers must sign.'
+  note: null
+- step: 3
+  instruction: Send via USPS Certified Mail with Return Receipt to the address specified in your contract. Postmark controls the deadline. Keep the tracking receipt and signed return receipt card as permanent proof.
+  note: null
+- step: 4
+  instruction: 'After the rescission period: Contact Holiday Inn Club Vacations owner services: 1-888-465-4329. Request information on their official voluntary surrender or deed-back program. Eligibility for deed-back typically requires the account to be current on all fees and loan payments.'
+  note: null
+- step: 5
+  instruction: ⚠️ Avoid upfront-fee exit companies. Holiday Inn Club Vacations (owned by Orange Lake Resorts / IHG Hotels & Resorts) operates legitimate exit programs — use those first.
+  note: null
+dark_patterns:
+- type: high-pressure purchase presentations
+  description: Multi-hour sales sessions with urgency tactics, misleading claims about booking flexibility and investment value.
+- type: perpetual maintenance fees
+  description: Annual maintenance fees ($700-$2,500+) increase annually and cannot be stopped without formally exiting the contract.
+retention_tactics:
+- Owner services may offer hardship programs or fee deferrals before processing a formal exit.
 direct_cancel_url: null
 free_alternatives: []
-notes: ""
+notes: Holiday Inn Club Vacations is owned by Orange Lake Resorts, which is affiliated with IHG Hotels & Resorts. If you purchased at an Orange Lake resort under the Holiday Inn brand, the exit process goes through Holiday Inn Club Vacations owner services. The rescission window — written in your contract, state-mandated — is the critical first step.

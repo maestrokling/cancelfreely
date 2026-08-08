@@ -3,12 +3,30 @@ slug: nuuly
 url: https://www.nuuly.com
 category: fashion
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to nuuly.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Navigate to Account > Subscription > Cancel Subscription. You must return all currently rented items by the due date to avoid being charged for them.
+  note: null
+- step: 3
+  instruction: Complete the cancellation survey and confirm. Cancellation takes effect at the end of your current billing cycle. You will not be charged again.
+  note: null
+dark_patterns:
+- type: loss aversion messaging
+  description: During cancellation, Nuuly shows the value of items you've rented and savings you'll lose access to, emphasizing what you're giving up.
+retention_tactics:
+- Offers a pause option (skip a month) before cancellation.
+- May present a discounted month to stay.
+direct_cancel_url: https://www.nuuly.com/account/subscription
+free_alternatives:
+- name: ThredUp (secondhand marketplace)
+  url: https://www.thredup.com
+  note: Buy secondhand designer clothing at discount prices
+- name: Poshmark
+  url: https://poshmark.com
+  note: Peer-to-peer secondhand fashion marketplace
+notes: Nuuly ($98/month as of 2025, up from $88) is a clothing rental subscription owned by URBN (parent of Urban Outfitters, Anthropologie, Free People). Members rent 6 items per month and return them at the end of each cycle. The cancellation process is straightforward online, though Nuuly does present a pause option and shows rental value summaries. The main friction point is remembering to return rented items before canceling — unreturned items will be charged to your card at retail price. Nuuly has been expanding its resale marketplace (Nuuly Thrift) as a secondary business line.

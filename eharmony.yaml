@@ -2,12 +2,41 @@ name: eHarmony
 slug: eharmony
 url: https://www.eharmony.com
 category: dating
-cancel_method: online or phone
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online
+friction_score: 4
+last_verified: '2026-01-12'
+steps:
+- step: 1
+  instruction: Go to eharmony.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon > Account Settings > Billing.
+  note: null
+- step: 3
+  instruction: Find 'Cancel Subscription' or 'Turn Off Automatic Renewal'. eHarmony frames cancellation as 'turning off auto-renewal' rather than canceling. Your subscription continues until the current term ends.
+  note: null
+- step: 4
+  instruction: You will be required to enter your password and navigate multiple confirmation screens before cancellation is processed. Multiple screens with retention messaging before the final confirmation.
+  note: null
+- step: 5
+  instruction: If subscribed via Apple or Google, cancel through those platforms.
+  note: null
+dark_patterns:
+- type: auto-renewal framing
+  description: eHarmony presents cancellation as 'turning off automatic renewal' rather than 'canceling your subscription' — obscuring the action and creating uncertainty about whether the account has been truly canceled.
+- type: multi-screen retention maze
+  description: eHarmony's cancellation flow includes password re-entry and multiple confirmation screens with retention messaging before reaching final cancel.
+- type: high price auto-renewal
+  description: eHarmony charges $35.90-$65.90/month and auto-renews at full price after introductory offers expire. Many users report surprise charges.
+retention_tactics:
+- Offers a discounted renewal rate.
+- Offers a free trial extension.
+direct_cancel_url: https://support.eharmony.com/app/answers/detail/a_id/222
+free_alternatives:
+- name: OkCupid (free tier)
+  url: https://www.okcupid.com
+  note: Generous free tier with messaging
+- name: Hinge (free tier)
+  url: https://hinge.co
+  note: Free tier with daily likes
+notes: eHarmony is one of the more friction-heavy dating app cancels. The 'turn off auto-renewal' framing is intentionally ambiguous — confirm you've received a cancellation confirmation email. Prices are high ($35.90-$65.90/mo) making the auto-renewal trap particularly costly.

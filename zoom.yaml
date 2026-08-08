@@ -1,13 +1,46 @@
 name: Zoom
 slug: zoom
-url: https://www.zoom.com
+url: https://zoom.us
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to zoom.us and sign in with the account that holds the paid plan. You must be the account owner or admin to cancel. If your organization manages the account, contact your IT admin.
+  note: null
+- step: 2
+  instruction: Click your profile icon, then navigate to 'Account Management' > 'Billing'. Or go directly to zoom.us/account/billing.
+  note: null
+- step: 3
+  instruction: Under 'Current Plans', find the plan you want to cancel and click 'Cancel Plan' or 'Cancel Subscription'. If you have add-ons (Zoom Phone, Zoom Rooms, etc.), cancel each one separately.
+  note: null
+- step: 4
+  instruction: Select a cancellation reason, review the confirmation details, and click 'Confirm Cancellation'. Access continues through the end of the billing period. Your account reverts to the free Basic plan (40-minute group meeting limit).
+  note: null
+- step: 5
+  instruction: Download any cloud recordings before cancellation, as cloud storage is removed with paid plans. Local recordings on your computer are not affected.
+  note: null
+dark_patterns:
+- type: retention survey with targeted rebuttals
+  description: The cancellation reason survey triggers targeted responses that attempt to address your specific concern (e.g., selecting 'too expensive' triggers a discount offer or plan comparison).
+- type: add-on cancellation fragmentation
+  description: Users with multiple Zoom products (Meetings, Phone, Rooms, Webinars) must cancel each add-on separately, and the billing page does not make it obvious that multiple products are active.
+retention_tactics:
+- May offer a discounted renewal rate when cancellation is initiated.
+- Presents a plan downgrade option and feature comparison to encourage switching to a lower tier rather than canceling.
+direct_cancel_url: https://zoom.us/account/billing
+free_alternatives:
+- name: Zoom (free Basic plan)
+  url: https://zoom.us
+  note: Free tier with unlimited 1:1 calls and 40-minute group meetings
+- name: Google Meet (free)
+  url: https://meet.google.com
+  note: Free video calls up to 60 minutes with a Google account
+- name: Jitsi Meet (free, open source)
+  url: https://meet.jit.si
+  note: Free open-source video conferencing with no account required and no time limits
+- name: Microsoft Teams (free)
+  url: https://teams.microsoft.com
+  note: Free video meetings up to 60 minutes with Microsoft account
+notes: Zoom Pro costs $13.33/month/user (billed annually) or $15.99/month (billed monthly), with Business and Enterprise tiers scaling up from there. The free Basic plan remains highly functional for personal use with unlimited 1:1 calls and 40-minute group meetings. Cloud recordings and advanced admin features are lost when downgrading to free. Zoom has expanded well beyond video meetings into Zoom Phone (VoIP), Zoom Rooms (conference rooms), and Zoom Workplace (collaboration suite), which means enterprise users may have multiple products to cancel separately. Annual plan cancellations do not receive prorated refunds by default, though requesting one through support is sometimes successful. The 40-minute free tier limit was temporarily lifted during the COVID-19 pandemic but has been firmly reinstated.

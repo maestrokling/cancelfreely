@@ -3,12 +3,38 @@ slug: clear
 url: https://www.clearme.com
 category: travel
 cancel_method: online or phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to clearme.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Membership > Cancel Membership.
+  note: null
+- step: 3
+  instruction: Follow the confirmation prompts. Or call 1-855-253-2763 to cancel by phone.
+  note: null
+- step: 4
+  instruction: Confirm cancellation and check your email for confirmation. Access continues through end of the annual billing period. No prorated refund is available.
+  note: null
+dark_patterns:
+- type: annual auto-renewal
+  description: CLEAR auto-renews annually at $189/year with limited notice. Many users report being charged for a renewal they forgot about or didn't want.
+- type: no prorated refund
+  description: If you cancel after the annual renewal date, there is no prorated refund — you've paid for the full year regardless of when you cancel.
+- type: confusing product differentiation
+  description: Many consumers confuse CLEAR with TSA PreCheck. CLEAR is biometric identity verification (skips the ID check line), while PreCheck skips the security screening. Users may sign up not understanding what they're actually getting.
+retention_tactics:
+- Offers a discounted renewal rate during cancellation.
+- Offers to pause membership for a period.
+- Highlights airport wait time savings and partner benefits.
+direct_cancel_url: https://www.clearme.com/account
+free_alternatives:
+- name: TSA PreCheck
+  url: https://www.tsa.gov/precheck
+  note: $78 for 5 years ($15.60/year) — skips security screening line
+- name: Global Entry
+  url: https://www.cbp.gov/travel/trusted-traveler-programs/global-entry
+  note: $100 for 5 years — includes TSA PreCheck + expedited customs
+notes: CLEAR ($189/year, discounts available for Delta, United, and other partners) provides biometric identity verification at airports. It complements rather than replaces TSA PreCheck — CLEAR gets you to the front of the ID check line, while PreCheck expedites the actual security screening. The main cancellation friction is the annual billing model with no prorated refunds. Multiple users report forgetting about the annual renewal and being charged unexpectedly. Before signing up, check if your airline or credit card offers a CLEAR discount or membership credit.

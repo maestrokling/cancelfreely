@@ -3,12 +3,29 @@ slug: linkedin-learning
 url: https://www.linkedin.com/learning
 category: education
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: Go to linkedin.com and sign in. LinkedIn Learning is bundled with LinkedIn Premium — canceling Learning cancels the Premium subscription too.
+  note: null
+- step: 2
+  instruction: Go to your profile > Premium hub > Cancel subscription. Or go to linkedin.com/premium/manage and select cancel.
+  note: null
+- step: 3
+  instruction: Access continues through end of billing period. Certificates earned are retained on your profile.
+  note: null
+dark_patterns:
+- type: bundled with LinkedIn Premium
+  description: LinkedIn Learning is not a standalone product — it's included in LinkedIn Premium. You cannot cancel Learning without canceling the full Premium subscription.
+retention_tactics:
+- May offer a discounted renewal.
+direct_cancel_url: https://www.linkedin.com/premium/manage
+free_alternatives:
+- name: Coursera (free audit)
+  url: https://www.coursera.org
+  note: Free audit access to many courses
+- name: YouTube (free)
+  url: https://www.youtube.com
+  note: Free professional tutorials
+notes: LinkedIn Learning is included with LinkedIn Premium Career ($39.99/month) and Premium Business ($59.99/month). Canceling Premium cancels Learning access. Certificates you've already earned remain on your LinkedIn profile regardless of subscription status.

@@ -3,11 +3,38 @@ slug: aaa
 url: https://www.aaa.com
 category: membership
 cancel_method: phone or in-person
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Call your local AAA club to request cancellation. AAA is a federation of regional clubs. Cancellation is handled by your local club, not a national center. Find your club's number at aaa.com.
+  note: null
+- step: 2
+  instruction: Alternatively, visit a local AAA branch in person with your membership card or ID.
+  note: null
+- step: 3
+  instruction: Request cancellation and ask about your refund eligibility. Prorated refund of unused dues is available IF you have not used Emergency Roadside Services during the current membership term. Some clubs have additional restrictions.
+  note: null
+- step: 4
+  instruction: Confirm cancellation in writing if your club requires it, and get a confirmation number. Some regional clubs will send a cancellation confirmation via email.
+  note: null
+dark_patterns:
+- type: no online cancellation
+  description: Despite having a full-featured website and mobile app, AAA does not offer online cancellation. Members must call or visit in person.
+- type: regional fragmentation
+  description: Each regional AAA club has slightly different cancellation policies and procedures. There is no standardized national process, creating confusion about where and how to cancel.
+- type: auto-renewal without clear notice
+  description: Membership auto-renews annually. Renewal notices can be easy to miss, and some users report being charged before receiving notice.
+retention_tactics:
+- Staff will highlight roadside coverage, travel discounts, and insurance benefits you'll lose.
+- May offer a membership tier downgrade (from Plus/Premier to Classic) instead of full cancellation.
+- Some clubs offer a reduced rate to retain members.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: Your auto insurer's roadside assistance
+  url: null
+  note: Many auto insurers include roadside assistance — check your policy before paying for AAA
+- name: Credit card roadside assistance
+  url: null
+  note: Many credit cards (Chase Sapphire, Amex Platinum, Citi) include roadside assistance as a benefit
+notes: AAA (American Automobile Association) membership costs $40-$200+/year depending on tier (Classic, Plus, Premier) and region. The main friction is the lack of online cancellation combined with the regional club structure — you can't just click a button on aaa.com. Before canceling, check whether your auto insurance or credit cards already include roadside assistance, as many do. Prorated refunds are available if you haven't used roadside services during the current term. AAA membership also provides discounts at hotels, restaurants, and retailers, which may make it worth keeping even without the roadside benefit.

@@ -3,12 +3,30 @@ slug: terminix
 url: https://www.terminix.com
 category: home-services
 cancel_method: phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-04-01'
+steps:
+- step: 1
+  instruction: 'Call Terminix: 1-800-837-6464 (or 1-800-TERMINIX).'
+  note: null
+- step: 2
+  instruction: State you want to cancel your pest control plan. Have your account number ready. You can also contact your local branch directly — find the number on your invoice or at terminix.com.
+  note: null
+- step: 3
+  instruction: Check your contract for cancellation terms. Annual plans typically allow cancellation with a written notice period; ongoing monthly plans cancel with 30 days notice. If required, send written cancellation via certified mail to your local branch address.
+  note: null
+- step: 4
+  instruction: Get a cancellation confirmation number and check that services stop as agreed.
+  note: null
+dark_patterns:
+- type: automatic plan renewal
+  description: Terminix annual plans auto-renew without prominent advance notice. Many customers are charged for a new year of service before realizing their plan renewed.
+retention_tactics:
+- May offer a discount or additional service visit to retain you.
+- May offer to pause service rather than cancel.
+direct_cancel_url: https://www.orkin.com/about/how-to-cancel-orkin-service
+free_alternatives:
+- name: Local pest control companies
+  url: null
+  note: Local providers often have more flexible terms
+notes: Terminix is owned by Rentokil (merged 2022). Their Termite Guarantee (extended warranty) is a separate agreement from regular pest control plans and has different cancellation terms. If you have a termite bond/guarantee, review that contract separately. Terminix has a money-back guarantee on some services — check your plan terms.

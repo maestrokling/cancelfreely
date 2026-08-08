@@ -3,12 +3,37 @@ slug: jasper-ai
 url: https://www.jasper.ai
 category: ai-tools
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to app.jasper.ai and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon, then go to Settings > Billing.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Subscription' or 'Cancel Plan' and follow the prompts. You'll be asked to select a reason for canceling and may be shown a retention offer.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Access continues through the end of your billing period. Your generated content and templates remain accessible until the subscription expires. Export important content before it lapses.
+  note: null
+dark_patterns:
+- type: obstruction / multi-step cancel
+  description: Cancellation requires navigating through a multi-step flow with a cancellation reason survey, feature highlights, and a retention offer before reaching the final cancel button.
+retention_tactics:
+- Offers a discounted rate (often 20-50% off) during the cancellation flow.
+- Shows usage statistics and content generated to emphasize the value you'd lose.
+- May offer a plan downgrade instead of full cancellation.
+direct_cancel_url: https://app.jasper.ai/settings/billing
+free_alternatives:
+- name: ChatGPT (free tier)
+  url: https://chat.openai.com
+  note: Free AI writing with GPT-4o
+- name: Claude (free tier)
+  url: https://claude.ai
+  note: Free AI writing and analysis assistant
+- name: Copy.ai (free tier)
+  url: https://www.copy.ai
+  note: Free tier with limited AI copywriting features
+notes: Jasper AI ($39/month Creator plan, $99/month Pro plan, custom Enterprise pricing) is an AI content platform focused on marketing and business copy. The tool has repositioned from a general AI writer to an enterprise marketing AI platform with brand voice, campaign management, and team collaboration features. Cancellation is available online but involves a multi-step retention flow. Annual plans are non-refundable for remaining months after cancellation. The AI writing space has become heavily commoditized since 2023, making free alternatives like ChatGPT and Claude viable replacements for most individual users.

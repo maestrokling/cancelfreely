@@ -1,13 +1,38 @@
 name: Instacart+
 slug: instacart-plus
-url: https://www.instacart.com
+url: https://www.instacart.com/plus
 category: shopping
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to instacart.com or open the Instacart app and sign in.
+  note: null
+- step: 2
+  instruction: 'Go to Account > Instacart+ Membership > Manage your membership. On the app: tap the profile icon > Your Instacart+ Membership.'
+  note: null
+- step: 3
+  instruction: Select 'Cancel Membership' and follow the multi-step prompts to confirm. You'll be shown savings summaries and offered alternatives before the final cancel button.
+  note: null
+- step: 4
+  instruction: Access continues through end of billing period. Delivery fees and service fees will apply to future orders after membership lapses.
+  note: null
+dark_patterns:
+- type: loss aversion messaging
+  description: During cancellation, Instacart shows a personalized savings summary ('You saved $X.XX on delivery fees this month') to make you reconsider.
+- type: confirmshaming
+  description: Cancel confirmation button uses language like 'End my savings' rather than a neutral 'Cancel membership' option.
+retention_tactics:
+- Displays personalized dollar-amount savings from delivery fee waivers.
+- Offers a pause membership option (1-4 weeks) as an alternative to cancellation.
+- May offer a discounted renewal rate or free month extension.
+direct_cancel_url: https://www.instacart.com/store/account/instacart-plus
+free_alternatives:
+- name: Instacart (no subscription)
+  url: https://www.instacart.com
+  note: Order without Instacart+ — delivery fees and service fees apply per order
+- name: Walmart+ Grocery
+  url: https://www.walmart.com/plus
+  note: Competing membership with free grocery delivery (separate subscription)
+notes: Instacart+ ($99/year or $9.99/month) provides free delivery on orders over $35, reduced service fees, and credit back on pickup orders. The cancellation flow is functional but employs several retention patterns including personalized savings data and confirmshaming language. Instacart+ also bundles a Peacock Premium subscription, which cancels separately through Peacock. The FTC's click-to-cancel rule finalized in 2024 may pressure Instacart to simplify its cancellation flow. Note that Instacart+ benefits do not apply to orders from all retailers.

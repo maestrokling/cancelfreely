@@ -2,13 +2,34 @@ name: SimpliSafe
 slug: simplisafe
 url: https://simplisafe.com
 category: home-services
-cancel_method: phone or online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or phone
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'Online: Go to webapp.simplisafe.com, sign in, then navigate to Settings > My Subscription.'
+  note: null
+- step: 2
+  instruction: Click 'Cancel Subscription' or 'Cancel Monitoring' and follow the prompts. If the online option is not available for your plan, call SimpliSafe instead.
+  note: null
+- step: 3
+  instruction: 'By phone: Call SimpliSafe at 1-888-957-4675 and request cancellation. Have your account number ready. Phone agents may offer retention discounts.'
+  note: null
+- step: 4
+  instruction: Confirm cancellation. No early termination fee, no contract. After canceling monitoring, your SimpliSafe hardware continues to function as a local alarm (siren sounds locally) — it just will not contact the monitoring center or send alerts to your phone.
+  note: null
+dark_patterns:
+- type: security anxiety
+  description: During the cancellation flow (especially by phone), SimpliSafe emphasizes that your home will no longer be professionally monitored, creating anxiety about home security.
+retention_tactics:
+- Phone agents may offer a discounted monitoring rate (commonly a few months at a reduced price).
+- Emphasizes that canceling monitoring means losing police/fire dispatch and mobile alerts.
+direct_cancel_url: https://webapp.simplisafe.com
+free_alternatives:
+- name: SimpliSafe (self-monitoring)
+  url: https://simplisafe.com
+  note: Cancel monitoring and keep using the hardware as a local alarm with siren at no ongoing cost
+- name: Wyze Home Monitoring
+  url: https://www.wyze.com/pages/home-monitoring
+  note: Budget professional monitoring starting at $4.99/month with Wyze hardware
+notes: SimpliSafe stands out in home security for having no contracts and no early termination fees, which is a sharp contrast to ADT and Vivint's long-term agreements. Hardware is purchased upfront and continues to function as a standalone local alarm after canceling the monitoring subscription. The Fast Protect plan ($29.99/month) includes professional monitoring with video verification, while the Standard plan ($19.99/month) provides traditional monitoring. SimpliSafe was acquired by ADT in 2025, but as of early 2026, SimpliSafe continues to operate as a separate brand with its own customer service and no-contract model. Phone cancellation agents may offer retention discounts, but the process is not aggressive compared to traditional security companies.

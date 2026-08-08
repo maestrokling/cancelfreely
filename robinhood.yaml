@@ -1,0 +1,34 @@
+name: Robinhood
+slug: robinhood
+url: https://www.robinhood.com
+category: finance
+cancel_method: online or app
+friction_score: 3
+last_verified: '2026-01-23'
+steps:
+- step: 1
+  instruction: 'Before closing: sell or transfer all stocks, ETFs, and crypto. Withdraw all cash to your bank account. IRA accounts require a rollover to another institution. You cannot close a Robinhood account with a balance. All positions must be liquidated or transferred first.'
+  note: null
+- step: 2
+  instruction: 'In the app: tap your profile icon > Account > Investing > Account Information > Deactivate Account.'
+  note: null
+- step: 3
+  instruction: 'On web: go to account.robinhood.com > Settings > Investing > Deactivate Account.'
+  note: null
+- step: 4
+  instruction: Send a written confirmation to support@robinhood.com stating your intent to close the account. The written email step is required per Robinhood's process. A representative will follow up within 5 business days.
+  note: null
+dark_patterns:
+- type: account balance prerequisite
+  description: Robinhood requires all positions to be liquidated or transferred before account closure — you cannot simply close and have them handle it. For investors with diversified portfolios, this can take significant time and may trigger taxable events.
+retention_tactics:
+- None — account closure is straightforward once balances are zero.
+direct_cancel_url: https://robinhood.com/us/en/support/articles/close-my-account/
+free_alternatives:
+- name: Fidelity (free trading)
+  url: https://www.fidelity.com
+  note: Commission-free trading with better research tools
+- name: Charles Schwab (free)
+  url: https://www.schwab.com
+  note: Commission-free trading, full-service brokerage
+notes: Robinhood account closure is permanent. For ACATS transfer (moving investments to another broker without selling), initiate the transfer at the receiving broker — this avoids triggering taxable events. Robinhood Gold ($5/month) cancels separately through the app before account closure.

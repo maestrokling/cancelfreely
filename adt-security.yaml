@@ -3,12 +3,36 @@ slug: adt-security
 url: https://www.adt.com
 category: home-services
 cancel_method: phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 4
+last_verified: '2026-03-15'
+steps:
+- step: 1
+  instruction: 'Call ADT: 1-800-238-2727. Have your account number, the last 4 digits of your Social Security number (for account verification), and your passcode ready.'
+  note: null
+- step: 2
+  instruction: State clearly you want to cancel. ADT will make retention offers — decline them.
+  note: null
+- step: 3
+  instruction: 'CRITICAL — check your contract for the Early Termination Fee (ETF): ADT charges 75% of the remaining contract balance if you cancel early. On a 36-month contract at $50/month with 24 months remaining, that''s $900. ADT contracts are typically 36 months. ETF can range from $833 to $1,418+ depending on your plan.'
+  note: null
+- step: 4
+  instruction: Get a cancellation confirmation number. ADT should stop billing at the end of the notice period specified in your contract (typically 30 days). Check your next statement to confirm no further charges.
+  note: null
+dark_patterns:
+- type: high early termination fee
+  description: ADT charges 75% of the remaining contract balance for early cancellation — one of the highest ETF structures in the home security industry. This can run hundreds to over a thousand dollars.
+- type: auto-renewal
+  description: ADT contracts typically auto-renew at the end of the initial term. If you don't cancel within the specified window before renewal (check your contract), you're locked into another term.
+retention_tactics:
+- Offers a discounted rate to stay.
+- Offers to move service to a new address.
+- Offers equipment upgrades.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: SimpliSafe (no contract)
+  url: https://simplisafe.com
+  note: No contract, cancel anytime
+- name: Ring Protect (no contract)
+  url: https://ring.com
+  note: No contract, cancel online
+notes: 'ADT is the largest home security company in the US. The 75% ETF is the critical gotcha. Before canceling: calculate your remaining balance and multiply by 0.75 to know your exit cost. Moving to a new home does not void the contract — ADT will offer to transfer service. Death of account holder and military deployment are typically ETF-exempt situations.'

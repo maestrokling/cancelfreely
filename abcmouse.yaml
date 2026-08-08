@@ -2,13 +2,30 @@ name: ABCmouse
 slug: abcmouse
 url: https://www.abcmouse.com
 category: kids
-cancel_method: online or phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 3
+last_verified: '2026-03-04'
+steps:
+- step: 1
+  instruction: 'Desktop/laptop only for direct billing: go to abcmouse.com > Account > Manage Subscription > Cancel. ⚠️ ABCmouse does NOT support cancellation on mobile browsers (phone or tablet). Must use a desktop or laptop.'
+  note: null
+- step: 2
+  instruction: If subscribed via Apple or Google Play, cancel through those platforms instead.
+  note: null
+- step: 3
+  instruction: Confirm cancellation. No refund for unused time — access continues through end of billing period.
+  note: null
+dark_patterns:
+- type: mobile browser cancellation blocked
+  description: ABCmouse explicitly does not support subscription cancellation on mobile browsers. Users on phones must switch to a desktop browser or use the app store path — a friction-adding design choice.
+retention_tactics:
+- May offer a pause or reduced rate.
+direct_cancel_url: https://support.abcmouse.com/hc/en-us/articles/34385750917783
+free_alternatives:
+- name: Khan Academy Kids (free)
+  url: https://www.khanacademy.org/kids
+  note: Free educational app for ages 2-8
+- name: PBS Kids (free)
+  url: https://pbskids.org
+  note: Free educational content for young children
+notes: ABCmouse ($12.99/month) is an educational platform for ages 2-8. The mobile browser cancellation block is an unnecessary friction point. Use a desktop browser for direct-billed accounts.

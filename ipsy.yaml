@@ -1,13 +1,25 @@
 name: Ipsy
 slug: ipsy
 url: https://www.ipsy.com
-category: subscription-box
+category: subscription-boxes
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: Go to ipsy.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile > 'Account Settings' > 'Membership'.
+  note: null
+- step: 3
+  instruction: 'Click ''Cancel Membership'' and follow the prompts. ⚠️ Annual subscribers: You must cancel by 11:59 PM Pacific on the 25th of the last month of your subscription term to avoid auto-renewal. Example: if you subscribed in May 2025, cancel by April 25, 2026.'
+  note: null
+dark_patterns:
+- type: annual renewal deadline trap
+  description: Annual Ipsy subscribers must cancel by a specific date (25th of the final month) or be auto-renewed for another full year. This deadline is buried in terms of service and not prominently surfaced during the subscription flow.
+retention_tactics:
+- May offer a pause or discounted rate.
+direct_cancel_url: https://www.ipsy.com/account/membership
 free_alternatives: []
-notes: ""
+notes: Ipsy's main gotcha is the annual renewal deadline — missing the 25th-of-the-month cutoff means another full year's charge. Monthly subscribers have more flexibility. Ipsy merged with BoxyCharm in 2022; if you have a BoxyCharm subscription, it now cancels through Ipsy.

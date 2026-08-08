@@ -2,13 +2,27 @@ name: Factor
 slug: factor
 url: https://www.factor75.com
 category: food
-cancel_method: online or chat
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+cancel_method: online
+friction_score: 3
+last_verified: '2026-02-09'
+steps:
+- step: 1
+  instruction: Go to factor75.com and sign in.
+  note: null
+- step: 2
+  instruction: 'Go to Account > Plan Settings > Cancel Plan. ⚠️ Factor has a weekly cutoff: cancel by Wednesday 11:59 PM CT to avoid being charged for the following week''s box.'
+  note: null
+- step: 3
+  instruction: Navigate past the 'skip' and 'pause' options — Factor prominently surfaces these before showing the cancel option.
+  note: null
+dark_patterns:
+- type: skip-vs-cancel confusion
+  description: Factor's cancellation flow prominently surfaces 'skip a week' and 'pause' options before the cancel path, making it easy to accidentally skip rather than cancel. Many users think they've canceled when they've only skipped.
+- type: Wednesday cutoff deadline
+  description: Factor processes charges and prepares meals weekly. Missing the Wednesday 11:59 PM CT cutoff means you'll receive and be billed for the next week's box even if you cancel immediately after.
+retention_tactics:
+- Prominently offers skip and pause options.
+- May offer a discount to continue.
+direct_cancel_url: https://www.factor75.com/plans/settings
 free_alternatives: []
-notes: ""
+notes: Factor (owned by HelloFresh) delivers pre-cooked meals. Cancel by Wednesday 11:59 PM CT to avoid the next week's charge. The skip/cancel confusion is the biggest gotcha — make sure you've completed full cancellation, not just skipped.

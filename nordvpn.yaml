@@ -2,12 +2,39 @@ name: NordVPN
 slug: nordvpn
 url: https://nordvpn.com
 category: security
-cancel_method: online or chat
-friction_score: null
-last_verified: 2026-04-11
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to my.nordaccount.com and sign in with your NordVPN credentials. Cannot cancel from the mobile app — must use the web dashboard.
+  note: null
+- step: 2
+  instruction: Click 'Billing' in the left sidebar, then find your NordVPN subscription.
+  note: null
+- step: 3
+  instruction: Click 'Change plan' or 'Cancel automatic payments' next to your subscription. NordVPN may route you through several retention screens before showing the actual cancel button.
+  note: null
+- step: 4
+  instruction: Complete the cancellation survey and confirm cancellation. Access continues through the end of the current billing period. Your subscription will not renew.
+  note: null
+- step: 5
+  instruction: 'If within 30 days of purchase: request a full refund via live chat at nordvpn.com/contact-us. NordVPN''s 30-day money-back guarantee applies to new subscriptions only. Refund is processed to original payment method within 5-10 business days.'
+  note: null
+dark_patterns:
+- type: price anchoring / renewal bait
+  description: NordVPN heavily promotes 2-year plans at steep introductory discounts (e.g., $2.99/month) that auto-renew at a significantly higher price (often $12.99/month). The renewal price is buried in fine print during checkout.
+- type: confirmshaming
+  description: During the cancellation flow, NordVPN uses confirmshaming language like 'Leave my connection unprotected' as the cancel option, implying the user is putting themselves at risk.
+retention_tactics:
+- Presents multiple retention offers (discounted renewal rates) before showing the final cancel button.
+- Offers a pause option and a downgrade to a shorter-term plan before allowing cancellation.
+direct_cancel_url: https://my.nordaccount.com/dashboard/nordvpn/
+free_alternatives:
+- name: Proton VPN (free tier)
+  url: https://protonvpn.com
+  note: Free tier with no data limits and no ads, though server selection is limited
+- name: Windscribe (free tier)
+  url: https://windscribe.com
+  note: Free 10GB/month with servers in 10+ countries
+notes: NordVPN plans range from $12.99/month (monthly) to as low as $2.99/month on a 2-year commitment, but the renewal price jumps dramatically after the introductory period. This price-bait pattern is the most notable friction point. The 30-day money-back guarantee is generally honored via live chat. NordVPN's cancellation flow includes multiple retention screens and confirmshaming language, earning it a friction score of 3. The service is otherwise functional and widely used, but users should set a calendar reminder before the auto-renewal date to avoid surprise charges at the higher rate.

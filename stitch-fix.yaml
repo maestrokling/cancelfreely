@@ -1,13 +1,25 @@
 name: Stitch Fix
 slug: stitch-fix
 url: https://www.stitchfix.com
-category: subscription-box
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+category: subscription-boxes
+cancel_method: online or chat
+friction_score: 2
+last_verified: '2026-01-21'
+steps:
+- step: 1
+  instruction: Go to stitchfix.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to 'Account' > 'Styling Preferences' and change delivery frequency to 'I'll request my own Fixes' (on-demand). This stops automatic shipments without closing your account.
+  note: null
+- step: 3
+  instruction: 'To fully close/delete your account: Use the ''Chat'' function in the app to reach customer service and request account deletion. Reddit users recommend being explicit: ''Cancel my account, do not just suspend deliveries.'''
+  note: null
+dark_patterns:
+- type: no explicit cancel button
+  description: Stitch Fix doesn't have a straightforward 'cancel account' button. Stopping charges requires switching to on-demand mode or contacting support for full account closure.
+retention_tactics:
+- Support agents may offer to pause deliveries instead of closing the account.
+direct_cancel_url: https://www.stitchfix.com/account/profile
 free_alternatives: []
-notes: ""
+notes: Stitch Fix is on-demand fashion — you only pay for what you keep plus a $20 styling fee (credited if you buy). Switching to 'on-demand' mode stops automatic charges without closing your account. For full closure, use chat support and be explicit about wanting the account deleted, not paused.

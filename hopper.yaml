@@ -2,13 +2,39 @@ name: Hopper Premium
 slug: hopper
 url: https://www.hopper.com
 category: travel
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Hopper subscriptions are managed through the app store where you subscribed. Hopper is a mobile-first app. There is no web-based subscription management.
+  note: null
+- step: 2
+  instruction: 'iOS: Settings > [your name] > Subscriptions > Hopper > Cancel Subscription.'
+  note: null
+- step: 3
+  instruction: 'Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Hopper > Cancel.'
+  note: null
+- step: 4
+  instruction: Access continues through the end of your billing period. Price Freeze credits and Carrot Cash you've already earned remain in your account.
+  note: null
+dark_patterns:
+- type: hidden costs / drip pricing
+  description: Hopper adds fees for features like Price Freeze, Cancel for Any Reason, and Change for Any Reason as individual add-ons during booking, making the total cost unclear until late in the checkout process.
+- type: forced bundling
+  description: Premium features are sometimes pre-selected during booking flow, requiring users to actively opt out of paid add-ons.
+retention_tactics:
+- Highlights accumulated Carrot Cash balance that would go unused.
+- Promotes the value of Price Freeze and Cancel for Any Reason features you'd lose.
+direct_cancel_url: https://hopper.com/help
+free_alternatives:
+- name: Hopper (free basic)
+  url: https://www.hopper.com
+  note: Free price prediction and booking — the core app is free, Premium adds flexibility features
+- name: Google Flights
+  url: https://flights.google.com
+  note: Free flight price tracking and comparison with no upsells
+- name: Skiplagged
+  url: https://skiplagged.com
+  note: Free flight search with hidden-city fare discovery
+notes: Hopper Premium (pricing varies, roughly $5-$10/month or bundled per-booking) adds Price Freeze, Cancel for Any Reason, and Change for Any Reason features to the travel booking app. Hopper has faced criticism for its drip pricing model where add-on fees accumulate during booking. Cancellation itself is clean since it routes through app store subscription management. The core Hopper app remains free and fully functional for price predictions and bookings without Premium. Hopper's fintech-style insurance products are underwritten by third-party insurers.

@@ -1,13 +1,25 @@
 name: USAA
 slug: usaa
 url: https://www.usaa.com
-category: insurance
+category: membership
 cancel_method: phone
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-02-01'
+steps:
+- step: 1
+  instruction: 'IMPORTANT: Have replacement insurance active before canceling. Never have a coverage gap. USAA is restricted to military members, veterans, and their families. If you''re canceling insurance (not membership), secure a new policy first.'
+  note: null
+- step: 2
+  instruction: 'Call USAA: 1-800-531-8722. USAA requires phone contact to cancel insurance policies. Online and app cancellation is not available.'
+  note: null
+- step: 3
+  instruction: Specify the policy and cancellation date. Unused premium is refunded pro-rata.
+  note: null
+dark_patterns:
+- type: phone-only cancellation
+  description: USAA requires speaking with a customer service representative to cancel insurance policies. Online or app self-service cancellation is not available.
+retention_tactics:
+- May review your policy to find discounts or coverage adjustments.
+direct_cancel_url: https://www.justcancel.io/blog/cancel-usaa-insurance-2026
 free_alternatives: []
-notes: ""
+notes: USAA is a financial services company serving military members and families — auto, home, renters insurance, banking, and investments. USAA consistently ranks among the highest for customer satisfaction. Phone-only cancellation is the main friction point. Prorated refund is standard. USAA membership itself doesn't have a fee — only the financial products (insurance, investments) have costs.

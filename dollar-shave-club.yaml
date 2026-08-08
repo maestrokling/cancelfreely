@@ -1,13 +1,32 @@
 name: Dollar Shave Club
 slug: dollar-shave-club
 url: https://www.dollarshaveclub.com
-category: subscription-box
+category: subscription-boxes
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to dollarshaveclub.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to 'Account' > 'Next Box' tab.
+  note: null
+- step: 3
+  instruction: Find the subscription you want to cancel and select 'Cancel'. Individual products can be canceled separately. To cancel everything, cancel each product subscription.
+  note: null
+- step: 4
+  instruction: Follow the multi-step confirmation flow. The cancel flow includes multiple screens with offers, surveys, and alternatives before reaching the final confirm button.
+  note: null
+dark_patterns:
+- type: multi-step cancel maze
+  description: Cancellation requires clicking through multiple screens with surveys, discount offers, and pause suggestions. The actual cancel button is buried behind several 'Are you sure?' screens.
+- type: per-product cancellation
+  description: There is no single 'cancel everything' button — each product subscription must be canceled individually, which is tedious for users with multiple items.
+retention_tactics:
+- Offers to pause or skip the next delivery.
+- May offer a discount or free product to stay.
+- Suggests switching to a less frequent delivery schedule.
+direct_cancel_url: https://www.dollarshaveclub.com/account
 free_alternatives: []
-notes: ""
+notes: Dollar Shave Club ($5-$10+/month depending on products) ships razors and grooming products on a recurring basis. The company was sold by Unilever to Nexus Capital in 2023 and has restructured operations. Cancellation is online but requires navigating a multi-step flow with retention offers. Each product subscription must be canceled individually — there's no single 'cancel all' button. DSC razor handles work with standard cartridges, so you can continue using the handle after canceling and buy replacement cartridges elsewhere.

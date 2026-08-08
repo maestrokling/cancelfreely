@@ -2,12 +2,30 @@ name: Bumble
 slug: bumble
 url: https://bumble.com
 category: dating
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: app store or web
+friction_score: 2
+last_verified: '2026-01-23'
+steps:
+- step: 1
+  instruction: ⚠️ Deleting the Bumble app does NOT cancel your subscription.
+  note: null
+- step: 2
+  instruction: 'iOS: Open Settings > [your name] > Subscriptions > Bumble > Cancel Subscription.'
+  note: null
+- step: 3
+  instruction: 'Android: Open Google Play > Profile > Payments & Subscriptions > Subscriptions > Bumble > Cancel.'
+  note: null
+- step: 4
+  instruction: 'Web: Go to bumble.com > Profile photo > Manage your Boost or Manage your Premium > Cancel. Web cancellation is available for direct/web subscriptions.'
+  note: null
+dark_patterns:
+- type: app deletion doesn't cancel
+  description: Like most dating apps, deleting Bumble does not cancel the subscription. Must cancel through the originating platform.
+retention_tactics:
+- None significant beyond standard confirmation.
+direct_cancel_url: https://support.bumble.com/hc/en-us/articles/28534541366045
+free_alternatives:
+- name: Bumble (free tier)
+  url: https://bumble.com
+  note: Free tier with limited swipes and features
+notes: Bumble's cancellation is cleaner than most dating apps — web cancellation works for web subscribers. Covers Bumble Boost, Premium, and Premium+ tiers. Cancel method depends entirely on where you originally subscribed.

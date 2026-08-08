@@ -2,12 +2,28 @@ name: Costco
 slug: costco
 url: https://www.costco.com
 category: membership
-cancel_method: in-person or phone
-friction_score: null
-last_verified: null
-steps: []
+cancel_method: in-store or phone
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Visit any Costco warehouse membership counter and speak with a team member. Immediate full refund of the membership fee — no questions asked, no proration required.
+  note: null
+- step: 2
+  instruction: 'Alternatively, call Costco Member Services: 1-800-774-2678. Phone cancellation is also straightforward and no-pressure.'
+  note: null
+- step: 3
+  instruction: Request your refund. It will be issued to your original payment method or as cash/check. The full membership fee is refunded regardless of how many months you've used.
+  note: null
 dark_patterns: []
-retention_tactics: []
+retention_tactics:
+- None — Costco's satisfaction guarantee is genuine and no-pressure. Staff will not try to talk you out of canceling.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: Sam's Club
+  url: https://www.samsclub.com
+  note: Competing warehouse club — $50/year for Club, $110/year for Plus
+- name: BJ's Wholesale Club
+  url: https://www.bjs.com
+  note: East Coast warehouse club — $55/year
+notes: 'Costco has one of the most consumer-friendly cancellation policies of any membership service: full refund at any time, no questions asked, no proration, no penalty. This applies to both Gold Star ($65/year) and Executive ($130/year) memberships. The policy is genuine — Costco''s 90%+ renewal rate reflects that members stay because of value, not because leaving is hard. This is frequently cited as the gold standard for subscription cancellation policies. Note that Costco does not offer online cancellation, but the in-store and phone processes are both frictionless.'

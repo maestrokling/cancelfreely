@@ -1,13 +1,38 @@
-name: Spectrum
+name: Spectrum (Charter)
 slug: spectrum
 url: https://www.spectrum.com
 category: telecom
-cancel_method: phone or in-person
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+cancel_method: phone or in-store
+friction_score: 4
+last_verified: '2026-02-15'
+steps:
+- step: 1
+  instruction: 'Call Spectrum: 1-833-267-6094 (retention/disconnect line). Spectrum does not allow online cancellation. Phone or in-person only.'
+  note: null
+- step: 2
+  instruction: Alternatively, visit a Spectrum store in person — faster than calling.
+  note: null
+- step: 3
+  instruction: State clearly you want to cancel. Retention agents will make multiple offers — discounts, speed upgrades, bundle renegotiations. Spectrum has no early termination fee on standard residential plans — a genuine advantage over some competitors.
+  note: null
+- step: 4
+  instruction: 'Return all rented equipment (modem, router, cable box) to a Spectrum store or UPS drop-off. Keep the receipt. IMPORTANT: Spectrum does NOT prorate bills. Canceling mid-billing-cycle means you pay the full month — time your cancellation to the end of your billing period if possible.'
+  note: null
+dark_patterns:
+- type: no online cancellation
+  description: Spectrum does not offer online self-service cancellation despite fully online signup. Phone or in-person required.
+- type: no bill proration
+  description: Spectrum does not prorate the final bill. If you cancel mid-cycle, you pay the full billing period with no credit. Customers must time cancellation carefully.
+retention_tactics:
+- Offers significant discounts (often 50%+ off) on current plan.
+- Offers speed upgrades at same price.
+- Offers service bundling to lower per-service cost.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: T-Mobile Home Internet
+  url: https://www.t-mobile.com/isp
+  note: 5G home internet, often $50/month with no contract
+- name: AT&T Fiber
+  url: https://www.att.com/internet/fiber/
+  note: Where available, often competitive pricing with no ETF
+notes: Spectrum/Charter lost significant internet subscribers in 2025 (over 500,000) as fiber and 5G alternatives expanded. No ETF is genuinely helpful. The no-proration policy is the main financial gotcha — calculate your billing cycle end date before calling. Comcast and Spectrum together lost over 1 million internet customers in 2025.

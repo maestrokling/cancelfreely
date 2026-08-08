@@ -3,11 +3,33 @@ slug: claude-pro
 url: https://claude.ai
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to claude.ai and sign in.
+  note: null
+- step: 2
+  instruction: Click your initials/avatar in the top right corner, then select 'Settings'.
+  note: null
+- step: 3
+  instruction: 'Go to ''Billing'' and click ''Cancel plan''. On iOS: tap your initials > Billing > Cancel subscription. If subscribed via Apple, cancel through iOS Settings > Subscriptions.'
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Access continues through the end of the billing period. Your account reverts to the free tier — conversation history is preserved.
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+retention_tactics:
+- None reported — Anthropic has one of the cleanest cancellation flows among AI subscriptions.
+direct_cancel_url: https://claude.ai/settings/billing
+free_alternatives:
+- name: Claude (free tier)
+  url: https://claude.ai
+  note: Free access to Claude with daily usage limits
+- name: ChatGPT (free tier)
+  url: https://chat.openai.com
+  note: Free GPT-4o access with usage limits
+- name: Google Gemini (free)
+  url: https://gemini.google.com
+  note: Free access to Google's Gemini AI
+notes: Claude Pro ($20/month) provides increased usage limits, priority access during peak times, and access to the latest Claude models. It is one of the cleanest AI subscription cancellations — no dark patterns, no retention maze, direct URL to billing works. Conversation history is preserved after cancellation and accessible on the free tier. If you subscribed through the iOS App Store, you must cancel through Apple's subscription management (Settings > Subscriptions) rather than the web interface.

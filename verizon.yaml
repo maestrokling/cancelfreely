@@ -2,12 +2,37 @@ name: Verizon
 slug: verizon
 url: https://www.verizon.com
 category: telecom
-cancel_method: phone or online
-friction_score: null
-last_verified: 2026-04-11
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: phone or in-store
+friction_score: 4
+last_verified: '2026-02-07'
+steps:
+- step: 1
+  instruction: 'Call Verizon: 1-800-922-0204. Say ''cancel service''. For Fios (internet/TV), call 1-800-837-4966.'
+  note: null
+- step: 2
+  instruction: Alternatively, visit a Verizon store in person — generally faster than phone.
+  note: null
+- step: 3
+  instruction: Check your device payment plan status before calling. Any remaining device installment balance is due regardless of service cancellation. Number porting to a new carrier automatically cancels service. Port your number first if switching — this is the fastest cancellation path.
+  note: null
+- step: 4
+  instruction: Return Fios equipment (routers, set-top boxes) to avoid equipment fees.
+  note: null
+dark_patterns:
+- type: device payment obligation confusion
+  description: Like AT&T, Verizon separates device installments from service billing. Customers who cancel before paying off a device still owe the full remaining balance, often hundreds of dollars.
+- type: retention specialist routing
+  description: Phone cancellations are routed through retention teams who make multiple offers before processing.
+retention_tactics:
+- Offers loyalty discounts and bill credits.
+- Matches competitor pricing.
+- Offers an account pause instead of canceling.
+direct_cancel_url: https://www.verizon.com/support/residential/account/manage-service/cancel
+free_alternatives:
+- name: Visible (Verizon network)
+  url: https://www.visible.com
+  note: Budget wireless on Verizon's network, often $25/month
+- name: T-Mobile Home Internet
+  url: https://www.t-mobile.com/isp
+  note: 5G home internet alternative to Fios
+notes: Port your number to the new carrier first if switching — this automatically cancels Verizon service without needing to call retention. For Fios, no ETF on most residential plans. Device installment balances survive service cancellation and must be paid off separately.

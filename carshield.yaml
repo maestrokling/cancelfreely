@@ -1,14 +1,41 @@
 name: CarShield
 slug: carshield
 url: https://www.carshield.com
-category: automotive
+category: insurance
 cancel_method: phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 4
+last_verified: '2026-02-17'
+steps:
+- step: 1
+  instruction: 'Call CarShield: 1-800-977-3450. Have your vehicle service contract number ready. CarShield does not allow online cancellation. Phone only.'
+  note: null
+- step: 2
+  instruction: State you want to cancel your vehicle protection plan. Get a cancellation confirmation number.
+  note: null
+- step: 3
+  instruction: 'Refund terms: within 30 days = full refund. After 30 days = prorated refund minus a $75 cancellation fee. Processing time for refund: 45–60 days.'
+  note: null
+- step: 4
+  instruction: Send a written cancellation request via certified mail to your contract administrator as a backup. Some CarShield plans are administered by third parties — your contract should specify who to contact.
+  note: null
+dark_patterns:
+- type: phone-only cancellation
+  description: No online cancellation despite online signup. Phone required.
+- type: cancellation fee
+  description: CarShield charges a $75 cancellation fee after the 30-day free look period. This fee is buried in the contract terms.
+- type: FTC complaints
+  description: CarShield has faced significant FTC scrutiny and consumer complaints for misleading advertising (implying manufacturer relationship) and claims denials.
+- type: long refund processing
+  description: Prorated refunds take 45–60 days to process — significantly longer than most subscription services.
+retention_tactics:
+- May offer a reduced monthly rate to retain you.
+- May offer to transfer coverage to a different vehicle.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: Your auto manufacturer's warranty
+  url: null
+  note: Check remaining factory warranty coverage first
+- name: Your auto insurer
+  url: null
+  note: Some auto insurers offer mechanical breakdown coverage
+notes: 'CarShield is heavily advertised via TV and radio. The FTC has received numerous complaints about its advertising practices and claims denials. Cancel within 30 days for a full refund with no fee. After 30 days: $75 fee + prorated refund that takes 45-60 days. Keep your cancellation confirmation number and send a certified mail backup.'

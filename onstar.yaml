@@ -2,12 +2,30 @@ name: OnStar
 slug: onstar
 url: https://www.onstar.com
 category: membership
-cancel_method: phone
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or phone
+friction_score: 3
+last_verified: '2026-03-02'
+steps:
+- step: 1
+  instruction: 'Online: go to onstar.com, sign in to your account, and navigate to ''Manage Plan'' > ''Cancel Service''. OnStar says online cancellation is available, but some users report the dashboard doesn''t surface a clear cancel option.'
+  note: null
+- step: 2
+  instruction: 'By phone: press the blue OnStar button in your vehicle and request cancellation, or call 1-888-466-7827.'
+  note: null
+- step: 3
+  instruction: State clearly you want to cancel — agents will make retention offers. OnStar charges $25-$50+/month depending on plan tier.
+  note: null
+dark_patterns:
+- type: retention-first phone flow
+  description: OnStar phone cancellation routes through retention specialists who make multiple offers. Users report needing to decline discounts and downgrades before cancellation is processed.
+- type: dashboard cancel inconsistency
+  description: OnStar claims online cancellation is available but users and third-party guides report the dashboard does not clearly surface a cancel option, effectively requiring a phone call.
+retention_tactics:
+- Offers a downgrade to a lower-tier plan.
+- Offers a discounted rate for 6-12 months.
+direct_cancel_url: https://www.onstar.com/how-to-cancel-onstar-subscription
+free_alternatives:
+- name: Your smartphone
+  url: null
+  note: Most OnStar features (navigation, emergency call) are replicated by smartphone + carrier emergency services
+notes: OnStar is built into GM vehicles (Chevy, GMC, Buick, Cadillac). Many features work without a paid plan — basic emergency calling may be free. The $25-50/month plans add remote start, diagnostics, navigation, and 4G WiFi hotspot. After cancellation, the hardware remains in the vehicle but services are deactivated.

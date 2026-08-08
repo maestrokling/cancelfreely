@@ -2,13 +2,42 @@ name: X Premium (Twitter)
 slug: x-premium
 url: https://x.com
 category: social
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'Determine how you subscribed: through x.com directly, via Apple App Store, or via Google Play. App store subscriptions cost more due to platform fees (Apple charges $11/month vs $8/month direct) and must be canceled through those platforms.'
+  note: null
+- step: 2
+  instruction: 'For web subscriptions: Go to x.com and sign in. Navigate to Settings > Subscription or go directly to x.com/settings/subscription.'
+  note: null
+- step: 3
+  instruction: Click 'Cancel Subscription' and confirm. Access continues through the end of the billing period. Your blue checkmark and premium features are removed after expiration.
+  note: null
+- step: 4
+  instruction: 'For Apple: Settings > [your name] > Subscriptions > X > Cancel. For Google Play: Play Store > Profile > Payments & subscriptions > Subscriptions > X > Cancel.'
+  note: null
+- step: 5
+  instruction: Your account reverts to a free X account with standard posting limits and no verification badge. Previously posted long-form content remains visible but you cannot create new long-form posts.
+  note: null
+dark_patterns:
+- type: verification status anxiety
+  description: The blue checkmark has become a social status signal, and losing it upon cancellation is visible to all followers, creating social pressure to maintain the subscription.
+- type: algorithmic reach reduction
+  description: X Premium subscribers receive boosted algorithmic visibility in replies and search. Canceling results in reduced reach, creating a pay-to-be-seen dynamic that penalizes free users.
+retention_tactics:
+- Loss of blue verification checkmark creates visible social status change that discourages cancellation.
+- Premium subscribers receive priority in replies, search, and algorithmic feeds, making cancellation feel like losing visibility.
+direct_cancel_url: https://x.com/settings/subscription
+free_alternatives:
+- name: X (free)
+  url: https://x.com
+  note: Free account with standard features, reduced algorithmic boosting
+- name: Bluesky (free)
+  url: https://bsky.app
+  note: Free decentralized social network with similar microblogging format
+- name: Mastodon (free)
+  url: https://joinmastodon.org
+  note: Free, open-source decentralized social network
+notes: X Premium (formerly Twitter Blue) costs $8/month (web) or $11/month (iOS/Android app store) for Basic, $16/month for Premium, and $22/month for Premium+. The subscription provides a blue verification checkmark, longer posts (up to 25,000 characters), edit button, ad revenue sharing eligibility, and algorithmic reply boosting. The verification system was overhauled in 2023 when legacy verification badges were removed and replaced with the paid subscription model, which was controversial. Cancellation is technically simple but the social visibility of losing the checkmark creates a unique form of retention pressure not seen in most subscriptions. X is owned by Elon Musk following his 2022 acquisition of Twitter.

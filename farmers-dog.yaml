@@ -3,12 +3,30 @@ slug: farmers-dog
 url: https://www.thefarmersdog.com
 category: pets
 cancel_method: online or email
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to thefarmersdog.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Manage Plan > Cancel Plan. The cancel option may be difficult to find — look under plan management, not general settings.
+  note: null
+- step: 3
+  instruction: Alternatively, email support@thefarmersdog.com to request cancellation. Include your account email and the name of the dog(s) on the plan.
+  note: null
+- step: 4
+  instruction: Cancel before your next order processing date (visible in your account) to avoid the next charge. Orders typically process 2-3 days before the delivery date.
+  note: null
+dark_patterns:
+- type: pet health guilt messaging
+  description: Cancellation flow emphasizes the health benefits your pet will lose, implying you're choosing a less healthy option for your dog.
+- type: hidden cancel option
+  description: The cancel button is not prominently placed in account settings. Some users report needing to email support because they couldn't find the self-service cancel option.
+retention_tactics:
+- Offers to pause deliveries instead of canceling.
+- Suggests adjusting portion sizes or delivery frequency to reduce cost.
+- May offer a significant discount (50%+ off) on the next delivery.
+direct_cancel_url: https://www.thefarmersdog.com/dashboard
 free_alternatives: []
-notes: ""
+notes: The Farmer's Dog ($2-$12/day per dog depending on size, breed, and age) delivers fresh, human-grade, pre-portioned dog food. Plans are fully customized per dog. The service is notably expensive compared to traditional dog food, which is the most common reason for cancellation. The pause option is genuinely useful for vacations or trial periods. Cancel before your order processing date — orders typically process 2-3 days before scheduled delivery. The company's advertising was boosted by a Super Bowl commercial in 2023.

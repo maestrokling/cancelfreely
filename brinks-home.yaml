@@ -3,12 +3,32 @@ slug: brinks-home
 url: https://brinkshome.com
 category: home-services
 cancel_method: phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 4
+last_verified: '2025-09-26'
+steps:
+- step: 1
+  instruction: 'Call Brinks Home: 1-800-447-9239.'
+  note: null
+- step: 2
+  instruction: State you want to cancel. Brinks contracts are typically 36-60 months with ETF provisions.
+  note: null
+- step: 3
+  instruction: Check your contract for Early Termination Fee. Brinks typically charges 80% of the remaining monitoring balance. Written notice may be required per your contract terms. If so, send via certified mail and keep the receipt.
+  note: null
+- step: 4
+  instruction: Get cancellation confirmation. Continue to monitor your bank statement — Brinks billing issues are frequently reported.
+  note: null
+dark_patterns:
+- type: high ETF
+  description: Brinks charges approximately 80% of the remaining contract balance as an early termination fee — similar to ADT's structure.
+- type: written notice requirement
+  description: Some Brinks contracts require written cancellation notice (30 days) in addition to the phone call. Check your specific contract.
+retention_tactics:
+- Offers a discounted rate to stay.
+- Offers equipment upgrades.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: SimpliSafe (no contract)
+  url: https://simplisafe.com
+  note: No contract, cancel anytime
+notes: Brinks Home Security (formerly Monitronics) has had significant billing complaint history — customers report being charged after cancellation. Always get a cancellation confirmation number and watch your next 1-2 statements carefully. If you have equipment financing through a separate lender (GreenSky), that obligation continues regardless of monitoring cancellation.

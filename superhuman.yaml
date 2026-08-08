@@ -3,12 +3,38 @@ slug: superhuman
 url: https://superhuman.com
 category: email
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'In the Superhuman app (Mac/Windows): press Cmd+K (Mac) or Ctrl+K (Windows), type ''Cancel Subscription'', and follow the prompts. The command palette is the fastest way to reach cancellation.'
+  note: null
+- step: 2
+  instruction: Alternatively, go to superhuman.com/admin and click on 'Billing', then 'Cancel subscription'. You must be the account owner or billing admin for team accounts.
+  note: null
+- step: 3
+  instruction: Select a cancellation reason and confirm. Access continues through the end of the billing period.
+  note: null
+- step: 4
+  instruction: If you cannot find the cancel option or have a team/enterprise contract, email support@superhuman.com. Enterprise contracts may have minimum commitment periods and require written notice.
+  note: null
+dark_patterns:
+- type: exit survey friction
+  description: Requires selecting a detailed cancellation reason and presents follow-up questions before allowing final cancellation, adding steps to the process.
+- type: loss aversion productivity stats
+  description: Displays personalized productivity statistics (emails processed, time saved) during the cancellation flow to make users reconsider leaving.
+retention_tactics:
+- Shows personalized email productivity metrics during cancellation to demonstrate value.
+- May offer a discounted rate or temporary pause for users who cite price as their cancellation reason.
+direct_cancel_url: https://superhuman.com/admin
+free_alternatives:
+- name: Gmail (free)
+  url: https://mail.google.com
+  note: Free email with keyboard shortcuts and filters
+- name: Fastmail
+  url: https://www.fastmail.com
+  note: Privacy-focused email starting at $3/month with fast interface
+- name: Thunderbird (free)
+  url: https://www.thunderbird.net
+  note: Free open-source desktop email client with keyboard-driven workflow
+notes: Superhuman costs $30/month per user, making it one of the most expensive email clients on the market. The value proposition centers on speed, keyboard shortcuts, AI triage, and read status tracking. After canceling, your underlying email account (Gmail, Outlook, etc.) is completely unaffected -- you simply lose the Superhuman interface layer. There is no data loss risk since Superhuman does not store your email. Team and enterprise plans may have annual commitments with different cancellation terms. Superhuman has grown significantly since removing its waitlist model and now targets business teams rather than individual productivity enthusiasts.

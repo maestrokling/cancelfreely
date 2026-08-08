@@ -2,12 +2,37 @@ name: T-Mobile
 slug: t-mobile
 url: https://www.t-mobile.com
 category: telecom
-cancel_method: phone or in-person
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: phone or in-store
+friction_score: 3
+last_verified: '2026-02-14'
+steps:
+- step: 1
+  instruction: 'Fastest method: Port your number to the new carrier. Number porting automatically cancels T-Mobile service. If you''re switching carriers, initiate the port at the new carrier — you do not need to call T-Mobile first.'
+  note: null
+- step: 2
+  instruction: 'To cancel without porting: Call T-Mobile at 1-877-453-1304 or visit a T-Mobile store.'
+  note: null
+- step: 3
+  instruction: Say clearly you want to cancel. T-Mobile's support page explicitly says 'we'd like to prevent your cancellation' — retention offers will follow.
+  note: null
+- step: 4
+  instruction: Check for remaining device installment balance — it must be paid even after service cancellation.
+  note: null
+dark_patterns:
+- type: retention-first framing
+  description: T-Mobile's own support page for cancellation leads with 'We'd like to prevent your cancellation' and offers retention alternatives before providing cancellation instructions.
+- type: device payment obligation
+  description: Outstanding device installment balances survive service cancellation and remain due in full.
+retention_tactics:
+- Offers discounted plan alternatives.
+- Offers account pause (up to 3 months).
+- Offers switching credits if reason is competitor pricing.
+direct_cancel_url: https://www.t-mobile.com/support/account/cancel-service
+free_alternatives:
+- name: Mint Mobile
+  url: https://www.mintmobile.com
+  note: Budget wireless on T-Mobile network from $15/month
+- name: Metro by T-Mobile
+  url: https://www.metrobyt-mobile.com
+  note: Budget prepaid on T-Mobile network
+notes: T-Mobile has generally better cancellation friction than AT&T or Comcast — phone cancellation works and the process is faster. The number port trick is the cleanest path if switching carriers. T-Mobile's churn ticked up in Q3 2025 — they are aggressively competing on retention offers.

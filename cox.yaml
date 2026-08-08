@@ -2,12 +2,37 @@ name: Cox Communications
 slug: cox
 url: https://www.cox.com
 category: telecom
-cancel_method: phone or in-person
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: phone or in-store
+friction_score: 4
+last_verified: '2025-11-29'
+steps:
+- step: 1
+  instruction: 'Call Cox: 1-800-234-3993. Cox does not offer online self-service cancellation. Phone or in-person required.'
+  note: null
+- step: 2
+  instruction: Alternatively, visit a Cox store in person.
+  note: null
+- step: 3
+  instruction: State clearly you want to cancel. Retention agents will make discount offers. Cox has a 30-day satisfaction guarantee — cancel within 30 days for a full refund with no fees.
+  note: null
+- step: 4
+  instruction: Return all rented equipment (modem, router, cable boxes) to a Cox store or UPS. Get a receipt. Unreturned equipment results in charges of $150-300+ per device.
+  note: null
+dark_patterns:
+- type: no online cancellation
+  description: Cox does not offer online self-service cancellation despite online signup availability. Phone or in-person required for all cancellations.
+- type: equipment fee exposure
+  description: Customers who fail to return rented equipment within the required window are charged full replacement cost ($150-300+ per device). Return deadlines are not always clearly communicated.
+retention_tactics:
+- Offers loyalty discounts and promotional pricing.
+- Offers a service pause.
+- Offers to downgrade to a lower plan.
+direct_cancel_url: https://www.cox.com/residential/support/billing-and-account/cancel-cox-service.html
+free_alternatives:
+- name: T-Mobile Home Internet
+  url: https://www.t-mobile.com/isp
+  note: 5G home internet alternative
+- name: AT&T Fiber
+  url: https://www.att.com/internet/fiber/
+  note: Where available
+notes: Cox is one of the US's largest cable ISPs, primarily operating in markets without direct fiber competition. Reddit r/CoxCommunications is full of price-gouging complaints from customers in monopoly markets. The 30-day satisfaction guarantee is a genuine policy — use it if you're in the first month. Cox and Charter announced a merger in 2025 that is pending regulatory review.

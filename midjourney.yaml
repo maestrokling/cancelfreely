@@ -3,12 +3,34 @@ slug: midjourney
 url: https://www.midjourney.com
 category: ai-tools
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to midjourney.com/account and sign in. You can also access billing via the /subscribe command in the Midjourney Discord server.
+  note: null
+- step: 2
+  instruction: Click 'Manage Sub' or 'Cancel Plan' on your account page. This redirects to Stripe's billing portal for Midjourney.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Plan' and confirm. Access continues through the end of your billing period. All images you've generated remain accessible in your gallery.
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+retention_tactics:
+- Shows a brief summary of your usage (images generated) before confirming cancellation.
+- Offers a plan downgrade (e.g., from Pro to Basic) as an alternative to full cancellation.
+direct_cancel_url: https://www.midjourney.com/account
+free_alternatives:
+- name: Adobe Firefly
+  url: https://firefly.adobe.com
+  note: Free tier with limited AI image generation, commercially safe training data
+- name: DALL-E (via ChatGPT free)
+  url: https://chat.openai.com
+  note: Limited free image generation through ChatGPT's free tier
+- name: Stable Diffusion (open source)
+  url: https://stability.ai
+  note: Free, open-source AI image generation that runs locally — requires GPU hardware
+- name: Leonardo AI
+  url: https://leonardo.ai
+  note: Free tier with 150 daily tokens for AI image generation
+notes: Midjourney ($10/month Basic, $30/month Standard, $60/month Pro, $120/month Mega) is the leading AI image generation platform known for its artistic quality. Cancellation is one of the cleanest in the AI tools category — a simple two-click process through Stripe's billing portal. Generated images are retained indefinitely in your gallery after cancellation. Midjourney originally operated exclusively through Discord but has expanded to a web interface at midjourney.com. The /subscribe Discord command remains a valid alternative path to billing management. No refunds are provided for unused generation time within a billing period.

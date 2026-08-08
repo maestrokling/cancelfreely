@@ -2,13 +2,37 @@ name: Pandora Premium
 slug: pandora
 url: https://www.pandora.com
 category: music
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'Determine where you subscribed. If via Apple App Store or Google Play, you must cancel through those platforms, not Pandora''s website. iOS: Settings > [your name] > Subscriptions > Pandora > Cancel. Android: Google Play > Profile > Payments & Subscriptions > Pandora > Cancel.'
+  note: null
+- step: 2
+  instruction: 'If subscribed directly through Pandora: go to pandora.com and sign in.'
+  note: null
+- step: 3
+  instruction: Click your profile icon > Settings > Subscription > 'Switch Plan' or 'Cancel'. Pandora may offer a downgrade to Pandora Plus ($4.99/month) instead of full cancellation.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Access continues through the end of your billing period, then reverts to free ad-supported radio. Your playlists, stations, and listening history are preserved on the free tier.
+  note: null
+dark_patterns:
+- type: misdirection / downgrade nudge
+  description: The cancellation flow prominently features a downgrade to Pandora Plus rather than a clean cancel option, making it easy to accidentally switch to a lower-paid tier instead of fully canceling.
+retention_tactics:
+- Prominently offers a downgrade to Pandora Plus ($4.99/month) before showing the full cancel option.
+- Shows a summary of features you will lose (on-demand listening, offline downloads, higher audio quality).
+direct_cancel_url: https://www.pandora.com/account/subscription
+free_alternatives:
+- name: Pandora (free tier)
+  url: https://www.pandora.com
+  note: Free ad-supported radio — the original Pandora experience with personalized stations
+- name: Spotify (free tier)
+  url: https://open.spotify.com
+  note: Free ad-supported streaming with shuffle-play on mobile
+- name: iHeartRadio (free)
+  url: https://www.iheart.com
+  note: Free radio and podcast streaming
+notes: 'Pandora offers three tiers: free (ad-supported radio), Plus ($4.99/month, ad-free with limited skips and offline), and Premium ($10.99/month, full on-demand streaming). Pandora is owned by SiriusXM, which has been consolidating its streaming offerings. The main cancellation friction comes from the downgrade nudge — Pandora steers users toward Plus rather than letting them cancel outright. If you subscribed through Apple or Google, you must cancel through those platforms instead, which adds a layer of confusion. The free tier preserves your stations and listening history, making it a viable fallback.'

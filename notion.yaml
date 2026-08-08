@@ -1,13 +1,36 @@
 name: Notion
 slug: notion
-url: https://www.notion.com
+url: https://www.notion.so
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Open Notion on desktop (web or app) and sign in. Cannot cancel from the mobile app — desktop web or desktop app only.
+  note: null
+- step: 2
+  instruction: Click 'Settings & members' in the left sidebar.
+  note: null
+- step: 3
+  instruction: Go to 'Plans' (or 'Billing' depending on your workspace type) and click 'Downgrade' or 'Switch to Free'.
+  note: null
+- step: 4
+  instruction: Confirm the downgrade to the free plan. All your content is preserved. You are not losing any pages or data — the workspace reverts to the free tier with its block limits for team use.
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+retention_tactics:
+- Shows a summary of workspace usage and team members that would be affected before downgrade, gently nudging you to reconsider.
+- No aggressive retention. Notion is widely cited as having one of the cleanest cancellation flows in SaaS.
+direct_cancel_url: https://www.notion.so/profile/billing
+free_alternatives:
+- name: Notion (free tier)
+  url: https://www.notion.so
+  note: Generous free tier — unlimited pages and blocks for personal use, limited for teams
+- name: Obsidian (free)
+  url: https://obsidian.md
+  note: Free local-first Markdown note-taking with plugin ecosystem
+- name: Logseq (free)
+  url: https://logseq.com
+  note: Free open-source knowledge management tool
+notes: Notion is widely regarded as one of the cleanest cancellation experiences in SaaS. Plans range from free (personal) to $10/member/month (Plus) and $18/member/month (Business). Canceling is technically a downgrade to the free tier, so all content is preserved and accessible after the change. The only limitation is that the free tier restricts team features and guest access. Notion cannot be canceled from mobile, which is a minor inconvenience but not a dark pattern. The company has built significant goodwill by making the free tier genuinely useful for individuals.

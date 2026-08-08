@@ -3,12 +3,34 @@ slug: chegg
 url: https://www.chegg.com
 category: education
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 4
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: Go to chegg.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Subscriptions > select your plan > Cancel Subscription. Navigate through any retention screens — Chegg may show pause options, surveys, and discount offers before completing cancellation.
+  note: null
+- step: 3
+  instruction: Get a cancellation confirmation email. Chegg has a documented history of continuing charges after cancellation — monitor your next statement.
+  note: null
+dark_patterns:
+- type: FTC enforcement action ($7.5M settlement)
+  description: Chegg paid $7.5M to settle FTC charges in September 2025 for unlawful cancellation practices. The FTC found hidden links, pre-selected 'pause' options, mandatory surveys, and repeated attempts to dissuade cancellation — and continued charging customers who believed they had canceled.
+- type: post-cancellation charges
+  description: Multiple users reported being charged after confirmed cancellation. Chegg's post-settlement flow has improved but get confirmation and check your next statement.
+- type: multi-screen retention maze
+  description: Chegg's pre-settlement cancellation flow required navigating hidden links, pre-selected pause options, and mandatory surveys. Post-settlement flows are required to be improved.
+retention_tactics:
+- Pause option prominently surfaced before cancel.
+- Discount offers before cancellation is processed.
+direct_cancel_url: https://www.chegg.com/account
+free_alternatives:
+- name: Khan Academy (free)
+  url: https://www.khanacademy.org
+  note: Free tutoring and practice for many subjects
+- name: Wolfram Alpha (free basic)
+  url: https://www.wolframalpha.com
+  note: Free computational math tool
+notes: Chegg settled with the FTC for $7.5M in September 2025 over illegal dark patterns. Post-settlement, the cancellation flow is required to be cleaner — but get a confirmation email and verify no further charges. If charged after cancellation, dispute with your bank and file an FTC complaint at reportfraud.ftc.gov.

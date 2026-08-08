@@ -2,13 +2,29 @@ name: Endurance Warranty
 slug: endurance-warranty
 url: https://www.endurancewarranty.com
 category: automotive
-cancel_method: phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+cancel_method: phone or mail
+friction_score: 4
+last_verified: '2026-02-06'
+steps:
+- step: 1
+  instruction: 'Call Endurance: 1-866-432-4443.'
+  note: null
+- step: 2
+  instruction: To cancel, you must mail a written cancellation request along with a Federal Odometer Statement or notarized mileage statement to the administrator listed in your contract. The mileage documentation requirement is unusual and adds significant friction compared to standard subscription cancellations.
+  note: null
+- step: 3
+  instruction: 'Within 30 days of purchase: full refund. After 30 days: prorated refund minus a cancellation fee (typically $75-$150). 30-day free look period is standard in the vehicle warranty industry.'
+  note: null
+dark_patterns:
+- type: mileage documentation required
+  description: Endurance requires a Federal Odometer Statement or notarized mileage statement to process cancellations — a bureaucratic hurdle not found in standard subscription services. This requirement slows the cancellation process significantly.
+- type: 30-day waiting period before coverage begins
+  description: Endurance has a 30-day/1,000-mile waiting period before coverage activates. Customers who cancel before coverage begins may not realize they were never actually covered.
+retention_tactics:
+- May offer a modified plan or payment restructuring.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: Your manufacturer warranty
+  url: null
+  note: Check remaining factory warranty before purchasing extended coverage
+notes: Endurance is a third-party vehicle service contract provider. The prorated refund is standard. Avoid all third-party warranty companies that contact you via robocall or unsolicited mail — these are frequently scams. Endurance is a legitimate company but cancellation requires more documentation than typical subscriptions.

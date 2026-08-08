@@ -3,12 +3,30 @@ slug: culligan
 url: https://www.culligan.com
 category: home-services
 cancel_method: phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 3
+last_verified: '2025-10-22'
+steps:
+- step: 1
+  instruction: Call your local Culligan dealer — Culligan is a franchise network; find your dealer's number at culligan.com or on your invoice. Culligan is not a single company but a franchise network. Cancellation goes through your local dealer, not a national center.
+  note: null
+- step: 2
+  instruction: State you want to cancel. Give 30 days written notice if your contract requires it — check your service agreement.
+  note: null
+- step: 3
+  instruction: Arrange for Culligan to pick up any rented equipment (water softeners, filtration units, coolers). You are responsible for equipment in your possession until it is returned. Do not simply stop paying and keep the equipment — Culligan will charge for unreturned rental units.
+  note: null
+- step: 4
+  instruction: Get written confirmation of cancellation and equipment return.
+  note: null
+dark_patterns:
+- type: rental equipment leverage
+  description: Culligan rental equipment (water softeners, coolers) remains Culligan's property. Stopping service without returning equipment results in continued rental charges or purchase obligations. This creates friction for customers who want to cancel quickly.
+retention_tactics:
+- May offer a service adjustment or rate reduction.
+- May offer a free service visit.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: Whole-home water filter (purchase)
+  url: null
+  note: Purchasing your own filtration eliminates the ongoing rental relationship
+notes: Culligan is a franchise — your experience depends heavily on your local dealer. The rental equipment return is the key logistical step. Get a receipt when equipment is picked up. If your Culligan service includes a long-term service contract (common for commercial water treatment), review it carefully for early termination terms before canceling.

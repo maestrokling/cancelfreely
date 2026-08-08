@@ -3,12 +3,38 @@ slug: identity-guard
 url: https://www.identityguard.com
 category: misc
 cancel_method: phone or online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to identityguard.com and sign in to your account. Identity Guard is now owned by Aura. You may be redirected to aura.com.
+  note: null
+- step: 2
+  instruction: Navigate to Account Settings > Subscription > Cancel Subscription. Some users report the online cancel option is difficult to find or intermittently unavailable.
+  note: null
+- step: 3
+  instruction: If online cancellation is unavailable, call Identity Guard / Aura support at 1-855-443-7748. Phone agents may try to retain you. Be firm and request cancellation.
+  note: null
+- step: 4
+  instruction: Request cancellation confirmation via email and keep it for your records. Monitoring continues through the end of your billing period. Identity theft insurance coverage ends at cancellation.
+  note: null
+dark_patterns:
+- type: roach motel
+  description: Easy to sign up online but cancellation sometimes requires calling a phone number when the online cancel option is unavailable or hard to locate.
+- type: fear-based retention
+  description: Cancellation flow warns about identity theft risks and emphasizes that you'll lose $1M identity theft insurance coverage.
+retention_tactics:
+- Phone agents offer discounted rates (sometimes 50% off) to retain subscribers.
+- Warns about losing identity theft insurance coverage and active monitoring alerts.
+direct_cancel_url: https://www.identityguard.com/account
+free_alternatives:
+- name: Credit Karma
+  url: https://www.creditkarma.com
+  note: Free credit monitoring and identity alerts
+- name: AnnualCreditReport.com
+  url: https://www.annualcreditreport.com
+  note: Free weekly credit reports from all 3 bureaus (Equifax, Experian, TransUnion)
+- name: Have I Been Pwned
+  url: https://haveibeenpwned.com
+  note: Free breach notification service by Troy Hunt
+notes: Identity Guard ($8.99-$29.99/month) provides identity theft monitoring, dark web scanning, and up to $1M in identity theft insurance. The service is now fully owned by Aura, which consolidated several identity protection brands. Cancellation can be frustrating as the online path is not always reliable, sometimes forcing a phone call where agents employ retention tactics. The FTC's broader push for click-to-cancel rules may improve this process. If you see charges from Aura on your statement, that is Identity Guard's parent company.

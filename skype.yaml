@@ -2,13 +2,30 @@ name: Skype Premium
 slug: skype
 url: https://www.skype.com
 category: email
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+cancel_method: N/A
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Skype shut down on May 5, 2025. There is nothing to cancel. Microsoft ended Skype after 21 years of operation. All calling subscriptions were automatically terminated.
+  note: null
+- step: 2
+  instruction: Any Skype Credit remaining was available for use until the shutdown date. Subscriptions extending beyond May 1, 2025 were automatically canceled and converted to Skype Credit where applicable. Microsoft provided a migration path to Teams for all Skype users.
+  note: null
+- step: 3
+  instruction: If you're still seeing charges from Skype after May 2025, dispute them with your bank immediately. No legitimate Skype charges should appear after the shutdown date.
+  note: null
 dark_patterns: []
 retention_tactics: []
 direct_cancel_url: null
-free_alternatives: []
-notes: "FLAGGED 2026-07-20: Microsoft shut down Skype entirely on May 5, 2025, migrating remaining users to Microsoft Teams (free tier). This entry is a stub with no cancel steps and the service no longer exists as a standalone product. Recommend removing this entry from the site rather than fixing the URL."
+free_alternatives:
+- name: Microsoft Teams (free)
+  url: https://teams.microsoft.com
+  note: Microsoft's official replacement for Skype with free personal calling
+- name: Zoom (free tier)
+  url: https://zoom.us
+  note: 40-minute free group calls, unlimited 1:1 calls
+- name: Signal (free)
+  url: https://signal.org
+  note: End-to-end encrypted calls and messaging, fully free
+notes: Skype officially shut down on May 5, 2025, after 21 years of service. Microsoft automatically migrated user contacts and chat history to Microsoft Teams. If you had a Skype Number, you needed to port it to another carrier before the shutdown date or lose it. Skype Credit balances that remained at shutdown were forfeited unless converted. Any charges appearing after May 2025 are unauthorized and should be disputed with your bank or credit card provider.

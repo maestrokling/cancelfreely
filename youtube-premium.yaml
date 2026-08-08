@@ -3,30 +3,39 @@ slug: youtube-premium
 url: https://www.youtube.com/premium
 category: streaming
 cancel_method: online
-friction_score: 2
-last_verified: 2026-04-11
+friction_score: 3
+last_verified: '2026-04-13'
 steps:
-  - step: 1
-    instruction: "Go to youtube.com/paid_memberships and sign in."
-    note: "On mobile: tap your profile picture > Paid memberships."
-  - step: 2
-    instruction: "Select YouTube Premium."
-    note: ""
-  - step: 3
-    instruction: "Click 'Manage' then 'Cancel membership'."
-    note: "If you subscribed via Google Play, Apple, or another platform, you must cancel through that platform instead."
-  - step: 4
-    instruction: "Confirm cancellation."
-    note: "Access continues through the end of the billing period. Ads return immediately after cancellation date."
-dark_patterns: []
+- step: 1
+  instruction: 'Go to youtube.com/paid_memberships and sign in with the Google account that has the subscription. On mobile: open the YouTube app > tap your profile picture > Paid memberships. If subscribed via Apple, cancel through iOS Settings > Subscriptions instead.'
+  note: null
+- step: 2
+  instruction: Find YouTube Premium and click 'Manage'. If you have a family plan, only the family manager can cancel.
+  note: null
+- step: 3
+  instruction: Click 'Cancel membership' or 'Deactivate'. Google will present retention offers including a pause option and possibly a discounted rate.
+  note: null
+- step: 4
+  instruction: Navigate through the retention screens and confirm cancellation. Access continues through the end of the billing period. Ads return after the subscription expires. Downloaded videos for offline viewing are removed.
+  note: null
+dark_patterns:
+- type: multi-step retention gauntlet
+  description: Google presents multiple retention screens during cancellation including pause offers, plan switches, and benefit reminders, requiring several clicks to reach the actual cancellation confirmation.
+- type: loss aversion with usage stats
+  description: Displays personalized data about how many ads you have been shielded from and videos watched ad-free, framing cancellation as a return to a degraded experience.
 retention_tactics:
-  - "May offer a pause option before confirming cancellation."
-direct_cancel_url: "https://www.youtube.com/paid_memberships"
+- Offers a 1-3 month pause option before allowing full cancellation.
+- May present a discounted rate (often for 3 months) to users who proceed past the pause offer.
+- Shows an 'ads you avoided' counter to emphasize the value of ad-free viewing.
+direct_cancel_url: https://www.youtube.com/paid_memberships
 free_alternatives:
-  - name: "YouTube (free)"
-    url: "https://www.youtube.com"
-    note: "Full YouTube access with ads — same content, no offline or background play"
-  - name: "uBlock Origin (browser extension)"
-    url: "https://ublockorigin.com"
-    note: "Free ad blocker for desktop browsers"
-notes: "YouTube Premium is one of the more straightforward cancels. The free tier of YouTube retains all content access — you lose ad-free viewing, background play, and offline downloads."
+- name: YouTube (free with ads)
+  url: https://www.youtube.com
+  note: Full YouTube access with ads; no background play or offline downloads
+- name: uBlock Origin (browser extension)
+  url: https://ublockorigin.com
+  note: Free ad blocker for desktop browsers (does not work on mobile apps)
+- name: NewPipe (Android, free)
+  url: https://newpipe.net
+  note: Free open-source Android YouTube client with background play and no ads
+notes: YouTube Premium costs $13.99/month for Individual or $22.99/month for Family (up to 5 members), with annual plans available at a discount. The price increased from $11.99 to $13.99 in 2023. The subscription includes ad-free YouTube, YouTube Music Premium, background play on mobile, and offline video downloads. Google has progressively made the free YouTube experience more ad-heavy, with longer and more frequent ad breaks, which many view as a deliberate strategy to push users toward Premium. The cancellation flow has become more aggressive with retention screens compared to earlier years. YouTube Music Premium ($10.99/month) is a separate, cheaper option if you only want ad-free music.

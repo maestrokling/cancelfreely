@@ -3,12 +3,24 @@ slug: everyplate
 url: https://www.everyplate.com
 category: food
 cancel_method: online or chat
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: Go to everyplate.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Plan Settings > Cancel Plan. ⚠️ Cancel by Wednesday 11:59 PM CT — same cutoff as HelloFresh/Factor (EveryPlate is owned by HelloFresh).
+  note: null
+- step: 3
+  instruction: Navigate past skip and pause options to reach the cancel option.
+  note: null
+dark_patterns:
+- type: skip-vs-cancel confusion
+  description: Like other HelloFresh brands, EveryPlate surfaces skip and pause options prominently before cancellation. Skipping is not canceling.
+retention_tactics:
+- Offers skip and pause prominently.
+- May offer a discount.
+direct_cancel_url: https://www.everyplate.com/plans/settings
 free_alternatives: []
-notes: ""
+notes: EveryPlate is HelloFresh's budget meal kit brand (same parent, lower price, simpler recipes). Cancel by Wednesday 11:59 PM CT to avoid the next week's box.

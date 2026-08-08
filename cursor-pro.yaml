@@ -1,14 +1,32 @@
 name: Cursor Pro
 slug: cursor-pro
-url: https://cursor.com
+url: https://cursor.sh
 category: ai-tools
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to cursor.sh and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Billing > Cancel Subscription.
+  note: null
+- step: 3
+  instruction: Confirm cancellation. Access continues through end of billing period. Your settings, extensions, and projects are preserved. Reverts to the free tier with limited AI completions.
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+retention_tactics:
+- None — Cursor has a clean developer-focused cancellation flow.
+direct_cancel_url: https://cursor.sh/settings
+free_alternatives:
+- name: Cursor (free tier)
+  url: https://cursor.sh
+  note: Free tier with 2,000 AI completions and 50 slow premium requests per month
+- name: VS Code + Codeium (free)
+  url: https://codeium.com
+  note: Free AI code completion extension for VS Code
+- name: VS Code + GitHub Copilot (free tier)
+  url: https://github.com/features/copilot
+  note: Free tier available for verified students and open-source maintainers
+notes: Cursor Pro ($20/month) is an AI-powered code editor built on VS Code with integrated AI coding assistance. It has one of the cleanest cancellation flows among AI tools — no dark patterns, no retention maze. The free tier includes 2,000 completions per month, which is enough for light use. Your editor settings, extensions, and configuration are preserved after canceling. Cursor has grown rapidly in the AI coding tool space, competing with GitHub Copilot and other AI assistants.

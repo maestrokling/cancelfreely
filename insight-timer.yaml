@@ -2,13 +2,32 @@ name: Insight Timer Premium
 slug: insight-timer
 url: https://insighttimer.com
 category: spirituality
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+cancel_method: app store or online
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Cancel through the platform where you subscribed. Insight Timer's free tier is exceptionally generous — you may not need Premium at all.
+  note: null
+- step: 2
+  instruction: 'iOS: Settings > [your name] > Subscriptions > Insight Timer > Cancel Subscription.'
+  note: null
+- step: 3
+  instruction: 'Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Insight Timer > Cancel.'
+  note: null
+- step: 4
+  instruction: 'Web: Go to insighttimer.com > Settings > Subscription > Cancel. Access continues through end of billing period. Your meditation history and stats are preserved.'
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+retention_tactics:
+- Shows a summary of your meditation practice stats (minutes meditated, streak days) before confirming cancellation.
+- Offers a discounted annual rate when canceling a monthly subscription.
+direct_cancel_url: https://insighttimer.com/settings
+free_alternatives:
+- name: Insight Timer (free tier)
+  url: https://insighttimer.com
+  note: Largest free meditation library in the world — 200,000+ free guided meditations, music tracks, and talks from real teachers. Premium is optional.
+- name: Medito
+  url: https://meditofoundation.org
+  note: 100% free, nonprofit meditation app with no ads or upsells
+notes: Insight Timer is a standout in the wellness space for its genuinely generous free tier, offering over 200,000 free guided meditations from 15,000+ teachers. Premium ($59.99/year or $9.99/month) adds offline access, advanced courses, and progress tracking. Cancellation is clean with no dark patterns — one of the easiest cancels in the category. The app has a strong community component with live meditation events and group features. Unlike competitors like Calm or Headspace, Insight Timer's free content library is expansive enough that most users may never need to subscribe.

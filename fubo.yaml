@@ -1,0 +1,32 @@
+name: Fubo
+slug: fubo
+url: https://www.fubo.tv
+category: streaming
+cancel_method: online
+friction_score: 3
+last_verified: '2026-01-28'
+steps:
+- step: 1
+  instruction: Go to fubo.tv and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon > 'Account' > 'Manage Account' > 'Cancel Subscription'. If subscribed via Apple, Roku, Amazon, or another platform, cancel through that platform.
+  note: null
+- step: 3
+  instruction: Fubo may present a pause option or retention offer — click through to reach the final cancel confirmation.
+  note: null
+dark_patterns:
+- type: pause-first presentation
+  description: Fubo surfaces a pause offer before the cancel confirmation, nudging users toward pausing rather than canceling.
+retention_tactics:
+- Offers a plan pause instead of canceling.
+- May offer a discounted rate.
+direct_cancel_url: https://support.fubo.tv/hc/en-us/articles/360021527991
+free_alternatives:
+- name: Sling TV
+  url: https://www.sling.com
+  note: Cheaper live TV streaming alternative
+- name: YouTube TV
+  url: https://tv.youtube.com
+  note: Live TV streaming with sports
+notes: Fubo is a live TV streaming service focused on sports ($79.99+/month). No early termination fee. Cancel before the billing date to avoid the next charge.

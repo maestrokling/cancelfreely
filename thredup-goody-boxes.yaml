@@ -3,12 +3,35 @@ slug: thredup-goody-boxes
 url: https://www.thredup.com
 category: fashion
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to thredup.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Navigate to your account settings and find the Goody Box section, or go directly to thredup.com/goodybox.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Subscription' or 'Skip/Cancel' under your active Goody Box subscription. Cancel before your next box ships to avoid the styling fee.
+  note: null
+- step: 4
+  instruction: If you have an active box in transit, return any items you do not want to keep within the return window (typically 14 days). You are only charged for items you keep. The styling fee is non-refundable.
+  note: null
+dark_patterns:
+- type: sunk cost styling fee
+  description: A non-refundable styling fee ($10) is charged per box regardless of whether you keep any items, which discourages cancellation by making users feel they should 'get their money's worth' from each box.
+- type: skip vs cancel confusion
+  description: The interface prominently offers 'Skip' as an alternative to canceling, and the skip option auto-resumes, which can lead to unexpected future charges for users who thought they had effectively stopped the service.
+retention_tactics:
+- Offers a skip option (delay next box) as a prominent alternative to full cancellation.
+- Applies the styling fee as a credit toward purchases, incentivizing keeping items rather than canceling.
+direct_cancel_url: https://www.thredup.com/goodybox
+free_alternatives:
+- name: ThredUp (browse and buy)
+  url: https://www.thredup.com
+  note: Browse and buy secondhand clothing individually without a subscription
+- name: Poshmark (free to browse)
+  url: https://poshmark.com
+  note: Free to browse and buy secondhand clothing from individual sellers
+notes: ThredUp Goody Boxes are a curated secondhand clothing subscription where a stylist selects items based on your preferences. A non-refundable styling fee of approximately $10 per box is charged regardless of whether you keep any items, though it can be applied as credit toward purchases from that box. The return window is typically 14 days from delivery. Cancel timing is important -- you need to cancel before the next box ships to avoid the styling fee. ThredUp is a publicly traded company (TDUP) focused on the secondhand fashion market, and the Goody Box is one of several subscription-style offerings they have tested.

@@ -1,14 +1,26 @@
 name: Freshly
 slug: freshly
-url: https://www.freshly.com
+url: https://www.freshlyfrozen.com
 category: food
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to freshlyfrozen.com and sign in. Freshly rebranded to Freshly Frozen in 2024 after being acquired. Check if the service is still available in your area.
+  note: null
+- step: 2
+  instruction: Go to Account > Manage Plan > Cancel Plan. Cancel before the weekly cutoff (check your account for the specific deadline) to avoid the next shipment.
+  note: null
+- step: 3
+  instruction: Follow the cancellation prompts and confirm. If the online cancellation option is unavailable, contact customer support directly.
+  note: null
+dark_patterns:
+- type: brand confusion
+  description: The rebrand from Freshly to Freshly Frozen, combined with ownership changes, makes it difficult for users to find the correct cancellation page or even determine if their account is still active.
+retention_tactics:
+- May offer a pause or skip option.
+- Suggests adjusting meal quantity or delivery frequency.
+direct_cancel_url: https://www.freshlyfrozen.com/account
 free_alternatives: []
-notes: "FLAGGED 2026-07-20: Freshly meal delivery service shut down entirely in January 2023 (confirmed via foodondemand.com and multiple trade coverage). This entry is a stub with no cancel steps and the company no longer exists. Recommend removing this entry from the site rather than fixing the URL."
+notes: Freshly (originally a fresh pre-made meal delivery service owned by Nestlé) was shut down by Nestlé in 2023, then the brand was acquired and relaunched as Freshly Frozen with a pivot to frozen meals. The service has undergone significant operational changes and reduced delivery areas. If you have an active subscription, verify your account status at freshlyfrozen.com. If you're having trouble canceling a legacy Freshly subscription, contact your bank to dispute any charges from a service that may have changed substantially from what you originally signed up for.

@@ -3,12 +3,25 @@ slug: nutrisystem
 url: https://www.nutrisystem.com
 category: misc
 cancel_method: phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 4
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: 'Call Nutrisystem: 1-800-585-5483. Nutrisystem does not offer online self-service cancellation. Phone only.'
+  note: null
+- step: 2
+  instruction: State you want to cancel. Nutrisystem requires 14 days notice before your next auto-ship order to avoid being charged.
+  note: null
+- step: 3
+  instruction: Check your contract for any commitment period. Auto-delivery plans may have minimum order requirements.
+  note: null
+dark_patterns:
+- type: phone-only cancellation
+  description: No online cancellation despite online signup. Phone required.
+- type: 14-day advance notice required
+  description: Must call 14 days before auto-ship date to avoid next charge. Missing this window means receiving and paying for another shipment.
+retention_tactics:
+- May offer a discount or modified plan.
 direct_cancel_url: null
 free_alternatives: []
-notes: ""
+notes: Nutrisystem delivers pre-packaged diet meals on auto-ship. Call at least 14 days before your next order date. Get a cancellation confirmation number.

@@ -1,0 +1,27 @@
+name: Lemonade
+slug: lemonade
+url: https://www.lemonade.com
+category: insurance
+cancel_method: online or app
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Open the Lemonade app or go to lemonade.com and sign in. The app provides the smoothest cancellation experience.
+  note: null
+- step: 2
+  instruction: Navigate to your policy, then tap/click 'Cancel Policy'. Available directly in the app with no retention maze. One of the cleanest insurance cancellation experiences available.
+  note: null
+- step: 3
+  instruction: Select your cancellation date and confirm. Lemonade prorates and refunds unused premium automatically. Refunds typically appear within 5-10 business days.
+  note: null
+- step: 4
+  instruction: If you have active claims, those will be processed regardless of cancellation. Ensure you have replacement coverage in place before your Lemonade policy ends to avoid a coverage gap.
+  note: null
+dark_patterns: []
+retention_tactics:
+- May show a brief summary of your coverage and what you'd lose, but no aggressive retention.
+- Reminds you to arrange replacement coverage to avoid a gap — genuinely helpful rather than obstructive.
+direct_cancel_url: https://app.lemonade.com
+free_alternatives: []
+notes: 'Lemonade is a standout for frictionless cancellation in the insurance industry, which is traditionally one of the hardest categories to cancel. The app-based cancellation requires no phone call, no agent interaction, and prorated refunds are processed automatically. Lemonade offers renters ($5-$25/month), homeowners, pet ($10-$100/month), car, and term life insurance, all powered by AI-first claims processing. As a publicly traded insurtech company (NYSE: LMND), Lemonade positions transparency and ease-of-use as brand differentiators. The company''s Giveback program donates unclaimed premiums to charities chosen by policyholders.'

@@ -3,12 +3,28 @@ slug: reddit-premium
 url: https://www.reddit.com/premium
 category: social
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to reddit.com and sign in to your account. If you subscribed through the iOS or Android app, you may need to cancel through Apple/Google subscription management instead.
+  note: null
+- step: 2
+  instruction: Go to reddit.com/premium or navigate to Settings > Account > Reddit Premium.
+  note: null
+- step: 3
+  instruction: Click 'Cancel' or 'Cancel Premium Subscription' and confirm. Access continues through the end of your billing period. Your account reverts to the free tier — all posts, comments, and karma are preserved.
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+retention_tactics:
+- Shows a brief summary of Premium benefits you will lose (ad-free browsing, Premium avatar gear, monthly coins/awards).
+- No aggressive retention. Reddit Premium cancellation is one of the cleanest in social media.
+direct_cancel_url: https://www.reddit.com/premium
+free_alternatives:
+- name: Reddit (free)
+  url: https://www.reddit.com
+  note: Full Reddit access — Premium only removes ads and adds cosmetic perks
+- name: uBlock Origin (browser extension)
+  url: https://ublockorigin.com
+  note: Free ad blocker that removes Reddit ads on desktop browsers
+notes: Reddit Premium costs $5.99/month or $49.99/year and primarily removes ads and provides cosmetic perks like Premium avatar gear and a monthly coin/award allowance. The value proposition is thin since free Reddit provides the full content experience, and browser ad blockers achieve the ad-free benefit at no cost. Cancellation is straightforward — one of the cleanest in the social media category. Reddit overhauled its awards system in 2023, removing Reddit Gold and introducing a new contributor program, which changed the Premium value proposition. The Premium subscription is mostly relevant for mobile users who cannot use ad blockers and heavy Reddit users who want to support the platform.

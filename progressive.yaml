@@ -2,12 +2,28 @@ name: Progressive
 slug: progressive
 url: https://www.progressive.com
 category: insurance
-cancel_method: phone
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+cancel_method: phone or online
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'IMPORTANT: Secure new insurance coverage before canceling. Never have a gap in auto or home insurance. A lapse in coverage can result in higher rates when you re-insure and may violate state law for auto insurance.'
+  note: null
+- step: 2
+  instruction: 'Online: Log in at progressive.com, go to ''My Policy'', then look for ''Cancel Policy''. Online cancellation availability varies by state and policy type. Not all policy types can be canceled online.'
+  note: null
+- step: 3
+  instruction: 'By phone: Call 1-888-671-4405 to speak with an agent. Have your policy number, new insurance details, and desired cancellation effective date ready.'
+  note: null
+- step: 4
+  instruction: Specify your cancellation effective date — this should match the start date of your new policy to avoid a coverage gap. Progressive will issue a refund for unused premium. In some states, a short-rate cancellation fee (a small penalty for mid-term cancellation) may apply — check your policy documents.
+  note: null
+dark_patterns:
+- type: retention call pressure
+  description: When canceling by phone, agents are trained to ask probing questions about why you are leaving and may make multiple counter-offers (rate review, bundle discounts) before processing the cancellation.
+retention_tactics:
+- Offers a rate review or policy re-quote to try to match or beat your new insurer's price.
+- Suggests bundling additional policies (auto + home + umbrella) for a multi-policy discount.
+direct_cancel_url: https://www.progressive.com/contact/cancellation-faq/
 free_alternatives: []
-notes: ""
+notes: Progressive is one of the more consumer-friendly major insurers for cancellation — online cancellation is available in most states, which is uncommon in the insurance industry. Unused premium is refunded after cancellation. Some states allow Progressive to charge a short-rate cancellation fee for mid-term cancellations, which is a small percentage penalty. When canceling by phone, expect agents to offer rate reviews and retention discounts before processing. Progressive is the third-largest auto insurer in the US and has been competitive on pricing through its usage-based Snapshot program. Always ensure your new policy is active before canceling to avoid a dangerous and potentially illegal coverage gap.

@@ -2,13 +2,33 @@ name: Tumblr Ad-Free
 slug: tumblr-ad-free
 url: https://www.tumblr.com
 category: social
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'Determine how you subscribed: through the Tumblr website, Apple App Store, or Google Play. If subscribed via a mobile app store, you must cancel through that platform.'
+  note: null
+- step: 2
+  instruction: 'For web subscriptions: Go to tumblr.com, sign in, click your account icon > Settings > scroll to the subscription section > Cancel.'
+  note: null
+- step: 3
+  instruction: 'For Apple: Settings > [your name] > Subscriptions > Tumblr > Cancel. For Google Play: Play Store > Profile > Payments & subscriptions > Subscriptions > Tumblr > Cancel.'
+  note: null
+- step: 4
+  instruction: Access continues through the end of the billing period. Ads return after your subscription expires. Your blog content, followers, and settings are completely unaffected by canceling the ad-free subscription.
+  note: null
+dark_patterns:
+- type: minimal value differentiation
+  description: The ad-free browsing experience is marketed as 'supporting Tumblr' in addition to removing ads, creating a guilt element where cancellation feels like withdrawing support from the platform.
+retention_tactics:
+- Frames the subscription as supporting Tumblr's survival as a platform, creating emotional attachment beyond the ad-free feature.
+direct_cancel_url: https://www.tumblr.com/settings/account
+free_alternatives:
+- name: Tumblr (free with ads)
+  url: https://www.tumblr.com
+  note: Identical experience except with ads displayed in the dashboard feed
+- name: uBlock Origin (browser extension)
+  url: https://ublockorigin.com
+  note: Free browser extension that blocks ads on desktop
+notes: Tumblr Ad-Free costs $4.99/month or $39.99/year and removes ads from the dashboard feed. The subscription is Tumblr's primary revenue model after the platform was acquired by Automattic (WordPress parent company) from Verizon in 2019 for a fraction of its original purchase price. Cancellation is clean and straightforward with no aggressive retention tactics. The ad-free tier is explicitly marketed as a way to support the platform financially, which Tumblr leans into given its well-documented financial challenges. No content or functionality is lost upon cancellation -- only ads return to the feed.

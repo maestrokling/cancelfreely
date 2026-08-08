@@ -3,11 +3,38 @@ slug: amazon-prime
 url: https://www.amazon.com/prime
 category: shopping
 cancel_method: online
-friction_score: null
-last_verified: 2026-04-11
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 4
+last_verified: '2026-02-20'
+steps:
+- step: 1
+  instruction: Go to amazon.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account & Lists > Prime > Manage Membership, or go directly to amazon.com/mc.
+  note: null
+- step: 3
+  instruction: Click 'Update, cancel and more' then select 'End Membership'. Amazon will present multiple intermediate screens before reaching the final confirmation.
+  note: null
+- step: 4
+  instruction: Navigate through the retention screens — Amazon will offer a discounted rate, a pause, and remind you of benefits before showing the final cancel button. The final confirmation button is 'End My Benefits' — not labeled 'Cancel' which is a documented dark pattern.
+  note: null
+dark_patterns:
+- type: multi-screen cancellation maze (Iliad flow)
+  description: Amazon's Prime cancellation was the subject of an FTC lawsuit and $2.5B settlement in 2025. The cancellation flow was designed to maximize clicks and confusion, with the final cancel button labeled 'End My Benefits' rather than 'Cancel'. The FTC called this the 'Iliad Flow' internally at Amazon.
+- type: free trial auto-enrollment
+  description: Amazon's Prime free trial auto-enrolled users into paid memberships. The $2.5B settlement required Amazon to change enrollment and cancellation flows.
+- type: benefits-focused framing
+  description: Cancel button is labeled 'End My Benefits' not 'Cancel Subscription' — psychological framing to create loss aversion.
+retention_tactics:
+- Offers a pause (1-3 months) instead of canceling.
+- Offers a discounted Prime rate.
+- Shows all Prime benefits you'll lose (shipping, video, music, photos, etc.).
+direct_cancel_url: https://www.amazon.com/mc
+free_alternatives:
+- name: Walmart+ (for delivery)
+  url: https://www.walmart.com/plus
+  note: Competing delivery membership
+- name: Amazon without Prime
+  url: https://www.amazon.com
+  note: Free shipping available on orders $35+ without Prime
+notes: Amazon paid $2.5B to settle FTC dark patterns charges in 2025. The cancellation flow was improved post-settlement but still has more steps than necessary. The settlement required Amazon to make cancellation 'as easy as sign-up.' Amazon Prime Video subscriptions cancel separately from Prime membership if subscribed independently.

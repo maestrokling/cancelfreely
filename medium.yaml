@@ -4,32 +4,39 @@ url: https://medium.com
 category: streaming
 cancel_method: online
 friction_score: 1
-last_verified: 2025-12-19
+last_verified: '2026-04-13'
 steps:
-  - step: 1
-    instruction: "Go to medium.com and sign in."
-    note: ""
-  - step: 2
-    instruction: "Click your profile picture, then select 'Settings'."
-    note: ""
-  - step: 3
-    instruction: "Click 'Manage Subscription'."
-    note: ""
-  - step: 4
-    instruction: "Click 'Cancel membership' and confirm."
-    note: "If you subscribed via the iOS app, you must cancel through Apple's subscription management. If via Google Play, cancel through Google Play."
+- step: 1
+  instruction: Go to medium.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile picture in the top right, then select 'Settings'.
+  note: null
+- step: 3
+  instruction: Under 'Membership & payment', click 'Manage membership'.
+  note: null
+- step: 4
+  instruction: Click 'Cancel membership' and confirm. If you subscribed via the iOS app, cancel through Settings > [your name] > Subscriptions > Medium. If via Google Play, cancel through Google Play subscriptions.
+  note: null
+- step: 5
+  instruction: Access continues through the end of your billing period. Your published stories, followers, and profile remain intact after cancellation. You revert to the free tier with limited article access.
+  note: null
 dark_patterns: []
 retention_tactics:
-  - "May ask for feedback on why you're canceling before confirming."
-direct_cancel_url: "https://medium.com/me/settings"
+- Asks for feedback on why you're canceling with a brief survey before confirming.
+- Shows a summary of stories you've read and clapped for as a soft reminder of value.
+direct_cancel_url: https://medium.com/me/settings/account
 free_alternatives:
-  - name: "Medium (free tier)"
-    url: "https://medium.com"
-    note: "Limited free articles per month without a subscription"
-  - name: "Substack"
-    url: "https://substack.com"
-    note: "Free newsletter/blog reading; individual writers may charge"
-  - name: "Dev.to"
-    url: "https://dev.to"
-    note: "Free tech/dev focused writing platform"
-notes: "Medium is one of the lowest-friction subscription cancels. No dark patterns, no retention maze. Third-party billing (App Store, Google Play) requires canceling through those platforms. The free tier still allows limited article reading."
+- name: Medium (free tier)
+  url: https://medium.com
+  note: Limited free articles per month (typically 3-5 metered articles) without a subscription
+- name: Substack
+  url: https://substack.com
+  note: Free newsletter/blog reading platform — individual writers may charge for premium content
+- name: Dev.to
+  url: https://dev.to
+  note: Free, community-driven tech and developer writing platform with no paywall
+- name: Hashnode
+  url: https://hashnode.com
+  note: Free developer blogging platform with custom domain support
+notes: Medium ($5/month or $50/year) is one of the lowest-friction subscription cancellations available. No dark patterns, no retention maze, and the cancel flow is a straightforward two-click process from settings. The free tier allows limited metered article access per month. Third-party billing through the App Store or Google Play requires canceling through those platforms instead. Medium's Partner Program pays writers based on member reading time, so canceling affects the writer ecosystem. The platform has evolved from a general-purpose blogging platform to a more curated, subscription-funded publication network.

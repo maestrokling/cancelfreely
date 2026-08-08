@@ -3,12 +3,23 @@ slug: home-chef
 url: https://www.homechef.com
 category: food
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 2
+last_verified: '2025-06-04'
+steps:
+- step: 1
+  instruction: Go to homechef.com and sign in.
+  note: null
+- step: 2
+  instruction: 'Go to Account > Manage Subscription > Cancel Subscription. ⚠️ Deadline: cancel by Friday 12:00 PM CST to avoid being charged for the following week''s box.'
+  note: null
+- step: 3
+  instruction: Confirm cancellation.
+  note: null
+dark_patterns:
+- type: Friday noon cancellation deadline
+  description: Home Chef processes orders weekly. Missing the Friday 12 PM CST cutoff means you'll receive and pay for the next delivery.
+retention_tactics:
+- Offers a pause option instead of canceling.
+direct_cancel_url: https://www.homechef.com/account
 free_alternatives: []
-notes: ""
+notes: Home Chef (owned by Kroger) is a meal kit service. Clean cancellation once you find it. The Friday noon deadline is the critical gotcha — know your billing cycle before calling.

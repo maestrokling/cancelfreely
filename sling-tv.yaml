@@ -1,0 +1,43 @@
+name: Sling TV
+slug: sling-tv
+url: https://www.sling.com
+category: streaming
+cancel_method: online
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to sling.com and sign in to your account. Cannot be canceled from the Sling TV app on streaming devices.
+  note: null
+- step: 2
+  instruction: Click your profile icon in the top-right corner, then select 'Account'.
+  note: null
+- step: 3
+  instruction: Scroll down to 'Cancel Subscription' and click it. Sling will present a pause option first -- you must click past it to reach full cancellation.
+  note: null
+- step: 4
+  instruction: Sling will offer to pause your subscription (up to 3 months at $5/month). Click 'Continue to Cancel' to skip this. The pause option preserves your DVR recordings and settings.
+  note: null
+- step: 5
+  instruction: Select a cancellation reason and confirm. Access continues through the end of the billing period. DVR recordings are deleted after cancellation. Download any recordings you want to keep first (if applicable).
+  note: null
+dark_patterns:
+- type: forced pause offer
+  description: Before allowing full cancellation, Sling forces users through a pause offer screen at $5/month, requiring an extra click to reach the actual cancel button.
+- type: loss aversion messaging
+  description: Displays a summary of what you will lose (DVR recordings, channel lineup, add-ons) before confirming cancellation.
+retention_tactics:
+- Offers a discounted pause at $5/month for up to 3 months instead of full cancellation.
+- May offer a temporary discount or free month to retain subscribers who proceed past the pause screen.
+direct_cancel_url: https://www.sling.com/account
+free_alternatives:
+- name: Pluto TV (free)
+  url: https://www.pluto.tv
+  note: Free ad-supported live TV channels and on-demand content
+- name: Tubi (free)
+  url: https://www.tubi.tv
+  note: Free ad-supported on-demand streaming with a large library
+- name: Samsung TV Plus (free)
+  url: https://www.samsung.com/us/tvplus/
+  note: Free live TV channels on Samsung devices and web
+notes: Sling TV costs $40/month for Orange or Blue packages, or $55/month for Orange + Blue combined, with add-on channels and DVR increasing the price further. It remains one of the more affordable live TV streaming options with no contract or early termination fee. The $5/month pause option is a genuine alternative if you plan to return, as it preserves your DVR and settings. Sling is owned by Dish Network. The cancellation process is online-only and reasonably clean, though the mandatory pause offer interstitial adds a friction step that some users find manipulative.

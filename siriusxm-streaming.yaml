@@ -1,14 +1,31 @@
-name: Sirius XM (Streaming Only)
+name: SiriusXM (Streaming Only)
 slug: siriusxm-streaming
 url: https://www.siriusxm.com/streaming
 category: misc
 cancel_method: phone or chat
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 5
+last_verified: '2026-02-14'
+steps:
+- step: 1
+  instruction: 'Call SiriusXM: 1-866-635-2349. This is the streaming-only plan — same cancellation process as vehicle subscriptions. See also the full SiriusXM cancel guide at cancelfreely.com/cancel/siriusxm for complete dark pattern documentation.'
+  note: null
+- step: 2
+  instruction: State you want to cancel your streaming subscription. Decline all retention offers.
+  note: null
+- step: 3
+  instruction: Get a confirmation number. Check your next statement — SiriusXM has a documented history of continuing charges after confirmed cancellation.
+  note: null
+dark_patterns:
+- type: same extreme retention as vehicle plan
+  description: SiriusXM streaming plans use the same 4-6 screen retention process and post-cancellation charge history as vehicle subscriptions. Phone-only, extreme hold times, multiple retention offers before cancellation is processed.
+retention_tactics:
+- 4-6 retention offers before cancellation is processed.
 direct_cancel_url: null
-free_alternatives: []
-notes: "Distinct from SiriusXM vehicle subscription. Streaming-only plan may have different cancel flow."
+free_alternatives:
+- name: Spotify (free tier)
+  url: https://www.spotify.com
+  note: Free music streaming with ads
+- name: iHeartRadio (free)
+  url: https://www.iheart.com
+  note: Free radio and podcast streaming
+notes: The streaming-only SiriusXM plan may have a different cancel flow than vehicle subscriptions in some cases — but users report the same retention friction. See the main SiriusXM entry for full dark pattern documentation.

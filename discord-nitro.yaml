@@ -3,12 +3,27 @@ slug: discord-nitro
 url: https://discord.com/nitro
 category: social
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Open Discord (app or web) and sign in.
+  note: null
+- step: 2
+  instruction: Go to User Settings (gear icon) > Subscriptions > Cancel. If subscribed via Apple or Google Play, cancel through those platforms' subscription management.
+  note: null
+- step: 3
+  instruction: Confirm cancellation. Access continues through end of billing period. Server boosts are removed when your subscription ends.
+  note: null
+dark_patterns:
+- type: boost loss pressure
+  description: If you've boosted servers, canceling Nitro removes your boosts, which may affect the entire server's perks (custom emoji slots, audio quality, etc.). This creates social pressure from other server members to maintain your subscription.
+retention_tactics:
+- Shows server boosts that will be removed and servers that may lose perks.
+- May offer a discounted renewal rate.
+direct_cancel_url: https://discord.com/settings/subscriptions
+free_alternatives:
+- name: Discord (free)
+  url: https://discord.com
+  note: Full Discord functionality with standard file upload (25MB), emoji, and streaming limits
+notes: Discord Nitro ($9.99/month or $99.99/year) adds animated avatars/emoji, larger file uploads (500MB), HD video streaming, and 2 server boosts. Nitro Basic ($2.99/month) is a cheaper alternative without boosts. The cancellation itself is clean, but the social pressure from server boosts creates real friction — removing your boosts may downgrade the entire server's perks, affecting other members. The free tier of Discord is very functional, and most users don't need Nitro unless they want cosmetic features or larger file uploads.

@@ -2,13 +2,40 @@ name: Noggin
 slug: noggin
 url: https://www.noggin.com
 category: kids
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Determine where you subscribed — directly through Noggin, Apple App Store, Google Play, or Amazon. Cancel method depends on your original subscription platform.
+  note: null
+- step: 2
+  instruction: 'iOS: Settings > [your name] > Subscriptions > Noggin > Cancel Subscription.'
+  note: null
+- step: 3
+  instruction: 'Android: Google Play Store > Profile > Payments & Subscriptions > Subscriptions > Noggin > Cancel.'
+  note: null
+- step: 4
+  instruction: 'Amazon: Go to amazon.com > Account > Memberships & Subscriptions > Noggin > Cancel.'
+  note: null
+- step: 5
+  instruction: 'Direct web subscription: Go to noggin.com > Account > Manage Subscription > Cancel. Access continues through end of billing period. Downloaded content for offline viewing will become unavailable after expiration.'
+  note: null
+dark_patterns:
+- type: guilt trip / child-focused messaging
+  description: Cancellation flow references your child's favorite characters and shows, implying they'll lose access to beloved content like PAW Patrol and Blue's Clues.
+retention_tactics:
+- May offer a discounted rate or extended free trial during cancellation.
+- Highlights popular shows and characters your child watches to encourage reconsideration.
+direct_cancel_url: https://www.noggin.com/account
+free_alternatives:
+- name: PBS Kids
+  url: https://pbskids.org
+  note: Free streaming, games, and educational content — Daniel Tiger, Wild Kratts, Sesame Street
+- name: YouTube Kids
+  url: https://www.youtubekids.com
+  note: Free with ads — curated children's content with parental controls
+- name: Paramount+ (with Ads)
+  url: https://www.paramountplus.com
+  note: Nickelodeon content is available on Paramount+ which includes a broader content library
+notes: Noggin ($7.99/month or $59.99/year) is Nickelodeon's interactive streaming and learning platform for preschool-age children, featuring shows like PAW Patrol, Dora the Explorer, Blue's Clues & You, and Bubble Guppies alongside educational games and activities. Cancellation follows standard app store patterns and is relatively clean. Noggin is owned by Paramount Global, and much of the same Nickelodeon content is also available through Paramount+, making it potentially redundant for families already subscribing to that service. The app includes both streaming video and interactive learning activities, distinguishing it from a pure streaming service.

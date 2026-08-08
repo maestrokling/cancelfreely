@@ -2,13 +2,42 @@ name: Rosetta Stone
 slug: rosetta-stone
 url: https://www.rosettastone.com
 category: education
-cancel_method: online or phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to rosettastone.com and sign in to your account. If you subscribed via Apple App Store or Google Play, you must cancel through those platforms instead.
+  note: null
+- step: 2
+  instruction: Navigate to Account Settings > Subscription.
+  note: null
+- step: 3
+  instruction: Click 'Cancel subscription' or 'Turn off auto-renewal'. The cancel option may be labeled differently depending on your plan type. Look for any link related to managing or canceling your subscription.
+  note: null
+- step: 4
+  instruction: Complete the cancellation survey and confirm. Access continues through the end of your billing period. If you have a lifetime subscription, no cancellation is needed — that license is permanent.
+  note: null
+- step: 5
+  instruction: If you cannot find the cancel option online, contact Rosetta Stone support at 1-800-767-3882 or via chat at rosettastone.com. Some users report needing to contact support to fully cancel, especially for older plan types.
+  note: null
+dark_patterns:
+- type: hidden cancellation
+  description: The cancel option is not consistently easy to find in the account dashboard. Users with older plan types or corporate purchases often cannot find a self-service cancel option and must contact support.
+- type: renewal price increase
+  description: Promotional subscription pricing (often from bundle deals or holiday sales) renews at a significantly higher standard rate, with the renewal price not prominently displayed.
+retention_tactics:
+- Offers a discounted renewal rate or a pause on the subscription.
+- Presents progress statistics showing how much you have learned, creating sunk-cost attachment.
+direct_cancel_url: https://support.rosettastone.com/s/article/Cancel-your-Subscription
+free_alternatives:
+- name: Duolingo (free)
+  url: https://www.duolingo.com
+  note: Free gamified language learning app with 40+ languages
+- name: Babbel (free trial)
+  url: https://www.babbel.com
+  note: Structured language courses, free first lesson per course
+- name: Anki (free)
+  url: https://apps.ankiweb.net
+  note: Free open-source spaced-repetition flashcard system, excellent for vocabulary
+notes: Rosetta Stone offers subscriptions at approximately $11.99-$14.99/month or a lifetime purchase (around $179-$299 depending on promotions). The lifetime option does not require cancellation. For subscription users, the cancellation experience varies — the self-service cancel option is not always easy to find, and users with older or promotional plan types sometimes need to call support. Rosetta Stone was acquired by IXL Learning in 2021 and has been transitioning its business model. Promotional pricing that renews at a higher rate is a common complaint. The language learning market has shifted heavily toward app-based competitors like Duolingo, which offers a robust free tier, making Rosetta Stone's pricing feel steep by comparison.

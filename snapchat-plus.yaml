@@ -2,13 +2,36 @@ name: Snapchat+
 slug: snapchat-plus
 url: https://www.snapchat.com
 category: social
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Snapchat+ is managed entirely through app store subscriptions. Identify whether you subscribed via Apple App Store or Google Play. There is no way to cancel Snapchat+ from within the Snapchat app or website directly.
+  note: null
+- step: 2
+  instruction: 'iOS: Go to Settings > tap your name > Subscriptions > Snapchat+ > Cancel Subscription. You can also manage subscriptions at apps.apple.com/account/subscriptions.'
+  note: null
+- step: 3
+  instruction: 'Android: Open Google Play Store > tap your profile icon > Payments & subscriptions > Subscriptions > Snapchat+ > Cancel subscription. You can also manage subscriptions at play.google.com/store/account/subscriptions.'
+  note: null
+- step: 4
+  instruction: Premium features remain active until the end of the current billing period. Your Snapchat account and all content remain intact after canceling Snapchat+.
+  note: null
+dark_patterns:
+- type: feature gating social status
+  description: Snapchat+ gates visibility features like seeing who rewatched your stories and best friend changes, creating social anxiety around losing these insights upon cancellation.
+- type: no in-app cancellation
+  description: Despite being managed entirely through in-app purchase, Snapchat provides no cancel button within the app itself, forcing users to navigate to platform subscription settings.
+retention_tactics:
+- Snapchat displays exclusive Snapchat+ badges and icons on your profile, creating social signaling that users may be reluctant to lose.
+- Features like priority support and early access to new features create switching cost anxiety.
+direct_cancel_url: https://support.snapchat.com/en-US/article/snapchat-plus
+free_alternatives:
+- name: Snapchat (free)
+  url: https://www.snapchat.com
+  note: Full messaging, stories, and lenses functionality without premium features
+- name: Instagram Stories (free)
+  url: https://www.instagram.com
+  note: Similar ephemeral content sharing with free story analytics for creators
+notes: Snapchat+ costs $3.99/month or $29.99/year and adds cosmetic and analytics features like custom app icons, story rewatch indicators, best friend changes, and priority support. Since it is exclusively an app store subscription, cancellation bypasses Snap Inc. entirely and goes through Apple or Google. There are no dark pattern cancel flows from Snapchat itself because they never handle the cancellation. The subscription has grown to over 12 million subscribers as of early 2025, making it one of the more successful social media premium tiers. No refunds are provided for partial billing periods.

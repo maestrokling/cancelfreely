@@ -2,13 +2,43 @@ name: Life360 Premium
 slug: life360
 url: https://www.life360.com
 category: parental
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Determine where you subscribed — directly through Life360, Apple App Store, or Google Play. Cancel method depends on your original subscription platform.
+  note: null
+- step: 2
+  instruction: 'iOS App Store: Settings > [your name] > Subscriptions > Life360 > Cancel Subscription.'
+  note: null
+- step: 3
+  instruction: 'Google Play: Google Play Store > Profile > Payments & Subscriptions > Subscriptions > Life360 > Cancel.'
+  note: null
+- step: 4
+  instruction: 'Direct web subscription: Go to life360.com > Settings > Manage Membership > Cancel Membership. You may need to log in on the web even if you primarily use the app.'
+  note: null
+- step: 5
+  instruction: Access continues through end of billing period. The free tier with basic location sharing remains active. Premium features like crash detection, roadside assistance, and extended location history will be disabled.
+  note: null
+dark_patterns:
+- type: loss aversion messaging
+  description: Cancellation flow shows a list of premium features you'll lose, including crash detection and SOS alerts, framing the downgrade as a safety risk for your family.
+- type: privacy concerns as retention
+  description: Life360 has faced scrutiny for selling precise user location data to data brokers, creating a tension where the service you're paying for may also be monetizing your data.
+retention_tactics:
+- Presents a feature comparison showing what you'll lose versus the free tier.
+- Emphasizes family safety features like crash detection and emergency SOS.
+- May offer a discounted renewal rate or plan switch.
+direct_cancel_url: https://www.life360.com/account
+free_alternatives:
+- name: Life360 (free tier)
+  url: https://www.life360.com
+  note: Free with basic real-time location sharing for family members
+- name: Google Family Link
+  url: https://families.google.com/familylink/
+  note: Free location sharing, screen time management, and app controls for Android
+- name: Apple Find My
+  url: https://www.apple.com/icloud/find-my/
+  note: Free location sharing built into iOS — works with Family Sharing
+notes: Life360 ($7.99/month Gold, $19.99/month Platinum) adds crash detection, roadside assistance, extended location history, and identity theft protection to the free family location-sharing app. The company faced a major privacy scandal when The Markup revealed it was selling precise user location data to data brokers like X-Mode and Cuebiq. Life360 subsequently pledged to stop selling raw location data, but the episode highlights the privacy trade-offs of location tracking apps. Cancellation follows standard app store patterns and is reasonably clean. The free tier provides core location sharing without a subscription.

@@ -1,14 +1,26 @@
-name: GM Connected Services / OnStar
+name: Connected Car Subscriptions (GM / OnStar)
 slug: gm-connected-services
 url: https://www.gm.com
 category: automotive
 cancel_method: phone or online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-03-02'
+steps:
+- step: 1
+  instruction: Press the blue OnStar button in your GM vehicle and request cancellation, OR call 1-888-4ONSTAR (1-888-466-7827). See also the dedicated OnStar entry at cancelfreely.com/cancel/onstar for the full OnStar-specific guide.
+  note: null
+- step: 2
+  instruction: 'For other GM connected services (WiFi hotspot, Remote Access, Super Cruise): go to account.gm.com > Subscriptions > manage individual services.'
+  note: null
+- step: 3
+  instruction: State which service(s) you want to cancel. Agents will make retention offers.
+  note: null
+dark_patterns:
+- type: multiple subscription layers
+  description: 'GM vehicles may have several separate connected service subscriptions: OnStar safety/security, WiFi hotspot (AT&T), Remote Access (app features), and Super Cruise (driver assist). Each may bill separately and cancel separately. Users often don''t know how many they have.'
+retention_tactics:
+- Offers discounted rates for individual services.
+- Offers to keep one service while canceling others.
+direct_cancel_url: https://account.gm.com
 free_alternatives: []
-notes: "Covers GM connected services including OnStar, WiFi hotspot, and remote access features."
+notes: GM connected services cover OnStar, WiFi hotspot, Remote Access, and Super Cruise across Chevrolet, GMC, Buick, and Cadillac brands. Some services are free trials that auto-convert — check account.gm.com to see all active subscriptions. The OnStar entry in our database covers the primary safety/security subscription in more detail.

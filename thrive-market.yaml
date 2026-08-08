@@ -3,12 +3,26 @@ slug: thrive-market
 url: https://thrivemarket.com
 category: food
 cancel_method: online or chat
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: Go to thrivemarket.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Membership > Cancel Membership. If you can't find the cancel option, use the live chat at thrivemarket.com.
+  note: null
+- step: 3
+  instruction: Thrive Market offers a 30-day refund on annual memberships if you haven't placed an order.
+  note: null
+dark_patterns:
+- type: membership required to shop
+  description: Thrive Market requires a paid membership ($59.95/year or $12/month) to purchase anything. The membership model is upfront, but some users don't realize they're signing up for a recurring charge when they first sign up.
+retention_tactics:
+- May offer a credit or discount to stay.
+direct_cancel_url: https://thrivemarket.com/account/membership
+free_alternatives:
+- name: Costco (membership)
+  url: https://www.costco.com
+  note: Bulk organic/natural foods with membership
+notes: Thrive Market ($59.95/year or $12/month) is a members-only online store for organic and natural products. 30-day refund on annual memberships if no orders placed. Monthly memberships can cancel anytime.

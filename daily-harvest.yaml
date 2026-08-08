@@ -3,12 +3,30 @@ slug: daily-harvest
 url: https://www.daily-harvest.com
 category: food
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to daily-harvest.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Plan > Cancel Plan. Cancel before your weekly order cutoff date (shown in your account) to avoid the next delivery.
+  note: null
+- step: 3
+  instruction: Follow the multi-step cancellation prompts. The flow includes multiple screens asking why you're leaving and offering alternatives.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Any orders already processed cannot be canceled.
+  note: null
+dark_patterns:
+- type: multi-screen cancel maze
+  description: The cancellation flow includes multiple screens with surveys, alternative offers, and pause suggestions before reaching the actual cancel button.
+- type: tight order cutoff window
+  description: Orders must be canceled before a specific weekly cutoff that's easy to miss. If you miss it, you're charged for the next delivery even if you've initiated cancellation.
+retention_tactics:
+- Offers to pause the subscription for 1-4 weeks.
+- Suggests adjusting delivery frequency or box size.
+- May offer a discount on the next order.
+direct_cancel_url: https://app.daily-harvest.com/account/plan
 free_alternatives: []
-notes: ""
+notes: Daily Harvest delivers pre-portioned, plant-based smoothies, harvest bowls, flatbreads, and snacks. Pricing varies by plan size ($6-$12 per item depending on quantity). The company faced a major recall in 2022 (French Lentil + Leek Crumbles linked to liver illness), which damaged consumer trust. No long-term contract, but the weekly order cutoff window creates practical friction — if you miss it, you're charged. The pause option is genuinely useful if you just need a break rather than a full cancellation.

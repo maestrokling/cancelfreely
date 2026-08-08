@@ -3278,6 +3278,20 @@
     "notes": "The streaming-only SiriusXM plan may have a different cancel flow than vehicle subscriptions in some cases \u2014 but users report the same retention friction. See the main SiriusXM entry for full dark pattern documentation."
   },
   {
+    "name": "WeightWatchers",
+    "slug": "weightwatchers",
+    "url": "https://www.weightwatchers.com",
+    "category": "misc",
+    "cancel_method": "online or phone",
+    "cancel_difficulty": 0,
+    "cancel_steps": [],
+    "cancel_url": "",
+    "known_friction": "",
+    "free_alternatives": [],
+    "last_verified": "",
+    "notes": ""
+  },
+  {
     "name": "Amazon Music Unlimited",
     "slug": "amazon-music-unlimited",
     "url": "https://music.amazon.com",

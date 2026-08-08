@@ -3,11 +3,36 @@ slug: canva-pro
 url: https://www.canva.com
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2025-10-09'
+steps:
+- step: 1
+  instruction: Go to canva.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon, then select 'Account settings'.
+  note: null
+- step: 3
+  instruction: Go to 'Billing & Teams' then click 'Change plan'. For Canva Teams/Business accounts, only the owner or admin can cancel.
+  note: null
+- step: 4
+  instruction: Select the free plan or 'Cancel plan' option. Canva may offer a pause option at this screen.
+  note: null
+- step: 5
+  instruction: Confirm cancellation. Access continues through the end of the billing period. Pro assets (photos, elements, fonts) used in designs become restricted after downgrade — designs won't be deleted but Pro-only elements will show as locked.
+  note: null
+dark_patterns:
+- type: Pro asset lock-in
+  description: After downgrading from Pro, any designs using Pro-licensed assets (photos, elements, fonts) have those elements locked. Designs remain but become visually incomplete, creating pressure to resubscribe.
+retention_tactics:
+- Offers a 1-month pause instead of canceling.
+- Shows Pro features you'll lose access to.
+direct_cancel_url: https://www.canva.com/settings/billing
+free_alternatives:
+- name: Canva (free tier)
+  url: https://www.canva.com
+  note: Generous free tier with thousands of templates
+- name: Adobe Express (free tier)
+  url: https://www.adobe.com/express
+  note: Free design tool with templates
+notes: 'Canva Pro cancellation is straightforward. The main thing to know: Pro-licensed assets in existing designs become locked after downgrade. If you''re downgrading, export finished designs as PDFs/PNGs before your billing period ends.'

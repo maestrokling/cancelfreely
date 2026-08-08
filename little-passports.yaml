@@ -3,12 +3,36 @@ slug: little-passports
 url: https://www.littlepassports.com
 category: kids
 cancel_method: online or phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to littlepassports.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Go to My Account > Manage Subscription. Look for 'Cancel Subscription' — it may be below the fold or labeled as 'Manage' first.
+  note: null
+- step: 3
+  instruction: Follow the cancellation flow, dismissing any retention offers or pause suggestions. You may be presented with options to skip a month, switch to a different subscription line, or accept a discount.
+  note: null
+- step: 4
+  instruction: If online cancellation is unavailable, call 1-888-444-7592 to cancel by phone. Cancel before your monthly billing date to avoid the next shipment charge.
+  note: null
+dark_patterns:
+- type: misdirection
+  description: Cancellation flow presents multiple alternatives (pause, skip, switch subscription type) before showing the actual cancel confirmation, requiring users to click through several screens.
+- type: confirmshaming
+  description: Cancel confirmation uses language emphasizing what your child will miss, framing cancellation as denying your child educational exploration.
+retention_tactics:
+- Offers a pause or skip-a-month option as an alternative to cancellation.
+- May offer a discounted rate on remaining months.
+- Suggests switching to a different subscription line (e.g., Science, World Edition) if interest has waned.
+direct_cancel_url: https://www.littlepassports.com/account
+free_alternatives:
+- name: National Geographic Kids
+  url: https://kids.nationalgeographic.com
+  note: Free online games, videos, and educational content with a world-exploration theme
+- name: PBS LearningMedia
+  url: https://www.pbslearningmedia.org
+  note: Free educational resources and activities for ages 3-12
+notes: Little Passports ($25.95/month, discounts on prepaid 6- and 12-month plans) delivers educational subscription boxes for ages 3-12 with themes including world exploration, science, and early STEM. The cancellation process involves a multi-step retention flow that can feel obstructive, particularly for a kids' subscription box. Prepaid multi-month plans cannot be refunded mid-term — only auto-renewal can be disabled. The company has received mixed reviews for inconsistent box quality and customer service response times. Phone cancellation (1-888-444-7592) is available as a backup if the online path is problematic.

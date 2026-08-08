@@ -1,13 +1,37 @@
-name: Norton / LifeLock
+name: Norton 360
 slug: norton
 url: https://us.norton.com
 category: security
-cancel_method: online or phone
-friction_score: null
-last_verified: 2026-04-11
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online
+friction_score: 3
+last_verified: '2026-03-06'
+steps:
+- step: 1
+  instruction: Go to my.norton.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your name or profile, then go to 'Subscription' or 'My Subscriptions'.
+  note: null
+- step: 3
+  instruction: Find your plan and click 'Turn off Auto-Renewal' or 'Cancel Subscription'. Norton frames cancellation as 'turning off auto-renewal' — your access continues through the paid period, then stops.
+  note: null
+- step: 4
+  instruction: 'If within 60 days of purchase: request a refund via chat at support.norton.com. Norton offers a 60-day money-back guarantee on annual plans.'
+  note: null
+dark_patterns:
+- type: auto-renewal framing
+  description: Norton presents cancellation as 'turning off auto-renewal' rather than canceling, obscuring whether the subscription has been ended. Community posts show widespread user confusion about this.
+- type: stealth auto-renewal charges
+  description: Norton charges auto-renewal fees, sometimes weeks before the renewal date. Users report charges they didn't expect, especially on accounts they believed were canceled.
+retention_tactics:
+- May offer a discounted renewal rate.
+- Highlights identity protection and dark web monitoring features.
+direct_cancel_url: https://support.norton.com/sp/en/us/home/current/solutions/kb20090818144126EN
+free_alternatives:
+- name: Windows Defender (built-in)
+  url: null
+  note: Free, built into Windows 10/11 — adequate for most users
+- name: Malwarebytes (free tier)
+  url: https://www.malwarebytes.com
+  note: Free on-demand malware scanner
+notes: Norton's 60-day money-back guarantee is genuine — use it if you were recently charged. Windows Defender is now considered adequate protection for most home users, making paid antivirus optional. Export any stored passwords from Norton Password Manager before canceling.

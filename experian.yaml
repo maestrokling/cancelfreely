@@ -3,12 +3,29 @@ slug: experian
 url: https://www.experian.com
 category: misc
 cancel_method: online or phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: Go to experian.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Account > Membership > Cancel Membership. Or call 1-479-343-6239.
+  note: null
+- step: 3
+  instruction: Access reverts to the free tier (basic credit report access).
+  note: null
+dark_patterns:
+- type: multiple product confusion
+  description: 'Experian sells several overlapping products: CreditWorks, IdentityWorks, Experian Boost (free), and bundles. It''s easy to cancel one while still being charged for another.'
+retention_tactics:
+- May offer a discounted rate.
+direct_cancel_url: https://www.experian.com/consumer-products/member-center.html
+free_alternatives:
+- name: Experian (free basic)
+  url: https://www.experian.com
+  note: Free credit score and report
+- name: AnnualCreditReport.com (free)
+  url: https://www.annualcreditreport.com
+  note: Free weekly reports from all 3 bureaus
+notes: Experian has multiple premium products — check your statements to confirm exactly which product(s) you're paying for before canceling. The free tier includes a credit score and basic monitoring.

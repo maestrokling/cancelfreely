@@ -1,13 +1,40 @@
 name: Noom
 slug: noom
 url: https://www.noom.com
-category: health
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+category: finance
+cancel_method: online or app
+friction_score: 4
+last_verified: '2025-10-01'
+steps:
+- step: 1
+  instruction: 'In the Noom app: tap your profile > Settings > Subscription > Cancel Subscription.'
+  note: null
+- step: 2
+  instruction: 'Online: go to noom.com > sign in > account settings > Subscription Portal > Cancel.'
+  note: null
+- step: 3
+  instruction: Navigate through multiple retention screens — Noom will offer free trial extensions, deep discounts, and pause options before allowing cancellation. Stay firm. Multiple Reddit users report needing to decline 3-5 offers before reaching the final cancel button.
+  note: null
+- step: 4
+  instruction: Get a cancellation confirmation email — save it. Noom has been reported to continue charging after cancellation without confirmation.
+  note: null
+dark_patterns:
+- type: stealth auto-renewal
+  description: Multiple Reddit users report Noom continued renewing charges after what they believed was a successful cancellation, with no renewal notification emails. One user described discovering months of charges they never received receipts for.
+- type: multi-screen retention maze
+  description: Noom's cancellation flow includes multiple retention screens with escalating offers (free trials, deep discounts, pauses) that must each be declined before reaching the final cancel button.
+- type: impossible-to-cancel reports
+  description: Reddit users describe Noom as 'impossible to cancel,' with phone agents transferring calls repeatedly and making them repeat their cancellation request multiple times.
+retention_tactics:
+- Offers extended free trial (1-3 months).
+- Offers 50-80% discount on next renewal.
+- Offers a pause instead of canceling.
+direct_cancel_url: https://www.noom.com/support/faqs/subscription-and-billing/2025/10/how-to-cancel-your-noom-subscription-or-trial/
+free_alternatives:
+- name: MyFitnessPal (free tier)
+  url: https://www.myfitnesspal.com
+  note: Free calorie tracking and food logging
+- name: Lose It! (free tier)
+  url: https://www.loseit.com
+  note: Free calorie and weight tracking
+notes: Noom is one of the most complained-about health app cancellations. Always get a confirmation email and check your credit card statement for the following month. If you're charged after cancellation, file a chargeback and contact Noom support with your cancellation confirmation.

@@ -1,14 +1,31 @@
 name: Ollie
 slug: ollie
-url: https://www.ollie.com
+url: https://www.myollie.com
 category: pets
 cancel_method: online or email
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to myollie.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Go to Account > Manage Subscription, then look for the option to cancel. The cancel option may be labeled 'Pause' or 'Adjust' rather than 'Cancel' — look carefully.
+  note: null
+- step: 3
+  instruction: If you cannot find a cancel option online, email support@myollie.com with your account details and a clear request to cancel. Include your order number and registered email address.
+  note: null
+- step: 4
+  instruction: Cancel before your next order processing date to avoid being charged and shipped the next box. Order processing typically happens 3-5 days before your scheduled delivery date. Check your account dashboard for the exact cutoff.
+  note: null
+dark_patterns:
+- type: hidden cancellation
+  description: The cancel option is not prominently displayed in the account dashboard. Users report difficulty finding it and often resort to emailing support instead.
+- type: forced contact
+  description: Some users report that online cancellation does not fully process and they continue to be charged, requiring follow-up via email to confirm the subscription is actually canceled.
+retention_tactics:
+- Offers to pause deliveries or adjust delivery frequency instead of canceling.
+- May offer a discount on the next order to retain you.
+direct_cancel_url: https://www.myollie.com/account
 free_alternatives: []
-notes: ""
+notes: 'Ollie delivers fresh, human-grade dog food on a subscription basis, with plans customized by dog breed, weight, and activity level. Pricing varies but typically ranges from $5-$12/day depending on the dog''s size. Cancellation can be frustrating — the cancel option is not always easy to find in the dashboard, and multiple users have reported needing to email support to fully cancel. The order cutoff date is critical: cancel before your next processing date or you will be charged and shipped another box. Ollie competes with The Farmer''s Dog and PetPlate in the fresh dog food space.'

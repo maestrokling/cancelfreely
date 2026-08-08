@@ -2,13 +2,32 @@ name: Marriott Vacations Worldwide
 slug: marriott-vacations
 url: https://www.marriottvacationsworldwide.com
 category: timeshare
-cancel_method: phone or mail
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+cancel_method: certified mail or official exit program
+friction_score: 5
+last_verified: '2026-03-05'
+steps:
+- step: 1
+  instruction: 'CRITICAL: Check your contract for the rescission period — typically 3 to 10 days depending on the state where you purchased. This is your only penalty-free exit window.'
+  note: null
+- step: 2
+  instruction: 'Within the rescission period: Write a rescission letter with your name, contract number, purchase date, and a clear statement that you are rescinding the contract. All signers must sign.'
+  note: null
+- step: 3
+  instruction: Send via USPS Certified Mail with Return Receipt to the address in your contract. Postmark date controls the deadline. Keep the certified mail receipt and return receipt card. These are your proof of timely cancellation.
+  note: null
+- step: 4
+  instruction: 'After the rescission period: Contact Marriott Vacations'' official exit program. Call Marriott Vacation Club owner services: 1-800-860-9384. Marriott offers a voluntary surrender/deed-back program for qualifying owners. Eligibility requirements apply.'
+  note: null
+- step: 5
+  instruction: ⚠️ Avoid any third-party company charging upfront fees to exit your Marriott timeshare. Many are scams targeting timeshare owners.
+  note: null
+dark_patterns:
+- type: high-pressure purchase presentations
+  description: Multi-hour sales sessions with urgency tactics, 'today only' pricing, and misleading claims about investment value or rental income potential.
+- type: perpetual maintenance fees
+  description: Annual maintenance fees ($1,500-$4,000+/year) increase annually and cannot be stopped without exiting the contract. Missing payments triggers collections.
+retention_tactics:
+- Owner services may offer hardship programs, fee waivers, or point conversions as alternatives to exit.
 direct_cancel_url: null
 free_alternatives: []
-notes: ""
+notes: 'Marriott Vacation Club (formerly MVCI) is a real estate contract, not a subscription. The Marriott Exit Program (voluntary surrender) requires the account to be in good standing with no outstanding loans. After the rescission window, your options are: official surrender program, resale (limited market, often near zero value), or licensed timeshare attorney. Marriott Vacations Worldwide also owns Sheraton Vacation Club, Westin Vacation Club, and Vistana Signature Experiences — exit processes are similar.'

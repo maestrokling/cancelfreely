@@ -3,12 +3,36 @@ slug: kiwico
 url: https://www.kiwico.com
 category: kids
 cancel_method: online or chat
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to kiwico.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Go to My Account > Subscriptions > Manage Subscription. Cancel before your monthly processing date to avoid being charged for the next box.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Subscription' and follow the multi-step cancellation flow. You'll be shown alternatives like pausing, switching crate types, or gifting remaining boxes before reaching the final cancel confirmation.
+  note: null
+- step: 4
+  instruction: If online cancellation is unavailable, use the live chat at kiwico.com or email cancel@kiwico.com. Chat agents may attempt retention offers.
+  note: null
+dark_patterns:
+- type: misdirection / alternative overload
+  description: Cancellation flow presents multiple alternatives (pause, skip, switch crate, gift subscription) before showing the actual cancel button, requiring users to dismiss several screens.
+- type: guilt trip
+  description: Cancellation messaging references your child's enjoyment and learning, using phrases about 'missing out' on upcoming projects.
+retention_tactics:
+- Offers pause option (skip every other month) instead of canceling.
+- Suggests switching to a different crate type or age-appropriate line.
+- May offer a discounted rate on remaining boxes.
+direct_cancel_url: https://www.kiwico.com/account/subscriptions
+free_alternatives:
+- name: PBS LearningMedia
+  url: https://www.pbslearningmedia.org
+  note: Free STEM activities and lesson plans for various age groups
+- name: NASA STEM Engagement
+  url: https://www.nasa.gov/stem
+  note: Free STEM activities and projects from NASA
+notes: KiwiCo ($24.95/month for most crate lines, discounts on prepaid plans) delivers STEM, art, and creative activity boxes for ages 0-16+ across multiple crate lines (Panda, Koala, Kiwi, Atlas, Doodle, Tinker, Maker, Eureka). The cancellation flow is notably friction-heavy for a kids' subscription box, presenting multiple diversion screens before the final cancel button. Prepaid multi-month subscriptions cannot be canceled for a refund mid-term — only auto-renewal can be turned off. Check your processing date in account settings, as charges are processed several days before shipping.

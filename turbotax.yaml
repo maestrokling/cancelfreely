@@ -3,11 +3,29 @@ slug: turbotax
 url: https://turbotax.intuit.com
 category: finance
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-03-05'
+steps:
+- step: 1
+  instruction: TurboTax is primarily pay-per-filing, not a recurring subscription. Most users pay once per tax year when they file. If you have TurboTax Advantage (auto-delivery of desktop software) or TurboTax Live, that is a recurring subscription.
+  note: null
+- step: 2
+  instruction: 'To cancel TurboTax Advantage: sign in at myturbotax.intuit.com > select ''My Account'' > ''Manage TurboTax Advantage'' > Cancel.'
+  note: null
+- step: 3
+  instruction: 'To remove TurboTax Live/Expert Assist from your current return (before paying): go to your return > Review Your Order > Downgrade. If you''ve already used the Expert feature, you cannot remove it from that return.'
+  note: null
+dark_patterns:
+- type: upsell during filing
+  description: TurboTax aggressively upsells to higher tiers and Expert Assist during the filing process. The downgrade path is intentionally less visible than the upgrade path.
+retention_tactics:
+- May offer a discount on TurboTax Advantage renewal.
+direct_cancel_url: https://ttlc.intuit.com/turbotax-support/en-us/help-article/change-service-level/cancel-turbotax-advantage-subscription/L4UBBY0Th_US_en_US
+free_alternatives:
+- name: IRS Free File
+  url: https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free
+  note: Free federal filing for income under $79,000
+- name: FreeTaxUSA
+  url: https://www.freetaxusa.com
+  note: Free federal + $14.99 state
+notes: TurboTax's main dark pattern is upselling during the filing flow, not the subscription model. Most people pay per filing — if you're only filing once a year, there's no recurring subscription to cancel. TurboTax Advantage is the auto-renewing subscription for desktop software delivery.

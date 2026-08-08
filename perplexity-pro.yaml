@@ -2,13 +2,35 @@ name: Perplexity Pro
 slug: perplexity-pro
 url: https://www.perplexity.ai
 category: ai-tools
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+cancel_method: online or app store
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to perplexity.ai and sign in to your account. If you subscribed via Apple App Store or Google Play, you must cancel through those platforms instead.
+  note: null
+- step: 2
+  instruction: Click your profile icon in the bottom-left corner, then select 'Settings'.
+  note: null
+- step: 3
+  instruction: Click on 'Subscription' and then 'Manage Subscription' or 'Cancel Plan'.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Access continues through the end of your billing period. You revert to the free tier, which still offers basic AI search with limited Pro model queries per day.
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+retention_tactics:
+- Shows a summary of Pro features you will lose (unlimited Pro searches, file uploads, model selection).
+- No aggressive retention. Perplexity is generally regarded as having a clean cancellation flow.
+direct_cancel_url: https://www.perplexity.ai/settings/subscription
+free_alternatives:
+- name: Perplexity (free tier)
+  url: https://www.perplexity.ai
+  note: Free AI search with limited Pro model queries (about 5/day)
+- name: Google Search
+  url: https://www.google.com
+  note: Traditional search engine, now with AI overviews
+- name: Kagi (free tier)
+  url: https://kagi.com
+  note: Ad-free search engine with limited free searches
+notes: Perplexity Pro costs $20/month or $200/year and adds unlimited Pro searches (using advanced AI models like GPT-4, Claude, etc.), file analysis, image generation, and API credits. The free tier remains genuinely useful with a handful of Pro-level queries per day and unlimited basic searches. Cancellation is straightforward with no aggressive retention tactics, earning a friction score of 1. Perplexity has grown rapidly in the AI search space and raised significant funding in 2024-2025. The main consideration when canceling is whether the free tier's limited Pro queries are sufficient for your usage patterns.

@@ -2,13 +2,33 @@ name: Duolingo Plus
 slug: duolingo-plus
 url: https://www.duolingo.com
 category: education
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: app store or web
+friction_score: 2
+last_verified: '2026-04-01'
+steps:
+- step: 1
+  instruction: Cancel method depends on where you subscribed.
+  note: null
+- step: 2
+  instruction: 'iOS: Settings > [your name] > Subscriptions > Duolingo > Cancel.'
+  note: null
+- step: 3
+  instruction: 'Android: Google Play > Profile > Payments & Subscriptions > Subscriptions > Duolingo > Cancel.'
+  note: null
+- step: 4
+  instruction: 'Web: duolingo.com > Profile > Settings > Super Duolingo > Cancel subscription.'
+  note: null
+- step: 5
+  instruction: Your streak and progress are preserved after canceling — you revert to the free tier with ads.
+  note: null
+dark_patterns:
+- type: app deletion doesn't cancel
+  description: Deleting the Duolingo app does not cancel the subscription. Must cancel through originating platform.
+retention_tactics:
+- None significant.
+direct_cancel_url: https://www.duolingo.com/settings/subscription
+free_alternatives:
+- name: Duolingo (free tier)
+  url: https://www.duolingo.com
+  note: Free with ads; all core language learning content included
+notes: Duolingo Plus/Super Duolingo ($6.99-$9.99/month) removes ads and adds streak protection. The free tier includes all language content — Plus is a convenience upgrade, not a content gate. Streak and progress survive cancellation.

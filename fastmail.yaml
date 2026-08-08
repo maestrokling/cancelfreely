@@ -3,12 +3,30 @@ slug: fastmail
 url: https://www.fastmail.com
 category: email
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to fastmail.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Settings > Billing > Cancel account. If you have multiple users on your account, delete all other users first before you can cancel.
+  note: null
+- step: 3
+  instruction: 'IMPORTANT: Export your email data first using Settings > Export. Fastmail provides a full MBOX backup. If you use a custom domain, update your MX records to point elsewhere before canceling.'
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+retention_tactics:
+- None — Fastmail sends renewal reminders in advance and makes cancellation clean. One of the most ethical email providers.
+direct_cancel_url: https://www.fastmail.com/settings/account/
+free_alternatives:
+- name: Proton Mail (free tier)
+  url: https://proton.me
+  note: Encrypted email, 1GB free storage
+- name: Gmail (free)
+  url: https://mail.google.com
+  note: 15GB free, ad-supported
+- name: Tutanota (free tier)
+  url: https://tutanota.com
+  note: Encrypted email, 1GB free
+notes: 'Fastmail ($3-$9/month depending on plan: Standard, Premium) is an Australian privacy-respecting email provider that does not scan emails for advertising. Cancellation is clean with advance renewal reminders — no dark patterns, no retention maze. Before canceling, export your email using Settings > Export (MBOX format). If you''re using a custom domain with Fastmail, update your domain''s MX records to point to your new provider before canceling to avoid losing incoming mail. Fastmail is employee-owned and has been operating since 1999.'

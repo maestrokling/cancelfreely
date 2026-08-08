@@ -1,13 +1,31 @@
 name: PlayStation Plus
 slug: playstation-plus
-url: https://www.playstation.com/en-us/ps-plus
+url: https://www.playstation.com/ps-plus/
 category: gaming
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or console
+friction_score: 3
+last_verified: '2026-02-13'
+steps:
+- step: 1
+  instruction: 'On PS5/PS4: Settings > Account Management > Account Information > PlayStation Subscriptions > select PS Plus > Turn Off Auto-Renewal.'
+  note: null
+- step: 2
+  instruction: 'Online: Go to playstation.com > Account > Subscriptions > PS Plus > Cancel.'
+  note: null
+- step: 3
+  instruction: Subscription continues through end of paid period. Monthly PS Plus games you claimed remain in your library as long as you maintain any PS Plus tier. ⚠️ If you re-subscribe later, claimed games return — but games are lost if you never re-subscribe.
+  note: null
+dark_patterns:
+- type: cancellation controversy (2025)
+  description: PlayStation Plus faced significant cancellation complaints in 2025, with Sony investigated in multiple jurisdictions for dark patterns in its cancellation flow, including hiding the cancel option behind obscure menu paths.
+- type: game access lock-in
+  description: Monthly PS Plus games claimed while subscribed become inaccessible if the subscription lapses — creating strong lock-in pressure to maintain the subscription.
+retention_tactics:
+- May offer a discounted upgrade or downgrade to a lower tier.
+- Shows games in your library that will become inaccessible.
+direct_cancel_url: https://www.playstation.com/en-us/support/subscriptions/cancel-playstation-plus/
+free_alternatives:
+- name: PlayStation Network (free)
+  url: https://www.playstation.com
+  note: Free online play for free-to-play games; no PS Plus required
+notes: 'PS Plus has three tiers: Essential, Extra, Premium. You can downgrade instead of fully canceling. Games claimed while subscribed return if you re-subscribe later. PS4 games were removed as a ''key benefit'' in January 2026.'

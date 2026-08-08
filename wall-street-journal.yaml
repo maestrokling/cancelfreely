@@ -3,11 +3,38 @@ slug: wall-street-journal
 url: https://www.wsj.com
 category: news
 cancel_method: phone or chat
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+friction_score: 4
+last_verified: '2025-09-13'
+steps:
+- step: 1
+  instruction: 'Call WSJ customer service: 1-800-JOURNAL (1-800-568-7625). Online self-service cancellation is not available for most subscribers. WSJ requires phone or chat for cancellation — this has been widely reported as an intentional dark pattern.'
+  note: null
+- step: 2
+  instruction: Alternatively, use the live chat at wsj.com — go to Help > Contact Us > Chat. Chat availability varies; phone is more reliable.
+  note: null
+- step: 3
+  instruction: 'State clearly that you want to cancel. Agents will make multiple retention offers. Be direct: ''I want to cancel my subscription completely, effective immediately.'''
+  note: null
+- step: 4
+  instruction: In a small number of US states (CA, VT, and others with strong consumer protection laws), online cancellation may be available. Check your account settings first — if a cancel option is visible, use it.
+  note: null
+dark_patterns:
+- type: phone-only cancellation
+  description: WSJ requires phone or chat to cancel for most subscribers despite having a fully online signup process. This is one of the most documented dark patterns in news subscriptions, flagged repeatedly on Reddit r/assholedesign.
+- type: state-dependent online access
+  description: Online cancellation is only available in certain states with consumer protection laws that mandate it (e.g., California). Users in other states are forced to call.
+retention_tactics:
+- Phone agents offer significant discounts (often 50%+ off) to retain subscribers.
+- Offers a temporary pause on billing.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: Reuters
+  url: https://www.reuters.com
+  note: Free financial and business news
+- name: Bloomberg (limited free)
+  url: https://www.bloomberg.com
+  note: Limited free articles per month
+- name: Public libraries
+  url: null
+  note: Some libraries offer WSJ digital access
+notes: WSJ's phone-only cancellation policy is one of the most infamous in the news industry. If you call, be prepared for persistent retention offers. Agents are authorized to offer steep discounts — if you genuinely want to cancel, state it clearly multiple times. California subscribers and a few other states can cancel online.

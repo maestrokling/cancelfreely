@@ -1,13 +1,31 @@
 name: The Athletic
 slug: the-athletic
-url: https://www.nytimes.com/athletic/
+url: https://theathletic.com
 category: news
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-02-18'
+steps:
+- step: 1
+  instruction: Go to theathletic.com and sign in. The Athletic is now owned by the New York Times. If you have a combined NYT + Athletic subscription, manage it at nytimes.com/athletic/settings.
+  note: null
+- step: 2
+  instruction: Click your profile icon, then go to 'Settings' > 'Manage Subscription'.
+  note: null
+- step: 3
+  instruction: Select 'Cancel Subscription' and follow the prompts. Access continues through end of billing period.
+  note: null
+dark_patterns:
+- type: introductory price auto-renewal
+  description: The Athletic frequently offers discounted annual plans (e.g., $35-40/year) that auto-renew at the full price ($72+/year) without prominent advance notice. Users report being surprised by the full-price renewal charge.
+retention_tactics:
+- May offer a reduced renewal rate.
+direct_cancel_url: https://theathletic.com/account/subscription/
+free_alternatives:
+- name: ESPN (free tier)
+  url: https://www.espn.com
+  note: Free sports news and scores
+- name: Bleacher Report (free)
+  url: https://bleacherreport.com
+  note: Free sports coverage
+notes: The Athletic is generally straightforward to cancel. The main gotcha is the introductory-to-full-price renewal — check your renewal date and amount before it hits. NYT subscribers may have The Athletic bundled into their plan.

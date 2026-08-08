@@ -2,13 +2,34 @@ name: Bluegreen Vacations
 slug: bluegreen-vacations
 url: https://www.bluegreenvacations.com
 category: timeshare
-cancel_method: phone or mail
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+cancel_method: certified mail or official exit program
+friction_score: 5
+last_verified: '2026-01-28'
+steps:
+- step: 1
+  instruction: 'CRITICAL: Check your contract for the rescission period — typically 3 to 10 days depending on your state. This is the only penalty-free exit.'
+  note: null
+- step: 2
+  instruction: 'Within the rescission period: Write a cancellation letter with your name, contract number, purchase date, and a clear statement that you are rescinding. All signers must sign.'
+  note: null
+- step: 3
+  instruction: Send via USPS Certified Mail with Return Receipt to the address in your contract. Keep the tracking receipt.
+  note: null
+- step: 4
+  instruction: 'After the rescission period: Contact Bluegreen Customer Care to request written information on their exit options: 1-800-456-2582. Bluegreen offers deed-back and voluntary surrender programs for qualifying owners (account must be current).'
+  note: null
+- step: 5
+  instruction: ⚠️ Bluegreen has been the target of many predatory third-party exit scams. Never pay upfront fees to any exit company.
+  note: null
+dark_patterns:
+- type: high-pressure purchase tactics
+  description: Multi-hour high-pressure sales presentations with urgency and misleading investment claims.
+- type: points system complexity
+  description: Bluegreen uses a points-based system that obscures the actual value of what was purchased. Points have complex expiration and booking rules that make the product harder to understand and exit.
+- type: escalating maintenance fees
+  description: Annual maintenance fees ($800-$2,000+) increase each year with no cap.
+retention_tactics:
+- May offer hardship deferment, point conversions, or alternative plans before processing deed-back.
 direct_cancel_url: null
 free_alternatives: []
-notes: ""
+notes: Bluegreen Vacations is owned by Hilton Grand Vacations (acquired 2024). The Bluegreen brand continues to operate separately for now. After the rescission window, official exit options include deed-back (if eligible) or a licensed timeshare exit attorney. The resale market for Bluegreen points is extremely limited — many owners find they cannot sell even for $1.

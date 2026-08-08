@@ -2,12 +2,33 @@ name: Mint (Intuit)
 slug: mint
 url: https://mint.intuit.com
 category: finance
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
+cancel_method: N/A
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Mint shut down permanently on January 1, 2024. The service no longer exists. Intuit migrated Mint users to Credit Karma. There is nothing to cancel.
+  note: null
+- step: 2
+  instruction: 'If you have a Credit Karma account created via the Mint migration and want to close it: go to creditkarma.com > Settings > Account > Close Account. Closing Credit Karma does not affect your credit score or reports.'
+  note: null
+- step: 3
+  instruction: If you're still seeing charges labeled 'Mint' or 'Intuit', these may be for other Intuit products (TurboTax, QuickBooks, Mailchimp). Check your Intuit account at accounts.intuit.com. Contact Intuit support at 1-800-446-8848 if unexplained charges persist.
+  note: null
 dark_patterns: []
 retention_tactics: []
 direct_cancel_url: null
-free_alternatives: []
-notes: "Mint has been transitioning users to Credit Karma. Cancel instructions may vary depending on migration status."
+free_alternatives:
+- name: Credit Karma
+  url: https://www.creditkarma.com
+  note: Intuit's replacement for Mint — free budgeting, credit monitoring, and financial overview
+- name: YNAB (You Need A Budget)
+  url: https://www.youneedabudget.com
+  note: Paid ($14.99/month or $99/year) but the gold standard for zero-based budgeting
+- name: Monarch Money
+  url: https://www.monarchmoney.com
+  note: Popular Mint replacement ($9.99/month or $99.99/year) with modern UI and account aggregation
+- name: Copilot Money
+  url: https://copilot.money
+  note: iOS/Mac budgeting app ($8.99/month) praised as a clean Mint alternative
+notes: Mint (Intuit) shut down permanently on January 1, 2024, after 17 years of operation. Intuit migrated users' data to Credit Karma, which Intuit acquired in 2020. The shutdown was controversial as Mint was the most popular free personal finance app with over 3.6 million active users. If you're still seeing Intuit charges on your statement, they are likely related to other Intuit products (TurboTax, QuickBooks, Mailchimp) rather than Mint. The Mint shutdown catalyzed a wave of alternatives including Monarch Money, Copilot, and enhanced budgeting features in Credit Karma.

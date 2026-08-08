@@ -3,12 +3,23 @@ slug: hungryroot
 url: https://www.hungryroot.com
 category: food
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 3
+last_verified: '2026-03-15'
+steps:
+- step: 1
+  instruction: Go to hungryroot.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to Settings > Account Details > Cancel Account. The cancel option is in 'Account Details' — not the obvious 'Subscription' section.
+  note: null
+- step: 3
+  instruction: Hungryroot will ask if you want to take a break (pause) instead. Click 'Continue to Cancel' to proceed.
+  note: null
+dark_patterns:
+- type: hidden cancel path
+  description: The cancel option is buried in 'Account Details' rather than the subscription settings where users expect to find it. Reddit users describe the cancellation path as 'hard to figure out and obviously done purposefully.'
+retention_tactics:
+- Pause option prominently offered before cancellation.
+direct_cancel_url: https://www.hungryroot.com/settings
 free_alternatives: []
-notes: ""
+notes: Hungryroot is a hybrid grocery/meal kit service. Cancel before your order cutoff date (shown in your account) to avoid the next charge. The hidden cancel path in Account Details is the main friction point.

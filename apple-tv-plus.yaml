@@ -4,29 +4,33 @@ url: https://tv.apple.com
 category: streaming
 cancel_method: online
 friction_score: 2
-last_verified: 2026-04-11
+last_verified: '2026-04-13'
 steps:
-  - step: 1
-    instruction: "Go to tv.apple.com and sign in with your Apple ID."
-    note: "You can also cancel through iPhone/iPad: Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription."
-  - step: 2
-    instruction: "Click your account icon, then select 'Settings'."
-    note: ""
-  - step: 3
-    instruction: "Scroll to 'Subscriptions' and click 'Manage'."
-    note: ""
-  - step: 4
-    instruction: "Select Apple TV+ and click 'Cancel Subscription'."
-    note: "Confirm when prompted. Access continues through end of billing period."
+- step: 1
+  instruction: 'On iPhone/iPad: Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription. This is the fastest method.'
+  note: null
+- step: 2
+  instruction: 'On web: Go to tv.apple.com, sign in, click your account icon > Settings > Subscriptions > Manage.'
+  note: null
+- step: 3
+  instruction: Select Apple TV+ and click 'Cancel Subscription'.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Access continues through end of billing period. Any content purchased (not rented) through Apple TV remains accessible.
+  note: null
 dark_patterns: []
 retention_tactics:
-  - "None widely reported. Apple's subscription management is considered clean and low-friction."
-direct_cancel_url: "https://tv.apple.com/settings"
+- None widely reported. Apple's subscription management is considered clean and low-friction.
+- Free trials bundled with device purchases can extend to 3 months, after which auto-renewal kicks in if not canceled.
+direct_cancel_url: https://support.apple.com/en-us/118428
 free_alternatives:
-  - name: "Tubi"
-    url: "https://tubitv.com"
-    note: "Free ad-supported streaming"
-  - name: "Pluto TV"
-    url: "https://pluto.tv"
-    note: "Free ad-supported streaming"
-notes: "Apple TV+ cancellation is handled through Apple's standard subscription management system, which is consistent across all Apple services. No significant dark patterns reported. Often bundled with new Apple device purchases (3-month free trial)."
+- name: Tubi
+  url: https://tubitv.com
+  note: Free ad-supported streaming with large catalog
+- name: Pluto TV
+  url: https://pluto.tv
+  note: Free ad-supported live and on-demand streaming
+- name: Kanopy
+  url: https://www.kanopy.com
+  note: Free with a library card — high-quality films and documentaries
+notes: Apple TV+ ($9.99/month) uses Apple's standard subscription management, which is consistent across all Apple services and considered one of the cleanest cancel flows. The service is often bundled with new Apple device purchases (3-month free trial) — set a reminder before the trial converts to paid. If you're subscribed through Apple One, you'll need to cancel or downgrade the entire bundle. Apple TV+ has a smaller catalog than competitors but focuses on original content. Content purchased (not rented) through Apple TV remains accessible after canceling the TV+ subscription.

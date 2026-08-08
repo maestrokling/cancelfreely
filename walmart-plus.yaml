@@ -3,11 +3,39 @@ slug: walmart-plus
 url: https://www.walmart.com/plus
 category: shopping
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to walmart.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Click your account icon, then go to 'Walmart+' or navigate directly to walmart.com/account/plus.
+  note: null
+- step: 3
+  instruction: Click 'Manage Membership', then select 'Cancel Walmart+ membership'. Walmart will present multiple retention screens before reaching the final cancel confirmation.
+  note: null
+- step: 4
+  instruction: Navigate through the retention offers (discount, pause, plan switch) and confirm cancellation. Access continues through the end of the billing period.
+  note: null
+- step: 5
+  instruction: Alternatively, call Walmart+ customer service at 1-800-924-9206 to cancel by phone. Phone cancellation may be faster if you want to skip the online retention flow.
+  note: null
+dark_patterns:
+- type: multi-screen retention gauntlet
+  description: The online cancellation process requires clicking through multiple screens of retention offers, savings summaries, and benefit reminders before reaching the actual cancel button, typically 4-5 screens.
+- type: savings guilt display
+  description: Displays a detailed breakdown of money saved through free delivery, fuel discounts, and Paramount+ value during the cancellation flow to create regret.
+retention_tactics:
+- Offers a discounted rate (often 50% off for several months) during the cancellation flow.
+- Presents a pause option and plan switching (monthly to annual or vice versa) as alternatives to full cancellation.
+- Displays a personalized savings summary showing delivery fees saved, fuel discounts used, and bundled service values.
+direct_cancel_url: https://www.walmart.com/account/plus
+free_alternatives:
+- name: Walmart (free shipping on $35+)
+  url: https://www.walmart.com
+  note: Free standard shipping on orders $35+ without membership, free store pickup on all orders
+- name: Amazon (free shipping on $35+)
+  url: https://www.amazon.com
+  note: Free shipping on $35+ orders for non-Prime members
+notes: Walmart+ costs $12.95/month or $98/year and includes free same-day delivery on groceries (no minimum), free shipping with no minimum on walmart.com, fuel discounts at Walmart and Murphy USA stations, and a Paramount+ Essential subscription. The cancellation process has become notably more aggressive with retention screens compared to its launch in 2020, now requiring users to click through multiple offers and savings summaries. Phone cancellation at 1-800-924-9206 can bypass the online retention flow. Walmart does not offer prorated refunds for annual plans canceled mid-term. The service competes directly with Amazon Prime and has added streaming content through the Paramount+ bundle to increase perceived value.

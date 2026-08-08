@@ -2,12 +2,37 @@ name: AT&T
 slug: att
 url: https://www.att.com
 category: telecom
-cancel_method: phone or in-person
-friction_score: null
-last_verified: 2026-04-11
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: phone
+friction_score: 4
+last_verified: '2026-03-03'
+steps:
+- step: 1
+  instruction: 'Call AT&T: 1-800-288-2020. Say ''cancel service'' when prompted. AT&T does not offer online self-service cancellation for most accounts. Phone is the primary path.'
+  note: null
+- step: 2
+  instruction: Verify your account and state clearly you want to cancel. Retention agents will make offers. Be direct and repeat your intent to cancel.
+  note: null
+- step: 3
+  instruction: 'IMPORTANT — check for Early Termination Fees (ETF): AT&T Fiber has no ETF. Wireless lines on installment plans require you to pay off the device balance. Older 2-year contract plans carry an ETF. If you have a device installment plan, you still owe the remaining device balance regardless of service cancellation.'
+  note: null
+- step: 4
+  instruction: Return all AT&T equipment (gateways, set-top boxes) to a UPS Store within 21 days at no charge. Keep the UPS tracking receipt.
+  note: null
+dark_patterns:
+- type: device installment obligation confusion
+  description: AT&T separates device installment plans from service plans. Canceling service does not cancel the device payment obligation. Many customers are surprised to find they still owe hundreds of dollars on a phone after canceling service.
+- type: phone-only cancellation
+  description: Online self-service cancellation is not available. All cancellations require calling, where retention agents are deployed.
+retention_tactics:
+- Offers bill credits or plan discounts.
+- Offers to match competitor pricing.
+- Reminds you of device payment obligations remaining.
+direct_cancel_url: https://www.att.com/support/article/wireless/KM1008472/
+free_alternatives:
+- name: T-Mobile
+  url: https://www.t-mobile.com
+  note: Frequently runs switching promos covering device payoffs
+- name: Mint Mobile
+  url: https://www.mintmobile.com
+  note: Budget wireless on T-Mobile network
+notes: AT&T Fiber (internet) has no early termination fee — a genuine advantage over older cable contracts. Wireless cancellation is complicated if you have a device installment plan — you must pay off the remaining device balance. AT&T runs switching promotions for competitors, so check T-Mobile/Verizon for trade-in and payoff offers before canceling.

@@ -3,12 +3,27 @@ slug: anthropic-api
 url: https://www.anthropic.com
 category: ai-tools
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to console.anthropic.com and sign in.
+  note: null
+- step: 2
+  instruction: 'To stop charges: go to Settings > Billing and remove your payment method or set your usage limit to $0. Anthropic API is pay-as-you-go, not a traditional subscription. Removing your payment method or setting a $0 limit prevents future charges.'
+  note: null
+- step: 3
+  instruction: 'To close the account entirely: go to Settings > Account > Delete Account. This is permanent and will delete all API keys, usage history, and account data.'
+  note: null
 dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: "Pay-as-you-go; not a traditional subscription. Users searching for how to stop charges."
+retention_tactics:
+- None — Anthropic's billing console is straightforward with no retention flow.
+direct_cancel_url: https://console.anthropic.com/settings/billing
+free_alternatives:
+- name: Claude (free tier)
+  url: https://claude.ai
+  note: Free conversational Claude access without API, subject to usage limits
+- name: OpenAI API (free credits)
+  url: https://platform.openai.com
+  note: Competing API with free trial credits for new accounts
+notes: Anthropic API is pay-per-token, not a traditional subscription — there is no recurring charge to cancel. To stop all charges, set your spending limit to $0 or remove your payment method from the billing console. Any prepaid API credits may have expiration dates — check your account balance before closing. Account deletion is permanent and removes all API keys. The API console has no dark patterns or retention friction, consistent with Anthropic's developer-focused approach.

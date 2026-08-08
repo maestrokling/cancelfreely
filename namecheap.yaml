@@ -3,12 +3,33 @@ slug: namecheap
 url: https://www.namecheap.com
 category: domains
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to namecheap.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: 'For domains: Go to Domain List > find the domain > click ''Manage'' > toggle ''Auto-Renew'' off. The domain remains active until its expiration date and simply won''t be renewed.'
+  note: null
+- step: 3
+  instruction: 'For hosting products: Go to Hosting List > find the hosting plan > click ''Manage'' > Cancel or turn off auto-renewal. Back up your website files and databases before canceling hosting.'
+  note: null
+- step: 4
+  instruction: 'For other products (SSL, VPN, email): navigate to the specific product dashboard and disable auto-renewal or cancel. Domains that are not renewed enter a grace period (typically 30 days), then a redemption period (30 days at an additional fee), before full release.'
+  note: null
+dark_patterns:
+- type: renewal price increase
+  description: Domain renewal prices are often significantly higher than the initial registration promotional price, which is only disclosed in fine print during initial purchase.
+retention_tactics:
+- Sends multiple email reminders before domain expiration with renewal discount offers.
+- Grace and redemption periods act as a safety net but also create urgency to renew at full price.
+direct_cancel_url: https://ap.www.namecheap.com/domains/list
+free_alternatives:
+- name: Cloudflare Registrar
+  url: https://www.cloudflare.com/products/registrar/
+  note: At-cost domain registration with no markup and free DNS/CDN
+- name: Porkbun
+  url: https://porkbun.com
+  note: Low-cost registrar with competitive renewal prices and free WHOIS privacy
+notes: Namecheap is one of the cleaner domain registrars for managing auto-renewals and cancellations. Toggling auto-renew off per domain is a simple dashboard switch. Domains that are not renewed go through a grace period (approximately 30 days of free recovery), then a redemption period (30 days with an additional $100+ fee), before being released to the public. Namecheap also offers shared hosting ($1.98-$4.98/month promotional, higher on renewal), VPN (Namecheap VPN), and SSL certificates. Promotional first-year domain prices are often much lower than renewal prices — a common industry practice across all registrars, not unique to Namecheap.

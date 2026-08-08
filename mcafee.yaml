@@ -3,11 +3,36 @@ slug: mcafee
 url: https://www.mcafee.com
 category: security
 cancel_method: online or phone
-friction_score: null
-last_verified: 2026-04-11
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 4
+last_verified: '2025-12-07'
+steps:
+- step: 1
+  instruction: Go to account.mcafee.com and sign in.
+  note: null
+- step: 2
+  instruction: Go to 'My Account' > 'Subscriptions' and look for auto-renewal settings. If the account page doesn't show a clear cancel option, contact support directly.
+  note: null
+- step: 3
+  instruction: 'Call McAfee support: 1-866-622-3911, or use live chat at mcafee.com/support. Phone/chat is often more reliable than the account portal for processing cancellation.'
+  note: null
+- step: 4
+  instruction: If charged unexpectedly, request a full refund — agents are authorized to issue refunds for surprise renewals. Users report success getting full refunds by calling and citing an unexpected charge.
+  note: null
+dark_patterns:
+- type: zombie subscription auto-renewal
+  description: McAfee charges auto-renewal fees on accounts users believe are canceled or unused. Multiple Reddit reports of charges on accounts not used in years, often bundled with new PC purchases. Users report being charged on McAfee subscriptions pre-installed on new Windows PCs that they never intentionally activated.
+- type: shady renewal UI
+  description: McAfee's 'Renew subscription' link leads to upgrade options rather than renewal, and the auto-renewal opt-out is buried. Reddit documented 33 upvotes on a post titled 'McAfee shady renewal practices'.
+- type: pre-installed PC trap
+  description: McAfee comes pre-installed on many Windows PCs. Users who remove the software often still have an auto-renewing subscription tied to an email they didn't knowingly create.
+retention_tactics:
+- May offer a discounted renewal to stay.
+direct_cancel_url: https://account.mcafee.com
+free_alternatives:
+- name: Windows Defender (built-in)
+  url: null
+  note: Free, built into Windows 10/11
+- name: Malwarebytes (free)
+  url: https://www.malwarebytes.com
+  note: Free on-demand scanner
+notes: McAfee is one of the most complained-about security subscriptions for unexpected charges. If you find a charge you didn't authorize, call immediately — refunds are routinely granted. Check your email inbox for a McAfee account you may have forgotten; look for 'mcafee.com' in your email history.

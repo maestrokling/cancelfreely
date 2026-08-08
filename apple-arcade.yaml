@@ -1,0 +1,32 @@
+name: Apple Arcade
+slug: apple-arcade
+url: https://www.apple.com/apple-arcade/
+category: gaming
+cancel_method: device
+friction_score: 1
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: 'On iPhone/iPad: Settings > [your name] > Subscriptions > Apple Arcade > Cancel Subscription.'
+  note: null
+- step: 2
+  instruction: 'On Mac: App Store > your profile icon > Subscriptions > Apple Arcade > Cancel.'
+  note: null
+- step: 3
+  instruction: 'On Apple TV: Settings > Users and Accounts > [your name] > Subscriptions > Apple Arcade > Cancel.'
+  note: null
+- step: 4
+  instruction: Access continues through the end of your current billing period. Game progress and save data may be lost after cancellation. Consider finishing any games in progress.
+  note: null
+dark_patterns: []
+retention_tactics:
+- None — Apple's subscription management is clean and consistent across all services.
+direct_cancel_url: https://support.apple.com/en-us/118428
+free_alternatives:
+- name: Google Play Pass
+  url: https://play.google.com/intl/en_us/about/play-pass/
+  note: Android equivalent — $4.99/month, ad-free games and apps
+- name: Free-to-play games
+  url: null
+  note: App Store has many quality free games, though often with ads or in-app purchases
+notes: Apple Arcade ($6.99/month, also included in Apple One bundles) is an ad-free, in-app purchase-free game subscription for Apple devices. Cancellation follows Apple's standard subscription flow — one of the cleanest in the industry. If you're subscribed through Apple One, you'll need to cancel or downgrade the entire bundle. Game progress saved to iCloud may persist, but access to the games themselves is lost after cancellation. Over 200 games are available, and the catalog rotates.

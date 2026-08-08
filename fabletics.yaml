@@ -2,13 +2,36 @@ name: Fabletics
 slug: fabletics
 url: https://www.fabletics.com
 category: fashion
-cancel_method: online or chat
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
+cancel_method: phone or online chat
+friction_score: 4
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: 'Call Fabletics: 1-844-322-5384 (24/7). This is the primary cancellation method. Fabletics requires phone or live chat to cancel the VIP membership — no self-service online cancel.'
+  note: null
+- step: 2
+  instruction: Alternatively use live chat at fabletics.com.
+  note: null
+- step: 3
+  instruction: State clearly you want to cancel the VIP membership. Agents will make retention offers — decline them.
+  note: null
+- step: 4
+  instruction: ⚠️ Skip by the 5th of each month or you are charged $59.95 as a 'member credit.' If you have accumulated credits, use them before canceling.
+  note: null
+dark_patterns:
+- type: phone-only cancellation
+  description: Despite a fully online signup, Fabletics requires phone or chat to cancel the VIP membership. No self-service cancel option exists online.
+- type: monthly skip deadline trap
+  description: Fabletics charges $59.95 on the 6th of each month if you haven't actively skipped or shopped. Many members forget, accumulate charges, and then face credits they don't want. The skip reminder is buried.
+- type: credit accumulation lock-in
+  description: Monthly charges convert to 'member credits' rather than cash charges, creating a pool of non-refundable credits that lock users in ('I've already paid for it, might as well keep the membership').
+retention_tactics:
+- Offers VIP credits to stay.
+- Offers skip options going forward.
+- May offer a reduced rate.
 direct_cancel_url: null
-free_alternatives: []
-notes: ""
+free_alternatives:
+- name: Fabletics (non-VIP)
+  url: https://www.fabletics.com
+  note: Can shop at regular prices without VIP membership
+notes: 'Fabletics VIP is a classic dark pattern subscription: free shipping and discounts in exchange for a $59.95/month charge unless you actively skip each month. Use up any accumulated credits before canceling — they don''t convert to cash. Call before the 5th of the month to avoid that month''s charge.'

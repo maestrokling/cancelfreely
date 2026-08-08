@@ -1,13 +1,46 @@
-name: Twitch (Turbo / subscriptions)
+name: Twitch
 slug: twitch
 url: https://www.twitch.tv
 category: gaming
-cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to twitch.tv and sign in to your account. Twitch subscriptions are per-channel. You must cancel each channel subscription separately.
+  note: null
+- step: 2
+  instruction: Go to twitch.tv/subscriptions to see all your active channel subscriptions. This page shows both paid subscriptions and your free Prime Gaming subscription (if applicable).
+  note: null
+- step: 3
+  instruction: Click the gear icon next to the subscription you want to cancel, then select 'Don't Renew Subscription'. The subscription remains active until the end of the paid period. You keep subscriber emotes and badges until then.
+  note: null
+- step: 4
+  instruction: Repeat for each channel subscription you want to cancel. There is no 'cancel all' option -- each must be done individually.
+  note: null
+- step: 5
+  instruction: If subscribed via the mobile app (iOS/Android), cancel through Apple Settings > Subscriptions or Google Play > Subscriptions. Mobile app store subscriptions cannot be canceled through the Twitch website.
+  note: null
+- step: 6
+  instruction: 'For Twitch Turbo (ad-free): Go to twitch.tv/subscriptions > Twitch Turbo > Cancel. Twitch Turbo ($11.99/month) is separate from channel subscriptions.'
+  note: null
+dark_patterns:
+- type: social guilt
+  description: Canceling a channel subscription means stopping direct financial support to a specific streamer, and Twitch makes this personal by showing the streamer's name and content during the cancellation confirmation.
+- type: no bulk cancellation
+  description: Users with multiple channel subscriptions must cancel each one individually with no 'cancel all' option, creating friction for users with many active subscriptions.
+retention_tactics:
+- Prime Gaming subscribers receive one free channel subscription per month, creating a 'use it or lose it' dynamic that encourages continued engagement.
+- Subscriber streaks and loyalty badges incentivize maintaining subscriptions to preserve accumulated status.
+direct_cancel_url: https://www.twitch.tv/subscriptions
+free_alternatives:
+- name: Twitch (free)
+  url: https://www.twitch.tv
+  note: All streams are free to watch. Subscriptions support streamers and unlock emotes/badges.
+- name: YouTube Live (free)
+  url: https://www.youtube.com/live
+  note: Free live streaming platform with no subscription required to watch
+- name: Kick (free)
+  url: https://kick.com
+  note: Free live streaming platform with a growing creator community
+notes: Twitch channel subscriptions cost $4.99 (Tier 1), $9.99 (Tier 2), or $24.99 (Tier 3) per month and directly support individual streamers while unlocking custom emotes, badges, and ad-free viewing on that channel. Twitch Turbo ($11.99/month) provides site-wide ad-free viewing. The per-channel subscription model means cancellation friction scales with the number of subscriptions you hold, as there is no bulk management option. Prime Gaming (included with Amazon Prime) provides one free channel subscription per month. Twitch is owned by Amazon, and Amazon Prime members should check whether their Twitch benefits are part of their Prime membership before canceling separately.

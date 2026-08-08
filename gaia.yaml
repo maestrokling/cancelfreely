@@ -2,13 +2,32 @@ name: Gaia
 slug: gaia
 url: https://www.gaia.com
 category: spirituality
-cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to gaia.com and sign in. If subscribed via Apple, Google Play, Roku, or Amazon, you must cancel through those platforms instead.
+  note: null
+- step: 2
+  instruction: Go to your profile > Settings > Manage Subscription > Cancel.
+  note: null
+- step: 3
+  instruction: Confirm cancellation. Access continues through end of billing period. No pause option is available.
+  note: null
+dark_patterns:
+- type: platform-specific cancellation confusion
+  description: Users who subscribed through third-party platforms (Apple, Roku, Amazon) cannot cancel through gaia.com and must navigate to the platform's subscription management, which is not clearly communicated.
+- type: no pause option
+  description: Unlike most streaming services, Gaia does not offer a pause option. Users must fully cancel and re-subscribe if they want a break, losing any promotional pricing.
+retention_tactics:
+- Shows content recommendations and upcoming series during cancellation flow.
+direct_cancel_url: https://www.gaia.com/account
+free_alternatives:
+- name: YouTube (free)
+  url: https://www.youtube.com
+  note: Free meditation, yoga, and wellness content from numerous channels
+- name: Insight Timer (free tier)
+  url: https://insighttimer.com
+  note: Free meditation app with thousands of guided meditations
+notes: Gaia ($11.99/month or $99/year) is a niche streaming service focused on yoga, meditation, mindfulness, alternative history, and consciousness-expanding content. The lack of a pause option means you must fully cancel and re-subscribe if you want a break — and re-subscribing may not honor your original promotional price. Cancel through whichever platform you originally subscribed. The service has a loyal but niche audience, with content ranging from mainstream yoga to more fringe topics like ancient civilizations and UFOs.

@@ -3,12 +3,26 @@ slug: carvana
 url: https://www.carvana.com
 category: automotive
 cancel_method: online or phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Carvana is primarily a used car marketplace — not a recurring subscription. Most users are looking to return a recently purchased vehicle.
+  note: null
+- step: 2
+  instruction: 'Vehicle return: Carvana offers a 7-day return policy. Go to carvana.com > My Account > Manage Your Vehicle > Return Vehicle. The 7-day window starts from delivery day. The vehicle must be in the same condition with under 400 additional miles.'
+  note: null
+- step: 3
+  instruction: 'For Carvana Care (vehicle protection plan): call 1-800-333-4554 or manage at carvana.com/account. Carvana Care is the recurring subscription component — vehicle protection / extended warranty.'
+  note: null
+- step: 4
+  instruction: 'For financing: contact your lender directly. Carvana financing is through Bridgecrest (DriveTime''s lending arm). Bridgecrest: 1-888-803-9757 or bridgecrest.com.'
+  note: null
+dark_patterns:
+- type: narrow return window
+  description: The 7-day return window is strict and starts from delivery, not from when you sign paperwork. Some customers report difficulty scheduling a return pickup within the window.
+retention_tactics:
+- Carvana Care reps may offer a discounted protection plan rate when you attempt to cancel.
+direct_cancel_url: https://www.carvana.com/account
 free_alternatives: []
-notes: ""
+notes: 'Carvana is not a traditional subscription service. If you''re looking to: (1) return a vehicle — use the 7-day return policy, which is genuine but strict on timing and condition; (2) cancel Carvana Care (extended warranty) — call 1-800-333-4554; (3) deal with financing — contact Bridgecrest directly. Carvana emerged from near-bankruptcy in 2023-2024 through aggressive cost-cutting and is operational as of 2026. The 7-day return window is a real consumer protection, but schedule the return pickup early — don''t wait until day 7.'

@@ -3,12 +3,30 @@ slug: ancestry
 url: https://www.ancestry.com
 category: misc
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-01-15'
+steps:
+- step: 1
+  instruction: Go to ancestry.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your username > Account Settings > Subscriptions > Cancel. If subscribed via Apple or Google Play, cancel through those platforms.
+  note: null
+- step: 3
+  instruction: Access continues through end of billing period. Your family tree and DNA results are retained.
+  note: null
+dark_patterns:
+- type: free trial auto-conversion
+  description: Ancestry free trials auto-convert to paid subscriptions. Many users sign up for a trial to view a record and are charged when the trial ends.
+retention_tactics:
+- May offer a discounted rate.
+- May offer a lower-tier plan.
+direct_cancel_url: https://www.ancestry.com/account/subscription
+free_alternatives:
+- name: FamilySearch (free)
+  url: https://www.familysearch.org
+  note: Free genealogy records from the LDS Church
+- name: MyHeritage (limited free)
+  url: https://www.myheritage.com
+  note: Free with limited features
+notes: Ancestry ($24.99-$49.99/month) gives access to genealogy records. Your family tree data is yours and stays accessible after cancellation. DNA results (if you did AncestryDNA) remain available regardless of subscription status.

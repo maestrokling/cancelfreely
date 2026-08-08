@@ -3,12 +3,38 @@ slug: tripadvisor-plus
 url: https://www.tripadvisor.com/Plus
 category: travel
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to tripadvisor.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Navigate to Account > Tripadvisor Plus > Manage Membership, or go directly to tripadvisor.com/Plus/manage.
+  note: null
+- step: 3
+  instruction: Click 'Cancel Membership' and select a cancellation reason. Any existing hotel bookings made through Plus remain valid after cancellation.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Access to Plus benefits continues through the end of the billing period. You revert to the free Tripadvisor experience with standard hotel pricing.
+  note: null
+dark_patterns:
+- type: savings summary guilt
+  description: During cancellation, Tripadvisor displays a summary of how much you have saved with Plus, and projects future potential savings you will miss, to make users feel they are making a financially irrational decision.
+- type: loss aversion with booking perks
+  description: Emphasizes the loss of hotel credits, VIP perks, and exclusive rates during the cancellation flow.
+retention_tactics:
+- May offer a discounted renewal rate or an extended trial period during the cancellation flow.
+- Displays a savings summary showing money saved through Plus discounts to create regret about canceling.
+direct_cancel_url: https://www.tripadvisor.com/Plus/manage
+free_alternatives:
+- name: Tripadvisor (free)
+  url: https://www.tripadvisor.com
+  note: Free reviews, price comparison, and hotel booking without Plus-exclusive discounts
+- name: Google Travel (free)
+  url: https://travel.google.com
+  note: Free hotel and flight price comparison with price tracking
+- name: Kayak (free)
+  url: https://www.kayak.com
+  note: Free travel price comparison and deal alerts
+notes: Tripadvisor Plus costs $99/year and offers hotel discounts of 10-30%, room upgrades, and booking credits at participating properties. The value proposition depends heavily on how frequently you travel and book hotels -- infrequent travelers may not recoup the annual fee. Tripadvisor has restructured its Plus program multiple times since its 2021 launch, adjusting pricing and benefits. The free version of Tripadvisor still provides full access to reviews, forums, and price comparison tools. Cancellation is online and relatively clean, with existing bookings honored after membership ends.

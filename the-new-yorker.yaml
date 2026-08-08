@@ -3,11 +3,35 @@ slug: the-new-yorker
 url: https://www.newyorker.com
 category: news
 cancel_method: online or phone
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 4
+last_verified: '2025-10-01'
+steps:
+- step: 1
+  instruction: 'Try online first: go to condenaststore.com/new-yorker or the Condé Nast customer service portal and sign in. The New Yorker is published by Condé Nast. Cancellation often routes through Condé Nast''s subscriber services, not The New Yorker''s own website.'
+  note: null
+- step: 2
+  instruction: 'If online cancellation is unavailable or you get stuck in a loop, call: 1-800-825-2510. Multiple users report that the New Yorker website loops back without offering a cancel option as of October 2025.'
+  note: null
+- step: 3
+  instruction: If you subscribed through a reseller or third party, you may get a 'token has expired' error on the website — call instead.
+  note: null
+- step: 4
+  instruction: Confirm cancellation and keep any email confirmation. If on an annual plan, you may receive a pro-rata refund for unused months.
+  note: null
+dark_patterns:
+- type: cancellation loop
+  description: As of October 2025, users report that attempting to cancel on the New Yorker website results in a loop — the online documentation says you can cancel online, but the actual flow never presents a cancel option.
+- type: reseller token expiration
+  description: Subscribers who purchased through resellers or bundled offers receive 'token has expired' errors when attempting online cancellation, forcing them to call.
+retention_tactics:
+- Phone agents may offer discounted renewal rates.
+- May offer a pause on delivery.
+direct_cancel_url: https://www.newyorker.com/account/manage-subscription
+free_alternatives:
+- name: New Yorker (limited free)
+  url: https://www.newyorker.com
+  note: Limited free articles per month without subscription
+- name: The Atlantic (limited free)
+  url: https://www.theatlantic.com
+  note: Limited free articles
+notes: The New Yorker's cancellation is handled through Condé Nast's subscriber services infrastructure, which is notoriously difficult. The website may claim online cancellation is available, but many users end up in a loop. Phone is the most reliable path. Keep your confirmation email.

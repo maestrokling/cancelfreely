@@ -2,12 +2,37 @@ name: ExpressVPN
 slug: expressvpn
 url: https://www.expressvpn.com
 category: security
-cancel_method: online or chat
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+cancel_method: online
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to expressvpn.com and sign in to your account.
+  note: null
+- step: 2
+  instruction: Go to 'Subscription' > 'Cancel Subscription'. If subscribed via Apple App Store or Google Play, cancel through those platforms.
+  note: null
+- step: 3
+  instruction: Follow the confirmation prompts. Access continues through end of billing period.
+  note: null
+- step: 4
+  instruction: 'If within 30 days of first purchase: contact support via live chat to request a full refund. The 30-day money-back guarantee applies to first-time subscribers only and requires contacting support.'
+  note: null
+dark_patterns:
+- type: renewal price shock
+  description: Multi-year plans are sold at steep discounts (e.g., $6.67/month for 15 months) but auto-renew at the full monthly rate ($12.95/month), often doubling or tripling the effective price. This is not prominently disclosed.
+- type: refund requires live chat
+  description: The 30-day money-back guarantee cannot be processed through self-service — users must contact live chat support, which adds friction and exposes them to retention tactics.
+retention_tactics:
+- Live chat agents offer discounted plans during refund/cancellation requests.
+- May offer extended free months to retain subscribers.
+- Highlights security features and privacy protections you'll lose.
+direct_cancel_url: https://www.expressvpn.com/subscriptions
+free_alternatives:
+- name: Proton VPN (free tier)
+  url: https://protonvpn.com
+  note: Free with no data cap, limited to 5 countries
+- name: Windscribe (free tier)
+  url: https://windscribe.com
+  note: Free with 10GB/month data cap
+notes: ExpressVPN ($12.95/month, cheaper on multi-year plans) is a premium VPN service now owned by Kape Technologies (also owns CyberGhost, PIA, and ZenMate). The 30-day money-back guarantee is genuine but requires contacting live chat rather than self-service cancellation. The biggest consumer complaint is renewal pricing — promotional multi-year plans auto-renew at the full monthly rate, which can be a shock. Always check your renewal terms in account settings. ExpressVPN's jurisdiction is the British Virgin Islands, which is relevant for privacy considerations.

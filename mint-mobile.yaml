@@ -1,0 +1,38 @@
+name: Mint Mobile
+slug: mint-mobile
+url: https://www.mintmobile.com
+category: telecom
+cancel_method: online or phone
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: The cleanest way to cancel is to port your number to a new carrier. Initiate the port at the new carrier. You'll need your Mint Mobile account number (found in Account Settings) and transfer PIN.
+  note: null
+- step: 2
+  instruction: 'To cancel without porting: log in at mintmobile.com > Account > Cancel Service. You will lose your phone number if you cancel without porting.'
+  note: null
+- step: 3
+  instruction: Alternatively, call Mint Mobile support at 1-800-683-7392 (or dial 611 from your Mint phone). Phone support can process cancellations and may be faster for complex situations.
+  note: null
+- step: 4
+  instruction: '7-day money-back guarantee: if within 7 days of activation and under 50MB of data used, contact support for a full refund. This applies to new activations only, not renewals.'
+  note: null
+dark_patterns:
+- type: prepaid lock-in
+  description: Plans are sold in 3, 6, or 12-month prepaid blocks with no pro-rated refunds for unused months, creating a financial disincentive to cancel mid-term.
+retention_tactics:
+- Phone agents may offer a renewal discount or plan upgrade incentive.
+- Emphasizes the prepaid balance remaining on your account that would be forfeited.
+direct_cancel_url: https://my.mintmobile.com/account
+free_alternatives:
+- name: Google Fi (flexible plan)
+  url: https://fi.google.com
+  note: Pay-per-use data with $20/month base — only pay for data you use
+- name: Tello
+  url: https://www.tello.com
+  note: Budget carrier with month-to-month plans starting at $5/month, no contracts
+- name: US Mobile
+  url: https://www.usmobile.com
+  note: Flexible plans on Verizon or T-Mobile networks with no prepaid lock-in
+notes: Mint Mobile is a budget MVNO on T-Mobile's network, acquired by T-Mobile in 2023. Plans are sold in prepaid 3-month ($15-$30/month), 6-month, or 12-month ($15-$25/month) blocks — there are no monthly plans, so 'cancellation' means not renewing or porting to another carrier. The prepaid model means no pro-rated refunds for unused months. The 7-day money-back guarantee applies only to new activations with under 50MB data used. When porting out, your Mint service ends automatically — no separate cancellation step is needed. Family plans (Mint Family) follow the same prepaid structure.

@@ -3,12 +3,30 @@ slug: orkin
 url: https://www.orkin.com
 category: home-services
 cancel_method: phone
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 3
+last_verified: '2026-03-08'
+steps:
+- step: 1
+  instruction: 'Call Orkin: 1-877-424-9943 (or your local branch number from your invoice). Orkin''s official cancellation page at orkin.com/about/how-to-cancel-orkin-service confirms phone as the required method.'
+  note: null
+- step: 2
+  instruction: 'Say: ''I want to cancel my pest control service plan.'' Have your account number ready.'
+  note: null
+- step: 3
+  instruction: 'Ask about your cancellation terms. Orkin''s Pest Control Plan has a money-back guarantee — if you cancel within the guarantee period, you may receive a refund. Annual prepaid plans: check your contract for refund terms on unused services.'
+  note: null
+- step: 4
+  instruction: Get a cancellation confirmation number.
+  note: null
+dark_patterns:
+- type: automatic renewal
+  description: Orkin annual plans auto-renew. Customers report being enrolled in auto-renewal without being clearly notified.
+retention_tactics:
+- May offer a re-service visit for free instead of canceling.
+- May offer a reduced rate.
+direct_cancel_url: https://www.orkin.com/about/how-to-cancel-orkin-service
+free_alternatives:
+- name: Local pest control companies
+  url: null
+  note: Local providers often have more flexible pricing and terms
+notes: Orkin is owned by Rollins Inc. (same parent as HomeTeam Pest Defense, Western Pest Services). Their cancellation phone number is publicly listed. Orkin has a money-back guarantee on most plans if you're not satisfied — request it before the guarantee period expires.

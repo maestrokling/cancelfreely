@@ -1,0 +1,31 @@
+name: ESPN+
+slug: espn-plus
+url: https://www.espn.com/espnplus/
+category: streaming
+cancel_method: online or app store
+friction_score: 2
+last_verified: '2026-03-01'
+steps:
+- step: 1
+  instruction: Go to espnplus.com or the ESPN app and sign in.
+  note: null
+- step: 2
+  instruction: Go to your profile > 'Manage' > 'Cancel Subscription'. If subscribed via Apple, Google, Roku, or Amazon, cancel through that platform.
+  note: null
+- step: 3
+  instruction: ⚠️ If you have the Disney Bundle (ESPN+ + Hulu + Disney+), you cannot cancel ESPN+ separately. You must cancel the entire bundle.
+  note: null
+- step: 4
+  instruction: Confirm cancellation. Access continues through end of billing period.
+  note: null
+dark_patterns:
+- type: bundle lock-in
+  description: ESPN+ subscribers on the Disney Bundle cannot cancel ESPN+ as a standalone service — they must cancel the entire bundle (losing Disney+ and Hulu access too).
+retention_tactics:
+- May offer a discounted rate.
+direct_cancel_url: https://support.espn.com/hc/en-us/articles/13617786586004
+free_alternatives:
+- name: ESPN (free news)
+  url: https://www.espn.com
+  note: Free scores, news, highlights — ESPN+ is for live events and exclusive content
+notes: ESPN+ standalone is $10.99/month. The Disney Bundle lock-in is the main dark pattern — if you subscribed to a bundle, canceling ESPN+ cancels everything. Check what bundle you're on before canceling.

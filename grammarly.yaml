@@ -3,11 +3,42 @@ slug: grammarly
 url: https://www.grammarly.com
 category: saas
 cancel_method: online
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to grammarly.com and sign in.
+  note: null
+- step: 2
+  instruction: Click your profile icon, then go to 'Settings' > 'Subscription'.
+  note: null
+- step: 3
+  instruction: Click 'Cancel subscription' at the bottom of the page.
+  note: null
+- step: 4
+  instruction: Click 'Continue' in the confirmation window, then select a cancellation reason and click 'Cancel Subscription' to finalize. Access continues through the end of the billing period. You revert to the free tier after cancellation.
+  note: null
+dark_patterns:
+- type: annual plan no-refund
+  description: Annual plans ($144/year) are significantly cheaper than monthly but offer no prorated refund if canceled early. The savings incentivize annual commitment but lock users in.
+- type: multi-step confirmation
+  description: Cancellation requires multiple clicks through confirmation screens, survey questions, and a final 'Are you sure?' before processing. The actual cancel button is below the fold.
+retention_tactics:
+- Offers a discounted plan (often 40-60% off) during the cancellation flow.
+- Shows writing statistics — words checked, errors caught, vocabulary improvements.
+- Highlights AI writing features that will be lost.
+direct_cancel_url: https://account.grammarly.com/subscription
+free_alternatives:
+- name: Grammarly (free tier)
+  url: https://www.grammarly.com
+  note: Free tier includes basic grammar, spelling, and punctuation checks
+- name: LanguageTool (free)
+  url: https://languagetool.org
+  note: Free open-source grammar checker with browser extension
+- name: Hemingway Editor (free web)
+  url: https://hemingwayapp.com
+  note: Free readability and style checker
+- name: ProWritingAid (free tier)
+  url: https://prowritingaid.com
+  note: Free tier with 500-word limit per check
+notes: Grammarly Premium ($12/month billed annually, $30/month billed monthly) adds advanced grammar, style, tone, and AI writing suggestions beyond the free tier's basic checks. The free tier remains functional for core grammar and spelling — many users don't need Premium. Grammarly added generative AI features in 2024-2025, competing with ChatGPT for writing assistance. The cancellation flow includes a discounted offer that's generally reported as genuine — worth considering if you're on the fence about the price but still want the service. Annual plan cancellation offers no refund.

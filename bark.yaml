@@ -3,12 +3,38 @@ slug: bark
 url: https://www.bark.us
 category: parental
 cancel_method: online
-cancel_difficulty: null
-friction_score: null
-last_verified: null
-steps: []
-dark_patterns: []
-retention_tactics: []
-direct_cancel_url: null
-free_alternatives: []
-notes: ""
+friction_score: 2
+last_verified: '2026-04-13'
+steps:
+- step: 1
+  instruction: Go to bark.us and sign in to your parent account.
+  note: null
+- step: 2
+  instruction: Go to Account > Subscription > Cancel Subscription.
+  note: null
+- step: 3
+  instruction: Follow the confirmation prompts. Access continues through end of billing period.
+  note: null
+- step: 4
+  instruction: Remove the Bark app from your child's devices after cancellation. The app may continue running in the background on your child's device if not manually removed.
+  note: null
+dark_patterns:
+- type: safety guilt messaging
+  description: During cancellation, the flow implies you're reducing your child's safety by removing monitoring, using language about protecting kids from predators, cyberbullying, and self-harm.
+- type: no tier downgrade
+  description: Bark offers Bark Jr ($5/month) and Bark Premium ($14/month) but does not offer an easy downgrade path during cancellation — you must cancel and re-subscribe at the lower tier.
+retention_tactics:
+- Emphasizes child safety features and monitoring alerts you'll lose.
+- May offer an extended trial or discounted rate.
+direct_cancel_url: https://www.bark.us/account/subscription
+free_alternatives:
+- name: Google Family Link (free)
+  url: https://families.google.com/familylink/
+  note: Free parental controls for Android devices and Chromebooks
+- name: Apple Screen Time (free)
+  url: https://support.apple.com/en-us/108806
+  note: Built-in parental controls on iPhone/iPad/Mac
+- name: Qustodio (free tier)
+  url: https://www.qustodio.com
+  note: Free tier covers 1 device with basic monitoring
+notes: Bark ($5/month for Bark Jr, $14/month or $99/year for Bark Premium) monitors kids' devices for signs of bullying, depression, suicidal ideation, and inappropriate content using AI content analysis rather than full surveillance. The cancellation itself is online and straightforward, but the safety-focused messaging during the cancel flow creates emotional friction for parents. Before canceling, remember to remove the Bark app from your child's devices. Both Google Family Link (Android) and Apple Screen Time (iOS) offer free basic parental controls that cover many of the same use cases.
