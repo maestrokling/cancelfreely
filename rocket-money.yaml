@@ -1,0 +1,31 @@
+name: Rocket Money
+slug: rocket-money
+url: https://www.rocketmoney.com
+category: finance
+cancel_method: online
+friction_score: 2
+last_verified: '2026-08-24'
+steps:
+- step: 1
+  instruction: Log into the Rocket Money app or website and go to your account settings.
+  note: null
+- step: 2
+  instruction: If you subscribed through the app directly, find your Premium Membership plan and select 'Cancel Subscription,' then complete the prompts.
+  note: Cancellation takes effect at the end of your current billing cycle; you keep Premium features until then.
+- step: 3
+  instruction: If you subscribed through the Apple App Store or Google Play, cancellation must go through that store's subscription settings instead — Rocket Money cannot cancel an App Store or Play Store billed subscription from inside its own app.
+  note: This is the most common source of user confusion and complaints.
+- step: 4
+  instruction: Save a screenshot of your cancellation confirmation.
+  note: BBB complaints include users reporting continued charges after requesting cancellation through the in-app support form.
+dark_patterns:
+- type: irony flag
+  description: Rocket Money markets itself as a tool for finding and canceling unwanted subscriptions, but has drawn its own BBB complaints from users who found canceling Rocket Money Premium itself difficult, including reports of continued billing after a cancellation request was submitted.
+retention_tactics:
+- Store-billed subscriptions (Apple/Google) cannot be canceled from within the Rocket Money app itself, requiring users to know to go elsewhere.
+- Some in-app cancellation requests route through a support form rather than an immediate self-serve toggle, introducing a delay where billing can continue.
+direct_cancel_url: https://help.rocketmoney.com/en/articles/9095189-managing-my-premium-membership
+free_alternatives:
+- Manually reviewing bank/credit card statements monthly
+- Copilot Money (free tier)
+- Your bank's built-in subscription tracking (many major banks now flag recurring charges automatically)

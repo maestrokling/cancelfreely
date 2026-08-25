@@ -1,5 +1,47 @@
 [
   {
+    "name": "Tuta",
+    "slug": "tuta",
+    "url": "https://tuta.com",
+    "category": "Email",
+    "cancel_method": "Online",
+    "cancel_difficulty": 0,
+    "cancel_steps": [],
+    "cancel_url": "https://app.tuta.com/#settings",
+    "known_friction": "",
+    "free_alternatives": [],
+    "last_verified": "2026-04-11",
+    "notes": "Free tier available. Canceling paid plan downgrades to free; account and emails are retained."
+  },
+  {
+    "name": "CryptPad",
+    "slug": "cryptpad",
+    "url": "https://cryptpad.org",
+    "category": "Productivity",
+    "cancel_method": "Online",
+    "cancel_difficulty": 0,
+    "cancel_steps": [],
+    "cancel_url": "https://cryptpad.fr/settings/#subscription",
+    "known_friction": "",
+    "free_alternatives": [],
+    "last_verified": "2026-04-11",
+    "notes": "Free tier available. Self-hosted instances have no subscription. Canceling downgrades to free tier."
+  },
+  {
+    "name": "NextDNS",
+    "slug": "nextdns",
+    "url": "https://nextdns.io",
+    "category": "Security",
+    "cancel_method": "Online",
+    "cancel_difficulty": 0,
+    "cancel_steps": [],
+    "cancel_url": "https://my.nextdns.io/account",
+    "known_friction": "",
+    "free_alternatives": [],
+    "last_verified": "2026-04-11",
+    "notes": "Free tier (300,000 queries/month) is available. Canceling paid plan reverts to the free tier."
+  },
+  {
     "name": "Anthropic API",
     "slug": "anthropic-api",
     "url": "https://www.anthropic.com",
@@ -1514,6 +1556,25 @@
     "notes": "Robinhood account closure is permanent. For ACATS transfer (moving investments to another broker without selling), initiate the transfer at the receiving broker \u2014 this avoids triggering taxable events. Robinhood Gold ($5/month) cancels separately through the app before account closure."
   },
   {
+    "name": "Rocket Money",
+    "slug": "rocket-money",
+    "url": "https://www.rocketmoney.com",
+    "category": "finance",
+    "cancel_method": "online",
+    "cancel_difficulty": 2,
+    "cancel_steps": [
+      "Log into the Rocket Money app or website and go to your account settings.",
+      "If you subscribed through the app directly, find your Premium Membership plan and select 'Cancel Subscription,' then complete the prompts. Cancellation takes effect at the end of your current billing cycle; you keep Premium features until then.",
+      "If you subscribed through the Apple App Store or Google Play, cancellation must go through that store's subscription settings instead \u2014 Rocket Money cannot cancel an App Store or Play Store billed subscription from inside its own app. This is the most common source of user confusion and complaints.",
+      "Save a screenshot of your cancellation confirmation. BBB complaints include users reporting continued charges after requesting cancellation through the in-app support form."
+    ],
+    "cancel_url": "https://help.rocketmoney.com/en/articles/9095189-managing-my-premium-membership",
+    "known_friction": "Rocket Money markets itself as a tool for finding and canceling unwanted subscriptions, but has drawn its own BBB complaints from users who found canceling Rocket Money Premium itself difficult, including reports of continued billing after a cancellation request was submitted. | Retention tactics: Store-billed subscriptions (Apple/Google) cannot be canceled from within the Rocket Money app itself, requiring users to know to go elsewhere.; Some in-app cancellation requests route through a support",
+    "free_alternatives": [],
+    "last_verified": "2026-08-24",
+    "notes": ""
+  },
+  {
     "name": "TurboTax",
     "slug": "turbotax",
     "url": "https://turbotax.intuit.com",
@@ -1669,6 +1730,25 @@
     "notes": "ClassPass credits expire if unused within a billing period \u2014 they do not roll over after cancellation. The 8-10 step cancellation flow has been publicly documented as a dark pattern. The auto-enrollment from trial issue was flagged by deceptive.design in September 2025."
   },
   {
+    "name": "Equinox",
+    "slug": "equinox",
+    "url": "https://www.equinox.com",
+    "category": "fitness",
+    "cancel_method": "hybrid",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Choose one of five cancellation channels \u2014 Equinox does not offer a single self-serve online cancel button for club memberships. Options are canceling in club with a manager, mailing written notice per your Membership Agreement, emailing Cancellations@Equinox.com, calling Equinox Concierge, or logging into your account on Equinox.com. Equinox+ (the standalone digital/streaming app) is separate and can be canceled entirely online through account settings \u2014 this entry covers full club memberships.",
+      "Confirm your state's required notice period before submitting. Notice periods vary by state, and some states require additional steps beyond a simple cancellation request.",
+      "If canceling in person or by mail, get written confirmation of your cancellation date and keep a copy. Members report disputes over whether notice was received.",
+      "Continue monitoring your statement for at least one full billing cycle after your requested cancellation date. Billing has continued past stated cancellation dates in multiple documented complaints."
+    ],
+    "cancel_url": "",
+    "known_friction": "New York Attorney General Letitia James announced in 2025 that Equinox would pay $600,000 in penalties and change its cancellation policies after an investigation found the company made cancellation confusing and difficult relative to sign-up.; Five different cancellation channels (in-club, mail, email, phone, online) with no single canonical path creates confusion about which method is authoritative and fastest. | Retention tactics: No single self-serve online cancellation flow for standard clu",
+    "free_alternatives": [],
+    "last_verified": "2026-08-24",
+    "notes": ""
+  },
+  {
     "name": "Gold's Gym",
     "slug": "golds-gym",
     "url": "https://www.goldsgym.com",
@@ -1728,6 +1808,25 @@
     ],
     "last_verified": "2026-01-23",
     "notes": "LA Fitness allows cancellation at any location (unlike Planet Fitness). The cancellation form PDF is available on their website. Keep a copy of everything you submit."
+  },
+  {
+    "name": "Life Time Fitness",
+    "slug": "life-time-fitness",
+    "url": "https://www.lifetime.life",
+    "category": "fitness",
+    "cancel_method": "in_person",
+    "cancel_difficulty": 4,
+    "cancel_steps": [
+      "Prepare written cancellation notice \u2014 Life Time does not accept phone-only cancellations for full membership termination.",
+      "Submit the notice in person at your home club, through certified mail, or via the Life Time app/website account settings, depending on your club's current policy. Policy on which channels are accepted has varied by club and by year; confirm current options directly with your club before relying on a specific method.",
+      "Provide the required 30 days' advance notice. Your membership and billing continue through that full 30-day window regardless of when you stop attending.",
+      "Get a dated, written confirmation of your cancellation request and keep it. Complaints describe disputes over whether notice was properly received or processed in time."
+    ],
+    "cancel_url": "",
+    "known_friction": "Members describe a 30-day notice requirement that functions as a mandatory extra billing cycle regardless of actual usage, with multiple complaint-board reports of billing continuing 5+ weeks past a submitted cancellation request.; BBB complaints document members losing a legacy or discounted membership rate permanently after cancelling, even when the member intended to return, with no advance disclosure that canceling forfeits the rate. | Retention tactics: 30-day mandatory notice period applie",
+    "free_alternatives": [],
+    "last_verified": "2026-08-24",
+    "notes": ""
   },
   {
     "name": "Peloton",

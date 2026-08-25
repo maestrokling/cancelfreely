@@ -1,0 +1,33 @@
+name: Equinox
+slug: equinox
+url: https://www.equinox.com
+category: fitness
+cancel_method: hybrid
+friction_score: 4
+last_verified: '2026-08-24'
+steps:
+- step: 1
+  instruction: Choose one of five cancellation channels — Equinox does not offer a single self-serve online cancel button for club memberships. Options are canceling in club with a manager, mailing written notice per your Membership Agreement, emailing Cancellations@Equinox.com, calling Equinox Concierge, or logging into your account on Equinox.com.
+  note: Equinox+ (the standalone digital/streaming app) is separate and can be canceled entirely online through account settings — this entry covers full club memberships.
+- step: 2
+  instruction: Confirm your state's required notice period before submitting. Notice periods vary by state, and some states require additional steps beyond a simple cancellation request.
+  note: null
+- step: 3
+  instruction: If canceling in person or by mail, get written confirmation of your cancellation date and keep a copy. Members report disputes over whether notice was received.
+  note: null
+- step: 4
+  instruction: Continue monitoring your statement for at least one full billing cycle after your requested cancellation date.
+  note: Billing has continued past stated cancellation dates in multiple documented complaints.
+dark_patterns:
+- type: regulatory settlement precedent
+  description: New York Attorney General Letitia James announced in 2025 that Equinox would pay $600,000 in penalties and change its cancellation policies after an investigation found the company made cancellation confusing and difficult relative to sign-up.
+- type: multi-channel maze
+  description: Five different cancellation channels (in-club, mail, email, phone, online) with no single canonical path creates confusion about which method is authoritative and fastest.
+retention_tactics:
+- No single self-serve online cancellation flow for standard club memberships as of 2026, despite easy online sign-up.
+- State-dependent notice periods that are not clearly disclosed at sign-up.
+direct_cancel_url: null
+free_alternatives:
+- YMCA (lower cost, transparent 15-day notice policy, nonprofit)
+- Planet Fitness (already covered on CancelFreely, cheap tier, simpler cancellation)
+- Local community rec centers

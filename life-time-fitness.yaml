@@ -1,0 +1,34 @@
+name: Life Time Fitness
+slug: life-time-fitness
+url: https://www.lifetime.life
+category: fitness
+cancel_method: in_person
+friction_score: 4
+last_verified: '2026-08-24'
+steps:
+- step: 1
+  instruction: Prepare written cancellation notice — Life Time does not accept phone-only cancellations for full membership termination.
+  note: null
+- step: 2
+  instruction: Submit the notice in person at your home club, through certified mail, or via the Life Time app/website account settings, depending on your club's current policy.
+  note: Policy on which channels are accepted has varied by club and by year; confirm current options directly with your club before relying on a specific method.
+- step: 3
+  instruction: Provide the required 30 days' advance notice. Your membership and billing continue through that full 30-day window regardless of when you stop attending.
+  note: null
+- step: 4
+  instruction: Get a dated, written confirmation of your cancellation request and keep it. Complaints describe disputes over whether notice was properly received or processed in time.
+  note: null
+dark_patterns:
+- type: forced continuity
+  description: Members describe a 30-day notice requirement that functions as a mandatory extra billing cycle regardless of actual usage, with multiple complaint-board reports of billing continuing 5+ weeks past a submitted cancellation request.
+- type: reinstatement rate loss
+  description: BBB complaints document members losing a legacy or discounted membership rate permanently after cancelling, even when the member intended to return, with no advance disclosure that canceling forfeits the rate.
+retention_tactics:
+- 30-day mandatory notice period applied uniformly regardless of how a member submits cancellation.
+- No universally available simple online self-cancel button; some members report being told they must visit in person.
+- Reinstated memberships are not guaranteed the same rate as the original membership.
+direct_cancel_url: null
+free_alternatives:
+- YMCA (transparent 15-day notice, nonprofit, no rate-loss penalty)
+- Planet Fitness (already covered on CancelFreely)
+- Local community or county rec centers
